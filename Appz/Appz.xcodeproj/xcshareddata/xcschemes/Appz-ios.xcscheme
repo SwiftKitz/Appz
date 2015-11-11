@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "826ACEDD1BF1B10A00B5FC5D"
-               BuildableName = "Appz-ios.framework"
+               BuildableName = "Appz.framework"
                BlueprintName = "Appz-ios"
                ReferencedContainer = "container:Appz.xcodeproj">
             </BuildableReference>
@@ -44,7 +44,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "826ACEDD1BF1B10A00B5FC5D"
-            BuildableName = "Appz-ios.framework"
+            BuildableName = "Appz.framework"
             BlueprintName = "Appz-ios"
             ReferencedContainer = "container:Appz.xcodeproj">
          </BuildableReference>
@@ -66,7 +66,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "826ACEDD1BF1B10A00B5FC5D"
-            BuildableName = "Appz-ios.framework"
+            BuildableName = "Appz.framework"
             BlueprintName = "Appz-ios"
             ReferencedContainer = "container:Appz.xcodeproj">
          </BuildableReference>
@@ -84,7 +84,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "826ACEDD1BF1B10A00B5FC5D"
-            BuildableName = "Appz-ios.framework"
+            BuildableName = "Appz.framework"
             BlueprintName = "Appz-ios"
             ReferencedContainer = "container:Appz.xcodeproj">
          </BuildableReference>
