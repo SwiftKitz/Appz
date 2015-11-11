@@ -69,6 +69,11 @@ AppStore | Developer, App
 AppSettings | Open
 Twitter | Status, UserHandle, UserId, List, Post, Search, Timeline, Mentions, Messages
 
+## Getting Started
+
+1. You must add the schemes you want to use to your app's info.plist file under `LSApplicationQueriesSchemes`. [See here for more](http://stackoverflow.com/a/30988328/456434).
+2. ... Cocoapods, Carthage, and better instructions coming soon.
+
 ## Motivation
 
 I've gone through way too much pain than I am willing to admit integrating deeplinking in my app. It is very easy to forget calling `canOpenURL` or missing a colon somewhere. Another pain point was savaging the web for all the different specs for different applications.
