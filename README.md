@@ -12,11 +12,14 @@ _Even though I shipped it with my app, I still need to invest the time to set th
 
 ## Highlights
 
++ __Web Fallback Support:__<br />
+In case the app can't open the external application, it will fallback to a web URL that is guaranteed to succeed by opening the browser.
+
 + __Cleanly Separates App Specs:__<br />
 It was crucial to make sure the library can scale as the number of supported apps increase. Therefor, each supported app is implemented in isolation in a separate file.
 
 + __Full Autocomplete Support__:
-The API has been carefully designed to make the most out of auto complete features, so you don't have to even peak into any docs nor the code!
+The API has been carefully designed to make the most out of auto complete features, so you don't even have to peak into any docs or code!
 
 + __Full Testing:__<br />
 To make the specs as transparent as possible, the library has tests to make sure every external application action has tests with the expected results.
@@ -32,6 +35,14 @@ let app = UIApplication.sharedApplication()
 app.open.appStore(.Account(id: "395107918"))
 app.open.twitter(.UserHandle("mazyod"))
 app.open.appSettings(.Open)
+```
+
+__Transparent Web Fallback:__
+
+```swift
+// In case the user doesn't have twitter installed, it will fallback to
+// https://twitter.com/statuses/2
+app.open.twitter(.Status(id: "2"))
 ```
 
 __Add your own application:__
