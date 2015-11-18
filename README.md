@@ -1,5 +1,5 @@
 
-# Appz
+# Appz :iphone:
 
 ![Version](https://img.shields.io/badge/version-prerelease-orange.svg)
 [![Travis CI](https://travis-ci.org/SwiftKitz/Appz.svg?branch=master)](https://travis-ci.org/SwiftKitz/Appz)
