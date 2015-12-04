@@ -3,6 +3,9 @@
 import UIKit
 import Appz
 
+//: # Appz 📱
+//: ### Deeplinking to external applications made easy!
+
 //: ## Features
 //: Concise syntax to trigger deeplinking
 
