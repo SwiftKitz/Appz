@@ -76,8 +76,10 @@ __Supported Apps (for now!):__
 
 App | Actions
 ----|--------
-AppStore | Developer, App
 AppSettings | Open
+Mail | Compose
+Messages | SMS
+AppStore | Developer, App
 Twitter | Status, UserHandle, UserId, List, Post, Search, Timeline, Mentions, Messages
 
 ## Getting Started
