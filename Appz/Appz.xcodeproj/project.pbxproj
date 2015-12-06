@@ -11,6 +11,8 @@
 		301B4A4D1C12308900038DF1 /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B4A4C1C12308900038DF1 /* Mail.swift */; };
 		301B4A4F1C12357F00038DF1 /* MailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B4A4E1C12357F00038DF1 /* MailTests.swift */; };
 		30918DBD1C123A9900E77513 /* MessagesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30918DBC1C123A9900E77513 /* MessagesTest.swift */; };
+		3098B0DB1C13EDCA00AFAD36 /* Instagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3098B0DA1C13EDCA00AFAD36 /* Instagram.swift */; };
+		3098B0DD1C13F07400AFAD36 /* InstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3098B0DC1C13F07400AFAD36 /* InstagramTests.swift */; };
 		826ACEE91BF1B10A00B5FC5D /* Appz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826ACEDE1BF1B10A00B5FC5D /* Appz.framework */; };
 		826ACF191BF1BD1F00B5FC5D /* AvailableApplications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF181BF1BD1F00B5FC5D /* AvailableApplications.swift */; };
 		826ACF1B1BF1BD7F00B5FC5D /* ExternalApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF1A1BF1BD7F00B5FC5D /* ExternalApplication.swift */; };
@@ -42,6 +44,8 @@
 		301B4A4C1C12308900038DF1 /* Mail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mail.swift; sourceTree = "<group>"; };
 		301B4A4E1C12357F00038DF1 /* MailTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailTests.swift; sourceTree = "<group>"; };
 		30918DBC1C123A9900E77513 /* MessagesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesTest.swift; sourceTree = "<group>"; };
+		3098B0DA1C13EDCA00AFAD36 /* Instagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instagram.swift; sourceTree = "<group>"; };
+		3098B0DC1C13F07400AFAD36 /* InstagramTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramTests.swift; sourceTree = "<group>"; };
 		826ACEDE1BF1B10A00B5FC5D /* Appz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Appz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		826ACEE31BF1B10A00B5FC5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		826ACEE81BF1B10A00B5FC5D /* AppzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +124,7 @@
 				827EF61C1BF2EBAC000B1607 /* AppStoreTests.swift */,
 				826ACEEF1BF1B10A00B5FC5D /* Info.plist */,
 				30918DBC1C123A9900E77513 /* MessagesTest.swift */,
+				3098B0DC1C13F07400AFAD36 /* InstagramTests.swift */,
 			);
 			path = AppzTests;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				826ACF1D1BF1BEB000B5FC5D /* Twitter.swift */,
+				3098B0DA1C13EDCA00AFAD36 /* Instagram.swift */,
 				826ACF1F1BF1BEB800B5FC5D /* Settings.swift */,
 				826ACF211BF1BEBF00B5FC5D /* AppStore.swift */,
 				301B4A4A1C122E8F00038DF1 /* Messages.swift */,
@@ -272,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				301B4A4D1C12308900038DF1 /* Mail.swift in Sources */,
+				3098B0DB1C13EDCA00AFAD36 /* Instagram.swift in Sources */,
 				826ACF1B1BF1BD7F00B5FC5D /* ExternalApplication.swift in Sources */,
 				301B4A4B1C122E8F00038DF1 /* Messages.swift in Sources */,
 				826ACF5E1BF1E4BE00B5FC5D /* NSExtensionContext+Appz.swift in Sources */,
@@ -288,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3098B0DD1C13F07400AFAD36 /* InstagramTests.swift in Sources */,
 				826ACF291BF1C99600B5FC5D /* ApplicationCallerTests.swift in Sources */,
 				827EF6171BF2756C000B1607 /* ApplicationCallerMock.swift in Sources */,
 				827EF61D1BF2EBAC000B1607 /* AppStoreTests.swift in Sources */,
