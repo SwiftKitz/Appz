@@ -16,7 +16,7 @@ class AppStoreTests: XCTestCase {
     
     func testConfiguration() {
         
-        let appStore = AvailableApplications.AppStore()
+        let appStore = Applications.AppStore()
         XCTAssertEqual(appStore.scheme, "itms-apps:")
         XCTAssertEqual(appStore.fallbackURL, "http:")
     }
@@ -24,7 +24,7 @@ class AppStoreTests: XCTestCase {
     func testOpenApp() {
         
         let appId = "395107915"
-        let action = AvailableApplications.AppStore.Action.App(id: appId)
+        let action = Applications.AppStore.Action.App(id: appId)
         
         XCTAssertEqual(action.path, "itunes.apple.com/apps/id\(appId)")
         XCTAssertEqual(action.fallbackPath, nil)
@@ -33,7 +33,7 @@ class AppStoreTests: XCTestCase {
     func testOpenAccount() {
         
         let accountId = "395107918"
-        let action = AvailableApplications.AppStore.Action.Account(id: accountId)
+        let action = Applications.AppStore.Action.Account(id: accountId)
         
         XCTAssertEqual(action.path, "itunes.apple.com/developer/id\(accountId)")
         XCTAssertEqual(action.fallbackPath, nil)

@@ -16,14 +16,14 @@ class SettingsTests: XCTestCase {
     
     func testConfiguration() {
         
-        let appSettings = AvailableApplications.AppSettings()
+        let appSettings = Applications.AppSettings()
         XCTAssertEqual(appSettings.scheme, "app-settings:")
         XCTAssertEqual(appSettings.fallbackURL, nil)
     }
     
     func testOpenHome() {
         
-        let action = AvailableApplications.AppSettings.Action.Open
+        let action = Applications.AppSettings.Action.Open
         XCTAssertEqual(action.path, "")
         XCTAssertEqual(action.fallbackPath, nil)
     }

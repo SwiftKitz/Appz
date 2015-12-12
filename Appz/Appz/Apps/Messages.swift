@@ -9,7 +9,7 @@
 import Foundation
 
 
-public extension AvailableApplications {
+public extension Applications {
     
     public struct Messages: ExternalApplication {
         
@@ -24,7 +24,7 @@ public extension AvailableApplications {
 
 // MARK: - Actions
 
-public extension AvailableApplications.Messages {
+public extension Applications.Messages {
     
     public enum Action {
         
@@ -32,7 +32,7 @@ public extension AvailableApplications.Messages {
     }
 }
 
-extension AvailableApplications.Messages.Action: ExternalApplicationAction {
+extension Applications.Messages.Action: ExternalApplicationAction {
     
     public var path: String {
         

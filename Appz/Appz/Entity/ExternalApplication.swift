@@ -25,7 +25,7 @@ public protocol ExternalApplicationAction {
 }
 
 public extension ExternalApplicationAction {
-    
+        
     var path: String {
         return ""
     }
@@ -35,6 +35,8 @@ public extension ExternalApplicationAction {
     }
     
     func escape(string: String) -> String {
-        return string.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet()) ?? ""
+        return string.stringByAddingPercentEncodingWithAllowedCharacters(
+            NSCharacterSet.URLQueryAllowedCharacterSet()
+        ) ?? ""
     }
 }

@@ -48,7 +48,7 @@ app.open.twitter(.Status(id: "2"))
 __Add your own application:__
 
 ```swift
-extension AvailableApplications {
+extension Applications {
     
     struct MyApp: ExternalApplication {
         
@@ -61,7 +61,7 @@ extension AvailableApplications {
     }
 }
 
-extension AvailableApplications.MyApp {
+extension Applications.MyApp {
     
     enum Action: ExternalApplicationAction {
         

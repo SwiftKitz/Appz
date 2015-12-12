@@ -9,7 +9,7 @@
 import Foundation
 
 
-public extension AvailableApplications {
+public extension Applications {
     
     public struct Twitter: ExternalApplication {
         
@@ -24,7 +24,7 @@ public extension AvailableApplications {
 
 // MARK: - Actions
 
-public extension AvailableApplications.Twitter {
+public extension Applications.Twitter {
 
     public enum Action {
     
@@ -40,7 +40,7 @@ public extension AvailableApplications.Twitter {
     }
 }
 
-extension AvailableApplications.Twitter.Action: ExternalApplicationAction {
+extension Applications.Twitter.Action: ExternalApplicationAction {
 
     public var path: String {
         

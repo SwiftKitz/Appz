@@ -15,7 +15,7 @@ class MailTests: XCTestCase {
     
     func testConfiguration() {
         
-        let mail = AvailableApplications.Mail()
+        let mail = Applications.Mail()
         XCTAssertEqual(mail.scheme, "mailto:")
         XCTAssertEqual(mail.fallbackURL, "")
     }
@@ -25,7 +25,7 @@ class MailTests: XCTestCase {
         let email = "test@example.com"
         let subject = "subject"
         let body = "body"
-        let action = AvailableApplications.Mail.Action.Compose(email: Email(to: email, subject: subject, body: body))
+        let action = Applications.Mail.Action.Compose(email: Email(to: email, subject: subject, body: body))
         
         
         XCTAssertEqual(action.path, "\(email)?subject=\(subject)&body=\(body)")
@@ -35,7 +35,7 @@ class MailTests: XCTestCase {
     func testEmptyEmail() {
         
         let email = "test@example.com"
-        let action = AvailableApplications.Mail.Action.Compose(email: Email(to: email))
+        let action = Applications.Mail.Action.Compose(email: Email(to: email))
         
         
         XCTAssertEqual(action.path, "\(email)?subject=&body=")
@@ -45,7 +45,7 @@ class MailTests: XCTestCase {
     func testSubject() {
         
         let subject = "test"
-        let action = AvailableApplications.Mail.Action.Compose(email: Email(subject: subject))
+        let action = Applications.Mail.Action.Compose(email: Email(subject: subject))
         
         XCTAssertEqual(action.path, "?subject=\(subject)&body=")
     }

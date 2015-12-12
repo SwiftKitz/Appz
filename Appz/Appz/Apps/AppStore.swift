@@ -9,7 +9,7 @@
 import Foundation
 
 
-public extension AvailableApplications {
+public extension Applications {
     
     public struct AppStore: ExternalApplication {
         
@@ -24,7 +24,7 @@ public extension AvailableApplications {
 
 // MARK: - Actions
 
-public extension AvailableApplications.AppStore {
+public extension Applications.AppStore {
 
     public enum Action {
     
@@ -34,7 +34,7 @@ public extension AvailableApplications.AppStore {
 }
 
 
-extension AvailableApplications.AppStore.Action: ExternalApplicationAction {
+extension Applications.AppStore.Action: ExternalApplicationAction {
 
     public var path: String {
         

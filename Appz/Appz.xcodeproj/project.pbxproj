@@ -12,7 +12,7 @@
 		301B4A4F1C12357F00038DF1 /* MailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B4A4E1C12357F00038DF1 /* MailTests.swift */; };
 		30918DBD1C123A9900E77513 /* MessagesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30918DBC1C123A9900E77513 /* MessagesTest.swift */; };
 		826ACEE91BF1B10A00B5FC5D /* Appz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826ACEDE1BF1B10A00B5FC5D /* Appz.framework */; };
-		826ACF191BF1BD1F00B5FC5D /* AvailableApplications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF181BF1BD1F00B5FC5D /* AvailableApplications.swift */; };
+		826ACF191BF1BD1F00B5FC5D /* Applications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF181BF1BD1F00B5FC5D /* Applications.swift */; };
 		826ACF1B1BF1BD7F00B5FC5D /* ExternalApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF1A1BF1BD7F00B5FC5D /* ExternalApplication.swift */; };
 		826ACF1E1BF1BEB000B5FC5D /* Twitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF1D1BF1BEB000B5FC5D /* Twitter.swift */; };
 		826ACF201BF1BEB800B5FC5D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF1F1BF1BEB800B5FC5D /* Settings.swift */; };
@@ -46,7 +46,7 @@
 		826ACEE31BF1B10A00B5FC5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		826ACEE81BF1B10A00B5FC5D /* AppzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		826ACEEF1BF1B10A00B5FC5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		826ACF181BF1BD1F00B5FC5D /* AvailableApplications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailableApplications.swift; sourceTree = "<group>"; };
+		826ACF181BF1BD1F00B5FC5D /* Applications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Applications.swift; sourceTree = "<group>"; };
 		826ACF1A1BF1BD7F00B5FC5D /* ExternalApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExternalApplication.swift; sourceTree = "<group>"; };
 		826ACF1D1BF1BEB000B5FC5D /* Twitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Twitter.swift; sourceTree = "<group>"; };
 		826ACF1F1BF1BEB800B5FC5D /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 		826ACF171BF1BCF500B5FC5D /* Entity */ = {
 			isa = PBXGroup;
 			children = (
-				826ACF181BF1BD1F00B5FC5D /* AvailableApplications.swift */,
+				826ACF181BF1BD1F00B5FC5D /* Applications.swift */,
 				826ACF1A1BF1BD7F00B5FC5D /* ExternalApplication.swift */,
 				826ACF5B1BF1E26B00B5FC5D /* ApplicationCaller.swift */,
 			);
@@ -278,7 +278,7 @@
 				826ACF221BF1BEBF00B5FC5D /* AppStore.swift in Sources */,
 				826ACF1E1BF1BEB000B5FC5D /* Twitter.swift in Sources */,
 				826ACF201BF1BEB800B5FC5D /* Settings.swift in Sources */,
-				826ACF191BF1BD1F00B5FC5D /* AvailableApplications.swift in Sources */,
+				826ACF191BF1BD1F00B5FC5D /* Applications.swift in Sources */,
 				826ACF5C1BF1E26B00B5FC5D /* ApplicationCaller.swift in Sources */,
 				826ACF251BF1C00800B5FC5D /* UIApplication+Appz.swift in Sources */,
 			);

@@ -9,7 +9,7 @@
 import Foundation
 
 
-public extension AvailableApplications {
+public extension Applications {
     
     public struct Mail: ExternalApplication {
         
@@ -17,19 +17,19 @@ public extension AvailableApplications {
         public let fallbackURL: String? = ""
     }
     
-    
-    
     public func mail(action: Mail.Action) -> Bool {
         return appCaller.launch(Mail(), action: action)
     }
 }
 
 public struct Email {
+    
     var to: String
     var subject: String
     var body: String
     
     init(to: String = "", subject: String = "", body: String = "") {
+        
         self.to = to
         self.subject = subject
         self.body = body
@@ -38,7 +38,7 @@ public struct Email {
 
 // MARK: - Actions
 
-public extension AvailableApplications.Mail {
+public extension Applications.Mail {
     
     public enum Action {
         case Compose(email: Email)
@@ -46,7 +46,7 @@ public extension AvailableApplications.Mail {
 }
 
 
-extension AvailableApplications.Mail.Action: ExternalApplicationAction {
+extension Applications.Mail.Action: ExternalApplicationAction {
     
     public var path: String {
         

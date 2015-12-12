@@ -15,7 +15,7 @@ class MessagesTests: XCTestCase {
     
     func testConfiguration() {
         
-        let messages = AvailableApplications.Messages()
+        let messages = Applications.Messages()
         XCTAssertEqual(messages.scheme, "sms:")
         XCTAssertEqual(messages.fallbackURL, "")
     }
@@ -23,7 +23,7 @@ class MessagesTests: XCTestCase {
     func testEmail() {
         
         let phone = "12345"
-        let action = AvailableApplications.Messages.Action.SMS(phone: phone)
+        let action = Applications.Messages.Action.SMS(phone: phone)
         
         XCTAssertEqual(action.path, "\(phone)")
     }

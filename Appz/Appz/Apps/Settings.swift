@@ -9,7 +9,7 @@
 import UIKit
 
 
-public extension AvailableApplications {
+public extension Applications {
     
     public struct AppSettings: ExternalApplication {
         
@@ -24,7 +24,7 @@ public extension AvailableApplications {
 
 // MARK: - Actions
 
-public extension AvailableApplications.AppSettings {
+public extension Applications.AppSettings {
 
     public enum Action {
     
@@ -32,4 +32,4 @@ public extension AvailableApplications.AppSettings {
     }
 }
 
-extension AvailableApplications.AppSettings.Action: ExternalApplicationAction {}
+extension Applications.AppSettings.Action: ExternalApplicationAction {}

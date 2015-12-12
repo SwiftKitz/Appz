@@ -16,7 +16,7 @@ app.open.appSettings(.Open)
 
 //: Add your own application
 
-extension AvailableApplications {
+extension Applications {
     
     struct MyApp: ExternalApplication {
         
@@ -29,7 +29,7 @@ extension AvailableApplications {
     }
 }
 
-extension AvailableApplications.MyApp {
+extension Applications.MyApp {
     
     enum Action: ExternalApplicationAction {
         

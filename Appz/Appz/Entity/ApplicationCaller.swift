@@ -20,8 +20,8 @@ public protocol ApplicationCaller {
 
 public extension ApplicationCaller {
     
-    public var open: AvailableApplications {
-        return AvailableApplications(appCaller: self)
+    public var open: Applications {
+        return Applications(appCaller: self)
     }
     
     func launch(externalApp: ExternalApplication, action: ExternalApplicationAction) -> Bool {

@@ -16,7 +16,7 @@ class TwitterTests: XCTestCase {
     
     func testConfiguration() {
         
-        let twitter = AvailableApplications.Twitter()
+        let twitter = Applications.Twitter()
         XCTAssertEqual(twitter.scheme, "twitter:")
         XCTAssertEqual(twitter.fallbackURL, "https://twitter.com/")
     }
@@ -24,7 +24,7 @@ class TwitterTests: XCTestCase {
     func testOpenUserHandle() {
         
         let handle = "mazyod"
-        let action = AvailableApplications.Twitter.Action.UserHandle(handle)
+        let action = Applications.Twitter.Action.UserHandle(handle)
 
         XCTAssertEqual(action.path, "user?screen_name=\(handle)")
         XCTAssertEqual(action.fallbackPath, handle)
@@ -33,7 +33,7 @@ class TwitterTests: XCTestCase {
     func testOpenStatus() {
         
         let statusId = "663797797234323456"
-        let action = AvailableApplications.Twitter.Action.Status(id: statusId)
+        let action = Applications.Twitter.Action.Status(id: statusId)
         
         XCTAssertEqual(action.path, "status?id=\(statusId)")
         XCTAssertEqual(action.fallbackPath, "statuses/\(statusId)")

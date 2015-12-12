@@ -1,5 +1,5 @@
 //
-//  AvailableApplications.swift
+//  Applications.swift
 //  Appz
 //
 //  Created by Mazyad Alabduljaleel on 11/9/15.
@@ -9,9 +9,9 @@
 import Foundation
 
 
-/** Base for aggregating the available applications.
+/** Base for aggregating the suppoerted applications.
  */
-public struct AvailableApplications {
+public struct Applications {
     
     public let appCaller: ApplicationCaller
     
