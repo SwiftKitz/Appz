@@ -25,6 +25,7 @@
 		827EF6171BF2756C000B1607 /* ApplicationCallerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827EF6161BF2756C000B1607 /* ApplicationCallerMock.swift */; };
 		827EF61B1BF2EAA0000B1607 /* SettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827EF61A1BF2EAA0000B1607 /* SettingsTests.swift */; };
 		827EF61D1BF2EBAC000B1607 /* AppStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827EF61C1BF2EBAC000B1607 /* AppStoreTests.swift */; };
+		82D9A0FB1C1E495D00EAC0ED /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D9A0FA1C1E495D00EAC0ED /* Path.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		827EF6161BF2756C000B1607 /* ApplicationCallerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationCallerMock.swift; sourceTree = "<group>"; };
 		827EF61A1BF2EAA0000B1607 /* SettingsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTests.swift; sourceTree = "<group>"; };
 		827EF61C1BF2EBAC000B1607 /* AppStoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoreTests.swift; sourceTree = "<group>"; };
+		82D9A0FA1C1E495D00EAC0ED /* Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				826ACF181BF1BD1F00B5FC5D /* Applications.swift */,
 				826ACF1A1BF1BD7F00B5FC5D /* ExternalApplication.swift */,
 				826ACF5B1BF1E26B00B5FC5D /* ApplicationCaller.swift */,
+				82D9A0FA1C1E495D00EAC0ED /* Path.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				301B4A4D1C12308900038DF1 /* Mail.swift in Sources */,
+				82D9A0FB1C1E495D00EAC0ED /* Path.swift in Sources */,
 				826ACF1B1BF1BD7F00B5FC5D /* ExternalApplication.swift in Sources */,
 				301B4A4B1C122E8F00038DF1 /* Messages.swift in Sources */,
 				826ACF5E1BF1E4BE00B5FC5D /* NSExtensionContext+Appz.swift in Sources */,

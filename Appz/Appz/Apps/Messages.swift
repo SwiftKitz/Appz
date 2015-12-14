@@ -34,11 +34,17 @@ public extension Applications.Messages {
 
 extension Applications.Messages.Action: ExternalApplicationAction {
     
-    public var path: String {
+    public var paths: ActionPaths {
         
         switch self {
         case .SMS(let phone):
-            return "\(phone)"
+            return ActionPaths(
+                app: Path(
+                    pathComponents: [phone],
+                    queryParameters: [:]
+                ),
+                web: Path()
+            )
         }
     }
 }

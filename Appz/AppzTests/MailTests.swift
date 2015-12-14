@@ -22,31 +22,16 @@ class MailTests: XCTestCase {
     
     func testEmail() {
         
-        let email = "test@example.com"
-        let subject = "subject"
-        let body = "body"
-        let action = Applications.Mail.Action.Compose(email: Email(to: email, subject: subject, body: body))
+        let email = Email(
+            recipient: "test@example.com",
+            subject: "subject",
+            body: "body"
+        )
         
+        let action = Applications.Mail.Action.Compose(email: email)
         
-        XCTAssertEqual(action.path, "\(email)?subject=\(subject)&body=\(body)")
+        XCTAssertEqual(action.paths.app.pathComponents, [email.recipient])
+        XCTAssertEqual(action.paths.app.queryParameters, ["subject": email.subject, "body": email.body])
         
-    }
-    
-    func testEmptyEmail() {
-        
-        let email = "test@example.com"
-        let action = Applications.Mail.Action.Compose(email: Email(to: email))
-        
-        
-        XCTAssertEqual(action.path, "\(email)?subject=&body=")
-        
-    }
-    
-    func testSubject() {
-        
-        let subject = "test"
-        let action = Applications.Mail.Action.Compose(email: Email(subject: subject))
-        
-        XCTAssertEqual(action.path, "?subject=\(subject)&body=")
-    }
+    }    
 }

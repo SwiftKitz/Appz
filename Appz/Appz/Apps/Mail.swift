@@ -24,13 +24,13 @@ public extension Applications {
 
 public struct Email {
     
-    var to: String
+    var recipient: String
     var subject: String
     var body: String
     
-    init(to: String = "", subject: String = "", body: String = "") {
+    init(recipient: String = "", subject: String = "", body: String = "") {
         
-        self.to = to
+        self.recipient = recipient
         self.subject = subject
         self.body = body
     }
@@ -48,12 +48,20 @@ public extension Applications.Mail {
 
 extension Applications.Mail.Action: ExternalApplicationAction {
     
-    public var path: String {
+    public var paths: ActionPaths {
         
         switch self {
         case .Compose(let email):
-            return escape(String(format: "%@?subject=%@&body=%@",
-                email.to, email.subject, email.body))
+            return ActionPaths(
+                app: Path(
+                    pathComponents: [email.recipient],
+                    queryParameters: [
+                        "subject": email.subject,
+                        "body": email.body,
+                    ]
+                ),
+                web: Path()
+            )
         }
     }
 }

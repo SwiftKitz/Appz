@@ -25,6 +25,8 @@ class MessagesTests: XCTestCase {
         let phone = "12345"
         let action = Applications.Messages.Action.SMS(phone: phone)
         
-        XCTAssertEqual(action.path, "\(phone)")
+        XCTAssertEqual(action.paths.app.pathComponents, [phone])
+        XCTAssertEqual(action.paths.app.queryParameters, [:])
+        XCTAssertEqual(action.paths.web, Path())
     }
 }

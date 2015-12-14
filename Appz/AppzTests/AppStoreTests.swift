@@ -26,8 +26,9 @@ class AppStoreTests: XCTestCase {
         let appId = "395107915"
         let action = Applications.AppStore.Action.App(id: appId)
         
-        XCTAssertEqual(action.path, "itunes.apple.com/apps/id\(appId)")
-        XCTAssertEqual(action.fallbackPath, nil)
+        XCTAssertEqual(action.paths.app.pathComponents, ["itunes.apple.com", "apps", "id", appId])
+        XCTAssertEqual(action.paths.app.queryParameters, [:])
+        XCTAssertEqual(action.paths.web, Path())
     }
     
     func testOpenAccount() {
@@ -35,7 +36,8 @@ class AppStoreTests: XCTestCase {
         let accountId = "395107918"
         let action = Applications.AppStore.Action.Account(id: accountId)
         
-        XCTAssertEqual(action.path, "itunes.apple.com/developer/id\(accountId)")
-        XCTAssertEqual(action.fallbackPath, nil)
+        XCTAssertEqual(action.paths.app.pathComponents, ["itunes.apple.com", "developer", "id", accountId])
+        XCTAssertEqual(action.paths.app.queryParameters, [:])
+        XCTAssertEqual(action.paths.web, Path())
     }
 }

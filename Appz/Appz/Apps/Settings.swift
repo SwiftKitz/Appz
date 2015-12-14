@@ -27,9 +27,17 @@ public extension Applications {
 public extension Applications.AppSettings {
 
     public enum Action {
-    
         case Open
     }
 }
 
-extension Applications.AppSettings.Action: ExternalApplicationAction {}
+extension Applications.AppSettings.Action: ExternalApplicationAction {
+    
+    public var paths: ActionPaths {
+        
+        switch self {
+        case .Open:
+            return ActionPaths()
+        }
+    }
+}

@@ -18,25 +18,12 @@ public protocol ExternalApplication {
     var fallbackURL: String? { get }
 }
 
-public protocol ExternalApplicationAction {
+public struct ActionPaths {
     
-    var path: String { get }
-    var fallbackPath: String? { get }
+    var app = Path()
+    var web = Path()
 }
 
-public extension ExternalApplicationAction {
-        
-    var path: String {
-        return ""
-    }
-    
-    var fallbackPath: String? {
-        return nil
-    }
-    
-    func escape(string: String) -> String {
-        return string.stringByAddingPercentEncodingWithAllowedCharacters(
-            NSCharacterSet.URLQueryAllowedCharacterSet()
-        ) ?? ""
-    }
+public protocol ExternalApplicationAction {
+    var paths: ActionPaths { get }
 }

@@ -20,8 +20,16 @@ class ApplicationCallerTests: XCTestCase {
     
     private struct SampleAction: ExternalApplicationAction {
         
-        var path = "search/something?param=5"
-        var fallbackPath: String? = "find/otherThing?param=1"
+        var paths = ActionPaths(
+            app: Path(
+                pathComponents: ["search", "something"],
+                queryParameters: ["param": "5"]
+            ),
+            web: Path(
+                pathComponents: ["find", "otherThing"],
+                queryParameters: ["param": "1"]
+            )
+        )
     }
 
     
@@ -47,7 +55,7 @@ class ApplicationCallerTests: XCTestCase {
         
         let sampleApp = SampleApp()
         var sampleAction = SampleAction()
-        sampleAction.path = ""
+        sampleAction.paths.app = Path()
         
         appCallerMock.canOpenURLs = true
         appCallerMock.launch(sampleApp, action: sampleAction)
@@ -64,7 +72,7 @@ class ApplicationCallerTests: XCTestCase {
         appCallerMock.canOpenURLs = true
         appCallerMock.launch(sampleApp, action: sampleAction)
         
-        let expectedURL = NSURL(string: "\(sampleApp.scheme)//" + sampleAction.path)
+        let expectedURL = sampleAction.paths.app.appendToURL("\(sampleApp.scheme)//")
         XCTAssertEqual(appCallerMock.openedURLs[0], expectedURL)
     }
     
@@ -76,21 +84,7 @@ class ApplicationCallerTests: XCTestCase {
         appCallerMock.canOpenURLs = false
         appCallerMock.launch(sampleApp, action: sampleAction)
         
-        let expectedURL = NSURL(string: sampleApp.fallbackURL! + sampleAction.fallbackPath!)
-        XCTAssertEqual(appCallerMock.openedURLs[0], expectedURL)
-    }
-    
-    func testOpenNilFallbackPath() {
-        
-        let sampleApp = SampleApp()
-        var sampleAction = SampleAction()
-        sampleAction.fallbackPath = nil
-        
-        appCallerMock.canOpenURLs = false
-        appCallerMock.launch(sampleApp, action: sampleAction)
-
-        // it should use path as the fallbackPath
-        let expectedURL = NSURL(string: sampleApp.fallbackURL! + sampleAction.path)
+        let expectedURL = sampleAction.paths.web.appendToURL(sampleApp.fallbackURL!)
         XCTAssertEqual(appCallerMock.openedURLs[0], expectedURL)
     }
 }

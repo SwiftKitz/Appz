@@ -42,77 +42,124 @@ public extension Applications.Twitter {
 
 extension Applications.Twitter.Action: ExternalApplicationAction {
 
-    public var path: String {
-        
+    public var paths: ActionPaths {
+
         switch self {
         case .Status(let id):
-            return "status?id=\(id)"
+            return ActionPaths(
+                app: Path(
+                    pathComponents: ["status"],
+                    queryParameters: ["id": id]),
+                web: Path(
+                    pathComponents: ["statuses", id],
+                    queryParameters: [:]
+                )
+            )
             
         case .UserHandle(let handle):
-            return "user?screen_name=\(handle)"
+            return ActionPaths(
+                app: Path(
+                    pathComponents: ["user"],
+                    queryParameters: ["screen_name": handle]
+                ),
+                web: Path(
+                    pathComponents: [handle],
+                    queryParameters: [:]
+                )
+            )
             
         case .UserId(let id):
-            return "user?id=\(id)"
+            return ActionPaths(
+                app: Path(
+                    pathComponents: ["user"],
+                    queryParameters: ["id": id]
+                ),
+                web: Path(
+                    pathComponents: ["intent", "user"],
+                    queryParameters: ["user_id": id]
+                )
+            )
             
         case .Post(let message, let statusId):
-            
-            var path = "post?message=\(escape(message))"
-            if let statusId = statusId {
-                path += "&in_reply_to_status_id=\(statusId)"
-            }
-            return path
-            
-        case .List(let handle, let slug):
-            return "list?screen_name=\(handle)&slug=\(escape(slug))"
-            
-        case .Search(let query):
-            return "search?query=\(escape(query))"
-            
-        case .Timeline:
-            return "timeline"
-            
-        case .Mentions:
-            return "mentions"
-            
-        case .Messages:
-            return "messages"
-        }
-    }
-    
-    public var fallbackPath: String? {
-        
-        switch self {
-        case .Status(let id):
-            return "statuses/\(id)"
-            
-        case .UserHandle(let handle):
-            return handle
-            
-        case .UserId(let id):
-            return "intent/user?user_id=\(id)"
-            
-        case .Post(let message, let statusId):
-            
-            var path = "intent/tweet?text=\(escape(message))"
-            if let statusId = statusId {
-                path += "&in_reply_to=\(statusId)"
-            }
-            return path
+            return ActionPaths(
+                app: Path(
+                    pathComponents: ["post"],
+                    queryParameters: [
+                        "message": message,
+                        "in_reply_to_status_id": statusId ?? "",
+                    ]
+                ),
+                web: Path(
+                    pathComponents: ["intent", "tweet"],
+                    queryParameters: [
+                        "text": message,
+                        "in_reply_to": statusId ?? "",
+                    ]
+                )
+            )
             
         case .List(let handle, let slug):
-            return "\(handle)/lists/\(slug)"
+            return ActionPaths(
+                app: Path(
+                    pathComponents: ["list"],
+                    queryParameters: [
+                        "screen_name": handle,
+                        "slug": slug,
+                    ]
+                ),
+                web: Path(
+                    pathComponents: [handle, "lists", slug],
+                    queryParameters: [:]
+                )
+            )
             
         case .Search(let query):
-            return "search?q=\(escape(query))"
+            return ActionPaths(
+                app: Path(
+                    pathComponents: ["search"],
+                    queryParameters: ["query": query]
+                ),
+                web: Path(
+                    pathComponents: ["search"],
+                    queryParameters: ["q": query]
+                )
+            )
             
         case .Timeline:
-            return "" // Just open twitter
+            return ActionPaths(
+                app: Path(
+                    pathComponents: ["timeline"],
+                    queryParameters: [:]
+                ),
+                web: Path(
+                    pathComponents: [],
+                    queryParameters: [:]
+                )
+            )
             
         case .Mentions:
-            return "mentions"
+            return ActionPaths(
+                app: Path(
+                    pathComponents: ["mentions"],
+                    queryParameters: [:]
+                ),
+                web: Path(
+                    pathComponents: ["mentions"],
+                    queryParameters: [:]
+                )
+            )
             
         case .Messages:
-            return "messages"
+            return ActionPaths(
+                app: Path(
+                    pathComponents: ["messages"],
+                    queryParameters: [:]
+                ),
+                web: Path(
+                    pathComponents: ["messages"],
+                    queryParameters: [:]
+                )
+            )
         }
     }
 }

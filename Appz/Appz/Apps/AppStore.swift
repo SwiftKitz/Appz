@@ -36,14 +36,26 @@ public extension Applications.AppStore {
 
 extension Applications.AppStore.Action: ExternalApplicationAction {
 
-    public var path: String {
+    public var paths: ActionPaths {
         
         switch self {
         case .Account(let id):
-            return "itunes.apple.com/developer/id\(id)"
+            return ActionPaths(
+                app: Path(
+                    pathComponents: ["itunes.apple.com", "developer", "id", id],
+                    queryParameters: [:]
+                ),
+                web: Path()
+            )
             
         case .App(let id):
-            return "itunes.apple.com/apps/id\(id)"
+            return ActionPaths(
+                app: Path(
+                    pathComponents: ["itunes.apple.com", "apps", "id", id],
+                    queryParameters: [:]
+                ),
+                web: Path()
+            )
         }
     }
 }

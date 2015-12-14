@@ -26,19 +26,18 @@ public extension ApplicationCaller {
     
     func launch(externalApp: ExternalApplication, action: ExternalApplicationAction) -> Bool {
         
-        let fallbackPath = action.fallbackPath ?? action.path
-        
         let scheme = (externalApp.scheme ?? "") + "//"
         let baseURL = NSURL(string: scheme)
+        let paths = action.paths
         
-        if let url = baseURL where canOpenURL(url),
-            let fullURL = NSURL(string: scheme + action.path)
+        if let baseURL = baseURL where canOpenURL(baseURL),
+            let url = paths.app.appendToURL(scheme)
         {
-            return openURL(fullURL)
+            return openURL(url)
         }
         
         if let fallbackURL = externalApp.fallbackURL,
-            let url = NSURL(string: fallbackURL + fallbackPath)
+            let url = paths.web.appendToURL(fallbackURL)
         {
             return openURL(url)
         }

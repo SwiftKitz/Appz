@@ -26,8 +26,10 @@ class TwitterTests: XCTestCase {
         let handle = "mazyod"
         let action = Applications.Twitter.Action.UserHandle(handle)
 
-        XCTAssertEqual(action.path, "user?screen_name=\(handle)")
-        XCTAssertEqual(action.fallbackPath, handle)
+        XCTAssertEqual(action.paths.app.pathComponents, ["user"])
+        XCTAssertEqual(action.paths.app.queryParameters, ["screen_name": handle])
+        XCTAssertEqual(action.paths.web.pathComponents, [handle])
+        XCTAssertEqual(action.paths.web.queryParameters, [:])
     }
     
     func testOpenStatus() {
@@ -35,7 +37,9 @@ class TwitterTests: XCTestCase {
         let statusId = "663797797234323456"
         let action = Applications.Twitter.Action.Status(id: statusId)
         
-        XCTAssertEqual(action.path, "status?id=\(statusId)")
-        XCTAssertEqual(action.fallbackPath, "statuses/\(statusId)")
+        XCTAssertEqual(action.paths.app.pathComponents, ["status"])
+        XCTAssertEqual(action.paths.app.queryParameters, ["id": statusId])
+        XCTAssertEqual(action.paths.web.pathComponents, ["statuses", statusId])
+        XCTAssertEqual(action.paths.web.queryParameters, [:])
     }
 }
