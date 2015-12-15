@@ -2,7 +2,7 @@
 <h1 align="center">
   Appz :iphone:
 <h6 align="center">
-  Deeplinking to external applications made easy!
+  Deeplinking to external applications made easy
 </h6>
 </h1>
 
