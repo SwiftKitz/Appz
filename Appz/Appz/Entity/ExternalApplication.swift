@@ -20,8 +20,16 @@ public protocol ExternalApplication {
 
 public struct ActionPaths {
     
-    var app = Path()
-    var web = Path()
+    public var app = Path()
+    public var web = Path()
+    
+    public init() {}
+    
+    public init(app: Path, web: Path) {
+        
+        self.app = app
+        self.web = web
+    }
 }
 
 public protocol ExternalApplicationAction {

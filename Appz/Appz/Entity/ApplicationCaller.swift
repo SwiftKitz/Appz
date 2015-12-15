@@ -26,7 +26,7 @@ public extension ApplicationCaller {
     
     func launch(externalApp: ExternalApplication, action: ExternalApplicationAction) -> Bool {
         
-        let scheme = (externalApp.scheme ?? "") + "//"
+        let scheme = externalApp.scheme + "//"
         let baseURL = NSURL(string: scheme)
         let paths = action.paths
         

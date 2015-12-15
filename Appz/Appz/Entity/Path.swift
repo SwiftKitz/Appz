@@ -13,6 +13,11 @@ public struct Path {
     public var pathComponents = [String]()
     public var queryParameters = [String:String]()
     
+    public var queryItems: [NSURLQueryItem] {
+        return queryParameters
+            .map { NSURLQueryItem(name: $0, value: $1) }
+    }
+    
     public init() {}
     
     public init(pathComponents: [String], queryParameters: [String:String]) {
@@ -26,9 +31,6 @@ public struct Path {
         guard let url = NSURL(string: baseURL + pathComponents.joinWithSeparator("/")) else {
             return nil
         }
-        
-        let queryItems = queryParameters
-            .map { NSURLQueryItem(name: $0, value: $1) }
         
         let urlComponents = NSURLComponents(URL: url, resolvingAgainstBaseURL: false)
         urlComponents?.queryItems = queryItems.isEmpty ? nil : queryItems

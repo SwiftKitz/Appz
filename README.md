@@ -13,9 +13,9 @@ _Even though I shipped it with my app, I still need to invest the time to set th
 ## Highlights
 
 + __Web Fallback Support:__<br />
-In case the app can't open the external application, it will fallback to a web URL that is guaranteed to succeed by opening the browser.
+In case the app can't open the external application, it will fall-back to a web URL that is guaranteed to succeed by opening the browser.
 
-+ __Cleanly Separates App Specs:__<br />
++ __Isolated App Specs:__<br />
 It was crucial to make sure the library can scale as the number of supported apps increase. Therefor, each supported app is implemented in isolation in a separate file.
 
 + __Full Autocomplete Support__:
@@ -37,7 +37,7 @@ app.open.twitter(.UserHandle("mazyod"))
 app.open.appSettings(.Open)
 ```
 
-__Transparent Web Fallback:__
+__Transparent web fallback:__
 
 ```swift
 // In case the user doesn't have twitter installed, it will fallback to
@@ -45,27 +45,42 @@ __Transparent Web Fallback:__
 app.open.twitter(.Status(id: "2"))
 ```
 
-__Add your own application:__
+__Add your applications:__
 
 ```swift
+// Applications are recommended to be part of the 
+// "Applicaitons" namespace
 extension Applications {
-    
+    // Define your application as a type that
+    // conforms to "ExternalApplication"
     struct MyApp: ExternalApplication {
         
         let scheme = "myapp:"
         let fallbackURL: String? = nil
     }
-    
+    // Add a function to easily access your app from 
+    // the application caller
     func myApp(action: MyApp.Action) -> Bool {
         return appCaller.launch(MyApp(), action: action)
     }
 }
-
+// Finally, you define the actions your app supports
 extension Applications.MyApp {
     
-    enum Action: ExternalApplicationAction {
-        
+    enum Action {
         case Open
+    }
+}
+
+extension Applications.MyApp.Action: ExternalApplicationAction {
+    // Each action should provide an app path and web path to be
+    // added to the associated URL
+    var paths: ActionPaths {
+        
+        switch self {
+        case .Open:
+            return ActionPaths()
+        }
     }
 }
 
