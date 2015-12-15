@@ -1,14 +1,19 @@
 
-# Appz :iphone:
+<h1 align="center">
+  Appz :iphone:
+<h6 align="center">
+  Deeplinking to external applications made easy!
+</h6>
+</h1>
 
-![Version](https://img.shields.io/badge/version-prerelease-orange.svg)
-[![Travis CI](https://travis-ci.org/SwiftKitz/Appz.svg?branch=master)](https://travis-ci.org/SwiftKitz/Appz)
-![Swift](https://img.shields.io/badge/swift-2.1-blue.svg)
-![Platforms](https://img.shields.io/badge/platform-ios-lightgrey.svg)
-
-Deeplinking to external applications made easy!
-
-_Even though I shipped it with my app, I still need to invest the time to set this up, and finalize the API. Contributors welcome!_
+<p align="center">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg" />
+  <a alt="Travis CI" href="https://travis-ci.org/SwiftKitz/Appz">
+    <img alt="Version" src="https://travis-ci.org/SwiftKitz/Appz.svg?branch=master" />
+  </a>
+  <img alt="Swift" src="https://img.shields.io/badge/swift-2.1-orange.svg" />
+  <img alt="Platforms" src="https://img.shields.io/badge/platform-ios-lightgrey.svg" />
+</p>
 
 ## Highlights
 
