@@ -13,6 +13,9 @@
   </a>
   <img alt="Swift" src="https://img.shields.io/badge/swift-2.1-orange.svg" />
   <img alt="Platforms" src="https://img.shields.io/badge/platform-ios-lightgrey.svg" />
+  <a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
+    <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" />
+  </a>
 </p>
 
 ## Highlights
