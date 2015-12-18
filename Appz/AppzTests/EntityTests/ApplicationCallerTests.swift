@@ -14,8 +14,10 @@ class ApplicationCallerTests: XCTestCase {
     
     private struct SampleApp: ExternalApplication {
         
+        typealias ActionType = SampleAction
+        
         let scheme = "test:"
-        let fallbackURL: String? = "http://google.com/"
+        let fallbackURL = "http://google.com/"
     }
     
     private struct SampleAction: ExternalApplicationAction {
@@ -45,7 +47,7 @@ class ApplicationCallerTests: XCTestCase {
     func testQuery() {
         
         let sampleApp = SampleApp()
-        appCallerMock.launch(sampleApp, action: SampleAction())
+        appCallerMock.open(sampleApp, action: SampleAction())
         
         let expectedURL = NSURL(string: "\(sampleApp.scheme)//")
         XCTAssertEqual(appCallerMock.queriedURLs[0], expectedURL)
@@ -58,7 +60,7 @@ class ApplicationCallerTests: XCTestCase {
         sampleAction.paths.app = Path()
         
         appCallerMock.canOpenURLs = true
-        appCallerMock.launch(sampleApp, action: sampleAction)
+        appCallerMock.open(sampleApp, action: sampleAction)
         
         let expectedURL = NSURL(string: "\(sampleApp.scheme)//")
         XCTAssertEqual(appCallerMock.openedURLs[0], expectedURL)
@@ -70,7 +72,7 @@ class ApplicationCallerTests: XCTestCase {
         let sampleAction = SampleAction()
 
         appCallerMock.canOpenURLs = true
-        appCallerMock.launch(sampleApp, action: sampleAction)
+        appCallerMock.open(sampleApp, action: sampleAction)
         
         let expectedURL = sampleAction.paths.app.appendToURL("\(sampleApp.scheme)//")
         XCTAssertEqual(appCallerMock.openedURLs[0], expectedURL)
@@ -82,9 +84,9 @@ class ApplicationCallerTests: XCTestCase {
         let sampleAction = SampleAction()
         
         appCallerMock.canOpenURLs = false
-        appCallerMock.launch(sampleApp, action: sampleAction)
+        appCallerMock.open(sampleApp, action: sampleAction)
         
-        let expectedURL = sampleAction.paths.web.appendToURL(sampleApp.fallbackURL!)
+        let expectedURL = sampleAction.paths.web.appendToURL(sampleApp.fallbackURL)
         XCTAssertEqual(appCallerMock.openedURLs[0], expectedURL)
     }
 }

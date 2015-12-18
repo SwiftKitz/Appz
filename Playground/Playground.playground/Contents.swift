@@ -10,15 +10,15 @@ import Appz
 //: Concise syntax to trigger deeplinking
 
 let app = UIApplication.sharedApplication()
-app.open.appStore(.Account(id: "395107918"))
-app.open.twitter(.UserHandle("mazyod"))
-app.open.appSettings(.Open)
+app.canOpen(Applications.Instagram())
+app.open(Applications.AppStore(), action: .Account(id: "395107918"))
+app.open(Applications.AppSettings(), action: .Open)
 
 //: Transparent web fallback
 
 // In case the user doesn't have twitter installed, it will fallback to
 // https://twitter.com/statuses/2
-app.open.twitter(.Status(id: "2"))
+app.open(Applications.Twitter(), action: .Status(id: "2"))
 
 //: Add your own application
 
@@ -29,33 +29,29 @@ extension Applications {
     // conforms to "ExternalApplication"
     struct MyApp: ExternalApplication {
         
+        typealias ActionType = Applications.MyApp.Action
+        
         let scheme = "myapp:"
-        let fallbackURL: String? = nil
-    }
-    // Add a function to easily access your app from 
-    // the application caller
-    func myApp(action: MyApp.Action) -> Bool {
-        return appCaller.launch(MyApp(), action: action)
+        let fallbackURL = ""
     }
 }
 // Finally, you define the actions your app supports
 extension Applications.MyApp {
     
-    enum Action {
-        case Open
-    }
-}
-
-extension Applications.MyApp.Action: ExternalApplicationAction {
-    // Each action should provide an app path and web path to be
-    // added to the associated URL
-    var paths: ActionPaths {
+    enum Action: ExternalApplicationAction {
         
-        switch self {
-        case .Open:
-            return ActionPaths()
+        case Open
+        
+        // Each action should provide an app path and web path to be
+        // added to the associated URL
+        var paths: ActionPaths {
+            
+            switch self {
+            case .Open:
+                return ActionPaths()
+            }
         }
     }
 }
 
-app.open.myApp(.Open)
+app.open(Applications.MyApp(), action: .Open)

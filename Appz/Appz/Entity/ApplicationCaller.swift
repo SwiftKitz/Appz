@@ -20,11 +20,16 @@ public protocol ApplicationCaller {
 
 public extension ApplicationCaller {
     
-    public var open: Applications {
-        return Applications(appCaller: self)
+    public func canOpen<E: ExternalApplication>(externalApp: E) -> Bool {
+
+        if let baseURL = NSURL(string: externalApp.scheme) {
+            return canOpenURL(baseURL)
+        }
+        
+        return false
     }
     
-    func launch(externalApp: ExternalApplication, action: ExternalApplicationAction) -> Bool {
+    public func open<E: ExternalApplication>(externalApp: E, action: E.ActionType) -> Bool {
         
         let scheme = externalApp.scheme + "//"
         let baseURL = NSURL(string: scheme)
@@ -36,9 +41,7 @@ public extension ApplicationCaller {
             return openURL(url)
         }
         
-        if let fallbackURL = externalApp.fallbackURL,
-            let url = paths.web.appendToURL(fallbackURL)
-        {
+        if let url = paths.web.appendToURL(externalApp.fallbackURL) {
             return openURL(url)
         }
         

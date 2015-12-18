@@ -14,8 +14,10 @@ import Foundation
  */
 public protocol ExternalApplication {
     
+    typealias ActionType: ExternalApplicationAction
+    
     var scheme: String { get }
-    var fallbackURL: String? { get }
+    var fallbackURL: String { get }
 }
 
 public struct ActionPaths {

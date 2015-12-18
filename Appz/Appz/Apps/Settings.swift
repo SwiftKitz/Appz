@@ -13,12 +13,12 @@ public extension Applications {
     
     public struct AppSettings: ExternalApplication {
         
+        public typealias ActionType = Applications.AppSettings.Action
+
         public let scheme = UIApplicationOpenSettingsURLString
-        public let fallbackURL: String? = nil
-    }
-    
-    func appSettings(action: AppSettings.Action) -> Bool {
-        return appCaller.launch(AppSettings(), action: action)
+        public let fallbackURL = ""
+        
+        public init() {}
     }
 }
 

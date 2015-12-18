@@ -18,7 +18,7 @@ class SettingsTests: XCTestCase {
         
         let appSettings = Applications.AppSettings()
         XCTAssertEqual(appSettings.scheme, "app-settings:")
-        XCTAssertEqual(appSettings.fallbackURL, nil)
+        XCTAssertEqual(appSettings.fallbackURL, "")
     }
     
     func testOpenHome() {

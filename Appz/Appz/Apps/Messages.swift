@@ -13,12 +13,12 @@ public extension Applications {
     
     public struct Messages: ExternalApplication {
         
+        public typealias ActionType = Applications.Messages.Action
+
         public let scheme = "sms:"
-        public let fallbackURL: String? = ""
-    }
-    
-    public func messages(action: Messages.Action) -> Bool {
-        return appCaller.launch(Messages(), action: action)
+        public let fallbackURL = ""
+
+        public init() {}
     }
 }
 

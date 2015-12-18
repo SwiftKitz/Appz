@@ -13,12 +13,12 @@ public extension Applications {
     
     public struct Twitter: ExternalApplication {
         
+        public typealias ActionType = Applications.Twitter.Action
+
         public let scheme = "twitter:"
-        public let fallbackURL: String? = "https://twitter.com/"
-    }
-    
-    public func twitter(action: Twitter.Action) -> Bool {
-        return appCaller.launch(Twitter(), action: action)
+        public let fallbackURL = "https://twitter.com/"
+
+        public init() {}
     }
 }
 

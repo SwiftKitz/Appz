@@ -13,12 +13,12 @@ public extension Applications {
     
     public struct Instagram: ExternalApplication {
         
+        public typealias ActionType = Applications.Instagram.Action
+
         public let scheme = "instagram:"
-        public let fallbackURL: String? = "https://instagram.com/"
-    }
-    
-    public func instagram(action: Instagram.Action) -> Bool {
-        return appCaller.launch(Instagram(), action: action)
+        public let fallbackURL = "https://instagram.com/"
+
+        public init() {}
     }
 }
 

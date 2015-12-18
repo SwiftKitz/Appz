@@ -13,12 +13,12 @@ public extension Applications {
     
     public struct AppStore: ExternalApplication {
         
+        public typealias ActionType = Applications.AppStore.Action
+
         public let scheme = "itms-apps:"
-        public let fallbackURL: String? = "http:"
-    }
-    
-    public func appStore(action: AppStore.Action) -> Bool {
-        return appCaller.launch(AppStore(), action: action)
+        public let fallbackURL = "http:"
+        
+        public init() {}
     }
 }
 

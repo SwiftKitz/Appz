@@ -150,9 +150,9 @@
 		826ACF171BF1BCF500B5FC5D /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				826ACF5B1BF1E26B00B5FC5D /* ApplicationCaller.swift */,
 				826ACF181BF1BD1F00B5FC5D /* Applications.swift */,
 				826ACF1A1BF1BD7F00B5FC5D /* ExternalApplication.swift */,
-				826ACF5B1BF1E26B00B5FC5D /* ApplicationCaller.swift */,
 				82D9A0FA1C1E495D00EAC0ED /* Path.swift */,
 			);
 			path = Entity;
@@ -174,8 +174,8 @@
 		826ACF231BF1BFE100B5FC5D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				826ACF241BF1C00800B5FC5D /* UIApplication+Appz.swift */,
 				826ACF5D1BF1E4BE00B5FC5D /* NSExtensionContext+Appz.swift */,
+				826ACF241BF1C00800B5FC5D /* UIApplication+Appz.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
