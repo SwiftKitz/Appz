@@ -103,6 +103,7 @@ AppSettings | Open
 Mail | Compose
 Messages | SMS
 AppStore | Developer, App
+Instagram | Open, Camera, Media, Username, Location, Tag
 Twitter | Status, UserHandle, UserId, List, Post, Search, Timeline, Mentions, Messages
 
 ## Getting Started

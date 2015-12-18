@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		301B4A4B1C122E8F00038DF1 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B4A4A1C122E8F00038DF1 /* Messages.swift */; };
 		301B4A4D1C12308900038DF1 /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B4A4C1C12308900038DF1 /* Mail.swift */; };
+		3098B0DB1C13EDCA00AFAD36 /* Instagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3098B0DA1C13EDCA00AFAD36 /* Instagram.swift */; };
 		8246C8CE1C1F9AD600569119 /* AppStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8246C8C91C1F9AD600569119 /* AppStoreTests.swift */; };
 		8246C8CF1C1F9AD600569119 /* MailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8246C8CA1C1F9AD600569119 /* MailTests.swift */; };
 		8246C8D01C1F9AD600569119 /* MessagesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8246C8CB1C1F9AD600569119 /* MessagesTest.swift */; };
@@ -25,6 +26,7 @@
 		826ACF5C1BF1E26B00B5FC5D /* ApplicationCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF5B1BF1E26B00B5FC5D /* ApplicationCaller.swift */; };
 		826ACF5E1BF1E4BE00B5FC5D /* NSExtensionContext+Appz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF5D1BF1E4BE00B5FC5D /* NSExtensionContext+Appz.swift */; };
 		827EF6171BF2756C000B1607 /* ApplicationCallerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827EF6161BF2756C000B1607 /* ApplicationCallerMock.swift */; };
+		82CAC1D31C2497390019D238 /* InstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAC1D21C2497390019D238 /* InstagramTests.swift */; };
 		82D9A0FB1C1E495D00EAC0ED /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D9A0FA1C1E495D00EAC0ED /* Path.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,7 @@
 /* Begin PBXFileReference section */
 		301B4A4A1C122E8F00038DF1 /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
 		301B4A4C1C12308900038DF1 /* Mail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mail.swift; sourceTree = "<group>"; };
+		3098B0DA1C13EDCA00AFAD36 /* Instagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instagram.swift; sourceTree = "<group>"; };
 		8246C8C91C1F9AD600569119 /* AppStoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoreTests.swift; sourceTree = "<group>"; };
 		8246C8CA1C1F9AD600569119 /* MailTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailTests.swift; sourceTree = "<group>"; };
 		8246C8CB1C1F9AD600569119 /* MessagesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesTest.swift; sourceTree = "<group>"; };
@@ -60,6 +63,7 @@
 		826ACF5B1BF1E26B00B5FC5D /* ApplicationCaller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationCaller.swift; sourceTree = "<group>"; };
 		826ACF5D1BF1E4BE00B5FC5D /* NSExtensionContext+Appz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSExtensionContext+Appz.swift"; sourceTree = "<group>"; };
 		827EF6161BF2756C000B1607 /* ApplicationCallerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationCallerMock.swift; sourceTree = "<group>"; };
+		82CAC1D21C2497390019D238 /* InstagramTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramTests.swift; sourceTree = "<group>"; };
 		82D9A0FA1C1E495D00EAC0ED /* Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				8246C8C91C1F9AD600569119 /* AppStoreTests.swift */,
+				82CAC1D21C2497390019D238 /* InstagramTests.swift */,
 				8246C8CA1C1F9AD600569119 /* MailTests.swift */,
 				8246C8CB1C1F9AD600569119 /* MessagesTest.swift */,
 				8246C8CC1C1F9AD600569119 /* SettingsTests.swift */,
@@ -156,11 +161,12 @@
 		826ACF1C1BF1BE9C00B5FC5D /* Apps */ = {
 			isa = PBXGroup;
 			children = (
-				826ACF1D1BF1BEB000B5FC5D /* Twitter.swift */,
-				826ACF1F1BF1BEB800B5FC5D /* Settings.swift */,
 				826ACF211BF1BEBF00B5FC5D /* AppStore.swift */,
-				301B4A4A1C122E8F00038DF1 /* Messages.swift */,
+				3098B0DA1C13EDCA00AFAD36 /* Instagram.swift */,
 				301B4A4C1C12308900038DF1 /* Mail.swift */,
+				301B4A4A1C122E8F00038DF1 /* Messages.swift */,
+				826ACF1F1BF1BEB800B5FC5D /* Settings.swift */,
+				826ACF1D1BF1BEB000B5FC5D /* Twitter.swift */,
 			);
 			path = Apps;
 			sourceTree = "<group>";
@@ -292,6 +298,7 @@
 			files = (
 				301B4A4D1C12308900038DF1 /* Mail.swift in Sources */,
 				82D9A0FB1C1E495D00EAC0ED /* Path.swift in Sources */,
+				3098B0DB1C13EDCA00AFAD36 /* Instagram.swift in Sources */,
 				826ACF1B1BF1BD7F00B5FC5D /* ExternalApplication.swift in Sources */,
 				301B4A4B1C122E8F00038DF1 /* Messages.swift in Sources */,
 				826ACF5E1BF1E4BE00B5FC5D /* NSExtensionContext+Appz.swift in Sources */,
@@ -308,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82CAC1D31C2497390019D238 /* InstagramTests.swift in Sources */,
 				8246C8D11C1F9AD600569119 /* SettingsTests.swift in Sources */,
 				8246C8CF1C1F9AD600569119 /* MailTests.swift in Sources */,
 				8246C8D01C1F9AD600569119 /* MessagesTest.swift in Sources */,
