@@ -10,30 +10,16 @@ import XCTest
 @testable import Appz
 
 
-class ApplicationCallerTests: XCTestCase {
+private struct MalformedApp: ExternalApplication {
     
-    private struct SampleApp: ExternalApplication {
-        
-        typealias ActionType = SampleAction
-        
-        let scheme = "test:"
-        let fallbackURL = "http://google.com/"
-    }
+    typealias ActionType = SampleAction
     
-    private struct SampleAction: ExternalApplicationAction {
-        
-        var paths = ActionPaths(
-            app: Path(
-                pathComponents: ["search", "something"],
-                queryParameters: ["param": "5"]
-            ),
-            web: Path(
-                pathComponents: ["find", "otherThing"],
-                queryParameters: ["param": "1"]
-            )
-        )
-    }
+    let scheme = "m%lform"
+    let fallbackURL = "m%lforma$well"
+}
 
+
+class ApplicationCallerTests: XCTestCase {
     
     private let appCallerMock = ApplicationCallerMock()
     
@@ -49,8 +35,8 @@ class ApplicationCallerTests: XCTestCase {
         let sampleApp = SampleApp()
         appCallerMock.open(sampleApp, action: SampleAction())
         
-        let expectedURL = NSURL(string: "\(sampleApp.scheme)//")
-        XCTAssertEqual(appCallerMock.queriedURLs[0], expectedURL)
+        let expectedURL = NSURL(string: sampleApp.scheme)
+        XCTAssertEqual(appCallerMock.queriedURLs.first, expectedURL)
     }
     
     func testOpenEmptyPath() {
@@ -62,8 +48,8 @@ class ApplicationCallerTests: XCTestCase {
         appCallerMock.canOpenURLs = true
         appCallerMock.open(sampleApp, action: sampleAction)
         
-        let expectedURL = NSURL(string: "\(sampleApp.scheme)//")
-        XCTAssertEqual(appCallerMock.openedURLs[0], expectedURL)
+        let expectedURL = NSURL(string: sampleApp.scheme)
+        XCTAssertEqual(appCallerMock.openedURLs.first, expectedURL)
     }
     
     func testOpenPath() {
@@ -74,8 +60,8 @@ class ApplicationCallerTests: XCTestCase {
         appCallerMock.canOpenURLs = true
         appCallerMock.open(sampleApp, action: sampleAction)
         
-        let expectedURL = sampleAction.paths.app.appendToURL("\(sampleApp.scheme)//")
-        XCTAssertEqual(appCallerMock.openedURLs[0], expectedURL)
+        let expectedURL = sampleAction.paths.app.appendToURL(sampleApp.scheme)
+        XCTAssertEqual(appCallerMock.openedURLs.first, expectedURL)
     }
     
     func testOpenFallbackPath() {
@@ -87,6 +73,14 @@ class ApplicationCallerTests: XCTestCase {
         appCallerMock.open(sampleApp, action: sampleAction)
         
         let expectedURL = sampleAction.paths.web.appendToURL(sampleApp.fallbackURL)
-        XCTAssertEqual(appCallerMock.openedURLs[0], expectedURL)
+        XCTAssertEqual(appCallerMock.openedURLs.first, expectedURL)
+    }
+    
+    func testOpenMalformedURL() {
+        
+        appCallerMock.canOpenURLs = true
+        
+        XCTAssertFalse(appCallerMock.canOpen(MalformedApp()))
+        XCTAssertFalse(appCallerMock.open(MalformedApp(), action: SampleAction()))
     }
 }

@@ -31,7 +31,7 @@ public extension ApplicationCaller {
     
     public func open<E: ExternalApplication>(externalApp: E, action: E.ActionType) -> Bool {
         
-        let scheme = externalApp.scheme + "//"
+        let scheme = externalApp.scheme
         let baseURL = NSURL(string: scheme)
         let paths = action.paths
         

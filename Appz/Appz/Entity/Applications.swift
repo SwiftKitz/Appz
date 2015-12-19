@@ -11,11 +11,4 @@ import Foundation
 
 /** Base for aggregating the suppoerted applications.
  */
-public struct Applications {
-    
-    public let appCaller: ApplicationCaller
-    
-    init(appCaller: ApplicationCaller) {
-        self.appCaller = appCaller
-    }
-}
+public struct Applications {}

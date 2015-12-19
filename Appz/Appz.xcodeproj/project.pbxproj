@@ -16,15 +16,19 @@
 		8246C8D11C1F9AD600569119 /* SettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8246C8CC1C1F9AD600569119 /* SettingsTests.swift */; };
 		8246C8D21C1F9AD600569119 /* TwitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8246C8CD1C1F9AD600569119 /* TwitterTests.swift */; };
 		8246C8D51C1F9B0800569119 /* ApplicationCallerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8246C8D41C1F9B0800569119 /* ApplicationCallerTests.swift */; };
+		8254C7791C24B515009DB3BD /* PathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8254C7781C24B515009DB3BD /* PathTests.swift */; };
+		8254C77C1C25746E009DB3BD /* NSExtensionContextApplicationCallerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8254C77B1C25746E009DB3BD /* NSExtensionContextApplicationCallerTests.swift */; };
+		8254C77E1C25751A009DB3BD /* SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8254C77D1C25751A009DB3BD /* SampleApp.swift */; };
+		8254C7801C257523009DB3BD /* SampleAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8254C77F1C257523009DB3BD /* SampleAction.swift */; };
 		826ACEE91BF1B10A00B5FC5D /* Appz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826ACEDE1BF1B10A00B5FC5D /* Appz.framework */; };
 		826ACF191BF1BD1F00B5FC5D /* Applications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF181BF1BD1F00B5FC5D /* Applications.swift */; };
 		826ACF1B1BF1BD7F00B5FC5D /* ExternalApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF1A1BF1BD7F00B5FC5D /* ExternalApplication.swift */; };
 		826ACF1E1BF1BEB000B5FC5D /* Twitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF1D1BF1BEB000B5FC5D /* Twitter.swift */; };
 		826ACF201BF1BEB800B5FC5D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF1F1BF1BEB800B5FC5D /* Settings.swift */; };
 		826ACF221BF1BEBF00B5FC5D /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF211BF1BEBF00B5FC5D /* AppStore.swift */; };
-		826ACF251BF1C00800B5FC5D /* UIApplication+Appz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF241BF1C00800B5FC5D /* UIApplication+Appz.swift */; };
+		826ACF251BF1C00800B5FC5D /* UIApplication+ApplicationCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF241BF1C00800B5FC5D /* UIApplication+ApplicationCaller.swift */; };
 		826ACF5C1BF1E26B00B5FC5D /* ApplicationCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF5B1BF1E26B00B5FC5D /* ApplicationCaller.swift */; };
-		826ACF5E1BF1E4BE00B5FC5D /* NSExtensionContext+Appz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF5D1BF1E4BE00B5FC5D /* NSExtensionContext+Appz.swift */; };
+		826ACF5E1BF1E4BE00B5FC5D /* NSExtensionContext+ApplicationCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF5D1BF1E4BE00B5FC5D /* NSExtensionContext+ApplicationCaller.swift */; };
 		827EF6171BF2756C000B1607 /* ApplicationCallerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827EF6161BF2756C000B1607 /* ApplicationCallerMock.swift */; };
 		82CAC1D31C2497390019D238 /* InstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAC1D21C2497390019D238 /* InstagramTests.swift */; };
 		82D9A0FB1C1E495D00EAC0ED /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D9A0FA1C1E495D00EAC0ED /* Path.swift */; };
@@ -50,6 +54,10 @@
 		8246C8CC1C1F9AD600569119 /* SettingsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTests.swift; sourceTree = "<group>"; };
 		8246C8CD1C1F9AD600569119 /* TwitterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterTests.swift; sourceTree = "<group>"; };
 		8246C8D41C1F9B0800569119 /* ApplicationCallerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationCallerTests.swift; sourceTree = "<group>"; };
+		8254C7781C24B515009DB3BD /* PathTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathTests.swift; sourceTree = "<group>"; };
+		8254C77B1C25746E009DB3BD /* NSExtensionContextApplicationCallerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSExtensionContextApplicationCallerTests.swift; sourceTree = "<group>"; };
+		8254C77D1C25751A009DB3BD /* SampleApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleApp.swift; sourceTree = "<group>"; };
+		8254C77F1C257523009DB3BD /* SampleAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleAction.swift; sourceTree = "<group>"; };
 		826ACEDE1BF1B10A00B5FC5D /* Appz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Appz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		826ACEE31BF1B10A00B5FC5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		826ACEE81BF1B10A00B5FC5D /* AppzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,9 +67,9 @@
 		826ACF1D1BF1BEB000B5FC5D /* Twitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Twitter.swift; sourceTree = "<group>"; };
 		826ACF1F1BF1BEB800B5FC5D /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		826ACF211BF1BEBF00B5FC5D /* AppStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
-		826ACF241BF1C00800B5FC5D /* UIApplication+Appz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Appz.swift"; sourceTree = "<group>"; };
+		826ACF241BF1C00800B5FC5D /* UIApplication+ApplicationCaller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+ApplicationCaller.swift"; sourceTree = "<group>"; };
 		826ACF5B1BF1E26B00B5FC5D /* ApplicationCaller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationCaller.swift; sourceTree = "<group>"; };
-		826ACF5D1BF1E4BE00B5FC5D /* NSExtensionContext+Appz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSExtensionContext+Appz.swift"; sourceTree = "<group>"; };
+		826ACF5D1BF1E4BE00B5FC5D /* NSExtensionContext+ApplicationCaller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSExtensionContext+ApplicationCaller.swift"; sourceTree = "<group>"; };
 		827EF6161BF2756C000B1607 /* ApplicationCallerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationCallerMock.swift; sourceTree = "<group>"; };
 		82CAC1D21C2497390019D238 /* InstagramTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramTests.swift; sourceTree = "<group>"; };
 		82D9A0FA1C1E495D00EAC0ED /* Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
@@ -103,8 +111,17 @@
 			isa = PBXGroup;
 			children = (
 				8246C8D41C1F9B0800569119 /* ApplicationCallerTests.swift */,
+				8254C7781C24B515009DB3BD /* PathTests.swift */,
 			);
 			path = EntityTests;
+			sourceTree = "<group>";
+		};
+		8254C77A1C25740A009DB3BD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8254C77B1C25746E009DB3BD /* NSExtensionContextApplicationCallerTests.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		826ACED41BF1B10A00B5FC5D = {
@@ -141,6 +158,7 @@
 			children = (
 				8246C8C81C1F990D00569119 /* AppsTests */,
 				8246C8D31C1F9AE800569119 /* EntityTests */,
+				8254C77A1C25740A009DB3BD /* Extensions */,
 				827EF6151BF2751C000B1607 /* Mocks */,
 				826ACEEF1BF1B10A00B5FC5D /* Info.plist */,
 			);
@@ -174,8 +192,8 @@
 		826ACF231BF1BFE100B5FC5D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				826ACF5D1BF1E4BE00B5FC5D /* NSExtensionContext+Appz.swift */,
-				826ACF241BF1C00800B5FC5D /* UIApplication+Appz.swift */,
+				826ACF5D1BF1E4BE00B5FC5D /* NSExtensionContext+ApplicationCaller.swift */,
+				826ACF241BF1C00800B5FC5D /* UIApplication+ApplicationCaller.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -184,6 +202,8 @@
 			isa = PBXGroup;
 			children = (
 				827EF6161BF2756C000B1607 /* ApplicationCallerMock.swift */,
+				8254C77D1C25751A009DB3BD /* SampleApp.swift */,
+				8254C77F1C257523009DB3BD /* SampleAction.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -301,13 +321,13 @@
 				3098B0DB1C13EDCA00AFAD36 /* Instagram.swift in Sources */,
 				826ACF1B1BF1BD7F00B5FC5D /* ExternalApplication.swift in Sources */,
 				301B4A4B1C122E8F00038DF1 /* Messages.swift in Sources */,
-				826ACF5E1BF1E4BE00B5FC5D /* NSExtensionContext+Appz.swift in Sources */,
+				826ACF5E1BF1E4BE00B5FC5D /* NSExtensionContext+ApplicationCaller.swift in Sources */,
 				826ACF221BF1BEBF00B5FC5D /* AppStore.swift in Sources */,
 				826ACF1E1BF1BEB000B5FC5D /* Twitter.swift in Sources */,
 				826ACF201BF1BEB800B5FC5D /* Settings.swift in Sources */,
 				826ACF191BF1BD1F00B5FC5D /* Applications.swift in Sources */,
 				826ACF5C1BF1E26B00B5FC5D /* ApplicationCaller.swift in Sources */,
-				826ACF251BF1C00800B5FC5D /* UIApplication+Appz.swift in Sources */,
+				826ACF251BF1C00800B5FC5D /* UIApplication+ApplicationCaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,10 +335,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8254C7791C24B515009DB3BD /* PathTests.swift in Sources */,
+				8254C7801C257523009DB3BD /* SampleAction.swift in Sources */,
 				82CAC1D31C2497390019D238 /* InstagramTests.swift in Sources */,
 				8246C8D11C1F9AD600569119 /* SettingsTests.swift in Sources */,
 				8246C8CF1C1F9AD600569119 /* MailTests.swift in Sources */,
+				8254C77C1C25746E009DB3BD /* NSExtensionContextApplicationCallerTests.swift in Sources */,
 				8246C8D01C1F9AD600569119 /* MessagesTest.swift in Sources */,
+				8254C77E1C25751A009DB3BD /* SampleApp.swift in Sources */,
 				8246C8CE1C1F9AD600569119 /* AppStoreTests.swift in Sources */,
 				827EF6171BF2756C000B1607 /* ApplicationCallerMock.swift in Sources */,
 				8246C8D21C1F9AD600569119 /* TwitterTests.swift in Sources */,

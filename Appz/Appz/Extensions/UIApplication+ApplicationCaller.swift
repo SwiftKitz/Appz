@@ -1,5 +1,5 @@
 //
-//  UIApplication+Appz.swift
+//  UIApplication+ApplicationCaller.swift
 //  Appz
 //
 //  Created by Mazyad Alabduljaleel on 11/9/15.

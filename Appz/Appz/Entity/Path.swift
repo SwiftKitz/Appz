@@ -28,12 +28,23 @@ public struct Path {
     
     public func appendToURL(baseURL: String) -> NSURL? {
         
-        guard let url = NSURL(string: baseURL + pathComponents.joinWithSeparator("/")) else {
+        guard let url = NSURL(string: baseURL) else {
             return nil
         }
         
         let urlComponents = NSURLComponents(URL: url, resolvingAgainstBaseURL: false)
         urlComponents?.queryItems = queryItems.isEmpty ? nil : queryItems
+        
+        var pathComponents = self.pathComponents
+        
+        if let firstPath = pathComponents.first where urlComponents?.host == nil {
+            urlComponents?.host = firstPath
+            pathComponents = Array(pathComponents.dropFirst())
+        }
+        
+        if !pathComponents.isEmpty {
+            urlComponents?.path = "/" + pathComponents.joinWithSeparator("/")
+        }
         
         return urlComponents?.URL
     }

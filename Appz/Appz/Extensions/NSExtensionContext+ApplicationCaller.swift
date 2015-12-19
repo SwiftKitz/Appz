@@ -1,5 +1,5 @@
 //
-//  NSExtensionContext+Appz.swift
+//  NSExtensionContext+ApplicationCaller.swift
 //  Appz
 //
 //  Created by Mazyad Alabduljaleel on 11/10/15.
