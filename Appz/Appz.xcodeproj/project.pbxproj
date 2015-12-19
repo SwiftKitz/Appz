@@ -54,6 +54,8 @@
 		8254C7BB1C260DA8009DB3BD /* Twitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF1D1BF1BEB000B5FC5D /* Twitter.swift */; };
 		8254C7BD1C260DA8009DB3BD /* Applications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF181BF1BD1F00B5FC5D /* Applications.swift */; };
 		8254C7BE1C260DA8009DB3BD /* ApplicationCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF5B1BF1E26B00B5FC5D /* ApplicationCaller.swift */; };
+		8254C7C81C26124D009DB3BD /* NSExtensionContext+ApplicationCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF5D1BF1E4BE00B5FC5D /* NSExtensionContext+ApplicationCaller.swift */; };
+		8254C7C91C26124D009DB3BD /* NSExtensionContext+ApplicationCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF5D1BF1E4BE00B5FC5D /* NSExtensionContext+ApplicationCaller.swift */; };
 		826ACEE91BF1B10A00B5FC5D /* Appz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826ACEDE1BF1B10A00B5FC5D /* Appz.framework */; };
 		826ACF191BF1BD1F00B5FC5D /* Applications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF181BF1BD1F00B5FC5D /* Applications.swift */; };
 		826ACF1B1BF1BD7F00B5FC5D /* ExternalApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF1A1BF1BD7F00B5FC5D /* ExternalApplication.swift */; };
@@ -485,6 +487,7 @@
 				8254C7861C2608BA009DB3BD /* ExternalApplication.swift in Sources */,
 				8254C7871C2608BA009DB3BD /* Messages.swift in Sources */,
 				8254C7891C2608BA009DB3BD /* AppStore.swift in Sources */,
+				8254C7C91C26124D009DB3BD /* NSExtensionContext+ApplicationCaller.swift in Sources */,
 				8254C78A1C2608BA009DB3BD /* Twitter.swift in Sources */,
 				8254C78B1C2608BA009DB3BD /* Settings.swift in Sources */,
 				8254C78C1C2608BA009DB3BD /* Applications.swift in Sources */,
@@ -539,6 +542,7 @@
 				826ACF1B1BF1BD7F00B5FC5D /* ExternalApplication.swift in Sources */,
 				301B4A4B1C122E8F00038DF1 /* Messages.swift in Sources */,
 				826ACF221BF1BEBF00B5FC5D /* AppStore.swift in Sources */,
+				8254C7C81C26124D009DB3BD /* NSExtensionContext+ApplicationCaller.swift in Sources */,
 				826ACF1E1BF1BEB000B5FC5D /* Twitter.swift in Sources */,
 				826ACF201BF1BEB800B5FC5D /* Settings.swift in Sources */,
 				826ACF191BF1BD1F00B5FC5D /* Applications.swift in Sources */,
