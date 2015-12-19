@@ -104,8 +104,32 @@ Twitter | Status, UserHandle, UserId, List, Post, Search, Timeline, Mentions, Me
 
 ## Getting Started
 
-1. You must add the schemes you want to use to your app's info.plist file under `LSApplicationQueriesSchemes`. [See here for more](http://stackoverflow.com/a/30988328/456434).
-2. ... Cocoapods, Carthage, and better instructions coming soon.
+### Configure Info.plist
+
+You must add the schemes you want to use to your app's info.plist file under `LSApplicationQueriesSchemes`. [See here for more](http://stackoverflow.com/a/30988328/456434).
+
+### Carthage
+
+[Carthage][carthage-link] is fully supported. Simply add the following line to your [Cartfile][cartfile-docs]:
+
+```ruby
+github "SwiftKitz/Appz" ~> 1.0.0
+```
+
+### Cocoapods
+
+[Cocoapods][cocoapods-link] is fully supported. Simply add the following line to your [Podfile][podfile-docs]:
+
+```ruby
+pod 'Appz'
+```
+
+### Submodule
+
+For manual installation, you can grab the source directly or through git submodules, then simply:
+
++ Drop the `Appz.xcodeproj` file as a subproject (make sure `Copy resources` is __not__ enabled)
++ Navigate to your root project settings. Under "Embedded Binaries", click the "+" button and select the `Appz.framework`
 
 ## Motivation
 
