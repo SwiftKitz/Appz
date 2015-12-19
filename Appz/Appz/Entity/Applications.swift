@@ -6,9 +6,6 @@
 //  Copyright © 2015 kitz. All rights reserved.
 //
 
-import Foundation
-
-
 /** Base for aggregating the suppoerted applications.
  */
 public struct Applications {}

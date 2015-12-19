@@ -6,9 +6,6 @@
 //  Copyright © 2015 kitz. All rights reserved.
 //
 
-import Foundation
-
-
 /** Protocol for grouping the external application functionality.
     For now, it's as simple as calling openURL
  */

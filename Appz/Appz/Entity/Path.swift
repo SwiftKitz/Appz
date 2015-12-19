@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 public struct Path {
     
     public var pathComponents = [String]()

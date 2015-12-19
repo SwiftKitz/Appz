@@ -6,9 +6,6 @@
 //  Copyright © 2015 kitz. All rights reserved.
 //
 
-import Foundation
-
-
 public extension Applications {
     
     public struct Twitter: ExternalApplication {
