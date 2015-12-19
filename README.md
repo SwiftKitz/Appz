@@ -12,7 +12,7 @@
     <img alt="Version" src="https://travis-ci.org/SwiftKitz/Appz.svg?branch=master" />
   </a>
   <img alt="Swift" src="https://img.shields.io/badge/swift-2.1-orange.svg" />
-  <img alt="Platforms" src="https://img.shields.io/badge/platform-ios-lightgrey.svg" />
+  <img alt="Platforms" src="https://img.shields.io/badge/platform-ios%20%7C%20watchos%20%7C%20tvos-lightgrey.svg" />
   <a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
     <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" />
   </a>
@@ -73,7 +73,7 @@ extension Applications {
 extension Applications.MyApp {
     
     enum Action: ExternalApplicationAction {
-      
+
         case Open
 
         // Each action should provide an app path and web path to be

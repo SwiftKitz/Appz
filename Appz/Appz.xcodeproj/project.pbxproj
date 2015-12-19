@@ -25,7 +25,6 @@
 		8254C7851C2608BA009DB3BD /* Instagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3098B0DA1C13EDCA00AFAD36 /* Instagram.swift */; };
 		8254C7861C2608BA009DB3BD /* ExternalApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF1A1BF1BD7F00B5FC5D /* ExternalApplication.swift */; };
 		8254C7871C2608BA009DB3BD /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B4A4A1C122E8F00038DF1 /* Messages.swift */; };
-		8254C7881C2608BA009DB3BD /* NSExtensionContext+ApplicationCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF5D1BF1E4BE00B5FC5D /* NSExtensionContext+ApplicationCaller.swift */; };
 		8254C7891C2608BA009DB3BD /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF211BF1BEBF00B5FC5D /* AppStore.swift */; };
 		8254C78A1C2608BA009DB3BD /* Twitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF1D1BF1BEB000B5FC5D /* Twitter.swift */; };
 		8254C78B1C2608BA009DB3BD /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF1F1BF1BEB800B5FC5D /* Settings.swift */; };
@@ -45,6 +44,16 @@
 		8254C7AF1C260A3B009DB3BD /* ApplicationCallerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827EF6161BF2756C000B1607 /* ApplicationCallerMock.swift */; };
 		8254C7B01C260A3B009DB3BD /* SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8254C77D1C25751A009DB3BD /* SampleApp.swift */; };
 		8254C7B11C260A3B009DB3BD /* SampleAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8254C77F1C257523009DB3BD /* SampleAction.swift */; };
+		8254C7B41C260DA8009DB3BD /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B4A4C1C12308900038DF1 /* Mail.swift */; };
+		8254C7B51C260DA8009DB3BD /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D9A0FA1C1E495D00EAC0ED /* Path.swift */; };
+		8254C7B61C260DA8009DB3BD /* Instagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3098B0DA1C13EDCA00AFAD36 /* Instagram.swift */; };
+		8254C7B71C260DA8009DB3BD /* ExternalApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF1A1BF1BD7F00B5FC5D /* ExternalApplication.swift */; };
+		8254C7B81C260DA8009DB3BD /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B4A4A1C122E8F00038DF1 /* Messages.swift */; };
+		8254C7B91C260DA8009DB3BD /* NSExtensionContext+ApplicationCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF5D1BF1E4BE00B5FC5D /* NSExtensionContext+ApplicationCaller.swift */; };
+		8254C7BA1C260DA8009DB3BD /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF211BF1BEBF00B5FC5D /* AppStore.swift */; };
+		8254C7BB1C260DA8009DB3BD /* Twitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF1D1BF1BEB000B5FC5D /* Twitter.swift */; };
+		8254C7BD1C260DA8009DB3BD /* Applications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF181BF1BD1F00B5FC5D /* Applications.swift */; };
+		8254C7BE1C260DA8009DB3BD /* ApplicationCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF5B1BF1E26B00B5FC5D /* ApplicationCaller.swift */; };
 		826ACEE91BF1B10A00B5FC5D /* Appz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826ACEDE1BF1B10A00B5FC5D /* Appz.framework */; };
 		826ACF191BF1BD1F00B5FC5D /* Applications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF181BF1BD1F00B5FC5D /* Applications.swift */; };
 		826ACF1B1BF1BD7F00B5FC5D /* ExternalApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF1A1BF1BD7F00B5FC5D /* ExternalApplication.swift */; };
@@ -53,7 +62,6 @@
 		826ACF221BF1BEBF00B5FC5D /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF211BF1BEBF00B5FC5D /* AppStore.swift */; };
 		826ACF251BF1C00800B5FC5D /* UIApplication+ApplicationCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF241BF1C00800B5FC5D /* UIApplication+ApplicationCaller.swift */; };
 		826ACF5C1BF1E26B00B5FC5D /* ApplicationCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF5B1BF1E26B00B5FC5D /* ApplicationCaller.swift */; };
-		826ACF5E1BF1E4BE00B5FC5D /* NSExtensionContext+ApplicationCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF5D1BF1E4BE00B5FC5D /* NSExtensionContext+ApplicationCaller.swift */; };
 		827EF6171BF2756C000B1607 /* ApplicationCallerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827EF6161BF2756C000B1607 /* ApplicationCallerMock.swift */; };
 		82CAC1D31C2497390019D238 /* InstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAC1D21C2497390019D238 /* InstagramTests.swift */; };
 		82D9A0FB1C1E495D00EAC0ED /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D9A0FA1C1E495D00EAC0ED /* Path.swift */; };
@@ -92,6 +100,7 @@
 		8254C77F1C257523009DB3BD /* SampleAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleAction.swift; sourceTree = "<group>"; };
 		8254C7951C2608BA009DB3BD /* Appz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Appz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8254C79B1C2609FB009DB3BD /* AppzTests-tvos.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppzTests-tvos.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8254C7C61C260DA8009DB3BD /* Appz-watchos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Appz-watchos.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		826ACEDE1BF1B10A00B5FC5D /* Appz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Appz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		826ACEE31BF1B10A00B5FC5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		826ACEE81BF1B10A00B5FC5D /* AppzTests-ios.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppzTests-ios.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +131,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8254C7A01C2609FC009DB3BD /* Appz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8254C7C01C260DA8009DB3BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +205,7 @@
 				826ACEE81BF1B10A00B5FC5D /* AppzTests-ios.xctest */,
 				8254C7951C2608BA009DB3BD /* Appz.framework */,
 				8254C79B1C2609FB009DB3BD /* AppzTests-tvos.xctest */,
+				8254C7C61C260DA8009DB3BD /* Appz-watchos.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -269,6 +286,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8254C7C11C260DA8009DB3BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		826ACEDB1BF1B10A00B5FC5D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -314,6 +338,24 @@
 			productName = "AppzTests-tvos";
 			productReference = 8254C79B1C2609FB009DB3BD /* AppzTests-tvos.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8254C7B21C260DA8009DB3BD /* Appz-watchos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8254C7C31C260DA8009DB3BD /* Build configuration list for PBXNativeTarget "Appz-watchos" */;
+			buildPhases = (
+				8254C7B31C260DA8009DB3BD /* Sources */,
+				8254C7C01C260DA8009DB3BD /* Frameworks */,
+				8254C7C11C260DA8009DB3BD /* Headers */,
+				8254C7C21C260DA8009DB3BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Appz-watchos";
+			productName = Appz;
+			productReference = 8254C7C61C260DA8009DB3BD /* Appz-watchos.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		826ACEDD1BF1B10A00B5FC5D /* Appz-ios */ = {
 			isa = PBXNativeTarget;
@@ -387,6 +429,7 @@
 			targets = (
 				826ACEDD1BF1B10A00B5FC5D /* Appz-ios */,
 				8254C7811C2608BA009DB3BD /* Appz-tvos */,
+				8254C7B21C260DA8009DB3BD /* Appz-watchos */,
 				826ACEE71BF1B10A00B5FC5D /* AppzTests-ios */,
 				8254C79A1C2609FB009DB3BD /* AppzTests-tvos */,
 			);
@@ -402,6 +445,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8254C7991C2609FB009DB3BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8254C7C21C260DA8009DB3BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -434,7 +484,6 @@
 				8254C7851C2608BA009DB3BD /* Instagram.swift in Sources */,
 				8254C7861C2608BA009DB3BD /* ExternalApplication.swift in Sources */,
 				8254C7871C2608BA009DB3BD /* Messages.swift in Sources */,
-				8254C7881C2608BA009DB3BD /* NSExtensionContext+ApplicationCaller.swift in Sources */,
 				8254C7891C2608BA009DB3BD /* AppStore.swift in Sources */,
 				8254C78A1C2608BA009DB3BD /* Twitter.swift in Sources */,
 				8254C78B1C2608BA009DB3BD /* Settings.swift in Sources */,
@@ -463,6 +512,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8254C7B31C260DA8009DB3BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8254C7B41C260DA8009DB3BD /* Mail.swift in Sources */,
+				8254C7B51C260DA8009DB3BD /* Path.swift in Sources */,
+				8254C7B61C260DA8009DB3BD /* Instagram.swift in Sources */,
+				8254C7B71C260DA8009DB3BD /* ExternalApplication.swift in Sources */,
+				8254C7B81C260DA8009DB3BD /* Messages.swift in Sources */,
+				8254C7B91C260DA8009DB3BD /* NSExtensionContext+ApplicationCaller.swift in Sources */,
+				8254C7BA1C260DA8009DB3BD /* AppStore.swift in Sources */,
+				8254C7BB1C260DA8009DB3BD /* Twitter.swift in Sources */,
+				8254C7BD1C260DA8009DB3BD /* Applications.swift in Sources */,
+				8254C7BE1C260DA8009DB3BD /* ApplicationCaller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		826ACED91BF1B10A00B5FC5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -472,7 +538,6 @@
 				3098B0DB1C13EDCA00AFAD36 /* Instagram.swift in Sources */,
 				826ACF1B1BF1BD7F00B5FC5D /* ExternalApplication.swift in Sources */,
 				301B4A4B1C122E8F00038DF1 /* Messages.swift in Sources */,
-				826ACF5E1BF1E4BE00B5FC5D /* NSExtensionContext+ApplicationCaller.swift in Sources */,
 				826ACF221BF1BEBF00B5FC5D /* AppStore.swift in Sources */,
 				826ACF1E1BF1BEB000B5FC5D /* Twitter.swift in Sources */,
 				826ACF201BF1BEB800B5FC5D /* Settings.swift in Sources */,
@@ -566,6 +631,7 @@
 				INFOPLIST_FILE = AppzTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.kitz.AppzTests-tvos";
+				PRODUCT_MODULE_NAME = AppzTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TVOS_DEPLOYMENT_TARGET = 9.1;
@@ -578,9 +644,55 @@
 				INFOPLIST_FILE = AppzTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.kitz.AppzTests-tvos";
+				PRODUCT_MODULE_NAME = AppzTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		8254C7C41C260DA8009DB3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Appz/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.kitz.Appz;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		8254C7C51C260DA8009DB3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Appz/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.kitz.Appz;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -723,6 +835,7 @@
 				INFOPLIST_FILE = AppzTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.kitz.AppzTests;
+				PRODUCT_MODULE_NAME = AppzTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -735,6 +848,7 @@
 				INFOPLIST_FILE = AppzTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.kitz.AppzTests;
+				PRODUCT_MODULE_NAME = AppzTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -758,6 +872,15 @@
 				8254C7A51C2609FC009DB3BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+		};
+		8254C7C31C260DA8009DB3BD /* Build configuration list for PBXNativeTarget "Appz-watchos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8254C7C41C260DA8009DB3BD /* Debug */,
+				8254C7C51C260DA8009DB3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		826ACED81BF1B10A00B5FC5D /* Build configuration list for PBXProject "Appz" */ = {
 			isa = XCConfigurationList;
