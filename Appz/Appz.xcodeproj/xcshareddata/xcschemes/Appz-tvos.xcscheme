@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "826ACEDD1BF1B10A00B5FC5D"
+               BlueprintIdentifier = "8254C7811C2608BA009DB3BD"
                BuildableName = "Appz.framework"
-               BlueprintName = "Appz-ios"
+               BlueprintName = "Appz-tvos"
                ReferencedContainer = "container:Appz.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -26,16 +26,15 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "826ACEE71BF1B10A00B5FC5D"
-               BuildableName = "AppzTests-ios.xctest"
-               BlueprintName = "AppzTests-ios"
+               BlueprintIdentifier = "8254C79A1C2609FB009DB3BD"
+               BuildableName = "AppzTests-tvos.xctest"
+               BlueprintName = "AppzTests-tvos"
                ReferencedContainer = "container:Appz.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -43,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "826ACEDD1BF1B10A00B5FC5D"
+            BlueprintIdentifier = "8254C7811C2608BA009DB3BD"
             BuildableName = "Appz.framework"
-            BlueprintName = "Appz-ios"
+            BlueprintName = "Appz-tvos"
             ReferencedContainer = "container:Appz.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "826ACEDD1BF1B10A00B5FC5D"
+            BlueprintIdentifier = "8254C7811C2608BA009DB3BD"
             BuildableName = "Appz.framework"
-            BlueprintName = "Appz-ios"
+            BlueprintName = "Appz-tvos"
             ReferencedContainer = "container:Appz.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -83,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "826ACEDD1BF1B10A00B5FC5D"
+            BlueprintIdentifier = "8254C7811C2608BA009DB3BD"
             BuildableName = "Appz.framework"
-            BlueprintName = "Appz-ios"
+            BlueprintName = "Appz-tvos"
             ReferencedContainer = "container:Appz.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
