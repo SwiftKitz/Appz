@@ -56,13 +56,13 @@ app.open(Applications.Twitter(), action: .Status(id: "2"))
 __Add your applications:__
 
 ```swift
-// Applications are recommended to be part of the 
+// Applications are recommended to be part of the
 // "Applications" namespace
 extension Applications {
     // Define your application as a type that
     // conforms to "ExternalApplication"
     struct MyApp: ExternalApplication {
-        
+
         typealias ActionType = Applications.MyApp.Action
 
         let scheme = "myapp:"
@@ -71,7 +71,7 @@ extension Applications {
 }
 // Then, you define the actions your app supports
 extension Applications.MyApp {
-    
+
     enum Action: ExternalApplicationAction {
 
         case Open
@@ -79,7 +79,7 @@ extension Applications.MyApp {
         // Each action should provide an app path and web path to be
         // added to the associated URL
         var paths: ActionPaths {
-            
+
             switch self {
             case .Open:
                 return ActionPaths()
@@ -101,6 +101,7 @@ Instagram | Open, Camera, Media, Username, Location, Tag
 Mail | Compose
 Messages | SMS
 Twitter | Status, UserHandle, UserId, List, Post, Search, Timeline, Mentions, Messages
+Youtube | Open, Open Video
 
 ## Getting Started
 
