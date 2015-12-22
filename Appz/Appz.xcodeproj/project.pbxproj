@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		180A1B591C296521005DF5C7 /* Youtube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A1B581C296521005DF5C7 /* Youtube.swift */; };
+		180A1B5C1C296E1C005DF5C7 /* YoutubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A1B5A1C296CBB005DF5C7 /* YoutubeTests.swift */; };
 		301B4A4B1C122E8F00038DF1 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B4A4A1C122E8F00038DF1 /* Messages.swift */; };
 		301B4A4D1C12308900038DF1 /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B4A4C1C12308900038DF1 /* Mail.swift */; };
 		3098B0DB1C13EDCA00AFAD36 /* Instagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3098B0DA1C13EDCA00AFAD36 /* Instagram.swift */; };
@@ -89,6 +90,7 @@
 
 /* Begin PBXFileReference section */
 		180A1B581C296521005DF5C7 /* Youtube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Youtube.swift; sourceTree = "<group>"; };
+		180A1B5A1C296CBB005DF5C7 /* YoutubeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeTests.swift; sourceTree = "<group>"; };
 		301B4A4A1C122E8F00038DF1 /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
 		301B4A4C1C12308900038DF1 /* Mail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mail.swift; sourceTree = "<group>"; };
 		3098B0DA1C13EDCA00AFAD36 /* Instagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instagram.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				8246C8CB1C1F9AD600569119 /* MessagesTest.swift */,
 				8246C8CC1C1F9AD600569119 /* SettingsTests.swift */,
 				8246C8CD1C1F9AD600569119 /* TwitterTests.swift */,
+				180A1B5A1C296CBB005DF5C7 /* YoutubeTests.swift */,
 			);
 			path = AppsTests;
 			sourceTree = "<group>";
@@ -567,6 +570,7 @@
 				8254C77C1C25746E009DB3BD /* NSExtensionContextApplicationCallerTests.swift in Sources */,
 				8246C8D01C1F9AD600569119 /* MessagesTest.swift in Sources */,
 				8254C77E1C25751A009DB3BD /* SampleApp.swift in Sources */,
+				180A1B5C1C296E1C005DF5C7 /* YoutubeTests.swift in Sources */,
 				8246C8CE1C1F9AD600569119 /* AppStoreTests.swift in Sources */,
 				827EF6171BF2756C000B1607 /* ApplicationCallerMock.swift in Sources */,
 				8246C8D21C1F9AD600569119 /* TwitterTests.swift in Sources */,
