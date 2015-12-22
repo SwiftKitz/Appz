@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8254C7B21C260DA8009DB3BD"
-               BuildableName = "Appz-watchos.framework"
+               BuildableName = "Appz.framework"
                BlueprintName = "Appz-watchos"
                ReferencedContainer = "container:Appz.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8254C7B21C260DA8009DB3BD"
-            BuildableName = "Appz-watchos.framework"
+            BuildableName = "Appz.framework"
             BlueprintName = "Appz-watchos"
             ReferencedContainer = "container:Appz.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8254C7B21C260DA8009DB3BD"
-            BuildableName = "Appz-watchos.framework"
+            BuildableName = "Appz.framework"
             BlueprintName = "Appz-watchos"
             ReferencedContainer = "container:Appz.xcodeproj">
          </BuildableReference>

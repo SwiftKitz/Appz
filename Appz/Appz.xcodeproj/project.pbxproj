@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180A1B591C296521005DF5C7 /* Youtube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A1B581C296521005DF5C7 /* Youtube.swift */; };
 		301B4A4B1C122E8F00038DF1 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B4A4A1C122E8F00038DF1 /* Messages.swift */; };
 		301B4A4D1C12308900038DF1 /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B4A4C1C12308900038DF1 /* Mail.swift */; };
 		3098B0DB1C13EDCA00AFAD36 /* Instagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3098B0DA1C13EDCA00AFAD36 /* Instagram.swift */; };
@@ -87,6 +88,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		180A1B581C296521005DF5C7 /* Youtube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Youtube.swift; sourceTree = "<group>"; };
 		301B4A4A1C122E8F00038DF1 /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
 		301B4A4C1C12308900038DF1 /* Mail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mail.swift; sourceTree = "<group>"; };
 		3098B0DA1C13EDCA00AFAD36 /* Instagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instagram.swift; sourceTree = "<group>"; };
@@ -102,7 +104,7 @@
 		8254C77F1C257523009DB3BD /* SampleAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleAction.swift; sourceTree = "<group>"; };
 		8254C7951C2608BA009DB3BD /* Appz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Appz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8254C79B1C2609FB009DB3BD /* AppzTests-tvos.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppzTests-tvos.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8254C7C61C260DA8009DB3BD /* Appz-watchos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Appz-watchos.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8254C7C61C260DA8009DB3BD /* Appz-watchos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Appz-watchos.framework"; path = Appz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		826ACEDE1BF1B10A00B5FC5D /* Appz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Appz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		826ACEE31BF1B10A00B5FC5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		826ACEE81BF1B10A00B5FC5D /* AppzTests-ios.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppzTests-ios.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -255,6 +257,7 @@
 				301B4A4A1C122E8F00038DF1 /* Messages.swift */,
 				826ACF1F1BF1BEB800B5FC5D /* Settings.swift */,
 				826ACF1D1BF1BEB000B5FC5D /* Twitter.swift */,
+				180A1B581C296521005DF5C7 /* Youtube.swift */,
 			);
 			path = Apps;
 			sourceTree = "<group>";
@@ -544,6 +547,7 @@
 				826ACF221BF1BEBF00B5FC5D /* AppStore.swift in Sources */,
 				8254C7C81C26124D009DB3BD /* NSExtensionContext+ApplicationCaller.swift in Sources */,
 				826ACF1E1BF1BEB000B5FC5D /* Twitter.swift in Sources */,
+				180A1B591C296521005DF5C7 /* Youtube.swift in Sources */,
 				826ACF201BF1BEB800B5FC5D /* Settings.swift in Sources */,
 				826ACF191BF1BD1F00B5FC5D /* Applications.swift in Sources */,
 				826ACF5C1BF1E26B00B5FC5D /* ApplicationCaller.swift in Sources */,
@@ -876,6 +880,7 @@
 				8254C7A51C2609FC009DB3BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8254C7C31C260DA8009DB3BD /* Build configuration list for PBXNativeTarget "Appz-watchos" */ = {
 			isa = XCConfigurationList;
