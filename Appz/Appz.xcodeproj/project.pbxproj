@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		076D88541C2F1CED009874C2 /* Facebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A9193E1C2F1A8700B9E7F0 /* Facebook.swift */; settings = {ASSET_TAGS = (); }; };
+		076D88551C2F1CEE009874C2 /* Facebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A9193E1C2F1A8700B9E7F0 /* Facebook.swift */; settings = {ASSET_TAGS = (); }; };
+		076D88581C2F1ED8009874C2 /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B4A4C1C12308900038DF1 /* Mail.swift */; };
+		076D88591C2F1EE5009874C2 /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B4A4C1C12308900038DF1 /* Mail.swift */; };
+		076D885A1C2F1EE5009874C2 /* Youtube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A1B581C296521005DF5C7 /* Youtube.swift */; };
+		076D885B1C2F1EE5009874C2 /* Tweetbot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079E43241C2DA04500E62621 /* Tweetbot.swift */; };
+		076D885C1C2F1EEC009874C2 /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B4A4C1C12308900038DF1 /* Mail.swift */; };
+		076D885D1C2F1EEC009874C2 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF1F1BF1BEB800B5FC5D /* Settings.swift */; };
+		076D885E1C2F1EEC009874C2 /* Youtube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A1B581C296521005DF5C7 /* Youtube.swift */; };
+		076D885F1C2F1EEC009874C2 /* Tweetbot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079E43241C2DA04500E62621 /* Tweetbot.swift */; };
+		077357DD1C2EE53100B177C5 /* TweetbotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077357DC1C2EE53100B177C5 /* TweetbotTests.swift */; settings = {ASSET_TAGS = (); }; };
+		077357DE1C2EE53100B177C5 /* TweetbotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077357DC1C2EE53100B177C5 /* TweetbotTests.swift */; settings = {ASSET_TAGS = (); }; };
+		079E43251C2DA04500E62621 /* Tweetbot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079E43241C2DA04500E62621 /* Tweetbot.swift */; settings = {ASSET_TAGS = (); }; };
+		07A9193F1C2F1A8700B9E7F0 /* Facebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A9193E1C2F1A8700B9E7F0 /* Facebook.swift */; settings = {ASSET_TAGS = (); }; };
+		07A919451C2F1AD700B9E7F0 /* FacebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A919341C2F18D000B9E7F0 /* FacebookTests.swift */; settings = {ASSET_TAGS = (); }; };
+		07A919461C2F1AD700B9E7F0 /* FacebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A919341C2F18D000B9E7F0 /* FacebookTests.swift */; settings = {ASSET_TAGS = (); }; };
 		180A1B591C296521005DF5C7 /* Youtube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A1B581C296521005DF5C7 /* Youtube.swift */; };
 		180A1B5C1C296E1C005DF5C7 /* YoutubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A1B5A1C296CBB005DF5C7 /* YoutubeTests.swift */; };
 		301B4A4B1C122E8F00038DF1 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B4A4A1C122E8F00038DF1 /* Messages.swift */; };
-		301B4A4D1C12308900038DF1 /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B4A4C1C12308900038DF1 /* Mail.swift */; };
 		3098B0DB1C13EDCA00AFAD36 /* Instagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3098B0DA1C13EDCA00AFAD36 /* Instagram.swift */; };
-		54077DE11C2DB9A600FCCE64 /* FacebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54077DDF1C2DB99B00FCCE64 /* FacebookTests.swift */; };
-		54C39F691C2DAE69006A9606 /* Facebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C39F681C2DAE69006A9606 /* Facebook.swift */; };
-		54C39F731C2DAE90006A9606 /* Appz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826ACEDE1BF1B10A00B5FC5D /* Appz.framework */; };
 		8246C8CE1C1F9AD600569119 /* AppStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8246C8C91C1F9AD600569119 /* AppStoreTests.swift */; };
 		8246C8CF1C1F9AD600569119 /* MailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8246C8CA1C1F9AD600569119 /* MailTests.swift */; };
 		8246C8D01C1F9AD600569119 /* MessagesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8246C8CB1C1F9AD600569119 /* MessagesTest.swift */; };
@@ -25,7 +37,6 @@
 		8254C77C1C25746E009DB3BD /* NSExtensionContextApplicationCallerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8254C77B1C25746E009DB3BD /* NSExtensionContextApplicationCallerTests.swift */; };
 		8254C77E1C25751A009DB3BD /* SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8254C77D1C25751A009DB3BD /* SampleApp.swift */; };
 		8254C7801C257523009DB3BD /* SampleAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8254C77F1C257523009DB3BD /* SampleAction.swift */; };
-		8254C7831C2608BA009DB3BD /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B4A4C1C12308900038DF1 /* Mail.swift */; };
 		8254C7841C2608BA009DB3BD /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D9A0FA1C1E495D00EAC0ED /* Path.swift */; };
 		8254C7851C2608BA009DB3BD /* Instagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3098B0DA1C13EDCA00AFAD36 /* Instagram.swift */; };
 		8254C7861C2608BA009DB3BD /* ExternalApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF1A1BF1BD7F00B5FC5D /* ExternalApplication.swift */; };
@@ -49,7 +60,6 @@
 		8254C7AF1C260A3B009DB3BD /* ApplicationCallerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827EF6161BF2756C000B1607 /* ApplicationCallerMock.swift */; };
 		8254C7B01C260A3B009DB3BD /* SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8254C77D1C25751A009DB3BD /* SampleApp.swift */; };
 		8254C7B11C260A3B009DB3BD /* SampleAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8254C77F1C257523009DB3BD /* SampleAction.swift */; };
-		8254C7B41C260DA8009DB3BD /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B4A4C1C12308900038DF1 /* Mail.swift */; };
 		8254C7B51C260DA8009DB3BD /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D9A0FA1C1E495D00EAC0ED /* Path.swift */; };
 		8254C7B61C260DA8009DB3BD /* Instagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3098B0DA1C13EDCA00AFAD36 /* Instagram.swift */; };
 		8254C7B71C260DA8009DB3BD /* ExternalApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF1A1BF1BD7F00B5FC5D /* ExternalApplication.swift */; };
@@ -75,13 +85,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		54C39F741C2DAE90006A9606 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 826ACED51BF1B10A00B5FC5D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 826ACEDD1BF1B10A00B5FC5D;
-			remoteInfo = "Appz-ios";
-		};
 		8254C7A11C2609FC009DB3BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 826ACED51BF1B10A00B5FC5D /* Project object */;
@@ -99,14 +102,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		077357DC1C2EE53100B177C5 /* TweetbotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetbotTests.swift; sourceTree = "<group>"; };
+		079E43241C2DA04500E62621 /* Tweetbot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweetbot.swift; sourceTree = "<group>"; };
+		07A919341C2F18D000B9E7F0 /* FacebookTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FacebookTests.swift; path = AppzTests/AppsTests/FacebookTests.swift; sourceTree = SOURCE_ROOT; };
+		07A9193E1C2F1A8700B9E7F0 /* Facebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Facebook.swift; sourceTree = "<group>"; };
 		180A1B581C296521005DF5C7 /* Youtube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Youtube.swift; sourceTree = "<group>"; };
 		180A1B5A1C296CBB005DF5C7 /* YoutubeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeTests.swift; sourceTree = "<group>"; };
 		301B4A4A1C122E8F00038DF1 /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
 		301B4A4C1C12308900038DF1 /* Mail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mail.swift; sourceTree = "<group>"; };
 		3098B0DA1C13EDCA00AFAD36 /* Instagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instagram.swift; sourceTree = "<group>"; };
-		54077DDF1C2DB99B00FCCE64 /* FacebookTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookTests.swift; sourceTree = "<group>"; };
-		54C39F681C2DAE69006A9606 /* Facebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Facebook.swift; sourceTree = "<group>"; };
-		54C39F6E1C2DAE90006A9606 /* FacebookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8246C8C91C1F9AD600569119 /* AppStoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoreTests.swift; sourceTree = "<group>"; };
 		8246C8CA1C1F9AD600569119 /* MailTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailTests.swift; sourceTree = "<group>"; };
 		8246C8CB1C1F9AD600569119 /* MessagesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesTest.swift; sourceTree = "<group>"; };
@@ -138,14 +142,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		54C39F6B1C2DAE90006A9606 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				54C39F731C2DAE90006A9606 /* Appz.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8254C78F1C2608BA009DB3BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -189,6 +185,7 @@
 		8246C8C81C1F990D00569119 /* AppsTests */ = {
 			isa = PBXGroup;
 			children = (
+				07A919341C2F18D000B9E7F0 /* FacebookTests.swift */,
 				8246C8C91C1F9AD600569119 /* AppStoreTests.swift */,
 				82CAC1D21C2497390019D238 /* InstagramTests.swift */,
 				8246C8CA1C1F9AD600569119 /* MailTests.swift */,
@@ -196,7 +193,7 @@
 				8246C8CC1C1F9AD600569119 /* SettingsTests.swift */,
 				8246C8CD1C1F9AD600569119 /* TwitterTests.swift */,
 				180A1B5A1C296CBB005DF5C7 /* YoutubeTests.swift */,
-				54077DDF1C2DB99B00FCCE64 /* FacebookTests.swift */,
+				077357DC1C2EE53100B177C5 /* TweetbotTests.swift */,
 			);
 			path = AppsTests;
 			sourceTree = "<group>";
@@ -235,7 +232,6 @@
 				8254C7951C2608BA009DB3BD /* Appz.framework */,
 				8254C79B1C2609FB009DB3BD /* AppzTests-tvos.xctest */,
 				8254C7C61C260DA8009DB3BD /* Appz.framework */,
-				54C39F6E1C2DAE90006A9606 /* FacebookTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -277,6 +273,7 @@
 		826ACF1C1BF1BE9C00B5FC5D /* Apps */ = {
 			isa = PBXGroup;
 			children = (
+				07A9193E1C2F1A8700B9E7F0 /* Facebook.swift */,
 				826ACF211BF1BEBF00B5FC5D /* AppStore.swift */,
 				3098B0DA1C13EDCA00AFAD36 /* Instagram.swift */,
 				301B4A4C1C12308900038DF1 /* Mail.swift */,
@@ -284,7 +281,7 @@
 				826ACF1F1BF1BEB800B5FC5D /* Settings.swift */,
 				826ACF1D1BF1BEB000B5FC5D /* Twitter.swift */,
 				180A1B581C296521005DF5C7 /* Youtube.swift */,
-				54C39F681C2DAE69006A9606 /* Facebook.swift */,
+				079E43241C2DA04500E62621 /* Tweetbot.swift */,
 			);
 			path = Apps;
 			sourceTree = "<group>";
@@ -335,24 +332,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		54C39F6D1C2DAE90006A9606 /* FacebookTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 54C39F761C2DAE90006A9606 /* Build configuration list for PBXNativeTarget "FacebookTests" */;
-			buildPhases = (
-				54C39F6A1C2DAE90006A9606 /* Sources */,
-				54C39F6B1C2DAE90006A9606 /* Frameworks */,
-				54C39F6C1C2DAE90006A9606 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				54C39F751C2DAE90006A9606 /* PBXTargetDependency */,
-			);
-			name = FacebookTests;
-			productName = FacebookTests;
-			productReference = 54C39F6E1C2DAE90006A9606 /* FacebookTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		8254C7811C2608BA009DB3BD /* Appz-tvos */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8254C7921C2608BA009DB3BD /* Build configuration list for PBXNativeTarget "Appz-tvos" */;
@@ -453,9 +432,6 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = kitz;
 				TargetAttributes = {
-					54C39F6D1C2DAE90006A9606 = {
-						CreatedOnToolsVersion = 7.2;
-					};
 					8254C79A1C2609FB009DB3BD = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -485,19 +461,11 @@
 				8254C7B21C260DA8009DB3BD /* Appz-watchos */,
 				826ACEE71BF1B10A00B5FC5D /* AppzTests-ios */,
 				8254C79A1C2609FB009DB3BD /* AppzTests-tvos */,
-				54C39F6D1C2DAE90006A9606 /* FacebookTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		54C39F6C1C2DAE90006A9606 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8254C7911C2608BA009DB3BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -536,18 +504,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		54C39F6A1C2DAE90006A9606 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8254C7821C2608BA009DB3BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8254C7831C2608BA009DB3BD /* Mail.swift in Sources */,
+				076D88591C2F1EE5009874C2 /* Mail.swift in Sources */,
+				076D885A1C2F1EE5009874C2 /* Youtube.swift in Sources */,
+				076D885B1C2F1EE5009874C2 /* Tweetbot.swift in Sources */,
 				8254C7841C2608BA009DB3BD /* Path.swift in Sources */,
 				8254C7851C2608BA009DB3BD /* Instagram.swift in Sources */,
 				8254C7861C2608BA009DB3BD /* ExternalApplication.swift in Sources */,
@@ -555,6 +518,7 @@
 				8254C7891C2608BA009DB3BD /* AppStore.swift in Sources */,
 				8254C7C91C26124D009DB3BD /* NSExtensionContext+ApplicationCaller.swift in Sources */,
 				8254C78A1C2608BA009DB3BD /* Twitter.swift in Sources */,
+				076D88541C2F1CED009874C2 /* Facebook.swift in Sources */,
 				8254C78B1C2608BA009DB3BD /* Settings.swift in Sources */,
 				8254C78C1C2608BA009DB3BD /* Applications.swift in Sources */,
 				8254C78D1C2608BA009DB3BD /* ApplicationCaller.swift in Sources */,
@@ -576,7 +540,9 @@
 				8254C7AD1C260A3B009DB3BD /* PathTests.swift in Sources */,
 				8254C7AE1C260A3B009DB3BD /* NSExtensionContextApplicationCallerTests.swift in Sources */,
 				8254C7AF1C260A3B009DB3BD /* ApplicationCallerMock.swift in Sources */,
+				07A919461C2F1AD700B9E7F0 /* FacebookTests.swift in Sources */,
 				8254C7B01C260A3B009DB3BD /* SampleApp.swift in Sources */,
+				077357DE1C2EE53100B177C5 /* TweetbotTests.swift in Sources */,
 				8254C7B11C260A3B009DB3BD /* SampleAction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -585,7 +551,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8254C7B41C260DA8009DB3BD /* Mail.swift in Sources */,
+				076D885C1C2F1EEC009874C2 /* Mail.swift in Sources */,
+				076D885D1C2F1EEC009874C2 /* Settings.swift in Sources */,
+				076D885E1C2F1EEC009874C2 /* Youtube.swift in Sources */,
+				076D885F1C2F1EEC009874C2 /* Tweetbot.swift in Sources */,
 				8254C7B51C260DA8009DB3BD /* Path.swift in Sources */,
 				8254C7B61C260DA8009DB3BD /* Instagram.swift in Sources */,
 				8254C7B71C260DA8009DB3BD /* ExternalApplication.swift in Sources */,
@@ -593,6 +562,7 @@
 				8254C7B91C260DA8009DB3BD /* NSExtensionContext+ApplicationCaller.swift in Sources */,
 				8254C7BA1C260DA8009DB3BD /* AppStore.swift in Sources */,
 				8254C7BB1C260DA8009DB3BD /* Twitter.swift in Sources */,
+				076D88551C2F1CEE009874C2 /* Facebook.swift in Sources */,
 				8254C7BD1C260DA8009DB3BD /* Applications.swift in Sources */,
 				8254C7BE1C260DA8009DB3BD /* ApplicationCaller.swift in Sources */,
 			);
@@ -602,20 +572,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				301B4A4D1C12308900038DF1 /* Mail.swift in Sources */,
+				076D88581C2F1ED8009874C2 /* Mail.swift in Sources */,
 				82D9A0FB1C1E495D00EAC0ED /* Path.swift in Sources */,
 				3098B0DB1C13EDCA00AFAD36 /* Instagram.swift in Sources */,
-				54C39F691C2DAE69006A9606 /* Facebook.swift in Sources */,
 				826ACF1B1BF1BD7F00B5FC5D /* ExternalApplication.swift in Sources */,
 				301B4A4B1C122E8F00038DF1 /* Messages.swift in Sources */,
 				826ACF221BF1BEBF00B5FC5D /* AppStore.swift in Sources */,
 				8254C7C81C26124D009DB3BD /* NSExtensionContext+ApplicationCaller.swift in Sources */,
 				826ACF1E1BF1BEB000B5FC5D /* Twitter.swift in Sources */,
 				180A1B591C296521005DF5C7 /* Youtube.swift in Sources */,
+				07A9193F1C2F1A8700B9E7F0 /* Facebook.swift in Sources */,
 				826ACF201BF1BEB800B5FC5D /* Settings.swift in Sources */,
 				826ACF191BF1BD1F00B5FC5D /* Applications.swift in Sources */,
 				826ACF5C1BF1E26B00B5FC5D /* ApplicationCaller.swift in Sources */,
 				826ACF251BF1C00800B5FC5D /* UIApplication+ApplicationCaller.swift in Sources */,
+				079E43251C2DA04500E62621 /* Tweetbot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,15 +597,16 @@
 				8254C7791C24B515009DB3BD /* PathTests.swift in Sources */,
 				8254C7801C257523009DB3BD /* SampleAction.swift in Sources */,
 				82CAC1D31C2497390019D238 /* InstagramTests.swift in Sources */,
+				077357DD1C2EE53100B177C5 /* TweetbotTests.swift in Sources */,
 				8246C8D11C1F9AD600569119 /* SettingsTests.swift in Sources */,
 				8246C8CF1C1F9AD600569119 /* MailTests.swift in Sources */,
 				8254C77C1C25746E009DB3BD /* NSExtensionContextApplicationCallerTests.swift in Sources */,
 				8246C8D01C1F9AD600569119 /* MessagesTest.swift in Sources */,
 				8254C77E1C25751A009DB3BD /* SampleApp.swift in Sources */,
 				180A1B5C1C296E1C005DF5C7 /* YoutubeTests.swift in Sources */,
-				54077DE11C2DB9A600FCCE64 /* FacebookTests.swift in Sources */,
 				8246C8CE1C1F9AD600569119 /* AppStoreTests.swift in Sources */,
 				827EF6171BF2756C000B1607 /* ApplicationCallerMock.swift in Sources */,
+				07A919451C2F1AD700B9E7F0 /* FacebookTests.swift in Sources */,
 				8246C8D21C1F9AD600569119 /* TwitterTests.swift in Sources */,
 				8246C8D51C1F9B0800569119 /* ApplicationCallerTests.swift in Sources */,
 			);
@@ -643,11 +615,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		54C39F751C2DAE90006A9606 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 826ACEDD1BF1B10A00B5FC5D /* Appz-ios */;
-			targetProxy = 54C39F741C2DAE90006A9606 /* PBXContainerItemProxy */;
-		};
 		8254C7A21C2609FC009DB3BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8254C7811C2608BA009DB3BD /* Appz-tvos */;
@@ -661,28 +628,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		54C39F771C2DAE90006A9606 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = FacebookTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.thinkdifferentDevs.FacebookTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		54C39F781C2DAE90006A9606 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = FacebookTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.thinkdifferentDevs.FacebookTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		8254C7931C2608BA009DB3BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -926,6 +871,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.kitz.Appz;
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Release;
 		};
@@ -957,15 +903,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		54C39F761C2DAE90006A9606 /* Build configuration list for PBXNativeTarget "FacebookTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				54C39F771C2DAE90006A9606 /* Debug */,
-				54C39F781C2DAE90006A9606 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		8254C7921C2608BA009DB3BD /* Build configuration list for PBXNativeTarget "Appz-tvos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
