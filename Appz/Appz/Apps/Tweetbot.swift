@@ -54,7 +54,7 @@ public extension Applications.Tweetbot {
         case Timeline(screenname: String?)
         case Mentions(screenname: String?)
         case Retweets(screenname: String?)
-        case DirectMesseges(screenname: String?)
+        case DirectMessages(screenname: String?)
         case Lists(screenname: String?)
         case Favorites(screenname: String?)
         case Search(screenname: String?, query: String?, callbackurl: String?)
@@ -100,7 +100,7 @@ extension Applications.Tweetbot.Action: ExternalApplicationAction {
                     queryParameters: [:]),
                 web: Path())
             
-        case .DirectMesseges(let screenname):
+        case .DirectMessages(let screenname):
             return ActionPaths(
                 app:
                 Path(

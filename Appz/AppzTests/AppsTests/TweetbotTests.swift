@@ -53,14 +53,14 @@ class TweetbotTests: XCTestCase {
         XCTAssertEqual(action.paths.web.queryParameters,[:])
     }
     
-    func testDirectMessege() {
-        var action = Applications.Tweetbot.Action.DirectMesseges(screenname: nil)
+    func testDirectMessage() {
+        var action = Applications.Tweetbot.Action.DirectMessages(screenname: nil)
         XCTAssertEqual(action.paths.app.pathComponents, ["","direct_messages"])
         XCTAssertEqual(action.paths.app.queryParameters,[:])
         
         XCTAssertEqual(action.paths.web.pathComponents, [])
         XCTAssertEqual(action.paths.web.queryParameters,[:])
-        action = Applications.Tweetbot.Action.DirectMesseges(screenname: "dreamer_soul")
+        action = Applications.Tweetbot.Action.DirectMessages(screenname: "dreamer_soul")
         
         XCTAssertEqual(action.paths.app.pathComponents, ["dreamer_soul","direct_messages"])
         XCTAssertEqual(action.paths.app.queryParameters,[:])
