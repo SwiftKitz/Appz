@@ -103,6 +103,7 @@ Messages | SMS
 Twitter | Status, UserHandle, UserId, List, Post, Search, Timeline, Mentions, Messages
 Youtube | Open, Open Video
 Tweetbot | Timeline, Post, Mentions, Lists, Retweets, Favorites, Messages, Status, Search, Profile, Follow, Unfollow, Favorite, Unfavorite, Retweet, List
+Facebook | Open, Profile, Notification, Feed
 ## Getting Started
 
 ### Configure Info.plist
