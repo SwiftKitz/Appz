@@ -9,7 +9,6 @@
 import XCTest
 @testable import Appz
 
-
 class TwitterTests: XCTestCase {
 
     let appCaller = ApplicationCallerMock()
