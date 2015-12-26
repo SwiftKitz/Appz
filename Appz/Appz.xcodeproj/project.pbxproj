@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		077357DD1C2EE53100B177C5 /* TweetbotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077357DC1C2EE53100B177C5 /* TweetbotTests.swift */; settings = {ASSET_TAGS = (); }; };
+		077357DE1C2EE53100B177C5 /* TweetbotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077357DC1C2EE53100B177C5 /* TweetbotTests.swift */; settings = {ASSET_TAGS = (); }; };
+		079E43251C2DA04500E62621 /* Tweetbot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079E43241C2DA04500E62621 /* Tweetbot.swift */; settings = {ASSET_TAGS = (); }; };
 		180A1B591C296521005DF5C7 /* Youtube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A1B581C296521005DF5C7 /* Youtube.swift */; };
 		180A1B5C1C296E1C005DF5C7 /* YoutubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A1B5A1C296CBB005DF5C7 /* YoutubeTests.swift */; };
 		301B4A4B1C122E8F00038DF1 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B4A4A1C122E8F00038DF1 /* Messages.swift */; };
@@ -89,6 +92,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		077357DC1C2EE53100B177C5 /* TweetbotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetbotTests.swift; sourceTree = "<group>"; };
+		079E43241C2DA04500E62621 /* Tweetbot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweetbot.swift; sourceTree = "<group>"; };
 		180A1B581C296521005DF5C7 /* Youtube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Youtube.swift; sourceTree = "<group>"; };
 		180A1B5A1C296CBB005DF5C7 /* YoutubeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeTests.swift; sourceTree = "<group>"; };
 		301B4A4A1C122E8F00038DF1 /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
@@ -106,7 +111,7 @@
 		8254C77F1C257523009DB3BD /* SampleAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleAction.swift; sourceTree = "<group>"; };
 		8254C7951C2608BA009DB3BD /* Appz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Appz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8254C79B1C2609FB009DB3BD /* AppzTests-tvos.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppzTests-tvos.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8254C7C61C260DA8009DB3BD /* Appz-watchos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Appz-watchos.framework"; path = Appz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8254C7C61C260DA8009DB3BD /* Appz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Appz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		826ACEDE1BF1B10A00B5FC5D /* Appz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Appz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		826ACEE31BF1B10A00B5FC5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		826ACEE81BF1B10A00B5FC5D /* AppzTests-ios.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppzTests-ios.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,6 +180,7 @@
 				8246C8CC1C1F9AD600569119 /* SettingsTests.swift */,
 				8246C8CD1C1F9AD600569119 /* TwitterTests.swift */,
 				180A1B5A1C296CBB005DF5C7 /* YoutubeTests.swift */,
+				077357DC1C2EE53100B177C5 /* TweetbotTests.swift */,
 			);
 			path = AppsTests;
 			sourceTree = "<group>";
@@ -212,7 +218,7 @@
 				826ACEE81BF1B10A00B5FC5D /* AppzTests-ios.xctest */,
 				8254C7951C2608BA009DB3BD /* Appz.framework */,
 				8254C79B1C2609FB009DB3BD /* AppzTests-tvos.xctest */,
-				8254C7C61C260DA8009DB3BD /* Appz-watchos.framework */,
+				8254C7C61C260DA8009DB3BD /* Appz.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -261,6 +267,7 @@
 				826ACF1F1BF1BEB800B5FC5D /* Settings.swift */,
 				826ACF1D1BF1BEB000B5FC5D /* Twitter.swift */,
 				180A1B581C296521005DF5C7 /* Youtube.swift */,
+				079E43241C2DA04500E62621 /* Tweetbot.swift */,
 			);
 			path = Apps;
 			sourceTree = "<group>";
@@ -362,7 +369,7 @@
 			);
 			name = "Appz-watchos";
 			productName = Appz;
-			productReference = 8254C7C61C260DA8009DB3BD /* Appz-watchos.framework */;
+			productReference = 8254C7C61C260DA8009DB3BD /* Appz.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		826ACEDD1BF1B10A00B5FC5D /* Appz-ios */ = {
@@ -517,6 +524,7 @@
 				8254C7AE1C260A3B009DB3BD /* NSExtensionContextApplicationCallerTests.swift in Sources */,
 				8254C7AF1C260A3B009DB3BD /* ApplicationCallerMock.swift in Sources */,
 				8254C7B01C260A3B009DB3BD /* SampleApp.swift in Sources */,
+				077357DE1C2EE53100B177C5 /* TweetbotTests.swift in Sources */,
 				8254C7B11C260A3B009DB3BD /* SampleAction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -555,6 +563,7 @@
 				826ACF191BF1BD1F00B5FC5D /* Applications.swift in Sources */,
 				826ACF5C1BF1E26B00B5FC5D /* ApplicationCaller.swift in Sources */,
 				826ACF251BF1C00800B5FC5D /* UIApplication+ApplicationCaller.swift in Sources */,
+				079E43251C2DA04500E62621 /* Tweetbot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,6 +574,7 @@
 				8254C7791C24B515009DB3BD /* PathTests.swift in Sources */,
 				8254C7801C257523009DB3BD /* SampleAction.swift in Sources */,
 				82CAC1D31C2497390019D238 /* InstagramTests.swift in Sources */,
+				077357DD1C2EE53100B177C5 /* TweetbotTests.swift in Sources */,
 				8246C8D11C1F9AD600569119 /* SettingsTests.swift in Sources */,
 				8246C8CF1C1F9AD600569119 /* MailTests.swift in Sources */,
 				8254C77C1C25746E009DB3BD /* NSExtensionContextApplicationCallerTests.swift in Sources */,
