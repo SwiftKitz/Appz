@@ -97,6 +97,7 @@ App | Actions
 ----|--------
 AppSettings | Open
 AppStore | Developer, App
+IMDb | Open, Search, Title, Boxoffice, Showtimes, Feature Coming Soon, Feature Best Picture, Feature Born Today, Top rated movies, Most popular movies.
 Instagram | Open, Camera, Media, Username, Location, Tag
 Mail | Compose
 Messages | SMS

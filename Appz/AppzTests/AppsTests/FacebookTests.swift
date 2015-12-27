@@ -15,9 +15,9 @@ class FacebookTests: XCTestCase {
     
     func testConfiguration() {
         
-        let twitter = Applications.Facebook()
-        XCTAssertEqual(twitter.scheme, "fb:")
-        XCTAssertEqual(twitter.fallbackURL, "https://www.facebook.com/")
+        let facebook = Applications.Facebook()
+        XCTAssertEqual(facebook.scheme, "fb:")
+        XCTAssertEqual(facebook.fallbackURL, "https://www.facebook.com/")
     }
     
     func testOpen() {
