@@ -101,6 +101,7 @@ IMDb | Open, Search, Title, Boxoffice, Showtimes, Feature Coming Soon, Feature B
 Instagram | Open, Camera, Media, Username, Location, Tag
 Mail | Compose
 Messages | SMS
+Telegram | Open, SMS
 Twitter | Status, UserHandle, UserId, List, Post, Search, Timeline, Mentions, Messages
 Youtube | Open, Open Video
 
