@@ -145,6 +145,10 @@ With this library, you can keep the external application deep linking spec separ
 
 Mazyod ([@Mazyod](http://twitter.com/mazyod))
 
+## Contributors
+
+This library could not have made it so far without the generous contributions of various developers!
+
 ## License
 
 Appz is released under the MIT license. See LICENSE for details.
