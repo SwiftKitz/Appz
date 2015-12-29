@@ -103,6 +103,7 @@ Mail | Compose
 Messages | SMS
 Telegram | Open, SMS
 Twitter | Status, UserHandle, UserId, List, Post, Search, Timeline, Mentions, Messages
+Yelp | Open, Search, Search Location, Search Category, Search Category Location, Business
 Youtube | Open, Open Video
 Tweetbot | Timeline, Post, Mentions, Lists, Retweets, Favorites, Messages, Status, Search, Profile, Follow, Unfollow, Favorite, Unfavorite, Retweet, List
 Facebook | Open, Profile, Notification, Feed
