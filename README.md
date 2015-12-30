@@ -97,6 +97,8 @@ App | Actions
 ----|--------
 AppSettings | Open
 AppStore | Developer, App
+Dropbox | Open
+itranslate | Open, Translate
 IMDb | Open, Search, Title, Boxoffice, Showtimes, Feature Coming Soon, Feature Best Picture, Feature Born Today, Top rated movies, Most popular movies.
 Instagram | Open, Camera, Media, Username, Location, Tag
 Mail | Compose
@@ -107,6 +109,7 @@ Yelp | Open, Search, Search Location, Search Category, Search Category Location,
 Youtube | Open, Open Video
 Tweetbot | Timeline, Post, Mentions, Lists, Retweets, Favorites, Messages, Status, Search, Profile, Follow, Unfollow, Favorite, Unfavorite, Retweet, List
 Facebook | Open, Profile, Notification, Feed
+Viber | Open Calls Tab, Open Chats Tab
 ## Getting Started
 
 ### Configure Info.plist
