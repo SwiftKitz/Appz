@@ -98,11 +98,13 @@ App | Actions
 AppSettings | Open
 AppStore | Developer, App
 Dropbox | Open
+GoogleMaps | Open, Display Directions, Search
 itranslate | Open, Translate
 IMDb | Open, Search, Title, Boxoffice, Showtimes, Feature Coming Soon, Feature Best Picture, Feature Born Today, Top rated movies, Most popular movies.
 Instagram | Open, Camera, Media, Username, Location, Tag
 Mail | Compose
 Messages | SMS
+Pinterest | Open, UserProfile, Search
 Telegram | Open, SMS
 Twitter | Status, UserHandle, UserId, List, Post, Search, Timeline, Mentions, Messages
 Yelp | Open, Search, Search Location, Search Category, Search Category Location, Business
