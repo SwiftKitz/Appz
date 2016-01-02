@@ -128,26 +128,26 @@ App | Actions
 [Youtube][Youtube-link] | Open, Open Video
 
 [AppSettings-link]: https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.html#//apple_ref/c/data/UIApplicationOpenSettingsURLString
-[AppStore-link]: http:
+[AppStore-link]: https://developer.apple.com/library/ios/qa/qa1633/_index.html
 [Audible-link]: http://www.audible.com
 [DayOne-link]: http://dayoneapp.com
 [Documents-link]: https://readdle.com/products/documents
 [Dropbox-link]: https://dropbox.com
 [ebay-link]: http://www.ebay.com
 [Facebook-link]: https://facebook.com
-[FindFriends-link]: 
+[FindFriends-link]: http://handleopenurl.com/scheme/find-my-friends
 [Flickr-link]: https://www.flickr.com
 [GoogleEarth-link]: https://www.google.com/earth
 [GoogleMail-link]: https://mail.google.com
 [GoogleMaps-link]: https://maps.google.com
 [GooglePlus-link]: https://plus.google.com
-[iBooks-link]: 
+[iBooks-link]: http://handleopenurl.com/?id=694
 [IMDb-link]: http://www.imdb.com 
 [INRIXTraffic-link]: http://inrix.com/inrix-traffic-app
 [Instagram-link]: https://instagram.com
 [itranslate-link]: http://itranslateapp.com
-[Mail-link]:
-[Messages-link]: 
+[Mail-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MailLinks/MailLinks.html#//apple_ref/doc/uid/TP40007899-CH4-SW1
+[Messages-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/SMSLinks/SMSLinks.html#//apple_ref/doc/uid/TP40007899-CH7-SW1
 [Paypal-link]: https://paypal.com 
 [Pinterest-link]: https://www.pinterest.com
 [Quora-link]: https://www.quora.com
@@ -155,7 +155,7 @@ App | Actions
 [Tweetbot-link]: http://tapbots.com/tweetbot
 [Twitter-link]: https://twitter.com
 [Viber-link]: http://www.viber.com
-[WhatsApp-link]:
+[WhatsApp-link]: https://www.whatsapp.com
 [Yelp-link]: https://m.yelp.com
 [Youtube-link]: https://youtube.com
 ## Getting Started
