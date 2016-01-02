@@ -95,37 +95,37 @@ __Supported Apps (for now!):__
 
 App | Actions
 ----|--------
-AppSettings | Open
-AppStore | Developer, App
-Audible | Open
-DayOne | Open
-Documents | Open
-Dropbox | Open
-ebay | Open
-Facebook | Open, Profile, Notification, Feed
-FindFriends | Open
-Flickr | Open
-GoogleEarth | Open
-GoogleMail | Open
-GoogleMaps | Open, Display Directions, Search
-GooglePlus | Open
-iBooks | Open
-IMDb | Open, Search, Title, Boxoffice, Showtimes, Feature Coming Soon, Feature Best Picture, Feature Born Today, Top rated movies, Most popular movies.
-INRIXTraffic | Open
-Instagram | Open, Camera, Media, Username, Location, Tag
-itranslate | Open, Translate
-Mail | Compose
-Messages | SMS
-Paypal | Open
-Pinterest | Open, UserProfile, Search
-Quora | Open
-Telegram | Open, SMS
-Tweetbot | Timeline, Post, Mentions, Lists, Retweets, Favorites, Messages, Status, Search, Profile, Follow, Unfollow, Favorite, Unfavorite, Retweet, List
-Twitter | Status, UserHandle, UserId, List, Post, Search, Timeline, Mentions, Messages
-Viber | Open Calls Tab, Open Chats Tab
-WhatsApp | Open
-Yelp | Open, Search, Search Location, Search Category, Search Category Location, Business
-Youtube | Open, Open Video
+[AppSettings][AppSettings-link] | Open
+[AppStore][AppStore-link] | Developer, App
+[Audible][Audible-link] | Open
+[DayOne][DayOne-link] | Open
+[Documents][Documents-link] | Open
+[Dropbox][Dropbox-link] | Open
+[ebay][ebay-link] | Open
+[Facebook][Facebook-link] | Open, Profile, Notification, Feed
+[FindFriends][FindFriends-link] | Open
+[Flickr][Flickr-link] | Open
+[GoogleEarth][GoogleEarth-link] | Open
+[GoogleMail][GoogleMail-link] | Open
+[GoogleMaps][GoogleMaps-link] | Open, Display Directions, Search
+[GooglePlus][GooglePlus-link] | Open
+[iBooks][iBooks-link] | Open
+[IMDb][IMDb-link] | Open, Search, Title, Boxoffice, Showtimes, Feature Coming Soon, Feature Best Picture, Feature Born Today, Top rated movies, Most popular movies.
+[INRIXTraffic][INRIXTraffic-link] | Open
+[Instagram][Instagram-link] | Open, Camera, Media, Username, Location, Tag
+[itranslate][itranslate-link] | Open, Translate
+[Mail][Mail-link] | Compose
+[Messages][Messages-link] | SMS
+[Paypal][Paypal-link] | Open
+[Pinterest][Pinterest-link] | Open, UserProfile, Search
+[Quora][Quora-link] | Open
+[Telegram][Telegram-link] | Open, SMS
+[Tweetbot][Tweetbot-link] | Timeline, Post, Mentions, Lists, Retweets, Favorites, Messages, Status, Search, Profile, Follow, Unfollow, Favorite, Unfavorite, Retweet, List
+[Twitter][Twitter-link] | Status, UserHandle, UserId, List, Post, Search, Timeline, Mentions, Messages
+[Viber][Viber-link] | Open Calls Tab, Open Chats Tab
+[WhatsApp][WhatsApp-link] | Open
+[Yelp][Yelp-link] | Open, Search, Search Location, Search Category, Search Category Location, Business
+[Youtube][Youtube-link] | Open, Open Video
 ## Getting Started
 
 ### Configure Info.plist
@@ -177,3 +177,34 @@ Appz is released under the MIT license. See LICENSE for details.
 [cartfile-docs]: https://github.com/Carthage/Carthage/blob/master/Documentation/Artifacts.md#cartfile
 [cocoapods-link]: https://cocoapods.org/
 [podfile-docs]: https://guides.cocoapods.org/syntax/podfile.html
+[AppSettings-link]: https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.html#//apple_ref/c/data/UIApplicationOpenSettingsURLString
+[AppStore-link]: https://developer.apple.com/library/ios/qa/qa1633/_index.html
+[Audible-link]: http://www.audible.com
+[DayOne-link]: http://dayoneapp.com
+[Documents-link]: https://readdle.com/products/documents
+[Dropbox-link]: https://dropbox.com
+[ebay-link]: http://www.ebay.com
+[Facebook-link]: https://facebook.com
+[FindFriends-link]: http://handleopenurl.com/scheme/find-my-friends
+[Flickr-link]: https://www.flickr.com
+[GoogleEarth-link]: https://www.google.com/earth
+[GoogleMail-link]: https://mail.google.com
+[GoogleMaps-link]: https://maps.google.com
+[GooglePlus-link]: https://plus.google.com
+[iBooks-link]: http://handleopenurl.com/?id=694
+[IMDb-link]: http://www.imdb.com 
+[INRIXTraffic-link]: http://inrix.com/inrix-traffic-app
+[Instagram-link]: https://instagram.com
+[itranslate-link]: http://itranslateapp.com
+[Mail-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MailLinks/MailLinks.html#//apple_ref/doc/uid/TP40007899-CH4-SW1
+[Messages-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/SMSLinks/SMSLinks.html#//apple_ref/doc/uid/TP40007899-CH7-SW1
+[Paypal-link]: https://paypal.com 
+[Pinterest-link]: https://www.pinterest.com
+[Quora-link]: https://www.quora.com
+[Telegram-link]: https://web.telegram.org
+[Tweetbot-link]: http://tapbots.com/tweetbot
+[Twitter-link]: https://twitter.com
+[Viber-link]: http://www.viber.com
+[WhatsApp-link]: https://www.whatsapp.com
+[Yelp-link]: https://m.yelp.com
+[Youtube-link]: https://youtube.com
