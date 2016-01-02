@@ -97,21 +97,35 @@ App | Actions
 ----|--------
 AppSettings | Open
 AppStore | Developer, App
+Audible | Open
+DayOne | Open
+Documents | Open
 Dropbox | Open
+ebay | Open
+Facebook | Open, Profile, Notification, Feed
+FindFriends | Open
+Flickr | Open
+GoogleEarth | Open
+GoogleMail | Open
 GoogleMaps | Open, Display Directions, Search
-itranslate | Open, Translate
+GooglePlus | Open
+iBooks | Open
 IMDb | Open, Search, Title, Boxoffice, Showtimes, Feature Coming Soon, Feature Best Picture, Feature Born Today, Top rated movies, Most popular movies.
+INRIXTraffic | Open
 Instagram | Open, Camera, Media, Username, Location, Tag
+itranslate | Open, Translate
 Mail | Compose
 Messages | SMS
+Paypal | Open
 Pinterest | Open, UserProfile, Search
+Quora | Open
 Telegram | Open, SMS
+Tweetbot | Timeline, Post, Mentions, Lists, Retweets, Favorites, Messages, Status, Search, Profile, Follow, Unfollow, Favorite, Unfavorite, Retweet, List
 Twitter | Status, UserHandle, UserId, List, Post, Search, Timeline, Mentions, Messages
+Viber | Open Calls Tab, Open Chats Tab
+WhatsApp | Open
 Yelp | Open, Search, Search Location, Search Category, Search Category Location, Business
 Youtube | Open, Open Video
-Tweetbot | Timeline, Post, Mentions, Lists, Retweets, Favorites, Messages, Status, Search, Profile, Follow, Unfollow, Favorite, Unfavorite, Retweet, List
-Facebook | Open, Profile, Notification, Feed
-Viber | Open Calls Tab, Open Chats Tab
 ## Getting Started
 
 ### Configure Info.plist
