@@ -17,7 +17,7 @@ class IbooksTests: XCTestCase {
         
         let iBooks = Applications.Ibooks()
         XCTAssertEqual(iBooks.scheme, "itms-Books:")
-        XCTAssertEqual(iBooks.fallbackURL, "http://www.apple.com/ibooks/")
+        XCTAssertEqual(iBooks.fallbackURL, "")
     }
     
     func testOpen() {
