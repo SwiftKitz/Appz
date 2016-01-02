@@ -32,12 +32,6 @@
 		545EC5AF1C37E3490077E634 /* GooglePlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545EC5A91C37E3490077E634 /* GooglePlus.swift */; };
 		545EC5B01C37E3490077E634 /* Ibooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545EC5AA1C37E3490077E634 /* Ibooks.swift */; };
 		545EC5B11C37E3490077E634 /* INRIXTraffic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545EC5AB1C37E3490077E634 /* INRIXTraffic.swift */; };
-		545EC5BB1C37E3EA0077E634 /* Appz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826ACEDE1BF1B10A00B5FC5D /* Appz.framework */; };
-		545EC5CA1C37E4060077E634 /* Appz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826ACEDE1BF1B10A00B5FC5D /* Appz.framework */; };
-		545EC5D91C37E4170077E634 /* Appz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826ACEDE1BF1B10A00B5FC5D /* Appz.framework */; };
-		545EC5E81C37E4270077E634 /* Appz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826ACEDE1BF1B10A00B5FC5D /* Appz.framework */; };
-		545EC5F71C37E4360077E634 /* Appz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826ACEDE1BF1B10A00B5FC5D /* Appz.framework */; };
-		545EC6061C37E4440077E634 /* Appz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826ACEDE1BF1B10A00B5FC5D /* Appz.framework */; };
 		547014F41C37E4C600375674 /* QuoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542D5BD51C37E49900CB4FC1 /* QuoraTests.swift */; };
 		547014F51C37E4C900375674 /* GoogleEarthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542D5BD61C37E49900CB4FC1 /* GoogleEarthTests.swift */; };
 		547014F61C37E4CD00375674 /* GoogleMailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542D5BD71C37E49900CB4FC1 /* GoogleMailTests.swift */; };
@@ -103,48 +97,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		545EC5BC1C37E3EA0077E634 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 826ACED51BF1B10A00B5FC5D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 826ACEDD1BF1B10A00B5FC5D;
-			remoteInfo = "Appz-ios";
-		};
-		545EC5CB1C37E4060077E634 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 826ACED51BF1B10A00B5FC5D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 826ACEDD1BF1B10A00B5FC5D;
-			remoteInfo = "Appz-ios";
-		};
-		545EC5DA1C37E4170077E634 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 826ACED51BF1B10A00B5FC5D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 826ACEDD1BF1B10A00B5FC5D;
-			remoteInfo = "Appz-ios";
-		};
-		545EC5E91C37E4270077E634 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 826ACED51BF1B10A00B5FC5D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 826ACEDD1BF1B10A00B5FC5D;
-			remoteInfo = "Appz-ios";
-		};
-		545EC5F81C37E4360077E634 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 826ACED51BF1B10A00B5FC5D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 826ACEDD1BF1B10A00B5FC5D;
-			remoteInfo = "Appz-ios";
-		};
-		545EC6071C37E4440077E634 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 826ACED51BF1B10A00B5FC5D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 826ACEDD1BF1B10A00B5FC5D;
-			remoteInfo = "Appz-ios";
-		};
 		8254C7A11C2609FC009DB3BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 826ACED51BF1B10A00B5FC5D /* Project object */;
@@ -182,12 +134,6 @@
 		545EC5A91C37E3490077E634 /* GooglePlus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlus.swift; sourceTree = "<group>"; };
 		545EC5AA1C37E3490077E634 /* Ibooks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ibooks.swift; sourceTree = "<group>"; };
 		545EC5AB1C37E3490077E634 /* INRIXTraffic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INRIXTraffic.swift; sourceTree = "<group>"; };
-		545EC5B61C37E3EA0077E634 /* GoodReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		545EC5C51C37E4060077E634 /* GoogleEarthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleEarthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		545EC5D41C37E4170077E634 /* GoogleMailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleMailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		545EC5E31C37E4270077E634 /* GooglePlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooglePlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		545EC5F21C37E4360077E634 /* IbooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IbooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		545EC6011C37E4440077E634 /* INRIXTrafficTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = INRIXTrafficTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		547014FA1C37FACE00375674 /* Quora.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quora.swift; sourceTree = "<group>"; };
 		8246C8C91C1F9AD600569119 /* AppStoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoreTests.swift; sourceTree = "<group>"; };
 		8246C8CA1C1F9AD600569119 /* MailTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailTests.swift; sourceTree = "<group>"; };
@@ -220,54 +166,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		545EC5B31C37E3EA0077E634 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				545EC5BB1C37E3EA0077E634 /* Appz.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		545EC5C21C37E4060077E634 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				545EC5CA1C37E4060077E634 /* Appz.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		545EC5D11C37E4170077E634 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				545EC5D91C37E4170077E634 /* Appz.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		545EC5E01C37E4270077E634 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				545EC5E81C37E4270077E634 /* Appz.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		545EC5EF1C37E4360077E634 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				545EC5F71C37E4360077E634 /* Appz.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		545EC5FE1C37E4440077E634 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				545EC6061C37E4440077E634 /* Appz.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8254C78F1C2608BA009DB3BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -364,12 +262,6 @@
 				8254C7951C2608BA009DB3BD /* Appz.framework */,
 				8254C79B1C2609FB009DB3BD /* AppzTests-tvos.xctest */,
 				8254C7C61C260DA8009DB3BD /* Appz.framework */,
-				545EC5B61C37E3EA0077E634 /* GoodReaderTests.xctest */,
-				545EC5C51C37E4060077E634 /* GoogleEarthTests.xctest */,
-				545EC5D41C37E4170077E634 /* GoogleMailTests.xctest */,
-				545EC5E31C37E4270077E634 /* GooglePlusTests.xctest */,
-				545EC5F21C37E4360077E634 /* IbooksTests.xctest */,
-				545EC6011C37E4440077E634 /* INRIXTrafficTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -476,114 +368,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		545EC5B51C37E3EA0077E634 /* GoodReaderTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 545EC5BE1C37E3EA0077E634 /* Build configuration list for PBXNativeTarget "GoodReaderTests" */;
-			buildPhases = (
-				545EC5B21C37E3EA0077E634 /* Sources */,
-				545EC5B31C37E3EA0077E634 /* Frameworks */,
-				545EC5B41C37E3EA0077E634 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				545EC5BD1C37E3EA0077E634 /* PBXTargetDependency */,
-			);
-			name = GoodReaderTests;
-			productName = GoodReaderTests;
-			productReference = 545EC5B61C37E3EA0077E634 /* GoodReaderTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		545EC5C41C37E4060077E634 /* GoogleEarthTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 545EC5CD1C37E4060077E634 /* Build configuration list for PBXNativeTarget "GoogleEarthTests" */;
-			buildPhases = (
-				545EC5C11C37E4060077E634 /* Sources */,
-				545EC5C21C37E4060077E634 /* Frameworks */,
-				545EC5C31C37E4060077E634 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				545EC5CC1C37E4060077E634 /* PBXTargetDependency */,
-			);
-			name = GoogleEarthTests;
-			productName = GoogleEarthTests;
-			productReference = 545EC5C51C37E4060077E634 /* GoogleEarthTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		545EC5D31C37E4170077E634 /* GoogleMailTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 545EC5DC1C37E4170077E634 /* Build configuration list for PBXNativeTarget "GoogleMailTests" */;
-			buildPhases = (
-				545EC5D01C37E4170077E634 /* Sources */,
-				545EC5D11C37E4170077E634 /* Frameworks */,
-				545EC5D21C37E4170077E634 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				545EC5DB1C37E4170077E634 /* PBXTargetDependency */,
-			);
-			name = GoogleMailTests;
-			productName = GoogleMailTests;
-			productReference = 545EC5D41C37E4170077E634 /* GoogleMailTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		545EC5E21C37E4270077E634 /* GooglePlusTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 545EC5EB1C37E4270077E634 /* Build configuration list for PBXNativeTarget "GooglePlusTests" */;
-			buildPhases = (
-				545EC5DF1C37E4270077E634 /* Sources */,
-				545EC5E01C37E4270077E634 /* Frameworks */,
-				545EC5E11C37E4270077E634 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				545EC5EA1C37E4270077E634 /* PBXTargetDependency */,
-			);
-			name = GooglePlusTests;
-			productName = GooglePlusTests;
-			productReference = 545EC5E31C37E4270077E634 /* GooglePlusTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		545EC5F11C37E4360077E634 /* IbooksTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 545EC5FA1C37E4360077E634 /* Build configuration list for PBXNativeTarget "IbooksTests" */;
-			buildPhases = (
-				545EC5EE1C37E4360077E634 /* Sources */,
-				545EC5EF1C37E4360077E634 /* Frameworks */,
-				545EC5F01C37E4360077E634 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				545EC5F91C37E4360077E634 /* PBXTargetDependency */,
-			);
-			name = IbooksTests;
-			productName = IbooksTests;
-			productReference = 545EC5F21C37E4360077E634 /* IbooksTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		545EC6001C37E4440077E634 /* INRIXTrafficTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 545EC6091C37E4440077E634 /* Build configuration list for PBXNativeTarget "INRIXTrafficTests" */;
-			buildPhases = (
-				545EC5FD1C37E4440077E634 /* Sources */,
-				545EC5FE1C37E4440077E634 /* Frameworks */,
-				545EC5FF1C37E4440077E634 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				545EC6081C37E4440077E634 /* PBXTargetDependency */,
-			);
-			name = INRIXTrafficTests;
-			productName = INRIXTrafficTests;
-			productReference = 545EC6011C37E4440077E634 /* INRIXTrafficTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		8254C7811C2608BA009DB3BD /* Appz-tvos */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8254C7921C2608BA009DB3BD /* Build configuration list for PBXNativeTarget "Appz-tvos" */;
@@ -684,24 +468,6 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = kitz;
 				TargetAttributes = {
-					545EC5B51C37E3EA0077E634 = {
-						CreatedOnToolsVersion = 7.2;
-					};
-					545EC5C41C37E4060077E634 = {
-						CreatedOnToolsVersion = 7.2;
-					};
-					545EC5D31C37E4170077E634 = {
-						CreatedOnToolsVersion = 7.2;
-					};
-					545EC5E21C37E4270077E634 = {
-						CreatedOnToolsVersion = 7.2;
-					};
-					545EC5F11C37E4360077E634 = {
-						CreatedOnToolsVersion = 7.2;
-					};
-					545EC6001C37E4440077E634 = {
-						CreatedOnToolsVersion = 7.2;
-					};
 					8254C79A1C2609FB009DB3BD = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -731,59 +497,11 @@
 				8254C7B21C260DA8009DB3BD /* Appz-watchos */,
 				826ACEE71BF1B10A00B5FC5D /* AppzTests-ios */,
 				8254C79A1C2609FB009DB3BD /* AppzTests-tvos */,
-				545EC5B51C37E3EA0077E634 /* GoodReaderTests */,
-				545EC5C41C37E4060077E634 /* GoogleEarthTests */,
-				545EC5D31C37E4170077E634 /* GoogleMailTests */,
-				545EC5E21C37E4270077E634 /* GooglePlusTests */,
-				545EC5F11C37E4360077E634 /* IbooksTests */,
-				545EC6001C37E4440077E634 /* INRIXTrafficTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		545EC5B41C37E3EA0077E634 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		545EC5C31C37E4060077E634 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		545EC5D21C37E4170077E634 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		545EC5E11C37E4270077E634 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		545EC5F01C37E4360077E634 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		545EC5FF1C37E4440077E634 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8254C7911C2608BA009DB3BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -822,48 +540,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		545EC5B21C37E3EA0077E634 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		545EC5C11C37E4060077E634 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		545EC5D01C37E4170077E634 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		545EC5DF1C37E4270077E634 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		545EC5EE1C37E4360077E634 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		545EC5FD1C37E4440077E634 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8254C7821C2608BA009DB3BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -987,36 +663,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		545EC5BD1C37E3EA0077E634 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 826ACEDD1BF1B10A00B5FC5D /* Appz-ios */;
-			targetProxy = 545EC5BC1C37E3EA0077E634 /* PBXContainerItemProxy */;
-		};
-		545EC5CC1C37E4060077E634 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 826ACEDD1BF1B10A00B5FC5D /* Appz-ios */;
-			targetProxy = 545EC5CB1C37E4060077E634 /* PBXContainerItemProxy */;
-		};
-		545EC5DB1C37E4170077E634 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 826ACEDD1BF1B10A00B5FC5D /* Appz-ios */;
-			targetProxy = 545EC5DA1C37E4170077E634 /* PBXContainerItemProxy */;
-		};
-		545EC5EA1C37E4270077E634 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 826ACEDD1BF1B10A00B5FC5D /* Appz-ios */;
-			targetProxy = 545EC5E91C37E4270077E634 /* PBXContainerItemProxy */;
-		};
-		545EC5F91C37E4360077E634 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 826ACEDD1BF1B10A00B5FC5D /* Appz-ios */;
-			targetProxy = 545EC5F81C37E4360077E634 /* PBXContainerItemProxy */;
-		};
-		545EC6081C37E4440077E634 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 826ACEDD1BF1B10A00B5FC5D /* Appz-ios */;
-			targetProxy = 545EC6071C37E4440077E634 /* PBXContainerItemProxy */;
-		};
 		8254C7A21C2609FC009DB3BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8254C7811C2608BA009DB3BD /* Appz-tvos */;
@@ -1030,138 +676,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		545EC5BF1C37E3EA0077E634 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = GoodReaderTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.thinkdifferentDevs.GoodReaderTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		545EC5C01C37E3EA0077E634 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = GoodReaderTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.thinkdifferentDevs.GoodReaderTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		545EC5CE1C37E4060077E634 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = GoogleEarthTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.thinkdifferentDevs.GoogleEarthTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		545EC5CF1C37E4060077E634 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = GoogleEarthTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.thinkdifferentDevs.GoogleEarthTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		545EC5DD1C37E4170077E634 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = GoogleMailTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.thinkdifferentDevs.GoogleMailTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		545EC5DE1C37E4170077E634 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = GoogleMailTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.thinkdifferentDevs.GoogleMailTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		545EC5EC1C37E4270077E634 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = GooglePlusTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.thinkdifferentDevs.GooglePlusTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		545EC5ED1C37E4270077E634 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = GooglePlusTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.thinkdifferentDevs.GooglePlusTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		545EC5FB1C37E4360077E634 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = IbooksTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.thinkdifferentDevs.IbooksTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		545EC5FC1C37E4360077E634 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = IbooksTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.thinkdifferentDevs.IbooksTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		545EC60A1C37E4440077E634 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = INRIXTrafficTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.thinkdifferentDevs.INRIXTrafficTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		545EC60B1C37E4440077E634 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = INRIXTrafficTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.thinkdifferentDevs.INRIXTrafficTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		8254C7931C2608BA009DB3BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1437,60 +951,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		545EC5BE1C37E3EA0077E634 /* Build configuration list for PBXNativeTarget "GoodReaderTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				545EC5BF1C37E3EA0077E634 /* Debug */,
-				545EC5C01C37E3EA0077E634 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		545EC5CD1C37E4060077E634 /* Build configuration list for PBXNativeTarget "GoogleEarthTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				545EC5CE1C37E4060077E634 /* Debug */,
-				545EC5CF1C37E4060077E634 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		545EC5DC1C37E4170077E634 /* Build configuration list for PBXNativeTarget "GoogleMailTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				545EC5DD1C37E4170077E634 /* Debug */,
-				545EC5DE1C37E4170077E634 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		545EC5EB1C37E4270077E634 /* Build configuration list for PBXNativeTarget "GooglePlusTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				545EC5EC1C37E4270077E634 /* Debug */,
-				545EC5ED1C37E4270077E634 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		545EC5FA1C37E4360077E634 /* Build configuration list for PBXNativeTarget "IbooksTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				545EC5FB1C37E4360077E634 /* Debug */,
-				545EC5FC1C37E4360077E634 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		545EC6091C37E4440077E634 /* Build configuration list for PBXNativeTarget "INRIXTrafficTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				545EC60A1C37E4440077E634 /* Debug */,
-				545EC60B1C37E4440077E634 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		8254C7921C2608BA009DB3BD /* Build configuration list for PBXNativeTarget "Appz-tvos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
