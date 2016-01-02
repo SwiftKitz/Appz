@@ -1,5 +1,5 @@
 //
-//  eBay.swift
+//  Ebay.swift
 //  Pods
 //
 //  Created by Mariam AlJamea on 1/1/16.
@@ -8,9 +8,9 @@
 
 public extension Applications {
     
-    public struct eBay: ExternalApplication {
+    public struct Ebay: ExternalApplication {
         
-        public typealias ActionType = Applications.eBay.Action
+        public typealias ActionType = Applications.Ebay.Action
         
         public let scheme = "eBay:"
         public let fallbackURL = "http://www.ebay.com/"
@@ -21,14 +21,14 @@ public extension Applications {
 
 // MARK: - Actions
 
-public extension Applications.eBay {
+public extension Applications.Ebay {
     
     public enum Action {
         case Open
     }
 }
 
-extension Applications.eBay.Action: ExternalApplicationAction {
+extension Applications.Ebay.Action: ExternalApplicationAction {
     
     public var paths: ActionPaths {
         
