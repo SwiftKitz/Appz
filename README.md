@@ -105,6 +105,8 @@ App | Actions
 [Facebook][Facebook-link] | Open, Profile, Notification, Feed
 [FindFriends][FindFriends-link] | Open
 [Flickr][Flickr-link] | Open
+[GoogleChrome][GoogleChrome-link] | Open
+[GoogleDrive][GoogleDrive-link] | Open
 [GoogleEarth][GoogleEarth-link] | Open
 [GoogleMail][GoogleMail-link] | Open
 [GoogleMaps][GoogleMaps-link] | Open, Display Directions, Search
@@ -114,11 +116,18 @@ App | Actions
 [INRIXTraffic][INRIXTraffic-link] | Open
 [Instagram][Instagram-link] | Open, Camera, Media, Username, Location, Tag
 [itranslate][itranslate-link] | Open, Translate
+[Linkedin][Linkedin-link] | Open
 [Mail][Mail-link] | Compose
 [Messages][Messages-link] | SMS
+[Music][Music-link] | Open
 [Paypal][Paypal-link] | Open
+[Phone][Phone-link] | Open
 [Pinterest][Pinterest-link] | Open, UserProfile, Search
 [Quora][Quora-link] | Open
+[RemindersApp][RemindersApp-link] | Open
+[Remote][Remote-link] | Open
+[ScannerPro][ScannerPro-link] | Open
+[Skype][Skype-link] | Open
 [Telegram][Telegram-link] | Open, SMS
 [Tweetbot][Tweetbot-link] | Timeline, Post, Mentions, Lists, Retweets, Favorites, Messages, Status, Search, Profile, Follow, Unfollow, Favorite, Unfavorite, Retweet, List
 [Twitter][Twitter-link] | Status, UserHandle, UserId, List, Post, Search, Timeline, Mentions, Messages
@@ -187,6 +196,8 @@ Appz is released under the MIT license. See LICENSE for details.
 [Facebook-link]: https://facebook.com
 [FindFriends-link]: http://handleopenurl.com/scheme/find-my-friends
 [Flickr-link]: https://www.flickr.com
+[GoogleChrome-link]: https://www.google.com/chrome/
+[GoogleDrive-link]: https://www.google.com/drive/
 [GoogleEarth-link]: https://www.google.com/earth
 [GoogleMail-link]: https://mail.google.com
 [GoogleMaps-link]: https://maps.google.com
@@ -196,11 +207,18 @@ Appz is released under the MIT license. See LICENSE for details.
 [INRIXTraffic-link]: http://inrix.com/inrix-traffic-app
 [Instagram-link]: https://instagram.com
 [itranslate-link]: http://itranslateapp.com
+[Linkedin-link]: http://www.linkedin.com/
 [Mail-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MailLinks/MailLinks.html#//apple_ref/doc/uid/TP40007899-CH4-SW1
 [Messages-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/SMSLinks/SMSLinks.html#//apple_ref/doc/uid/TP40007899-CH7-SW1
-[Paypal-link]: https://paypal.com 
+[Music-link]: http://handleopenurl.com/scheme/original-ipod-music-app
+[Paypal-link]: https://paypal.com
+[Phone-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/PhoneLinks/PhoneLinks.html
 [Pinterest-link]: https://www.pinterest.com
 [Quora-link]: https://www.quora.com
+[RemindersApp-link]: http://handleopenurl.com/scheme/reminders
+[Remote-link]: http://handleopenurl.com/scheme/remote
+[ScannerPro-link]: https://readdle.com/products/scannerpro/
+[Skype-link]: http://www.skype.com/
 [Telegram-link]: https://web.telegram.org
 [Tweetbot-link]: http://tapbots.com/tweetbot
 [Twitter-link]: https://twitter.com
