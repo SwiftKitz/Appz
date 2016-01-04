@@ -21,9 +21,9 @@ public extension Applications {
 
 public struct Email {
     
-    var recipient: String
-    var subject: String
-    var body: String
+    public var recipient: String
+    public var subject: String
+    public var body: String
     
     public init(recipient: String = "", subject: String = "", body: String = "") {
         
