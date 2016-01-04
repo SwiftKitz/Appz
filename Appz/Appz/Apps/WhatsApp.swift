@@ -25,7 +25,7 @@ public extension Applications.WhatsApp {
     
     public enum Action {
         case Open
-        case Send(abid: String, text: String)
+        case Send(abid: String?, text: String)
     }
 }
 
