@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54244A1C1C3A5B7F00AA064F /* OneDriveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54244A141C3A5B7A00AA064F /* OneDriveTests.swift */; };
+		54244A1D1C3A5B8300AA064F /* OutlookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54244A151C3A5B7A00AA064F /* OutlookTests.swift */; };
+		54244A1E1C3A5B8700AA064F /* SonosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54244A161C3A5B7A00AA064F /* SonosTests.swift */; };
+		54244A1F1C3A5B8B00AA064F /* VideosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54244A171C3A5B7A00AA064F /* VideosTests.swift */; };
+		54244A201C3A5BAB00AA064F /* VideosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54244A171C3A5B7A00AA064F /* VideosTests.swift */; };
+		54244A211C3A5BAE00AA064F /* SonosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54244A161C3A5B7A00AA064F /* SonosTests.swift */; };
+		54244A221C3A5BB100AA064F /* OutlookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54244A151C3A5B7A00AA064F /* OutlookTests.swift */; };
+		54244A231C3A5BB300AA064F /* OneDriveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54244A141C3A5B7A00AA064F /* OneDriveTests.swift */; };
 		5467388B1C3996A200AA42F1 /* GoogleChromeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546738821C3996A200AA42F1 /* GoogleChromeTests.swift */; };
 		5467388C1C3996A200AA42F1 /* GoogleChromeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546738821C3996A200AA42F1 /* GoogleChromeTests.swift */; };
 		5467388D1C3996A200AA42F1 /* GoogleDriveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546738831C3996A200AA42F1 /* GoogleDriveTests.swift */; };
@@ -25,6 +33,18 @@
 		5467389A1C3996A200AA42F1 /* ScannerProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546738891C3996A200AA42F1 /* ScannerProTests.swift */; };
 		5467389B1C3996A200AA42F1 /* SkypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467388A1C3996A200AA42F1 /* SkypeTests.swift */; };
 		5467389C1C3996A200AA42F1 /* SkypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467388A1C3996A200AA42F1 /* SkypeTests.swift */; };
+		5480421A1C3A5AE300BBE49E /* OneDrive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548042161C3A5AE300BBE49E /* OneDrive.swift */; };
+		5480421B1C3A5AE300BBE49E /* Outlook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548042171C3A5AE300BBE49E /* Outlook.swift */; };
+		5480421C1C3A5AE300BBE49E /* Sonos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548042181C3A5AE300BBE49E /* Sonos.swift */; };
+		5480421D1C3A5AE300BBE49E /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548042191C3A5AE300BBE49E /* Videos.swift */; };
+		5480421E1C3A5AE700BBE49E /* OneDrive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548042161C3A5AE300BBE49E /* OneDrive.swift */; };
+		5480421F1C3A5AEA00BBE49E /* Outlook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548042171C3A5AE300BBE49E /* Outlook.swift */; };
+		548042201C3A5AED00BBE49E /* Sonos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548042181C3A5AE300BBE49E /* Sonos.swift */; };
+		548042211C3A5AF500BBE49E /* OneDrive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548042161C3A5AE300BBE49E /* OneDrive.swift */; };
+		548042221C3A5AF700BBE49E /* Outlook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548042171C3A5AE300BBE49E /* Outlook.swift */; };
+		548042231C3A5AFA00BBE49E /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548042191C3A5AE300BBE49E /* Videos.swift */; };
+		548042241C3A5AFB00BBE49E /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548042191C3A5AE300BBE49E /* Videos.swift */; };
+		548042251C3A5AFE00BBE49E /* Sonos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548042181C3A5AE300BBE49E /* Sonos.swift */; };
 		54D5CFFC1C3995EE0039D512 /* GoogleChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D5CFF31C3995EE0039D512 /* GoogleChrome.swift */; };
 		54D5CFFD1C3995EE0039D512 /* GoogleChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D5CFF31C3995EE0039D512 /* GoogleChrome.swift */; };
 		54D5CFFE1C3995EE0039D512 /* GoogleChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D5CFF31C3995EE0039D512 /* GoogleChrome.swift */; };
@@ -257,6 +277,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54244A141C3A5B7A00AA064F /* OneDriveTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneDriveTests.swift; sourceTree = "<group>"; };
+		54244A151C3A5B7A00AA064F /* OutlookTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlookTests.swift; sourceTree = "<group>"; };
+		54244A161C3A5B7A00AA064F /* SonosTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonosTests.swift; sourceTree = "<group>"; };
+		54244A171C3A5B7A00AA064F /* VideosTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosTests.swift; sourceTree = "<group>"; };
 		546738821C3996A200AA42F1 /* GoogleChromeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleChromeTests.swift; sourceTree = "<group>"; };
 		546738831C3996A200AA42F1 /* GoogleDriveTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDriveTests.swift; sourceTree = "<group>"; };
 		546738841C3996A200AA42F1 /* LinkedinTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedinTests.swift; sourceTree = "<group>"; };
@@ -266,6 +290,10 @@
 		546738881C3996A200AA42F1 /* RemoteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteTests.swift; sourceTree = "<group>"; };
 		546738891C3996A200AA42F1 /* ScannerProTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerProTests.swift; sourceTree = "<group>"; };
 		5467388A1C3996A200AA42F1 /* SkypeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkypeTests.swift; sourceTree = "<group>"; };
+		548042161C3A5AE300BBE49E /* OneDrive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneDrive.swift; sourceTree = "<group>"; };
+		548042171C3A5AE300BBE49E /* Outlook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Outlook.swift; sourceTree = "<group>"; };
+		548042181C3A5AE300BBE49E /* Sonos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sonos.swift; sourceTree = "<group>"; };
+		548042191C3A5AE300BBE49E /* Videos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
 		54D5CFF31C3995EE0039D512 /* GoogleChrome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleChrome.swift; sourceTree = "<group>"; };
 		54D5CFF41C3995EE0039D512 /* GoogleDrive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDrive.swift; sourceTree = "<group>"; };
 		54D5CFF51C3995EE0039D512 /* Linkedin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Linkedin.swift; sourceTree = "<group>"; };
@@ -402,6 +430,10 @@
 		8246C8C81C1F990D00569119 /* AppsTests */ = {
 			isa = PBXGroup;
 			children = (
+				54244A141C3A5B7A00AA064F /* OneDriveTests.swift */,
+				54244A151C3A5B7A00AA064F /* OutlookTests.swift */,
+				54244A161C3A5B7A00AA064F /* SonosTests.swift */,
+				54244A171C3A5B7A00AA064F /* VideosTests.swift */,
 				546738821C3996A200AA42F1 /* GoogleChromeTests.swift */,
 				546738831C3996A200AA42F1 /* GoogleDriveTests.swift */,
 				546738841C3996A200AA42F1 /* LinkedinTests.swift */,
@@ -521,6 +553,10 @@
 		826ACF1C1BF1BE9C00B5FC5D /* Apps */ = {
 			isa = PBXGroup;
 			children = (
+				548042161C3A5AE300BBE49E /* OneDrive.swift */,
+				548042171C3A5AE300BBE49E /* Outlook.swift */,
+				548042181C3A5AE300BBE49E /* Sonos.swift */,
+				548042191C3A5AE300BBE49E /* Videos.swift */,
 				54D5CFF31C3995EE0039D512 /* GoogleChrome.swift */,
 				54D5CFF41C3995EE0039D512 /* GoogleDrive.swift */,
 				54D5CFF51C3995EE0039D512 /* Linkedin.swift */,
@@ -799,6 +835,7 @@
 				54D5D0061C3995EE0039D512 /* Music.swift in Sources */,
 				82F315B61C38538100CEFE92 /* Facebook.swift in Sources */,
 				54D5D00F1C3995EE0039D512 /* Remote.swift in Sources */,
+				5480421E1C3A5AE700BBE49E /* OneDrive.swift in Sources */,
 				82F315CB1C38538100CEFE92 /* Ibooks.swift in Sources */,
 				82F315C81C38538100CEFE92 /* GooglePlus.swift in Sources */,
 				82F315C21C38538100CEFE92 /* GoogleMail.swift in Sources */,
@@ -806,6 +843,7 @@
 				82F315D11C38538100CEFE92 /* INRIXTraffic.swift in Sources */,
 				82F315B91C38538100CEFE92 /* FindFriends.swift in Sources */,
 				82F315BC1C38538100CEFE92 /* Flickr.swift in Sources */,
+				5480421F1C3A5AEA00BBE49E /* Outlook.swift in Sources */,
 				82F315FB1C38538100CEFE92 /* Yelp.swift in Sources */,
 				8254C7C91C26124D009DB3BD /* NSExtensionContext+ApplicationCaller.swift in Sources */,
 				8254C78C1C2608BA009DB3BD /* Applications.swift in Sources */,
@@ -817,12 +855,14 @@
 				82F315D71C38538100CEFE92 /* Itranslate.swift in Sources */,
 				82F315E61C38538100CEFE92 /* Quora.swift in Sources */,
 				82F315F81C38538100CEFE92 /* WhatsApp.swift in Sources */,
+				548042231C3A5AFA00BBE49E /* Videos.swift in Sources */,
 				82F315DD1C38538100CEFE92 /* Messages.swift in Sources */,
 				82F315EF1C38538100CEFE92 /* Tweetbot.swift in Sources */,
 				82F315BF1C38538100CEFE92 /* GoogleEarth.swift in Sources */,
 				82F315E91C38538100CEFE92 /* Settings.swift in Sources */,
 				54D5CFFD1C3995EE0039D512 /* GoogleChrome.swift in Sources */,
 				82F315DA1C38538100CEFE92 /* Mail.swift in Sources */,
+				548042201C3A5AED00BBE49E /* Sonos.swift in Sources */,
 				54D5D0121C3995EE0039D512 /* ScannerPro.swift in Sources */,
 				82F315EC1C38538100CEFE92 /* Telegram.swift in Sources */,
 				54D5D00C1C3995EE0039D512 /* RemindersApp.swift in Sources */,
@@ -839,6 +879,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54244A221C3A5BB100AA064F /* OutlookTests.swift in Sources */,
 				82F316301C38539F00CEFE92 /* FlickrTests.swift in Sources */,
 				82F3164C1C38539F00CEFE92 /* QuoraTests.swift in Sources */,
 				82F316361C38539F00CEFE92 /* GoogleMapsTests.swift in Sources */,
@@ -870,6 +911,8 @@
 				82F3162C1C38539F00CEFE92 /* FacebookTests.swift in Sources */,
 				82F3163E1C38539F00CEFE92 /* INRIXTrafficTests.swift in Sources */,
 				5467389A1C3996A200AA42F1 /* ScannerProTests.swift in Sources */,
+				54244A201C3A5BAB00AA064F /* VideosTests.swift in Sources */,
+				54244A211C3A5BAE00AA064F /* SonosTests.swift in Sources */,
 				82F316541C38539F00CEFE92 /* TwitterTests.swift in Sources */,
 				82F316421C38539F00CEFE92 /* ItranslateTests.swift in Sources */,
 				82F3165C1C38539F00CEFE92 /* YoutubeTests.swift in Sources */,
@@ -879,6 +922,7 @@
 				546738921C3996A200AA42F1 /* MusicTests.swift in Sources */,
 				82F3165A1C38539F00CEFE92 /* YelpTests.swift in Sources */,
 				82F316341C38539F00CEFE92 /* GoogleMailTests.swift in Sources */,
+				54244A231C3A5BB300AA064F /* OneDriveTests.swift in Sources */,
 				82F316221C38539F00CEFE92 /* AudibleTests.swift in Sources */,
 				82F3162E1C38539F00CEFE92 /* FindFriendsTests.swift in Sources */,
 				5467389C1C3996A200AA42F1 /* SkypeTests.swift in Sources */,
@@ -895,13 +939,16 @@
 				54D5D00A1C3995EE0039D512 /* Phone.swift in Sources */,
 				82F315DB1C38538100CEFE92 /* Mail.swift in Sources */,
 				54D5D0041C3995EE0039D512 /* Linkedin.swift in Sources */,
+				548042211C3A5AF500BBE49E /* OneDrive.swift in Sources */,
 				82F315CC1C38538100CEFE92 /* Ibooks.swift in Sources */,
 				82F315E71C38538100CEFE92 /* Quora.swift in Sources */,
 				8254C7B51C260DA8009DB3BD /* Path.swift in Sources */,
 				8254C7B71C260DA8009DB3BD /* ExternalApplication.swift in Sources */,
+				548042251C3A5AFE00BBE49E /* Sonos.swift in Sources */,
 				82F315FC1C38538100CEFE92 /* Yelp.swift in Sources */,
 				82F315B11C38538100CEFE92 /* Dropbox.swift in Sources */,
 				8254C7B91C260DA8009DB3BD /* NSExtensionContext+ApplicationCaller.swift in Sources */,
+				548042221C3A5AF700BBE49E /* Outlook.swift in Sources */,
 				54D5CFFE1C3995EE0039D512 /* GoogleChrome.swift in Sources */,
 				82F315FF1C38538100CEFE92 /* Youtube.swift in Sources */,
 				82F315E11C38538100CEFE92 /* Paypal.swift in Sources */,
@@ -912,6 +959,7 @@
 				82F315DE1C38538100CEFE92 /* Messages.swift in Sources */,
 				54D5D0101C3995EE0039D512 /* Remote.swift in Sources */,
 				82F315C91C38538100CEFE92 /* GooglePlus.swift in Sources */,
+				548042241C3A5AFB00BBE49E /* Videos.swift in Sources */,
 				82F315D21C38538100CEFE92 /* INRIXTraffic.swift in Sources */,
 				82F315E41C38538100CEFE92 /* Pinterest.swift in Sources */,
 				82F315F01C38538100CEFE92 /* Tweetbot.swift in Sources */,
@@ -956,6 +1004,7 @@
 				54D5D0051C3995EE0039D512 /* Music.swift in Sources */,
 				82F315B51C38538100CEFE92 /* Facebook.swift in Sources */,
 				54D5D00E1C3995EE0039D512 /* Remote.swift in Sources */,
+				5480421A1C3A5AE300BBE49E /* OneDrive.swift in Sources */,
 				82F315CA1C38538100CEFE92 /* Ibooks.swift in Sources */,
 				82F315C71C38538100CEFE92 /* GooglePlus.swift in Sources */,
 				82F315C11C38538100CEFE92 /* GoogleMail.swift in Sources */,
@@ -963,6 +1012,7 @@
 				82F315D01C38538100CEFE92 /* INRIXTraffic.swift in Sources */,
 				82F315B81C38538100CEFE92 /* FindFriends.swift in Sources */,
 				82F315BB1C38538100CEFE92 /* Flickr.swift in Sources */,
+				5480421B1C3A5AE300BBE49E /* Outlook.swift in Sources */,
 				82F315FA1C38538100CEFE92 /* Yelp.swift in Sources */,
 				8254C7C81C26124D009DB3BD /* NSExtensionContext+ApplicationCaller.swift in Sources */,
 				826ACF191BF1BD1F00B5FC5D /* Applications.swift in Sources */,
@@ -974,12 +1024,14 @@
 				82F315D61C38538100CEFE92 /* Itranslate.swift in Sources */,
 				82F315E51C38538100CEFE92 /* Quora.swift in Sources */,
 				82F315F71C38538100CEFE92 /* WhatsApp.swift in Sources */,
+				5480421D1C3A5AE300BBE49E /* Videos.swift in Sources */,
 				82F315DC1C38538100CEFE92 /* Messages.swift in Sources */,
 				82F315EE1C38538100CEFE92 /* Tweetbot.swift in Sources */,
 				82F315BE1C38538100CEFE92 /* GoogleEarth.swift in Sources */,
 				82F315E81C38538100CEFE92 /* Settings.swift in Sources */,
 				54D5CFFC1C3995EE0039D512 /* GoogleChrome.swift in Sources */,
 				82F315D91C38538100CEFE92 /* Mail.swift in Sources */,
+				5480421C1C3A5AE300BBE49E /* Sonos.swift in Sources */,
 				54D5D0111C3995EE0039D512 /* ScannerPro.swift in Sources */,
 				82F315EB1C38538100CEFE92 /* Telegram.swift in Sources */,
 				54D5D00B1C3995EE0039D512 /* RemindersApp.swift in Sources */,
@@ -1005,11 +1057,13 @@
 				82F316551C38539F00CEFE92 /* ViberTests.swift in Sources */,
 				82F316251C38539F00CEFE92 /* DocumentsTests.swift in Sources */,
 				82F316231C38539F00CEFE92 /* DayOneTests.swift in Sources */,
+				54244A1C1C3A5B7F00AA064F /* OneDriveTests.swift in Sources */,
 				82F316291C38539F00CEFE92 /* EbayTests.swift in Sources */,
 				82F316491C38539F00CEFE92 /* PinterestTests.swift in Sources */,
 				8254C7791C24B515009DB3BD /* PathTests.swift in Sources */,
 				82F316311C38539F00CEFE92 /* GoogleEarthTests.swift in Sources */,
 				82F316271C38539F00CEFE92 /* DropboxTests.swift in Sources */,
+				54244A1F1C3A5B8B00AA064F /* VideosTests.swift in Sources */,
 				82F316371C38539F00CEFE92 /* GooglePlusTests.swift in Sources */,
 				82F316451C38539F00CEFE92 /* MessagesTest.swift in Sources */,
 				82F316511C38539F00CEFE92 /* TweetbotTests.swift in Sources */,
@@ -1025,6 +1079,7 @@
 				5467388D1C3996A200AA42F1 /* GoogleDriveTests.swift in Sources */,
 				546738971C3996A200AA42F1 /* RemoteTests.swift in Sources */,
 				82F3162B1C38539F00CEFE92 /* FacebookTests.swift in Sources */,
+				54244A1E1C3A5B8700AA064F /* SonosTests.swift in Sources */,
 				82F3163D1C38539F00CEFE92 /* INRIXTrafficTests.swift in Sources */,
 				546738991C3996A200AA42F1 /* ScannerProTests.swift in Sources */,
 				82F316531C38539F00CEFE92 /* TwitterTests.swift in Sources */,
@@ -1040,6 +1095,7 @@
 				82F3162D1C38539F00CEFE92 /* FindFriendsTests.swift in Sources */,
 				5467389B1C3996A200AA42F1 /* SkypeTests.swift in Sources */,
 				8246C8D51C1F9B0800569119 /* ApplicationCallerTests.swift in Sources */,
+				54244A1D1C3A5B8300AA064F /* OutlookTests.swift in Sources */,
 				546738931C3996A200AA42F1 /* PhoneTests.swift in Sources */,
 				5467388F1C3996A200AA42F1 /* LinkedinTests.swift in Sources */,
 			);
