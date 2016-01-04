@@ -33,6 +33,30 @@
 		5467389A1C3996A200AA42F1 /* ScannerProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546738891C3996A200AA42F1 /* ScannerProTests.swift */; };
 		5467389B1C3996A200AA42F1 /* SkypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467388A1C3996A200AA42F1 /* SkypeTests.swift */; };
 		5467389C1C3996A200AA42F1 /* SkypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467388A1C3996A200AA42F1 /* SkypeTests.swift */; };
+		5474DDD11C3B141100300281 /* Excel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCC1C3B141100300281 /* Excel.swift */; };
+		5474DDD21C3B141100300281 /* MSPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCD1C3B141100300281 /* MSPayload.swift */; };
+		5474DDD31C3B141100300281 /* OneNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCE1C3B141100300281 /* OneNote.swift */; };
+		5474DDD41C3B141100300281 /* PowerPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCF1C3B141100300281 /* PowerPoint.swift */; };
+		5474DDD51C3B141100300281 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDD01C3B141100300281 /* Word.swift */; };
+		5474DDD61C3B14CD00300281 /* MailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F316121C38539F00CEFE92 /* MailTests.swift */; };
+		5474DDD81C3B14E600300281 /* ExcelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDD71C3B14E600300281 /* ExcelTests.swift */; };
+		5474DDD91C3B14ED00300281 /* Excel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCC1C3B141100300281 /* Excel.swift */; };
+		5474DDDA1C3B14ED00300281 /* Excel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCC1C3B141100300281 /* Excel.swift */; };
+		5474DDDB1C3B14F000300281 /* MSPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCD1C3B141100300281 /* MSPayload.swift */; };
+		5474DDDC1C3B14F100300281 /* MSPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCD1C3B141100300281 /* MSPayload.swift */; };
+		5474DDDD1C3B14F400300281 /* OneNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCE1C3B141100300281 /* OneNote.swift */; };
+		5474DDDE1C3B14F400300281 /* OneNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCE1C3B141100300281 /* OneNote.swift */; };
+		5474DDDF1C3B14F700300281 /* PowerPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCF1C3B141100300281 /* PowerPoint.swift */; };
+		5474DDE01C3B14F800300281 /* PowerPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCF1C3B141100300281 /* PowerPoint.swift */; };
+		5474DDE11C3B14FC00300281 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDD01C3B141100300281 /* Word.swift */; };
+		5474DDE21C3B14FD00300281 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDD01C3B141100300281 /* Word.swift */; };
+		5474DDE41C3B15F800300281 /* OneNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDE31C3B15F800300281 /* OneNoteTests.swift */; };
+		5474DDE51C3B164600300281 /* ExcelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDD71C3B14E600300281 /* ExcelTests.swift */; };
+		5474DDE61C3B164B00300281 /* OneNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDE31C3B15F800300281 /* OneNoteTests.swift */; };
+		5474DDE81C3B165D00300281 /* PowerPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDE71C3B165D00300281 /* PowerPointTests.swift */; };
+		5474DDE91C3B16A700300281 /* PowerPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDE71C3B165D00300281 /* PowerPointTests.swift */; };
+		5474DDEB1C3B16BA00300281 /* WordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDEA1C3B16BA00300281 /* WordTests.swift */; };
+		5474DDEC1C3B170B00300281 /* WordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDEA1C3B16BA00300281 /* WordTests.swift */; };
 		5480421A1C3A5AE300BBE49E /* OneDrive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548042161C3A5AE300BBE49E /* OneDrive.swift */; };
 		5480421B1C3A5AE300BBE49E /* Outlook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548042171C3A5AE300BBE49E /* Outlook.swift */; };
 		5480421C1C3A5AE300BBE49E /* Sonos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548042181C3A5AE300BBE49E /* Sonos.swift */; };
@@ -232,7 +256,6 @@
 		82F316411C38539F00CEFE92 /* ItranslateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F316111C38539F00CEFE92 /* ItranslateTests.swift */; };
 		82F316421C38539F00CEFE92 /* ItranslateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F316111C38539F00CEFE92 /* ItranslateTests.swift */; };
 		82F316431C38539F00CEFE92 /* MailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F316121C38539F00CEFE92 /* MailTests.swift */; };
-		82F316441C38539F00CEFE92 /* MailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F316121C38539F00CEFE92 /* MailTests.swift */; };
 		82F316451C38539F00CEFE92 /* MessagesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F316131C38539F00CEFE92 /* MessagesTest.swift */; };
 		82F316461C38539F00CEFE92 /* MessagesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F316131C38539F00CEFE92 /* MessagesTest.swift */; };
 		82F316471C38539F00CEFE92 /* PaypalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F316141C38539F00CEFE92 /* PaypalTests.swift */; };
@@ -290,6 +313,15 @@
 		546738881C3996A200AA42F1 /* RemoteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteTests.swift; sourceTree = "<group>"; };
 		546738891C3996A200AA42F1 /* ScannerProTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerProTests.swift; sourceTree = "<group>"; };
 		5467388A1C3996A200AA42F1 /* SkypeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkypeTests.swift; sourceTree = "<group>"; };
+		5474DDCC1C3B141100300281 /* Excel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Excel.swift; sourceTree = "<group>"; };
+		5474DDCD1C3B141100300281 /* MSPayload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSPayload.swift; sourceTree = "<group>"; };
+		5474DDCE1C3B141100300281 /* OneNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneNote.swift; sourceTree = "<group>"; };
+		5474DDCF1C3B141100300281 /* PowerPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerPoint.swift; sourceTree = "<group>"; };
+		5474DDD01C3B141100300281 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		5474DDD71C3B14E600300281 /* ExcelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcelTests.swift; sourceTree = "<group>"; };
+		5474DDE31C3B15F800300281 /* OneNoteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneNoteTests.swift; sourceTree = "<group>"; };
+		5474DDE71C3B165D00300281 /* PowerPointTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerPointTests.swift; sourceTree = "<group>"; };
+		5474DDEA1C3B16BA00300281 /* WordTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordTests.swift; sourceTree = "<group>"; };
 		548042161C3A5AE300BBE49E /* OneDrive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneDrive.swift; sourceTree = "<group>"; };
 		548042171C3A5AE300BBE49E /* Outlook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Outlook.swift; sourceTree = "<group>"; };
 		548042181C3A5AE300BBE49E /* Sonos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sonos.swift; sourceTree = "<group>"; };
@@ -474,6 +506,10 @@
 				82F3161C1C38539F00CEFE92 /* WhatsAppTests.swift */,
 				82F3161D1C38539F00CEFE92 /* YelpTests.swift */,
 				82F3161E1C38539F00CEFE92 /* YoutubeTests.swift */,
+				5474DDD71C3B14E600300281 /* ExcelTests.swift */,
+				5474DDE31C3B15F800300281 /* OneNoteTests.swift */,
+				5474DDE71C3B165D00300281 /* PowerPointTests.swift */,
+				5474DDEA1C3B16BA00300281 /* WordTests.swift */,
 			);
 			path = AppsTests;
 			sourceTree = "<group>";
@@ -553,6 +589,11 @@
 		826ACF1C1BF1BE9C00B5FC5D /* Apps */ = {
 			isa = PBXGroup;
 			children = (
+				5474DDCC1C3B141100300281 /* Excel.swift */,
+				5474DDCD1C3B141100300281 /* MSPayload.swift */,
+				5474DDCE1C3B141100300281 /* OneNote.swift */,
+				5474DDCF1C3B141100300281 /* PowerPoint.swift */,
+				5474DDD01C3B141100300281 /* Word.swift */,
 				548042161C3A5AE300BBE49E /* OneDrive.swift */,
 				548042171C3A5AE300BBE49E /* Outlook.swift */,
 				548042181C3A5AE300BBE49E /* Sonos.swift */,
@@ -833,15 +874,18 @@
 				82F315CE1C38538100CEFE92 /* IMDb.swift in Sources */,
 				54D5D0031C3995EE0039D512 /* Linkedin.swift in Sources */,
 				54D5D0061C3995EE0039D512 /* Music.swift in Sources */,
+				5474DDDD1C3B14F400300281 /* OneNote.swift in Sources */,
 				82F315B61C38538100CEFE92 /* Facebook.swift in Sources */,
 				54D5D00F1C3995EE0039D512 /* Remote.swift in Sources */,
 				5480421E1C3A5AE700BBE49E /* OneDrive.swift in Sources */,
 				82F315CB1C38538100CEFE92 /* Ibooks.swift in Sources */,
 				82F315C81C38538100CEFE92 /* GooglePlus.swift in Sources */,
+				5474DDE11C3B14FC00300281 /* Word.swift in Sources */,
 				82F315C21C38538100CEFE92 /* GoogleMail.swift in Sources */,
 				82F315E01C38538100CEFE92 /* Paypal.swift in Sources */,
 				82F315D11C38538100CEFE92 /* INRIXTraffic.swift in Sources */,
 				82F315B91C38538100CEFE92 /* FindFriends.swift in Sources */,
+				5474DDDB1C3B14F000300281 /* MSPayload.swift in Sources */,
 				82F315BC1C38538100CEFE92 /* Flickr.swift in Sources */,
 				5480421F1C3A5AEA00BBE49E /* Outlook.swift in Sources */,
 				82F315FB1C38538100CEFE92 /* Yelp.swift in Sources */,
@@ -866,8 +910,10 @@
 				54D5D0121C3995EE0039D512 /* ScannerPro.swift in Sources */,
 				82F315EC1C38538100CEFE92 /* Telegram.swift in Sources */,
 				54D5D00C1C3995EE0039D512 /* RemindersApp.swift in Sources */,
+				5474DDDF1C3B14F700300281 /* PowerPoint.swift in Sources */,
 				82F315D41C38538100CEFE92 /* Instagram.swift in Sources */,
 				82F315C51C38538100CEFE92 /* GoogleMaps.swift in Sources */,
+				5474DDD91C3B14ED00300281 /* Excel.swift in Sources */,
 				8254C78E1C2608BA009DB3BD /* UIApplication+ApplicationCaller.swift in Sources */,
 				54D5D0001C3995EE0039D512 /* GoogleDrive.swift in Sources */,
 				82F315F21C38538100CEFE92 /* Twitter.swift in Sources */,
@@ -881,13 +927,14 @@
 			files = (
 				54244A221C3A5BB100AA064F /* OutlookTests.swift in Sources */,
 				82F316301C38539F00CEFE92 /* FlickrTests.swift in Sources */,
+				5474DDD61C3B14CD00300281 /* MailTests.swift in Sources */,
 				82F3164C1C38539F00CEFE92 /* QuoraTests.swift in Sources */,
 				82F316361C38539F00CEFE92 /* GoogleMapsTests.swift in Sources */,
-				82F316441C38539F00CEFE92 /* MailTests.swift in Sources */,
 				82F316481C38539F00CEFE92 /* PaypalTests.swift in Sources */,
 				82F3163A1C38539F00CEFE92 /* IbooksTests.swift in Sources */,
 				82F316561C38539F00CEFE92 /* ViberTests.swift in Sources */,
 				82F316261C38539F00CEFE92 /* DocumentsTests.swift in Sources */,
+				5474DDEC1C3B170B00300281 /* WordTests.swift in Sources */,
 				82F316241C38539F00CEFE92 /* DayOneTests.swift in Sources */,
 				82F3162A1C38539F00CEFE92 /* EbayTests.swift in Sources */,
 				82F3164A1C38539F00CEFE92 /* PinterestTests.swift in Sources */,
@@ -906,6 +953,7 @@
 				8254C7AF1C260A3B009DB3BD /* ApplicationCallerMock.swift in Sources */,
 				82F316401C38539F00CEFE92 /* InstagramTests.swift in Sources */,
 				82F3163C1C38539F00CEFE92 /* IMDbTests.swift in Sources */,
+				5474DDE51C3B164600300281 /* ExcelTests.swift in Sources */,
 				5467388E1C3996A200AA42F1 /* GoogleDriveTests.swift in Sources */,
 				546738981C3996A200AA42F1 /* RemoteTests.swift in Sources */,
 				82F3162C1C38539F00CEFE92 /* FacebookTests.swift in Sources */,
@@ -914,12 +962,14 @@
 				54244A201C3A5BAB00AA064F /* VideosTests.swift in Sources */,
 				54244A211C3A5BAE00AA064F /* SonosTests.swift in Sources */,
 				82F316541C38539F00CEFE92 /* TwitterTests.swift in Sources */,
+				5474DDE61C3B164B00300281 /* OneNoteTests.swift in Sources */,
 				82F316421C38539F00CEFE92 /* ItranslateTests.swift in Sources */,
 				82F3165C1C38539F00CEFE92 /* YoutubeTests.swift in Sources */,
 				82F316581C38539F00CEFE92 /* WhatsAppTests.swift in Sources */,
 				8254C7B01C260A3B009DB3BD /* SampleApp.swift in Sources */,
 				82F316501C38539F00CEFE92 /* TelegramTests.swift in Sources */,
 				546738921C3996A200AA42F1 /* MusicTests.swift in Sources */,
+				5474DDE91C3B16A700300281 /* PowerPointTests.swift in Sources */,
 				82F3165A1C38539F00CEFE92 /* YelpTests.swift in Sources */,
 				82F316341C38539F00CEFE92 /* GoogleMailTests.swift in Sources */,
 				54244A231C3A5BB300AA064F /* OneDriveTests.swift in Sources */,
@@ -965,6 +1015,7 @@
 				82F315F01C38538100CEFE92 /* Tweetbot.swift in Sources */,
 				82F315ED1C38538100CEFE92 /* Telegram.swift in Sources */,
 				82F315A51C38538100CEFE92 /* AppStore.swift in Sources */,
+				5474DDDE1C3B14F400300281 /* OneNote.swift in Sources */,
 				82F315A81C38538100CEFE92 /* Audible.swift in Sources */,
 				8254C7BD1C260DA8009DB3BD /* Applications.swift in Sources */,
 				54D5D0011C3995EE0039D512 /* GoogleDrive.swift in Sources */,
@@ -976,13 +1027,17 @@
 				82F315C01C38538100CEFE92 /* GoogleEarth.swift in Sources */,
 				54D5D0161C3995EE0039D512 /* Skype.swift in Sources */,
 				54D5D00D1C3995EE0039D512 /* RemindersApp.swift in Sources */,
+				5474DDDC1C3B14F100300281 /* MSPayload.swift in Sources */,
 				82F315C31C38538100CEFE92 /* GoogleMail.swift in Sources */,
 				82F315B41C38538100CEFE92 /* Ebay.swift in Sources */,
 				82F315F31C38538100CEFE92 /* Twitter.swift in Sources */,
+				5474DDE21C3B14FD00300281 /* Word.swift in Sources */,
 				82F315F61C38538100CEFE92 /* Viber.swift in Sources */,
 				82F315AE1C38538100CEFE92 /* Documents.swift in Sources */,
 				82F315BD1C38538100CEFE92 /* Flickr.swift in Sources */,
 				82F315AB1C38538100CEFE92 /* DayOne.swift in Sources */,
+				5474DDDA1C3B14ED00300281 /* Excel.swift in Sources */,
+				5474DDE01C3B14F800300281 /* PowerPoint.swift in Sources */,
 				82F315C61C38538100CEFE92 /* GoogleMaps.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1002,15 +1057,18 @@
 				82F315CD1C38538100CEFE92 /* IMDb.swift in Sources */,
 				54D5D0021C3995EE0039D512 /* Linkedin.swift in Sources */,
 				54D5D0051C3995EE0039D512 /* Music.swift in Sources */,
+				5474DDD31C3B141100300281 /* OneNote.swift in Sources */,
 				82F315B51C38538100CEFE92 /* Facebook.swift in Sources */,
 				54D5D00E1C3995EE0039D512 /* Remote.swift in Sources */,
 				5480421A1C3A5AE300BBE49E /* OneDrive.swift in Sources */,
 				82F315CA1C38538100CEFE92 /* Ibooks.swift in Sources */,
 				82F315C71C38538100CEFE92 /* GooglePlus.swift in Sources */,
+				5474DDD51C3B141100300281 /* Word.swift in Sources */,
 				82F315C11C38538100CEFE92 /* GoogleMail.swift in Sources */,
 				82F315DF1C38538100CEFE92 /* Paypal.swift in Sources */,
 				82F315D01C38538100CEFE92 /* INRIXTraffic.swift in Sources */,
 				82F315B81C38538100CEFE92 /* FindFriends.swift in Sources */,
+				5474DDD21C3B141100300281 /* MSPayload.swift in Sources */,
 				82F315BB1C38538100CEFE92 /* Flickr.swift in Sources */,
 				5480421B1C3A5AE300BBE49E /* Outlook.swift in Sources */,
 				82F315FA1C38538100CEFE92 /* Yelp.swift in Sources */,
@@ -1035,8 +1093,10 @@
 				54D5D0111C3995EE0039D512 /* ScannerPro.swift in Sources */,
 				82F315EB1C38538100CEFE92 /* Telegram.swift in Sources */,
 				54D5D00B1C3995EE0039D512 /* RemindersApp.swift in Sources */,
+				5474DDD41C3B141100300281 /* PowerPoint.swift in Sources */,
 				82F315D31C38538100CEFE92 /* Instagram.swift in Sources */,
 				82F315C41C38538100CEFE92 /* GoogleMaps.swift in Sources */,
+				5474DDD11C3B141100300281 /* Excel.swift in Sources */,
 				826ACF251BF1C00800B5FC5D /* UIApplication+ApplicationCaller.swift in Sources */,
 				54D5CFFF1C3995EE0039D512 /* GoogleDrive.swift in Sources */,
 				82F315F11C38538100CEFE92 /* Twitter.swift in Sources */,
@@ -1057,6 +1117,7 @@
 				82F316551C38539F00CEFE92 /* ViberTests.swift in Sources */,
 				82F316251C38539F00CEFE92 /* DocumentsTests.swift in Sources */,
 				82F316231C38539F00CEFE92 /* DayOneTests.swift in Sources */,
+				5474DDEB1C3B16BA00300281 /* WordTests.swift in Sources */,
 				54244A1C1C3A5B7F00AA064F /* OneDriveTests.swift in Sources */,
 				82F316291C38539F00CEFE92 /* EbayTests.swift in Sources */,
 				82F316491C38539F00CEFE92 /* PinterestTests.swift in Sources */,
@@ -1075,6 +1136,7 @@
 				82F3164D1C38539F00CEFE92 /* SettingsTests.swift in Sources */,
 				8254C77E1C25751A009DB3BD /* SampleApp.swift in Sources */,
 				82F3163F1C38539F00CEFE92 /* InstagramTests.swift in Sources */,
+				5474DDD81C3B14E600300281 /* ExcelTests.swift in Sources */,
 				82F3163B1C38539F00CEFE92 /* IMDbTests.swift in Sources */,
 				5467388D1C3996A200AA42F1 /* GoogleDriveTests.swift in Sources */,
 				546738971C3996A200AA42F1 /* RemoteTests.swift in Sources */,
@@ -1083,12 +1145,14 @@
 				82F3163D1C38539F00CEFE92 /* INRIXTrafficTests.swift in Sources */,
 				546738991C3996A200AA42F1 /* ScannerProTests.swift in Sources */,
 				82F316531C38539F00CEFE92 /* TwitterTests.swift in Sources */,
+				5474DDE41C3B15F800300281 /* OneNoteTests.swift in Sources */,
 				82F316411C38539F00CEFE92 /* ItranslateTests.swift in Sources */,
 				82F3165B1C38539F00CEFE92 /* YoutubeTests.swift in Sources */,
 				82F316571C38539F00CEFE92 /* WhatsAppTests.swift in Sources */,
 				827EF6171BF2756C000B1607 /* ApplicationCallerMock.swift in Sources */,
 				82F3164F1C38539F00CEFE92 /* TelegramTests.swift in Sources */,
 				546738911C3996A200AA42F1 /* MusicTests.swift in Sources */,
+				5474DDE81C3B165D00300281 /* PowerPointTests.swift in Sources */,
 				82F316591C38539F00CEFE92 /* YelpTests.swift in Sources */,
 				82F316331C38539F00CEFE92 /* GoogleMailTests.swift in Sources */,
 				82F316211C38539F00CEFE92 /* AudibleTests.swift in Sources */,
