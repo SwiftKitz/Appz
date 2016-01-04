@@ -102,6 +102,7 @@ App | Actions
 [Documents][Documents-link] | Open
 [Dropbox][Dropbox-link] | Open
 [ebay][ebay-link] | Open
+[Excel][Excel-link] | Open
 [Facebook][Facebook-link] | Open, Profile, Notification, Feed
 [FindFriends][FindFriends-link] | Open
 [Flickr][Flickr-link] | Open
@@ -120,19 +121,26 @@ App | Actions
 [Mail][Mail-link] | Compose
 [Messages][Messages-link] | SMS
 [Music][Music-link] | Open
+[OneDrive][OneDrive-link] | Open
+[OneNote][OneNote-link] | Open
+[Outlook][Outlook-link] | Open, Compose
 [Paypal][Paypal-link] | Open
 [Phone][Phone-link] | Open
 [Pinterest][Pinterest-link] | Open, UserProfile, Search
+[PowerPoint][PowerPoint-link] | Open
 [Quora][Quora-link] | Open
 [RemindersApp][RemindersApp-link] | Open
 [Remote][Remote-link] | Open
 [ScannerPro][ScannerPro-link] | Open
 [Skype][Skype-link] | Open
+[Sonos][Sonos-link] | Open
 [Telegram][Telegram-link] | Open, SMS
 [Tweetbot][Tweetbot-link] | Timeline, Post, Mentions, Lists, Retweets, Favorites, Messages, Status, Search, Profile, Follow, Unfollow, Favorite, Unfavorite, Retweet, List
 [Twitter][Twitter-link] | Status, UserHandle, UserId, List, Post, Search, Timeline, Mentions, Messages
 [Viber][Viber-link] | Open Calls Tab, Open Chats Tab
-[WhatsApp][WhatsApp-link] | Open, Send
+[Videos][Videos-link] | Open
+[WhatsApp][WhatsApp-link] | Open
+[Word][Word-link] | Open
 [Yelp][Yelp-link] | Open, Search, Search Location, Search Category, Search Category Location, Business
 [Youtube][Youtube-link] | Open, Open Video
 ## Getting Started
@@ -193,6 +201,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Documents-link]: https://readdle.com/products/documents
 [Dropbox-link]: https://dropbox.com
 [ebay-link]: http://www.ebay.com
+[Excel-link]: https://www.office.com/
 [Facebook-link]: https://facebook.com
 [FindFriends-link]: http://handleopenurl.com/scheme/find-my-friends
 [Flickr-link]: https://www.flickr.com
@@ -203,7 +212,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [GoogleMaps-link]: https://maps.google.com
 [GooglePlus-link]: https://plus.google.com
 [iBooks-link]: http://handleopenurl.com/?id=694
-[IMDb-link]: http://www.imdb.com
+[IMDb-link]: http://www.imdb.com 
 [INRIXTraffic-link]: http://inrix.com/inrix-traffic-app
 [Instagram-link]: https://instagram.com
 [itranslate-link]: http://itranslateapp.com
@@ -211,18 +220,25 @@ Appz is released under the MIT license. See LICENSE for details.
 [Mail-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MailLinks/MailLinks.html#//apple_ref/doc/uid/TP40007899-CH4-SW1
 [Messages-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/SMSLinks/SMSLinks.html#//apple_ref/doc/uid/TP40007899-CH7-SW1
 [Music-link]: http://handleopenurl.com/scheme/original-ipod-music-app
+[OneDrive-link]: https://onedrive.live.com/
+[OneNote-link]: https://www.office.com/
+[Outlook-link]: http://www.outlook.com/
 [Paypal-link]: https://paypal.com
 [Phone-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/PhoneLinks/PhoneLinks.html
 [Pinterest-link]: https://www.pinterest.com
+[PowerPoint-link]: https://www.office.com/
 [Quora-link]: https://www.quora.com
 [RemindersApp-link]: http://handleopenurl.com/scheme/reminders
 [Remote-link]: http://handleopenurl.com/scheme/remote
 [ScannerPro-link]: https://readdle.com/products/scannerpro/
 [Skype-link]: http://www.skype.com/
+[Sonos-link]: http://www.sonos.com/
 [Telegram-link]: https://web.telegram.org
 [Tweetbot-link]: http://tapbots.com/tweetbot
 [Twitter-link]: https://twitter.com
 [Viber-link]: http://www.viber.com
+[Videos-link]: http://handleopenurl.com/scheme/ipod-video-library
 [WhatsApp-link]: https://www.whatsapp.com
+[Word-link]: https://www.office.com/
 [Yelp-link]: https://m.yelp.com
 [Youtube-link]: https://youtube.com

@@ -25,7 +25,7 @@ public struct Email {
     var subject: String
     var body: String
     
-    init(recipient: String = "", subject: String = "", body: String = "") {
+    public init(recipient: String = "", subject: String = "", body: String = "") {
         
         self.recipient = recipient
         self.subject = subject
