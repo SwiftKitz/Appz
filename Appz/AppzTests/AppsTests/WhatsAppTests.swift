@@ -28,4 +28,12 @@ class WhatsAppTests: XCTestCase {
         XCTAssertEqual(action.paths.app.queryParameters, [:])
         XCTAssertEqual(action.paths.web, Path())
     }
+    
+    func testSend(){
+        let action = Applications.WhatsApp.Action.Send(abid: "someId", text: "some Text")
+        
+        XCTAssertEqual(action.paths.app.pathComponents, ["send"])
+        XCTAssertEqual(action.paths.app.queryParameters, ["abid":"someId", "text":"some Text"])
+        XCTAssertEqual(action.paths.web, Path())
+    }
 }

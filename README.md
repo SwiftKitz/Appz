@@ -132,7 +132,7 @@ App | Actions
 [Tweetbot][Tweetbot-link] | Timeline, Post, Mentions, Lists, Retweets, Favorites, Messages, Status, Search, Profile, Follow, Unfollow, Favorite, Unfavorite, Retweet, List
 [Twitter][Twitter-link] | Status, UserHandle, UserId, List, Post, Search, Timeline, Mentions, Messages
 [Viber][Viber-link] | Open Calls Tab, Open Chats Tab
-[WhatsApp][WhatsApp-link] | Open
+[WhatsApp][WhatsApp-link] | Open, Send
 [Yelp][Yelp-link] | Open, Search, Search Location, Search Category, Search Category Location, Business
 [Youtube][Youtube-link] | Open, Open Video
 ## Getting Started
@@ -203,7 +203,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [GoogleMaps-link]: https://maps.google.com
 [GooglePlus-link]: https://plus.google.com
 [iBooks-link]: http://handleopenurl.com/?id=694
-[IMDb-link]: http://www.imdb.com 
+[IMDb-link]: http://www.imdb.com
 [INRIXTraffic-link]: http://inrix.com/inrix-traffic-app
 [Instagram-link]: https://instagram.com
 [itranslate-link]: http://itranslateapp.com

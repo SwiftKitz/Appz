@@ -25,6 +25,7 @@ public extension Applications.WhatsApp {
     
     public enum Action {
         case Open
+        case Send(abid: String, text: String)
     }
 }
 
@@ -41,6 +42,15 @@ extension Applications.WhatsApp.Action: ExternalApplicationAction {
                 ),
                 web: Path()
             )
+        case .Send(let abid, let text):
+            return ActionPaths(
+                app: Path(
+                    pathComponents: ["send"],
+                    queryParameters: ["text" : text, "abid": abid ?? ""]
+                ),
+                web: Path()
+            )
+            
         }
     }
 }
