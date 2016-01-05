@@ -107,6 +107,7 @@ App | Actions
 [Facebook][Facebook-link] | Open, Profile, Notification, Feed
 [FindFriends][FindFriends-link] | Open
 [Flickr][Flickr-link] | Open
+[Flipboard][Flipboard-link] | Open 
 [GoogleChrome][GoogleChrome-link] | Open
 [GoogleDrive][GoogleDrive-link] | Open
 [GoogleEarth][GoogleEarth-link] | Open
@@ -142,6 +143,7 @@ App | Actions
 [Twitterrific][Twitterrific-link] | Open, MentionsView, MessagesView, FavoritesView, Search, TweetID, MessageID, Post, UserProfile 
 [Viber][Viber-link] | Open Calls Tab, Open Chats Tab
 [Videos][Videos-link] | Open
+[Vine][Vine-link] | Open, Popular Timelines
 [Waze][Waze-link] | Open
 [WhatsApp][WhatsApp-link] | Open
 [Word][Word-link] | Open
@@ -210,6 +212,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Facebook-link]: https://facebook.com
 [FindFriends-link]: http://handleopenurl.com/scheme/find-my-friends
 [Flickr-link]: https://www.flickr.com
+[Flipboard-link]: https://flipboard.com
 [GoogleChrome-link]: https://www.google.com/chrome/
 [GoogleDrive-link]: https://www.google.com/drive/
 [GoogleEarth-link]: https://www.google.com/earth
@@ -245,6 +248,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Twitterrific-link]: http://twitterrific.com/ios/poweruser
 [Viber-link]: http://www.viber.com
 [Videos-link]: http://handleopenurl.com/scheme/ipod-video-library
+[Vine-link]: https://vine.co
 [Waze-link]: https://www.waze.com
 [WhatsApp-link]: https://www.whatsapp.com
 [Word-link]: https://www.office.com/
