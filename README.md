@@ -107,7 +107,8 @@ App | Actions
 [Facebook][Facebook-link] | Open, Profile, Notification, Feed
 [FindFriends][FindFriends-link] | Open
 [Flickr][Flickr-link] | Open
-[Flipboard][Flipboard-link] | Open 
+[Flipboard][Flipboard-link] | Open
+[Gallery][Gallery-link] | Open
 [GoogleChrome][GoogleChrome-link] | Open
 [GoogleDrive][GoogleDrive-link] | Open
 [GoogleEarth][GoogleEarth-link] | Open
@@ -123,6 +124,7 @@ App | Actions
 [Mail][Mail-link] | Compose
 [Messages][Messages-link] | SMS
 [Music][Music-link] | Open
+[Notes][Notes-link] | Open
 [OneDrive][OneDrive-link] | Open
 [OneNote][OneNote-link] | Open
 [Outlook][Outlook-link] | Open, Compose
@@ -137,6 +139,7 @@ App | Actions
 [Skype][Skype-link] | Open
 [Sonos][Sonos-link] | Open
 [Telegram][Telegram-link] | Open, SMS
+[TestFlight][TestFlight-link] | Open
 [Trello][Trello-link] | Open
 [Tweetbot][Tweetbot-link] | Timeline, Post, Mentions, Lists, Retweets, Favorites, Messages, Status, Search, Profile, Follow, Unfollow, Favorite, Unfavorite, Retweet, List
 [Twitter][Twitter-link] | Status, UserHandle, UserId, List, Post, Search, Timeline, Mentions, Messages
@@ -213,6 +216,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [FindFriends-link]: http://handleopenurl.com/scheme/find-my-friends
 [Flickr-link]: https://www.flickr.com
 [Flipboard-link]: https://flipboard.com
+[Gallery-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
 [GoogleChrome-link]: https://www.google.com/chrome/
 [GoogleDrive-link]: https://www.google.com/drive/
 [GoogleEarth-link]: https://www.google.com/earth
@@ -228,6 +232,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Mail-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MailLinks/MailLinks.html#//apple_ref/doc/uid/TP40007899-CH4-SW1
 [Messages-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/SMSLinks/SMSLinks.html#//apple_ref/doc/uid/TP40007899-CH7-SW1
 [Music-link]: http://handleopenurl.com/scheme/original-ipod-music-app
+[Notes-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
 [OneDrive-link]: https://onedrive.live.com/
 [OneNote-link]: https://www.office.com/
 [Outlook-link]: http://www.outlook.com/
@@ -242,6 +247,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Skype-link]: http://www.skype.com/
 [Sonos-link]: http://www.sonos.com/
 [Telegram-link]: https://web.telegram.org
+[TestFlight-link]: http://stackoverflow.com/questions/26667467/opening-testflight-app-from-another-app-and-deep-link-to-specific-app
 [Trello-link]: https://trello.com/
 [Tweetbot-link]: http://tapbots.com/tweetbot
 [Twitter-link]: https://twitter.com
