@@ -98,6 +98,7 @@ App | Actions
 [AppSettings][AppSettings-link] | Open
 [AppStore][AppStore-link] | Developer, App
 [Audible][Audible-link] | Open
+[DailyMotion][DailyMotion-link] | Open
 [DayOne][DayOne-link] | Open
 [Documents][Documents-link] | Open
 [Dropbox][Dropbox-link] | Open
@@ -135,10 +136,13 @@ App | Actions
 [Skype][Skype-link] | Open
 [Sonos][Sonos-link] | Open
 [Telegram][Telegram-link] | Open, SMS
+[Trello][Trello-link] | Open
 [Tweetbot][Tweetbot-link] | Timeline, Post, Mentions, Lists, Retweets, Favorites, Messages, Status, Search, Profile, Follow, Unfollow, Favorite, Unfavorite, Retweet, List
 [Twitter][Twitter-link] | Status, UserHandle, UserId, List, Post, Search, Timeline, Mentions, Messages
+[Twitterrific][Twitterrific-link] | Open, MentionsView, MessagesView, FavoritesView, Search, TweetID, MessageID, Post, UserProfile 
 [Viber][Viber-link] | Open Calls Tab, Open Chats Tab
 [Videos][Videos-link] | Open
+[Waze][Waze-link] | Open
 [WhatsApp][WhatsApp-link] | Open
 [Word][Word-link] | Open
 [Yelp][Yelp-link] | Open, Search, Search Location, Search Category, Search Category Location, Business
@@ -197,6 +201,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [AppSettings-link]: https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.html#//apple_ref/c/data/UIApplicationOpenSettingsURLString
 [AppStore-link]: https://developer.apple.com/library/ios/qa/qa1633/_index.html
 [Audible-link]: http://www.audible.com
+[DailyMotion-link]: http://www.dailymotion.com/
 [DayOne-link]: http://dayoneapp.com
 [Documents-link]: https://readdle.com/products/documents
 [Dropbox-link]: https://dropbox.com
@@ -234,10 +239,13 @@ Appz is released under the MIT license. See LICENSE for details.
 [Skype-link]: http://www.skype.com/
 [Sonos-link]: http://www.sonos.com/
 [Telegram-link]: https://web.telegram.org
+[Trello-link]: https://trello.com/
 [Tweetbot-link]: http://tapbots.com/tweetbot
 [Twitter-link]: https://twitter.com
+[Twitterrific-link]: http://twitterrific.com/ios/poweruser
 [Viber-link]: http://www.viber.com
 [Videos-link]: http://handleopenurl.com/scheme/ipod-video-library
+[Waze-link]: https://www.waze.com
 [WhatsApp-link]: https://www.whatsapp.com
 [Word-link]: https://www.office.com/
 [Yelp-link]: https://m.yelp.com
