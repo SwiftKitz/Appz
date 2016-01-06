@@ -1,0 +1,58 @@
+//
+//  GoogleCalendar.swift
+//  Pods
+//
+//  Created by Mariam AlJamea on 1/6/16.
+//  Copyright © 2015 kitz. All rights reserved.
+//
+
+public extension Applications {
+    
+    public struct GoogleCalendar: ExternalApplication {
+        
+        public typealias ActionType = Applications.GoogleCalendar.Action
+        
+        public let scheme = "com.google.calendar:"
+        public let fallbackURL = "https://www.google.com/calendar/about/"
+        
+        public init() {}
+    }
+}
+
+// MARK: - Actions
+
+public extension Applications.GoogleCalendar {
+    
+    public enum Action {
+        case Open
+        case CreateEvent
+    }
+}
+
+extension Applications.GoogleCalendar.Action: ExternalApplicationAction {
+    
+    public var paths: ActionPaths {
+        
+        switch self {
+        case .Open:
+            return ActionPaths(
+                app: Path(
+                    pathComponents: ["app"],
+                    queryParameters: [:]
+                ),
+                web: Path()
+            )
+            
+        case .CreateEvent:
+            return ActionPaths(
+                app: Path(
+                    pathComponents: [""],
+                    queryParameters: [
+                        "action":"create",
+                    ]
+                ),
+                web: Path()
+            )
+        }
+    }
+}

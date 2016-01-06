@@ -1,5 +1,5 @@
 //
-//  Marvis.swift
+//  NPORadio.swift
 //  Pods
 //
 //  Created by Mariam AlJamea on 1/6/16.
@@ -8,12 +8,12 @@
 
 public extension Applications {
     
-    public struct Marvis: ExternalApplication {
+    public struct NPORadio: ExternalApplication {
         
-        public typealias ActionType = Applications.Marvis.Action
+        public typealias ActionType = Applications.NPORadio.Action
         
-        public let scheme = "marvis:"
-        public let fallbackURL = "http://appaddy.wix.com/marvis"
+        public let scheme = "nporadio1:"
+        public let fallbackURL = ""
         
         public init() {}
     }
@@ -21,14 +21,14 @@ public extension Applications {
 
 // MARK: - Actions
 
-public extension Applications.Marvis {
+public extension Applications.NPORadio {
     
     public enum Action {
         case Open
     }
 }
 
-extension Applications.Marvis.Action: ExternalApplicationAction {
+extension Applications.NPORadio.Action: ExternalApplicationAction {
     
     public var paths: ActionPaths {
         

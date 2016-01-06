@@ -99,6 +99,7 @@ App | Actions
 [AppSettings][AppSettings-link] | Open
 [AppStore][AppStore-link] | Developer, App
 [Audible][Audible-link] | Open
+[BNR][BNR-link] | Open
 [Buzzfeed][Buzzfeed-link] | Open
 [Chromecast][Chromecast-link] | Open
 [Cnet][Cnet-link] | Open
@@ -114,6 +115,7 @@ App | Actions
 [Flickr][Flickr-link] | Open
 [Flipboard][Flipboard-link] | Open
 [Gallery][Gallery-link] | Open
+[GoogleCalendar][GoogleCalendar-link] | Open, CreateEvent
 [GoogleChrome][GoogleChrome-link] | Open
 [GoogleDrive][GoogleDrive-link] | Open
 [GoogleEarth][GoogleEarth-link] | Open
@@ -135,6 +137,8 @@ App | Actions
 [Music][Music-link] | Open
 [MyFitnessPal][MyFitnessPal-link] | Open
 [Notes][Notes-link] | Open
+[NPORadio][NPORadio-link] | Open
+[OneMorething][OneMorething-link] | Open
 [OneDrive][OneDrive-link] | Open
 [OneNote][OneNote-link] | Open
 [OnePassword][OnePassword-link] | Open
@@ -151,6 +155,7 @@ App | Actions
 [ScannerPro][ScannerPro-link] | Open
 [Skype][Skype-link] | Open
 [Sonos][Sonos-link] | Open
+[Soundflake][Soundflake-link] | Open
 [Super-Stickman-Golf-2][Super-Stickman-Golf-2-link] | Open
 [Ted][Ted-link] | Open
 [Telegram][Telegram-link] | Open, SMS
@@ -223,6 +228,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [AppSettings-link]: https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.html#//apple_ref/c/data/UIApplicationOpenSettingsURLString
 [AppStore-link]: https://developer.apple.com/library/ios/qa/qa1633/_index.html
 [Audible-link]: http://www.audible.com
+[BNR-link]: http://www.bnr.nl
 [Buzzfeed-link]: http://www.buzzfeed.com
 [Chromecast-link]: https://www.google.com/intl/en_us/chromecast/
 [Cnet-link]: http://www.cnet.com
@@ -238,6 +244,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Flickr-link]: https://www.flickr.com
 [Flipboard-link]: https://flipboard.com
 [Gallery-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
+[GoogleCalendar-link]: https://www.google.com/calendar/about/
 [GoogleChrome-link]: https://www.google.com/chrome/
 [GoogleDrive-link]: https://www.google.com/drive/
 [GoogleEarth-link]: https://www.google.com/earth
@@ -259,6 +266,8 @@ Appz is released under the MIT license. See LICENSE for details.
 [Music-link]: http://handleopenurl.com/scheme/original-ipod-music-app
 [MyFitnessPal-link]: https://www.myfitnesspal.com
 [Notes-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
+[NPORadio-link]: http://forums.macrumors.com/threads/ios-8-widget-customisations-using-launcher.1782093/
+[OneMorething-link]: http://www.onemorething.nl
 [OneDrive-link]: https://onedrive.live.com/
 [OneNote-link]: https://www.office.com/
 [OnePassword-link]: https://agilebits.com/onepassword
@@ -275,6 +284,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [ScannerPro-link]: https://readdle.com/products/scannerpro/
 [Skype-link]: http://www.skype.com/
 [Sonos-link]: http://www.sonos.com/
+[Soundflake-link]: http://soundflakeapp.com
 [Super-Stickman-Golf-2-link]: http://www.noodlecake.com/games/super-stickman-golf-2/
 [Ted-link]: https://www.ted.com
 [Telegram-link]: https://web.telegram.org

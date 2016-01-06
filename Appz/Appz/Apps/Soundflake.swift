@@ -1,5 +1,5 @@
 //
-//  Marvis.swift
+//  Soundflake.swift
 //  Pods
 //
 //  Created by Mariam AlJamea on 1/6/16.
@@ -8,12 +8,12 @@
 
 public extension Applications {
     
-    public struct Marvis: ExternalApplication {
+    public struct Soundflake: ExternalApplication {
         
-        public typealias ActionType = Applications.Marvis.Action
+        public typealias ActionType = Applications.Soundflake.Action
         
-        public let scheme = "marvis:"
-        public let fallbackURL = "http://appaddy.wix.com/marvis"
+        public let scheme = "soundflake:"
+        public let fallbackURL = "http://soundflakeapp.com"
         
         public init() {}
     }
@@ -21,14 +21,14 @@ public extension Applications {
 
 // MARK: - Actions
 
-public extension Applications.Marvis {
+public extension Applications.Soundflake {
     
     public enum Action {
         case Open
     }
 }
 
-extension Applications.Marvis.Action: ExternalApplicationAction {
+extension Applications.Soundflake.Action: ExternalApplicationAction {
     
     public var paths: ActionPaths {
         

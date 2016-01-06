@@ -1,5 +1,5 @@
 //
-//  Marvis.swift
+//  BNR.swift
 //  Pods
 //
 //  Created by Mariam AlJamea on 1/6/16.
@@ -8,12 +8,12 @@
 
 public extension Applications {
     
-    public struct Marvis: ExternalApplication {
+    public struct BNR: ExternalApplication {
         
-        public typealias ActionType = Applications.Marvis.Action
+        public typealias ActionType = Applications.BNR.Action
         
-        public let scheme = "marvis:"
-        public let fallbackURL = "http://appaddy.wix.com/marvis"
+        public let scheme = "bnr:"
+        public let fallbackURL = "http://www.bnr.nl"
         
         public init() {}
     }
@@ -21,14 +21,14 @@ public extension Applications {
 
 // MARK: - Actions
 
-public extension Applications.Marvis {
+public extension Applications.BNR {
     
     public enum Action {
         case Open
     }
 }
 
-extension Applications.Marvis.Action: ExternalApplicationAction {
+extension Applications.BNR.Action: ExternalApplicationAction {
     
     public var paths: ActionPaths {
         
