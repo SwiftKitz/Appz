@@ -95,17 +95,22 @@ __Supported Apps (for now!):__
 
 App | Actions
 ----|--------
+[AllCast][AllCast-link] | Open
 [AppSettings][AppSettings-link] | Open
 [AppStore][AppStore-link] | Developer, App
 [Audible][Audible-link] | Open
+[Buzzfeed][Buzzfeed-link] | Open
+[Chromecast][Chromecast-link] | Open
+[Cnet][Cnet-link] | Open
 [DailyMotion][DailyMotion-link] | Open
 [DayOne][DayOne-link] | Open
 [Documents][Documents-link] | Open
 [Dropbox][Dropbox-link] | Open
-[ebay][ebay-link] | Open
+[eBay][eBay-link] | Open
 [Excel][Excel-link] | Open
 [Facebook][Facebook-link] | Open, Profile, Notification, Feed
 [FindFriends][FindFriends-link] | Open
+[Fitbit][Fitbit-link] | Open 
 [Flickr][Flickr-link] | Open
 [Flipboard][Flipboard-link] | Open
 [Gallery][Gallery-link] | Open
@@ -119,25 +124,35 @@ App | Actions
 [IMDb][IMDb-link] | Open, Search, Title, Boxoffice, Showtimes, Feature Coming Soon, Feature Best Picture, Feature Born Today, Top rated movies, Most popular movies.
 [INRIXTraffic][INRIXTraffic-link] | Open
 [Instagram][Instagram-link] | Open, Camera, Media, Username, Location, Tag
-[itranslate][itranslate-link] | Open, Translate
+[iShows][iShows-link] | Open
+[iTranslate][iTranslate-link] | Open, Translate
+[iTunesU][iTunesU-link] | Open
 [Linkedin][Linkedin-link] | Open
 [Mail][Mail-link] | Compose
+[Marvis][Marvis-link] | Open
+[Meerkat][Meerkat-link] | Open
 [Messages][Messages-link] | SMS
 [Music][Music-link] | Open
+[MyFitnessPal][MyFitnessPal-link] | Open
 [Notes][Notes-link] | Open
 [OneDrive][OneDrive-link] | Open
 [OneNote][OneNote-link] | Open
+[OnePassword][OnePassword-link] | Open
 [Outlook][Outlook-link] | Open, Compose
 [Paypal][Paypal-link] | Open
+[Periscope][Periscope-link] | Open 
 [Phone][Phone-link] | Open
 [Pinterest][Pinterest-link] | Open, UserProfile, Search
 [PowerPoint][PowerPoint-link] | Open
 [Quora][Quora-link] | Open
+[Radium][Radium-link] | Open
 [RemindersApp][RemindersApp-link] | Open
 [Remote][Remote-link] | Open
 [ScannerPro][ScannerPro-link] | Open
 [Skype][Skype-link] | Open
 [Sonos][Sonos-link] | Open
+[Super Stickman Golf 2][Super Stickman Golf 2-link] | Open
+[Ted][Ted-link] | Open
 [Telegram][Telegram-link] | Open, SMS
 [TestFlight][TestFlight-link] | Open
 [Trello][Trello-link] | Open
@@ -149,6 +164,7 @@ App | Actions
 [Vine][Vine-link] | Open, Popular Timelines
 [Waze][Waze-link] | Open
 [WhatsApp][WhatsApp-link] | Open
+[Whyd][Whyd-link] | Open
 [Word][Word-link] | Open
 [Yelp][Yelp-link] | Open, Search, Search Location, Search Category, Search Category Location, Business
 [Youtube][Youtube-link] | Open, Open Video
@@ -203,17 +219,22 @@ Appz is released under the MIT license. See LICENSE for details.
 [cartfile-docs]: https://github.com/Carthage/Carthage/blob/master/Documentation/Artifacts.md#cartfile
 [cocoapods-link]: https://cocoapods.org/
 [podfile-docs]: https://guides.cocoapods.org/syntax/podfile.html
+[AllCast-link]: http://www.allcast.io
 [AppSettings-link]: https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.html#//apple_ref/c/data/UIApplicationOpenSettingsURLString
 [AppStore-link]: https://developer.apple.com/library/ios/qa/qa1633/_index.html
 [Audible-link]: http://www.audible.com
+[Buzzfeed-link]: http://www.buzzfeed.com
+[Chromecast-link]: https://www.google.com/intl/en_us/chromecast/
+[Cnet-link]: http://www.cnet.com
 [DailyMotion-link]: http://www.dailymotion.com/
 [DayOne-link]: http://dayoneapp.com
 [Documents-link]: https://readdle.com/products/documents
 [Dropbox-link]: https://dropbox.com
-[ebay-link]: http://www.ebay.com
+[eBay-link]: http://www.ebay.com
 [Excel-link]: https://www.office.com/
 [Facebook-link]: https://facebook.com
 [FindFriends-link]: http://handleopenurl.com/scheme/find-my-friends
+[Fitbit-link]: https://www.fitbit.com/app
 [Flickr-link]: https://www.flickr.com
 [Flipboard-link]: https://flipboard.com
 [Gallery-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
@@ -227,25 +248,35 @@ Appz is released under the MIT license. See LICENSE for details.
 [IMDb-link]: http://www.imdb.com 
 [INRIXTraffic-link]: http://inrix.com/inrix-traffic-app
 [Instagram-link]: https://instagram.com
-[itranslate-link]: http://itranslateapp.com
+[iShows-link]: http://ishowsapp.com
+[iTranslate-link]: http://itranslateapp.com
+[iTunesU-link]: https://launchcenterpro.com/dzvk6r
 [Linkedin-link]: http://www.linkedin.com/
 [Mail-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MailLinks/MailLinks.html#//apple_ref/doc/uid/TP40007899-CH4-SW1
+[Marvis-link]: https://appaddy.wix.com/marvis
+[Meerkat-link]: http://meerkatapp.co
 [Messages-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/SMSLinks/SMSLinks.html#//apple_ref/doc/uid/TP40007899-CH7-SW1
 [Music-link]: http://handleopenurl.com/scheme/original-ipod-music-app
+[MyFitnessPal-link]: https://www.myfitnesspal.com
 [Notes-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
 [OneDrive-link]: https://onedrive.live.com/
 [OneNote-link]: https://www.office.com/
+[OnePassword-link]: https://agilebits.com/onepassword
 [Outlook-link]: http://www.outlook.com/
 [Paypal-link]: https://paypal.com
+[Periscope-link]: https://www.periscope.tv
 [Phone-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/PhoneLinks/PhoneLinks.html
 [Pinterest-link]: https://www.pinterest.com
 [PowerPoint-link]: https://www.office.com/
 [Quora-link]: https://www.quora.com
+[Radium-link]: http://catpigstudios.com
 [RemindersApp-link]: http://handleopenurl.com/scheme/reminders
 [Remote-link]: http://handleopenurl.com/scheme/remote
 [ScannerPro-link]: https://readdle.com/products/scannerpro/
 [Skype-link]: http://www.skype.com/
 [Sonos-link]: http://www.sonos.com/
+[Super Stickman Golf 2-link]: http://www.noodlecake.com/games/super-stickman-golf-2/
+[Ted-link]: https://www.ted.com
 [Telegram-link]: https://web.telegram.org
 [TestFlight-link]: http://stackoverflow.com/questions/26667467/opening-testflight-app-from-another-app-and-deep-link-to-specific-app
 [Trello-link]: https://trello.com/
@@ -257,6 +288,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Vine-link]: https://vine.co
 [Waze-link]: https://www.waze.com
 [WhatsApp-link]: https://www.whatsapp.com
+[Whyd-link]: https://whyd.com"
 [Word-link]: https://www.office.com/
 [Yelp-link]: https://m.yelp.com
 [Youtube-link]: https://youtube.com
