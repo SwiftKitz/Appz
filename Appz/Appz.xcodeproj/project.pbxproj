@@ -69,7 +69,6 @@
 		541C21C41C3D2C4300D89D4A /* MeerkatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541C21C31C3D2C4300D89D4A /* MeerkatTests.swift */; };
 		541C21C51C3D2C7900D89D4A /* MeerkatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541C21C31C3D2C4300D89D4A /* MeerkatTests.swift */; };
 		541C21C71C3D2C8100D89D4A /* MarvisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541C21C61C3D2C8100D89D4A /* MarvisTests.swift */; };
-		541C21C81C3D2CBC00D89D4A /* MarvisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541C21C61C3D2C8100D89D4A /* MarvisTests.swift */; };
 		541C21CA1C3D2CC300D89D4A /* ItunesUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541C21C91C3D2CC300D89D4A /* ItunesUTests.swift */; };
 		541C21CB1C3D2CF900D89D4A /* ItunesUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541C21C91C3D2CC300D89D4A /* ItunesUTests.swift */; };
 		541C21CD1C3D2D0000D89D4A /* IshowsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541C21CC1C3D2D0000D89D4A /* IshowsTests.swift */; };
@@ -199,6 +198,7 @@
 		54955DFE1C3D3CFA00D6AD08 /* AllCast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54955DFB1C3D3CF500D6AD08 /* AllCast.swift */; };
 		54955E001C3D3D0A00D6AD08 /* AllCastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54955DFF1C3D3D0A00D6AD08 /* AllCastTests.swift */; };
 		54955E011C3D3D4D00D6AD08 /* AllCastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54955DFF1C3D3D0A00D6AD08 /* AllCastTests.swift */; };
+		54BF423C1C3DA44900109497 /* MarvisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541C21C61C3D2C8100D89D4A /* MarvisTests.swift */; };
 		54C9EB291C3BD9A0005D4DCA /* DailyMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C9EB251C3BD9A0005D4DCA /* DailyMotion.swift */; };
 		54C9EB2A1C3BD9A0005D4DCA /* Trello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C9EB261C3BD9A0005D4DCA /* Trello.swift */; };
 		54C9EB2B1C3BD9A0005D4DCA /* Twitterrific.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C9EB271C3BD9A0005D4DCA /* Twitterrific.swift */; };
@@ -1230,6 +1230,7 @@
 				5474DDD61C3B14CD00300281 /* MailTests.swift in Sources */,
 				82F3164C1C38539F00CEFE92 /* QuoraTests.swift in Sources */,
 				54566F421C3D9EAA0086CAAA /* OMTTests.swift in Sources */,
+				54BF423C1C3DA44900109497 /* MarvisTests.swift in Sources */,
 				541C21B91C3D2B3400D89D4A /* RadiumTests.swift in Sources */,
 				82F316361C38539F00CEFE92 /* GoogleMapsTests.swift in Sources */,
 				82F316481C38539F00CEFE92 /* PaypalTests.swift in Sources */,
@@ -1245,7 +1246,6 @@
 				54566F431C3D9EB50086CAAA /* NPORadioTests.swift in Sources */,
 				82F3164A1C38539F00CEFE92 /* PinterestTests.swift in Sources */,
 				545885241C3C613E00AD1B14 /* GalleryTests.swift in Sources */,
-				541C21C81C3D2CBC00D89D4A /* MarvisTests.swift in Sources */,
 				8254C7AC1C260A3B009DB3BD /* ApplicationCallerTests.swift in Sources */,
 				541C21C21C3D2C3B00D89D4A /* MyFitnessPalTests.swift in Sources */,
 				54C9EB3E1C3BDC04005D4DCA /* DailyMotionTests.swift in Sources */,
