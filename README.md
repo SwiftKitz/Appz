@@ -151,7 +151,7 @@ App | Actions
 [ScannerPro][ScannerPro-link] | Open
 [Skype][Skype-link] | Open
 [Sonos][Sonos-link] | Open
-[Super Stickman Golf 2][Super Stickman Golf 2-link] | Open
+[Super-Stickman-Golf-2][Super-Stickman-Golf-2-link] | Open
 [Ted][Ted-link] | Open
 [Telegram][Telegram-link] | Open, SMS
 [TestFlight][TestFlight-link] | Open
@@ -275,7 +275,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [ScannerPro-link]: https://readdle.com/products/scannerpro/
 [Skype-link]: http://www.skype.com/
 [Sonos-link]: http://www.sonos.com/
-[Super Stickman Golf 2-link]: http://www.noodlecake.com/games/super-stickman-golf-2/
+[Super-Stickman-Golf-2-link]: http://www.noodlecake.com/games/super-stickman-golf-2/
 [Ted-link]: https://www.ted.com
 [Telegram-link]: https://web.telegram.org
 [TestFlight-link]: http://stackoverflow.com/questions/26667467/opening-testflight-app-from-another-app-and-deep-link-to-specific-app
