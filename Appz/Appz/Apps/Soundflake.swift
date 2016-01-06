@@ -1,0 +1,46 @@
+//
+//  Soundflake.swift
+//  Pods
+//
+//  Created by Mariam AlJamea on 1/6/16.
+//  Copyright © 2015 kitz. All rights reserved.
+//
+
+public extension Applications {
+    
+    public struct Soundflake: ExternalApplication {
+        
+        public typealias ActionType = Applications.Soundflake.Action
+        
+        public let scheme = "soundflake:"
+        public let fallbackURL = "http://soundflakeapp.com"
+        
+        public init() {}
+    }
+}
+
+// MARK: - Actions
+
+public extension Applications.Soundflake {
+    
+    public enum Action {
+        case Open
+    }
+}
+
+extension Applications.Soundflake.Action: ExternalApplicationAction {
+    
+    public var paths: ActionPaths {
+        
+        switch self {
+        case .Open:
+            return ActionPaths(
+                app: Path(
+                    pathComponents: ["app"],
+                    queryParameters: [:]
+                ),
+                web: Path()
+            )
+        }
+    }
+}
