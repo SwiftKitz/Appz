@@ -122,6 +122,7 @@ App | Actions
 [GoogleMail][GoogleMail-link] | Open
 [GoogleMaps][GoogleMaps-link] | Open, Display Directions, Search
 [GooglePlus][GooglePlus-link] | Open
+[GroupeMe][GroupeMe-link] | Open
 [iBooks][iBooks-link] | Open
 [IMDb][IMDb-link] | Open, Search, Title, Boxoffice, Showtimes, Feature Coming Soon, Feature Best Picture, Feature Born Today, Top rated movies, Most popular movies.
 [INRIXTraffic][INRIXTraffic-link] | Open
@@ -129,8 +130,11 @@ App | Actions
 [iShows][iShows-link] | Open
 [iTranslate][iTranslate-link] | Open, Translate
 [iTunesU][iTunesU-link] | Open
+[KakaoTalk][KakaoTalk-link] | Open
+[Line][Line-link] | Open
 [Linkedin][Linkedin-link] | Open
 [Mail][Mail-link] | Compose
+[Marktplaats][Marktplaats-link] | Open
 [Marvis][Marvis-link] | Open
 [Meerkat][Meerkat-link] | Open
 [Messages][Messages-link] | SMS
@@ -138,6 +142,7 @@ App | Actions
 [MyFitnessPal][MyFitnessPal-link] | Open
 [Notes][Notes-link] | Open
 [NPORadio][NPORadio-link] | Open
+[Nunl][Nunl-link] | Open
 [OneMorething][OneMorething-link] | Open
 [OneDrive][OneDrive-link] | Open
 [OneNote][OneNote-link] | Open
@@ -152,11 +157,15 @@ App | Actions
 [Radium][Radium-link] | Open
 [RemindersApp][RemindersApp-link] | Open
 [Remote][Remote-link] | Open
+[Rijnmond][Rijnmond-link] | Open
 [ScannerPro][ScannerPro-link] | Open
 [Skype][Skype-link] | Open
+[Snapchat][Snapchat-link] | Open
+[Songpop2][Songpop2-link] | Open
 [Sonos][Sonos-link] | Open
 [Soundflake][Soundflake-link] | Open
 [Super-Stickman-Golf-2][Super-Stickman-Golf-2-link] | Open
+[Tango][Tango-link] | Open
 [Ted][Ted-link] | Open
 [Telegram][Telegram-link] | Open, SMS
 [TestFlight][TestFlight-link] | Open
@@ -167,7 +176,9 @@ App | Actions
 [Viber][Viber-link] | Open Calls Tab, Open Chats Tab
 [Videos][Videos-link] | Open
 [Vine][Vine-link] | Open, Popular Timelines
+[Voxer][Voxer-link] | Open
 [Waze][Waze-link] | Open
+[WeChat][WeChat-link] | Open
 [WhatsApp][WhatsApp-link] | Open
 [Whyd][Whyd-link] | Open
 [Word][Word-link] | Open
@@ -251,6 +262,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [GoogleMail-link]: https://mail.google.com
 [GoogleMaps-link]: https://maps.google.com
 [GooglePlus-link]: https://plus.google.com
+[GroupeMe-link]: https://groupme.com
 [iBooks-link]: http://handleopenurl.com/?id=694
 [IMDb-link]: http://www.imdb.com 
 [INRIXTraffic-link]: http://inrix.com/inrix-traffic-app
@@ -258,8 +270,11 @@ Appz is released under the MIT license. See LICENSE for details.
 [iShows-link]: http://ishowsapp.com
 [iTranslate-link]: http://itranslateapp.com
 [iTunesU-link]: https://launchcenterpro.com/dzvk6r
+[KakaoTalk-link]: http://www.kakao.com/talk
+[Line-link]: http://line.me/
 [Linkedin-link]: http://www.linkedin.com/
 [Mail-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MailLinks/MailLinks.html#//apple_ref/doc/uid/TP40007899-CH4-SW1
+[Marktplaats-link]: http://www.marktplaats.nl
 [Marvis-link]: https://appaddy.wix.com/marvis
 [Meerkat-link]: http://meerkatapp.co
 [Messages-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/SMSLinks/SMSLinks.html#//apple_ref/doc/uid/TP40007899-CH7-SW1
@@ -267,6 +282,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [MyFitnessPal-link]: https://www.myfitnesspal.com
 [Notes-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
 [NPORadio-link]: http://forums.macrumors.com/threads/ios-8-widget-customisations-using-launcher.1782093/
+[Nunl-link]: http://www.nu.nl
 [OneMorething-link]: http://www.onemorething.nl
 [OneDrive-link]: https://onedrive.live.com/
 [OneNote-link]: https://www.office.com/
@@ -281,11 +297,15 @@ Appz is released under the MIT license. See LICENSE for details.
 [Radium-link]: http://catpigstudios.com
 [RemindersApp-link]: http://handleopenurl.com/scheme/reminders
 [Remote-link]: http://handleopenurl.com/scheme/remote
+[Rijnmond-link]: http://www.rijnmond.nl
 [ScannerPro-link]: https://readdle.com/products/scannerpro/
 [Skype-link]: http://www.skype.com/
+[Snapchat-link]: https://www.snapchat.com
+[Songpop2-link]: https://www.songpop2.com
 [Sonos-link]: http://www.sonos.com/
 [Soundflake-link]: http://soundflakeapp.com
 [Super-Stickman-Golf-2-link]: http://www.noodlecake.com/games/super-stickman-golf-2/
+[Tango-link]: http://www.tango.me
 [Ted-link]: https://www.ted.com
 [Telegram-link]: https://web.telegram.org
 [TestFlight-link]: http://stackoverflow.com/questions/26667467/opening-testflight-app-from-another-app-and-deep-link-to-specific-app
@@ -296,7 +316,9 @@ Appz is released under the MIT license. See LICENSE for details.
 [Viber-link]: http://www.viber.com
 [Videos-link]: http://handleopenurl.com/scheme/ipod-video-library
 [Vine-link]: https://vine.co
+[Voxer-link]: http://www.voxer.com
 [Waze-link]: https://www.waze.com
+[WeChat-link]: http://forums.macrumors.com/threads/ios-8-widget-customisations-using-launcher.1782093/
 [WhatsApp-link]: https://www.whatsapp.com
 [Whyd-link]: https://whyd.com"
 [Word-link]: https://www.office.com/
