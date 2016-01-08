@@ -198,6 +198,7 @@
 		54955DFE1C3D3CFA00D6AD08 /* AllCast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54955DFB1C3D3CF500D6AD08 /* AllCast.swift */; };
 		54955E001C3D3D0A00D6AD08 /* AllCastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54955DFF1C3D3D0A00D6AD08 /* AllCastTests.swift */; };
 		54955E011C3D3D4D00D6AD08 /* AllCastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54955DFF1C3D3D0A00D6AD08 /* AllCastTests.swift */; };
+		549CEC5E1C3F6EB70093739E /* AppStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F316001C38539F00CEFE92 /* AppStoreTests.swift */; };
 		54BF423C1C3DA44900109497 /* MarvisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541C21C61C3D2C8100D89D4A /* MarvisTests.swift */; };
 		54C9EB291C3BD9A0005D4DCA /* DailyMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C9EB251C3BD9A0005D4DCA /* DailyMotion.swift */; };
 		54C9EB2A1C3BD9A0005D4DCA /* Trello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C9EB261C3BD9A0005D4DCA /* Trello.swift */; };
@@ -424,7 +425,6 @@
 		82F315FE1C38538100CEFE92 /* Youtube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F315A21C38538100CEFE92 /* Youtube.swift */; };
 		82F315FF1C38538100CEFE92 /* Youtube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F315A21C38538100CEFE92 /* Youtube.swift */; };
 		82F3161F1C38539F00CEFE92 /* AppStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F316001C38539F00CEFE92 /* AppStoreTests.swift */; };
-		82F316201C38539F00CEFE92 /* AppStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F316001C38539F00CEFE92 /* AppStoreTests.swift */; };
 		82F316211C38539F00CEFE92 /* AudibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F316011C38539F00CEFE92 /* AudibleTests.swift */; };
 		82F316221C38539F00CEFE92 /* AudibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F316011C38539F00CEFE92 /* AudibleTests.swift */; };
 		82F316231C38539F00CEFE92 /* DayOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F316021C38539F00CEFE92 /* DayOneTests.swift */; };
@@ -1375,11 +1375,11 @@
 				54566F401C3D9E790086CAAA /* GoogleCalendarTests.swift in Sources */,
 				546738961C3996A200AA42F1 /* RemindersAppTests.swift in Sources */,
 				541C21D41C3D3BB100D89D4A /* CnetTests.swift in Sources */,
+				549CEC5E1C3F6EB70093739E /* AppStoreTests.swift in Sources */,
 				8254C7AD1C260A3B009DB3BD /* PathTests.swift in Sources */,
 				54566F3D1C3D9DCF0086CAAA /* BNRTests.swift in Sources */,
 				54C9EB411C3BDE77005D4DCA /* TwitterrificTests.swift in Sources */,
 				541C21B01C3D2A6A00D89D4A /* WhydTests.swift in Sources */,
-				82F316201C38539F00CEFE92 /* AppStoreTests.swift in Sources */,
 				54F649D41C3EA47200619ACF /* SnapchatTests.swift in Sources */,
 				8254C7AE1C260A3B009DB3BD /* NSExtensionContextApplicationCallerTests.swift in Sources */,
 				5467388C1C3996A200AA42F1 /* GoogleChromeTests.swift in Sources */,

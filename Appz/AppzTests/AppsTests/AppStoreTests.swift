@@ -25,8 +25,8 @@ class AppStoreTests: XCTestCase {
         
         let appId = "395107915"
         let action = Applications.AppStore.Action.App(id: appId)
-        
-        XCTAssertEqual(action.paths.app.pathComponents, ["itunes.apple.com", "apps", "id", appId])
+     
+        XCTAssertEqual(action.paths.app.pathComponents, ["itunes.apple.com", "app", "id\(appId)"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
         XCTAssertEqual(action.paths.web, Path())
     }
