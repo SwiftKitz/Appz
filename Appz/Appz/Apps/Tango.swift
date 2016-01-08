@@ -1,0 +1,46 @@
+//
+//  Tango.swift
+//  Pods
+//
+//  Created by Mariam AlJamea on 1/7/16.
+//  Copyright © 2015 kitz. All rights reserved.
+//
+
+public extension Applications {
+    
+    public struct Tango: ExternalApplication {
+        
+        public typealias ActionType = Applications.Tango.Action
+        
+        public let scheme = "tango:"
+        public let fallbackURL = "http://www.tango.me"
+        
+        public init() {}
+    }
+}
+
+// MARK: - Actions
+
+public extension Applications.Tango {
+    
+    public enum Action {
+        case Open
+    }
+}
+
+extension Applications.Tango.Action: ExternalApplicationAction {
+    
+    public var paths: ActionPaths {
+        
+        switch self {
+        case .Open:
+            return ActionPaths(
+                app: Path(
+                    pathComponents: ["app"],
+                    queryParameters: [:]
+                ),
+                web: Path()
+            )
+        }
+    }
+}
