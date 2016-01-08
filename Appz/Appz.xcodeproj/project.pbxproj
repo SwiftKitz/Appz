@@ -137,6 +137,7 @@
 		545885211C3C610300AD1B14 /* NotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5458851F1C3C60C600AD1B14 /* NotesTests.swift */; };
 		545885231C3C610C00AD1B14 /* GalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545885221C3C610C00AD1B14 /* GalleryTests.swift */; };
 		545885241C3C613E00AD1B14 /* GalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545885221C3C610C00AD1B14 /* GalleryTests.swift */; };
+		545FD64F1C40431E0057D17C /* AppStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F316001C38539F00CEFE92 /* AppStoreTests.swift */; };
 		5467388B1C3996A200AA42F1 /* GoogleChromeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546738821C3996A200AA42F1 /* GoogleChromeTests.swift */; };
 		5467388C1C3996A200AA42F1 /* GoogleChromeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546738821C3996A200AA42F1 /* GoogleChromeTests.swift */; };
 		5467388D1C3996A200AA42F1 /* GoogleDriveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546738831C3996A200AA42F1 /* GoogleDriveTests.swift */; };
@@ -155,7 +156,6 @@
 		5467389A1C3996A200AA42F1 /* ScannerProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546738891C3996A200AA42F1 /* ScannerProTests.swift */; };
 		5467389B1C3996A200AA42F1 /* SkypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467388A1C3996A200AA42F1 /* SkypeTests.swift */; };
 		5467389C1C3996A200AA42F1 /* SkypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467388A1C3996A200AA42F1 /* SkypeTests.swift */; };
-		546C1B5F1C4037DA0060C47C /* AppStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F316001C38539F00CEFE92 /* AppStoreTests.swift */; };
 		546C1B681C4039370060C47C /* AliExpress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B601C4039370060C47C /* AliExpress.swift */; };
 		546C1B691C4039370060C47C /* FlippsTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B611C4039370060C47C /* FlippsTV.swift */; };
 		546C1B6A1C4039370060C47C /* FriendlySocial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B621C4039370060C47C /* FriendlySocial.swift */; };
@@ -1453,11 +1453,11 @@
 				82F316521C38539F00CEFE92 /* TweetbotTests.swift in Sources */,
 				54955E011C3D3D4D00D6AD08 /* AllCastTests.swift in Sources */,
 				541C21CB1C3D2CF900D89D4A /* ItunesUTests.swift in Sources */,
+				545FD64F1C40431E0057D17C /* AppStoreTests.swift in Sources */,
 				541C21BF1C3D2BED00D89D4A /* OnePasswordTests.swift in Sources */,
 				54566F401C3D9E790086CAAA /* GoogleCalendarTests.swift in Sources */,
 				546738961C3996A200AA42F1 /* RemindersAppTests.swift in Sources */,
 				541C21D41C3D3BB100D89D4A /* CnetTests.swift in Sources */,
-				546C1B5F1C4037DA0060C47C /* AppStoreTests.swift in Sources */,
 				8254C7AD1C260A3B009DB3BD /* PathTests.swift in Sources */,
 				54566F3D1C3D9DCF0086CAAA /* BNRTests.swift in Sources */,
 				54C9EB411C3BDE77005D4DCA /* TwitterrificTests.swift in Sources */,
