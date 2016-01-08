@@ -48,7 +48,7 @@ extension Applications.AppStore.Action: ExternalApplicationAction {
         case .App(let id):
             return ActionPaths(
                 app: Path(
-                    pathComponents: ["itunes.apple.com", "apps", "id", id],
+                    pathComponents: ["itunes.apple.com", "app","id\(id)"],
                     queryParameters: [:]
                 ),
                 web: Path()
