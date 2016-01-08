@@ -155,6 +155,31 @@
 		5467389A1C3996A200AA42F1 /* ScannerProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546738891C3996A200AA42F1 /* ScannerProTests.swift */; };
 		5467389B1C3996A200AA42F1 /* SkypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467388A1C3996A200AA42F1 /* SkypeTests.swift */; };
 		5467389C1C3996A200AA42F1 /* SkypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467388A1C3996A200AA42F1 /* SkypeTests.swift */; };
+		546C1B5F1C4037DA0060C47C /* AppStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F316001C38539F00CEFE92 /* AppStoreTests.swift */; };
+		546C1B681C4039370060C47C /* AliExpress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B601C4039370060C47C /* AliExpress.swift */; };
+		546C1B691C4039370060C47C /* FlippsTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B611C4039370060C47C /* FlippsTV.swift */; };
+		546C1B6A1C4039370060C47C /* FriendlySocial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B621C4039370060C47C /* FriendlySocial.swift */; };
+		546C1B6B1C4039370060C47C /* Heapo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B631C4039370060C47C /* Heapo.swift */; };
+		546C1B6C1C4039370060C47C /* NameShark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B641C4039370060C47C /* NameShark.swift */; };
+		546C1B6D1C4039370060C47C /* Netflix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B651C4039370060C47C /* Netflix.swift */; };
+		546C1B6E1C4039370060C47C /* Spark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B661C4039370060C47C /* Spark.swift */; };
+		546C1B6F1C4039370060C47C /* Weibo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B671C4039370060C47C /* Weibo.swift */; };
+		546C1B701C4039420060C47C /* AliExpress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B601C4039370060C47C /* AliExpress.swift */; };
+		546C1B711C4039430060C47C /* AliExpress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B601C4039370060C47C /* AliExpress.swift */; };
+		546C1B721C4039460060C47C /* FlippsTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B611C4039370060C47C /* FlippsTV.swift */; };
+		546C1B731C4039470060C47C /* FlippsTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B611C4039370060C47C /* FlippsTV.swift */; };
+		546C1B741C40394E0060C47C /* FriendlySocial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B621C4039370060C47C /* FriendlySocial.swift */; };
+		546C1B751C40394F0060C47C /* FriendlySocial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B621C4039370060C47C /* FriendlySocial.swift */; };
+		546C1B761C4039530060C47C /* Heapo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B631C4039370060C47C /* Heapo.swift */; };
+		546C1B771C4039540060C47C /* Heapo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B631C4039370060C47C /* Heapo.swift */; };
+		546C1B781C4039570060C47C /* NameShark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B641C4039370060C47C /* NameShark.swift */; };
+		546C1B791C4039580060C47C /* NameShark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B641C4039370060C47C /* NameShark.swift */; };
+		546C1B7A1C40395F0060C47C /* Netflix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B651C4039370060C47C /* Netflix.swift */; };
+		546C1B7B1C4039600060C47C /* Netflix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B651C4039370060C47C /* Netflix.swift */; };
+		546C1B7C1C4039630060C47C /* Spark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B661C4039370060C47C /* Spark.swift */; };
+		546C1B7D1C4039640060C47C /* Spark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B661C4039370060C47C /* Spark.swift */; };
+		546C1B7E1C4039670060C47C /* Weibo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B671C4039370060C47C /* Weibo.swift */; };
+		546C1B7F1C4039680060C47C /* Weibo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B671C4039370060C47C /* Weibo.swift */; };
 		5474DDD11C3B141100300281 /* Excel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCC1C3B141100300281 /* Excel.swift */; };
 		5474DDD21C3B141100300281 /* MSPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCD1C3B141100300281 /* MSPayload.swift */; };
 		5474DDD31C3B141100300281 /* OneNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCE1C3B141100300281 /* OneNote.swift */; };
@@ -198,7 +223,6 @@
 		54955DFE1C3D3CFA00D6AD08 /* AllCast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54955DFB1C3D3CF500D6AD08 /* AllCast.swift */; };
 		54955E001C3D3D0A00D6AD08 /* AllCastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54955DFF1C3D3D0A00D6AD08 /* AllCastTests.swift */; };
 		54955E011C3D3D4D00D6AD08 /* AllCastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54955DFF1C3D3D0A00D6AD08 /* AllCastTests.swift */; };
-		549CEC5E1C3F6EB70093739E /* AppStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F316001C38539F00CEFE92 /* AppStoreTests.swift */; };
 		54BF423C1C3DA44900109497 /* MarvisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541C21C61C3D2C8100D89D4A /* MarvisTests.swift */; };
 		54C9EB291C3BD9A0005D4DCA /* DailyMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C9EB251C3BD9A0005D4DCA /* DailyMotion.swift */; };
 		54C9EB2A1C3BD9A0005D4DCA /* Trello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C9EB261C3BD9A0005D4DCA /* Trello.swift */; };
@@ -220,6 +244,22 @@
 		54C9EB3E1C3BDC04005D4DCA /* DailyMotionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C9EB3C1C3BDBBD005D4DCA /* DailyMotionTests.swift */; };
 		54C9EB401C3BDC0E005D4DCA /* TwitterrificTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C9EB3F1C3BDC0E005D4DCA /* TwitterrificTests.swift */; };
 		54C9EB411C3BDE77005D4DCA /* TwitterrificTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C9EB3F1C3BDC0E005D4DCA /* TwitterrificTests.swift */; };
+		54CD96E81C40399000FCE2AB /* WeiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD96E71C40399000FCE2AB /* WeiboTests.swift */; };
+		54CD96EA1C4039F400FCE2AB /* SparkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD96E91C4039F400FCE2AB /* SparkTests.swift */; };
+		54CD96EB1C4039FB00FCE2AB /* WeiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD96E71C40399000FCE2AB /* WeiboTests.swift */; };
+		54CD96EC1C403ADB00FCE2AB /* SparkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD96E91C4039F400FCE2AB /* SparkTests.swift */; };
+		54CD96EE1C403AED00FCE2AB /* NetflixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD96ED1C403AED00FCE2AB /* NetflixTests.swift */; };
+		54CD96F01C403B8A00FCE2AB /* NameSharkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD96EF1C403B8A00FCE2AB /* NameSharkTests.swift */; };
+		54CD96F21C403B9800FCE2AB /* NetflixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD96ED1C403AED00FCE2AB /* NetflixTests.swift */; };
+		54CD96F31C403BE000FCE2AB /* NameSharkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD96EF1C403B8A00FCE2AB /* NameSharkTests.swift */; };
+		54CD96F51C403BE900FCE2AB /* HeapoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD96F41C403BE900FCE2AB /* HeapoTests.swift */; };
+		54CD96F81C403C3E00FCE2AB /* FriendlySocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD96F71C403C3E00FCE2AB /* FriendlySocialTests.swift */; };
+		54CD96FB1C403C8B00FCE2AB /* FlippsTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD96FA1C403C8B00FCE2AB /* FlippsTVTests.swift */; };
+		54CD96FC1C403CDF00FCE2AB /* FlippsTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD96FA1C403C8B00FCE2AB /* FlippsTVTests.swift */; };
+		54CD96FD1C403CE800FCE2AB /* FriendlySocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD96F71C403C3E00FCE2AB /* FriendlySocialTests.swift */; };
+		54CD96FE1C403CEF00FCE2AB /* HeapoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD96F41C403BE900FCE2AB /* HeapoTests.swift */; };
+		54CD97001C403CFA00FCE2AB /* AliExpressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD96FF1C403CFA00FCE2AB /* AliExpressTests.swift */; };
+		54CD97011C403D5D00FCE2AB /* AliExpressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD96FF1C403CFA00FCE2AB /* AliExpressTests.swift */; };
 		54D5CFFC1C3995EE0039D512 /* GoogleChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D5CFF31C3995EE0039D512 /* GoogleChrome.swift */; };
 		54D5CFFD1C3995EE0039D512 /* GoogleChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D5CFF31C3995EE0039D512 /* GoogleChrome.swift */; };
 		54D5CFFE1C3995EE0039D512 /* GoogleChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D5CFF31C3995EE0039D512 /* GoogleChrome.swift */; };
@@ -566,6 +606,14 @@
 		546738881C3996A200AA42F1 /* RemoteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteTests.swift; sourceTree = "<group>"; };
 		546738891C3996A200AA42F1 /* ScannerProTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerProTests.swift; sourceTree = "<group>"; };
 		5467388A1C3996A200AA42F1 /* SkypeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkypeTests.swift; sourceTree = "<group>"; };
+		546C1B601C4039370060C47C /* AliExpress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AliExpress.swift; sourceTree = "<group>"; };
+		546C1B611C4039370060C47C /* FlippsTV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlippsTV.swift; sourceTree = "<group>"; };
+		546C1B621C4039370060C47C /* FriendlySocial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendlySocial.swift; sourceTree = "<group>"; };
+		546C1B631C4039370060C47C /* Heapo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heapo.swift; sourceTree = "<group>"; };
+		546C1B641C4039370060C47C /* NameShark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameShark.swift; sourceTree = "<group>"; };
+		546C1B651C4039370060C47C /* Netflix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Netflix.swift; sourceTree = "<group>"; };
+		546C1B661C4039370060C47C /* Spark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spark.swift; sourceTree = "<group>"; };
+		546C1B671C4039370060C47C /* Weibo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weibo.swift; sourceTree = "<group>"; };
 		5474DDCC1C3B141100300281 /* Excel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Excel.swift; sourceTree = "<group>"; };
 		5474DDCD1C3B141100300281 /* MSPayload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSPayload.swift; sourceTree = "<group>"; };
 		5474DDCE1C3B141100300281 /* OneNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneNote.swift; sourceTree = "<group>"; };
@@ -590,6 +638,14 @@
 		54C9EB371C3BDB45005D4DCA /* TrelloTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrelloTests.swift; sourceTree = "<group>"; };
 		54C9EB3C1C3BDBBD005D4DCA /* DailyMotionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyMotionTests.swift; sourceTree = "<group>"; };
 		54C9EB3F1C3BDC0E005D4DCA /* TwitterrificTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterrificTests.swift; sourceTree = "<group>"; };
+		54CD96E71C40399000FCE2AB /* WeiboTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeiboTests.swift; sourceTree = "<group>"; };
+		54CD96E91C4039F400FCE2AB /* SparkTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkTests.swift; sourceTree = "<group>"; };
+		54CD96ED1C403AED00FCE2AB /* NetflixTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetflixTests.swift; sourceTree = "<group>"; };
+		54CD96EF1C403B8A00FCE2AB /* NameSharkTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameSharkTests.swift; sourceTree = "<group>"; };
+		54CD96F41C403BE900FCE2AB /* HeapoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeapoTests.swift; sourceTree = "<group>"; };
+		54CD96F71C403C3E00FCE2AB /* FriendlySocialTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendlySocialTests.swift; sourceTree = "<group>"; };
+		54CD96FA1C403C8B00FCE2AB /* FlippsTVTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlippsTVTests.swift; sourceTree = "<group>"; };
+		54CD96FF1C403CFA00FCE2AB /* AliExpressTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AliExpressTests.swift; sourceTree = "<group>"; };
 		54D5CFF31C3995EE0039D512 /* GoogleChrome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleChrome.swift; sourceTree = "<group>"; };
 		54D5CFF41C3995EE0039D512 /* GoogleDrive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDrive.swift; sourceTree = "<group>"; };
 		54D5CFF51C3995EE0039D512 /* Linkedin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Linkedin.swift; sourceTree = "<group>"; };
@@ -837,6 +893,14 @@
 				54F649D81C3EA4CC00619ACF /* TangoTests.swift */,
 				54F649DB1C3EA52000619ACF /* VoxerTests.swift */,
 				54F649DE1C3EA57100619ACF /* WeChatTests.swift */,
+				54CD96E71C40399000FCE2AB /* WeiboTests.swift */,
+				54CD96E91C4039F400FCE2AB /* SparkTests.swift */,
+				54CD96ED1C403AED00FCE2AB /* NetflixTests.swift */,
+				54CD96EF1C403B8A00FCE2AB /* NameSharkTests.swift */,
+				54CD96F41C403BE900FCE2AB /* HeapoTests.swift */,
+				54CD96F71C403C3E00FCE2AB /* FriendlySocialTests.swift */,
+				54CD96FA1C403C8B00FCE2AB /* FlippsTVTests.swift */,
+				54CD96FF1C403CFA00FCE2AB /* AliExpressTests.swift */,
 			);
 			path = AppsTests;
 			sourceTree = "<group>";
@@ -916,6 +980,14 @@
 		826ACF1C1BF1BE9C00B5FC5D /* Apps */ = {
 			isa = PBXGroup;
 			children = (
+				546C1B601C4039370060C47C /* AliExpress.swift */,
+				546C1B611C4039370060C47C /* FlippsTV.swift */,
+				546C1B621C4039370060C47C /* FriendlySocial.swift */,
+				546C1B631C4039370060C47C /* Heapo.swift */,
+				546C1B641C4039370060C47C /* NameShark.swift */,
+				546C1B651C4039370060C47C /* Netflix.swift */,
+				546C1B661C4039370060C47C /* Spark.swift */,
+				546C1B671C4039370060C47C /* Weibo.swift */,
 				54F649941C3EA1A900619ACF /* GroupeMe.swift */,
 				54F649951C3EA1A900619ACF /* KakaoTalk.swift */,
 				54F649961C3EA1A900619ACF /* Line.swift */,
@@ -1267,19 +1339,25 @@
 				82F315BC1C38538100CEFE92 /* Flickr.swift in Sources */,
 				54F649BC1C3EA1D000619ACF /* Voxer.swift in Sources */,
 				5480421F1C3A5AEA00BBE49E /* Outlook.swift in Sources */,
+				546C1B7E1C4039670060C47C /* Weibo.swift in Sources */,
 				82F315FB1C38538100CEFE92 /* Yelp.swift in Sources */,
+				546C1B741C40394E0060C47C /* FriendlySocial.swift in Sources */,
+				546C1B7C1C4039630060C47C /* Spark.swift in Sources */,
 				54F649AC1C3EA1B100619ACF /* KakaoTalk.swift in Sources */,
 				8254C7C91C26124D009DB3BD /* NSExtensionContext+ApplicationCaller.swift in Sources */,
 				8254C78C1C2608BA009DB3BD /* Applications.swift in Sources */,
+				546C1B781C4039570060C47C /* NameShark.swift in Sources */,
 				82F315FE1C38538100CEFE92 /* Youtube.swift in Sources */,
 				54566F2F1C3D9C400086CAAA /* OMT.swift in Sources */,
 				544113F71C3C1F24005A0A65 /* Vine.swift in Sources */,
 				541C219E1C3D29D700D89D4A /* Meerkat.swift in Sources */,
 				54C9EB2D1C3BD9A4005D4DCA /* DailyMotion.swift in Sources */,
 				8254C78D1C2608BA009DB3BD /* ApplicationCaller.swift in Sources */,
+				546C1B761C4039530060C47C /* Heapo.swift in Sources */,
 				82F315F51C38538100CEFE92 /* Viber.swift in Sources */,
 				82F315A41C38538100CEFE92 /* AppStore.swift in Sources */,
 				82F315A71C38538100CEFE92 /* Audible.swift in Sources */,
+				546C1B7A1C40395F0060C47C /* Netflix.swift in Sources */,
 				82F315D71C38538100CEFE92 /* Itranslate.swift in Sources */,
 				82F315E61C38538100CEFE92 /* Quora.swift in Sources */,
 				82F315F81C38538100CEFE92 /* WhatsApp.swift in Sources */,
@@ -1296,6 +1374,8 @@
 				54F649BA1C3EA1CD00619ACF /* Tango.swift in Sources */,
 				541C219C1C3D29D400D89D4A /* Marvis.swift in Sources */,
 				82F315E91C38538100CEFE92 /* Settings.swift in Sources */,
+				546C1B721C4039460060C47C /* FlippsTV.swift in Sources */,
+				546C1B701C4039420060C47C /* AliExpress.swift in Sources */,
 				54D5CFFD1C3995EE0039D512 /* GoogleChrome.swift in Sources */,
 				82F315DA1C38538100CEFE92 /* Mail.swift in Sources */,
 				54F649BE1C3EA1D400619ACF /* WeChat.swift in Sources */,
@@ -1351,6 +1431,7 @@
 				5474DDEC1C3B170B00300281 /* WordTests.swift in Sources */,
 				82F316241C38539F00CEFE92 /* DayOneTests.swift in Sources */,
 				541C21BC1C3D2B9300D89D4A /* PeriscopeTests.swift in Sources */,
+				54CD96FC1C403CDF00FCE2AB /* FlippsTVTests.swift in Sources */,
 				54C9EB3A1C3BDB92005D4DCA /* WazeTests.swift in Sources */,
 				54F649C51C3EA2AA00619ACF /* KakaoTalkTests.swift in Sources */,
 				82F3162A1C38539F00CEFE92 /* EbayTests.swift in Sources */,
@@ -1362,6 +1443,7 @@
 				8254C7AC1C260A3B009DB3BD /* ApplicationCallerTests.swift in Sources */,
 				541C21C21C3D2C3B00D89D4A /* MyFitnessPalTests.swift in Sources */,
 				54C9EB3E1C3BDC04005D4DCA /* DailyMotionTests.swift in Sources */,
+				54CD96F31C403BE000FCE2AB /* NameSharkTests.swift in Sources */,
 				82F316321C38539F00CEFE92 /* GoogleEarthTests.swift in Sources */,
 				82F316281C38539F00CEFE92 /* DropboxTests.swift in Sources */,
 				541C21B31C3D2AB200D89D4A /* TedTests.swift in Sources */,
@@ -1375,7 +1457,7 @@
 				54566F401C3D9E790086CAAA /* GoogleCalendarTests.swift in Sources */,
 				546738961C3996A200AA42F1 /* RemindersAppTests.swift in Sources */,
 				541C21D41C3D3BB100D89D4A /* CnetTests.swift in Sources */,
-				549CEC5E1C3F6EB70093739E /* AppStoreTests.swift in Sources */,
+				546C1B5F1C4037DA0060C47C /* AppStoreTests.swift in Sources */,
 				8254C7AD1C260A3B009DB3BD /* PathTests.swift in Sources */,
 				54566F3D1C3D9DCF0086CAAA /* BNRTests.swift in Sources */,
 				54C9EB411C3BDE77005D4DCA /* TwitterrificTests.swift in Sources */,
@@ -1384,14 +1466,17 @@
 				8254C7AE1C260A3B009DB3BD /* NSExtensionContextApplicationCallerTests.swift in Sources */,
 				5467388C1C3996A200AA42F1 /* GoogleChromeTests.swift in Sources */,
 				54831D711C3C21CA00C47404 /* Flip­boardTests.swift in Sources */,
+				54CD96FD1C403CE800FCE2AB /* FriendlySocialTests.swift in Sources */,
 				82F3164E1C38539F00CEFE92 /* SettingsTests.swift in Sources */,
 				8254C7AF1C260A3B009DB3BD /* ApplicationCallerMock.swift in Sources */,
 				54F649D11C3EA41100619ACF /* RijnmondTests.swift in Sources */,
 				82F316401C38539F00CEFE92 /* InstagramTests.swift in Sources */,
+				54CD96FE1C403CEF00FCE2AB /* HeapoTests.swift in Sources */,
 				82F3163C1C38539F00CEFE92 /* IMDbTests.swift in Sources */,
 				5474DDE51C3B164600300281 /* ExcelTests.swift in Sources */,
 				545885211C3C610300AD1B14 /* NotesTests.swift in Sources */,
 				5467388E1C3996A200AA42F1 /* GoogleDriveTests.swift in Sources */,
+				54CD96EB1C4039FB00FCE2AB /* WeiboTests.swift in Sources */,
 				5458851E1C3C60BB00AD1B14 /* TestFlightTests.swift in Sources */,
 				541C21CE1C3D2D3D00D89D4A /* IshowsTests.swift in Sources */,
 				546738981C3996A200AA42F1 /* RemoteTests.swift in Sources */,
@@ -1408,6 +1493,7 @@
 				82F316541C38539F00CEFE92 /* TwitterTests.swift in Sources */,
 				54F649DA1C3EA51100619ACF /* TangoTests.swift in Sources */,
 				5474DDE61C3B164B00300281 /* OneNoteTests.swift in Sources */,
+				54CD97011C403D5D00FCE2AB /* AliExpressTests.swift in Sources */,
 				82F316421C38539F00CEFE92 /* ItranslateTests.swift in Sources */,
 				82F3165C1C38539F00CEFE92 /* YoutubeTests.swift in Sources */,
 				82F316581C38539F00CEFE92 /* WhatsAppTests.swift in Sources */,
@@ -1416,6 +1502,7 @@
 				546738921C3996A200AA42F1 /* MusicTests.swift in Sources */,
 				5474DDE91C3B16A700300281 /* PowerPointTests.swift in Sources */,
 				82F3165A1C38539F00CEFE92 /* YelpTests.swift in Sources */,
+				54CD96F21C403B9800FCE2AB /* NetflixTests.swift in Sources */,
 				82F316341C38539F00CEFE92 /* GoogleMailTests.swift in Sources */,
 				54244A231C3A5BB300AA064F /* OneDriveTests.swift in Sources */,
 				54C9EB3B1C3BDBAC005D4DCA /* TrelloTests.swift in Sources */,
@@ -1428,6 +1515,7 @@
 				546738901C3996A200AA42F1 /* LinkedinTests.swift in Sources */,
 				541C21D71C3D3BF900D89D4A /* ChromecastTests.swift in Sources */,
 				544114001C3C2061005A0A65 /* VineTests.swift in Sources */,
+				54CD96EC1C403ADB00FCE2AB /* SparkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1436,6 +1524,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54D5D00A1C3995EE0039D512 /* Phone.swift in Sources */,
+				546C1B731C4039470060C47C /* FlippsTV.swift in Sources */,
 				54F649B71C3EA1C600619ACF /* Songpop2.swift in Sources */,
 				82F315DB1C38538100CEFE92 /* Mail.swift in Sources */,
 				54D5D0041C3995EE0039D512 /* Linkedin.swift in Sources */,
@@ -1443,9 +1532,12 @@
 				541C21A91C3D29EB00D89D4A /* SSG2.swift in Sources */,
 				544113FA1C3C1F29005A0A65 /* Flip­board.swift in Sources */,
 				82F315CC1C38538100CEFE92 /* Ibooks.swift in Sources */,
+				546C1B791C4039580060C47C /* NameShark.swift in Sources */,
 				82F315E71C38538100CEFE92 /* Quora.swift in Sources */,
 				54566F321C3D9C450086CAAA /* Soundflake.swift in Sources */,
+				546C1B751C40394F0060C47C /* FriendlySocial.swift in Sources */,
 				5458851B1C3C603300AD1B14 /* TestFlight.swift in Sources */,
+				546C1B7B1C4039600060C47C /* Netflix.swift in Sources */,
 				8254C7B51C260DA8009DB3BD /* Path.swift in Sources */,
 				8254C7B71C260DA8009DB3BD /* ExternalApplication.swift in Sources */,
 				548042251C3A5AFE00BBE49E /* Sonos.swift in Sources */,
@@ -1478,11 +1570,14 @@
 				54F649B91C3EA1CA00619ACF /* Snapchat.swift in Sources */,
 				54F649AF1C3EA1B500619ACF /* Line.swift in Sources */,
 				82F315D21C38538100CEFE92 /* INRIXTraffic.swift in Sources */,
+				546C1B711C4039430060C47C /* AliExpress.swift in Sources */,
 				82F315E41C38538100CEFE92 /* Pinterest.swift in Sources */,
+				546C1B7D1C4039640060C47C /* Spark.swift in Sources */,
 				541C219F1C3D29D800D89D4A /* Meerkat.swift in Sources */,
 				54566F2A1C3D9C320086CAAA /* BNR.swift in Sources */,
 				82F315F01C38538100CEFE92 /* Tweetbot.swift in Sources */,
 				82F315ED1C38538100CEFE92 /* Telegram.swift in Sources */,
+				546C1B771C4039540060C47C /* Heapo.swift in Sources */,
 				54566F2E1C3D9C3A0086CAAA /* NPORadio.swift in Sources */,
 				82F315A51C38538100CEFE92 /* AppStore.swift in Sources */,
 				54C9EB2E1C3BD9A5005D4DCA /* DailyMotion.swift in Sources */,
@@ -1514,6 +1609,7 @@
 				5474DDDC1C3B14F100300281 /* MSPayload.swift in Sources */,
 				82F315C31C38538100CEFE92 /* GoogleMail.swift in Sources */,
 				54F649B51C3EA1C300619ACF /* Rijnmond.swift in Sources */,
+				546C1B7F1C4039680060C47C /* Weibo.swift in Sources */,
 				54C9EB341C3BD9B1005D4DCA /* Waze.swift in Sources */,
 				541C21931C3D29C400D89D4A /* Chromecast.swift in Sources */,
 				82F315B41C38538100CEFE92 /* Ebay.swift in Sources */,
@@ -1572,19 +1668,25 @@
 				54955DFC1C3D3CF500D6AD08 /* AllCast.swift in Sources */,
 				54F649A81C3EA1A900619ACF /* Voxer.swift in Sources */,
 				82F315B81C38538100CEFE92 /* FindFriends.swift in Sources */,
+				546C1B6F1C4039370060C47C /* Weibo.swift in Sources */,
 				5474DDD21C3B141100300281 /* MSPayload.swift in Sources */,
+				546C1B6A1C4039370060C47C /* FriendlySocial.swift in Sources */,
+				546C1B6E1C4039370060C47C /* Spark.swift in Sources */,
 				82F315BB1C38538100CEFE92 /* Flickr.swift in Sources */,
 				54F649A01C3EA1A900619ACF /* KakaoTalk.swift in Sources */,
 				5480421B1C3A5AE300BBE49E /* Outlook.swift in Sources */,
+				546C1B6C1C4039370060C47C /* NameShark.swift in Sources */,
 				82F315FA1C38538100CEFE92 /* Yelp.swift in Sources */,
 				8254C7C81C26124D009DB3BD /* NSExtensionContext+ApplicationCaller.swift in Sources */,
 				54566F271C3D9C2E0086CAAA /* OMT.swift in Sources */,
 				826ACF191BF1BD1F00B5FC5D /* Applications.swift in Sources */,
 				541C21881C3D29BA00D89D4A /* Meerkat.swift in Sources */,
 				82F315FD1C38538100CEFE92 /* Youtube.swift in Sources */,
+				546C1B6B1C4039370060C47C /* Heapo.swift in Sources */,
 				54C9EB291C3BD9A0005D4DCA /* DailyMotion.swift in Sources */,
 				826ACF5C1BF1E26B00B5FC5D /* ApplicationCaller.swift in Sources */,
 				82F315F41C38538100CEFE92 /* Viber.swift in Sources */,
+				546C1B6D1C4039370060C47C /* Netflix.swift in Sources */,
 				82F315A31C38538100CEFE92 /* AppStore.swift in Sources */,
 				82F315A61C38538100CEFE92 /* Audible.swift in Sources */,
 				82F315D61C38538100CEFE92 /* Itranslate.swift in Sources */,
@@ -1601,6 +1703,8 @@
 				54F649A71C3EA1A900619ACF /* Tango.swift in Sources */,
 				541C218B1C3D29BA00D89D4A /* Periscope.swift in Sources */,
 				541C21871C3D29BA00D89D4A /* Marvis.swift in Sources */,
+				546C1B691C4039370060C47C /* FlippsTV.swift in Sources */,
+				546C1B681C4039370060C47C /* AliExpress.swift in Sources */,
 				82F315BE1C38538100CEFE92 /* GoogleEarth.swift in Sources */,
 				82F315E81C38538100CEFE92 /* Settings.swift in Sources */,
 				54F649A91C3EA1A900619ACF /* WeChat.swift in Sources */,
@@ -1659,13 +1763,16 @@
 				54C9EB361C3BDACF005D4DCA /* WazeTests.swift in Sources */,
 				54F649C31C3EA25E00619ACF /* KakaoTalkTests.swift in Sources */,
 				82F316291C38539F00CEFE92 /* EbayTests.swift in Sources */,
+				54CD96E81C40399000FCE2AB /* WeiboTests.swift in Sources */,
 				54F649DC1C3EA52000619ACF /* VoxerTests.swift in Sources */,
 				54566F341C3D9C5D0086CAAA /* SoundflakeTests.swift in Sources */,
 				82F316491C38539F00CEFE92 /* PinterestTests.swift in Sources */,
 				545885231C3C610C00AD1B14 /* GalleryTests.swift in Sources */,
 				541C21C71C3D2C8100D89D4A /* MarvisTests.swift in Sources */,
 				8254C7791C24B515009DB3BD /* PathTests.swift in Sources */,
+				54CD96FB1C403C8B00FCE2AB /* FlippsTVTests.swift in Sources */,
 				541C21C11C3D2BFD00D89D4A /* MyFitnessPalTests.swift in Sources */,
+				54CD96EA1C4039F400FCE2AB /* SparkTests.swift in Sources */,
 				54C9EB3D1C3BDBBD005D4DCA /* DailyMotionTests.swift in Sources */,
 				82F316311C38539F00CEFE92 /* GoogleEarthTests.swift in Sources */,
 				82F316271C38539F00CEFE92 /* DropboxTests.swift in Sources */,
@@ -1673,6 +1780,7 @@
 				54244A1F1C3A5B8B00AA064F /* VideosTests.swift in Sources */,
 				541C21C41C3D2C4300D89D4A /* MeerkatTests.swift in Sources */,
 				82F316371C38539F00CEFE92 /* GooglePlusTests.swift in Sources */,
+				54CD96EE1C403AED00FCE2AB /* NetflixTests.swift in Sources */,
 				82F316451C38539F00CEFE92 /* MessagesTest.swift in Sources */,
 				54955E001C3D3D0A00D6AD08 /* AllCastTests.swift in Sources */,
 				541C21CA1C3D2CC300D89D4A /* ItunesUTests.swift in Sources */,
@@ -1684,11 +1792,13 @@
 				54F649DF1C3EA57100619ACF /* WeChatTests.swift in Sources */,
 				54C9EB401C3BDC0E005D4DCA /* TwitterrificTests.swift in Sources */,
 				541C21AF1C3D2A0900D89D4A /* WhydTests.swift in Sources */,
+				54CD97001C403CFA00FCE2AB /* AliExpressTests.swift in Sources */,
 				8254C7801C257523009DB3BD /* SampleAction.swift in Sources */,
 				82F3161F1C38539F00CEFE92 /* AppStoreTests.swift in Sources */,
 				54F649D31C3EA43600619ACF /* SnapchatTests.swift in Sources */,
 				8254C77C1C25746E009DB3BD /* NSExtensionContextApplicationCallerTests.swift in Sources */,
 				54831D701C3C219E00C47404 /* Flip­boardTests.swift in Sources */,
+				54CD96F81C403C3E00FCE2AB /* FriendlySocialTests.swift in Sources */,
 				5467388B1C3996A200AA42F1 /* GoogleChromeTests.swift in Sources */,
 				82F3164D1C38539F00CEFE92 /* SettingsTests.swift in Sources */,
 				8254C77E1C25751A009DB3BD /* SampleApp.swift in Sources */,
@@ -1709,6 +1819,7 @@
 				54244A1E1C3A5B8700AA064F /* SonosTests.swift in Sources */,
 				82F3163D1C38539F00CEFE92 /* INRIXTrafficTests.swift in Sources */,
 				54F649C91C3EA32A00619ACF /* MarktplaatsTests.swift in Sources */,
+				54CD96F01C403B8A00FCE2AB /* NameSharkTests.swift in Sources */,
 				546738991C3996A200AA42F1 /* ScannerProTests.swift in Sources */,
 				54F649D61C3EA48100619ACF /* Songpop2Tests.swift in Sources */,
 				82F316531C38539F00CEFE92 /* TwitterTests.swift in Sources */,
@@ -1718,6 +1829,7 @@
 				82F3165B1C38539F00CEFE92 /* YoutubeTests.swift in Sources */,
 				82F316571C38539F00CEFE92 /* WhatsAppTests.swift in Sources */,
 				827EF6171BF2756C000B1607 /* ApplicationCallerMock.swift in Sources */,
+				54CD96F51C403BE900FCE2AB /* HeapoTests.swift in Sources */,
 				82F3164F1C38539F00CEFE92 /* TelegramTests.swift in Sources */,
 				546738911C3996A200AA42F1 /* MusicTests.swift in Sources */,
 				5474DDE81C3B165D00300281 /* PowerPointTests.swift in Sources */,

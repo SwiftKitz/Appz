@@ -95,9 +95,10 @@ __Supported Apps (for now!):__
 
 App | Actions
 ----|--------
+[AliExpress][AliExpress-link] | Open
 [AllCast][AllCast-link] | Open
 [AppSettings][AppSettings-link] | Open
-[AppStore][AppStore-link] | Developer, App
+[AppStore][AppStore-link] | Developer, App, Rate App
 [Audible][Audible-link] | Open
 [BNR][BNR-link] | Open
 [Buzzfeed][Buzzfeed-link] | Open
@@ -114,6 +115,8 @@ App | Actions
 [Fitbit][Fitbit-link] | Open 
 [Flickr][Flickr-link] | Open
 [Flipboard][Flipboard-link] | Open
+[FlippsTV][FlippsTV-link] | Open
+[FriendlySocial][FriendlySocial-link] | Open
 [Gallery][Gallery-link] | Open
 [GoogleCalendar][GoogleCalendar-link] | Open, CreateEvent
 [GoogleChrome][GoogleChrome-link] | Open
@@ -123,6 +126,7 @@ App | Actions
 [GoogleMaps][GoogleMaps-link] | Open, Display Directions, Search
 [GooglePlus][GooglePlus-link] | Open
 [GroupeMe][GroupeMe-link] | Open
+[Heapo][Heapo-link] | Open
 [iBooks][iBooks-link] | Open
 [IMDb][IMDb-link] | Open, Search, Title, Boxoffice, Showtimes, Feature Coming Soon, Feature Best Picture, Feature Born Today, Top rated movies, Most popular movies.
 [INRIXTraffic][INRIXTraffic-link] | Open
@@ -140,6 +144,8 @@ App | Actions
 [Messages][Messages-link] | SMS
 [Music][Music-link] | Open
 [MyFitnessPal][MyFitnessPal-link] | Open
+[NameShark][NameShark-link] | Open
+[Netflix][Netflix-link] | Open
 [Notes][Notes-link] | Open
 [NPORadio][NPORadio-link] | Open
 [Nunl][Nunl-link] | Open
@@ -164,6 +170,7 @@ App | Actions
 [Songpop2][Songpop2-link] | Open
 [Sonos][Sonos-link] | Open
 [Soundflake][Soundflake-link] | Open
+[Spark][Spark-link] | Compose
 [Super-Stickman-Golf-2][Super-Stickman-Golf-2-link] | Open
 [Tango][Tango-link] | Open
 [Ted][Ted-link] | Open
@@ -179,6 +186,7 @@ App | Actions
 [Voxer][Voxer-link] | Open
 [Waze][Waze-link] | Open
 [WeChat][WeChat-link] | Open
+[Weibo][Weibo-link] | Open
 [WhatsApp][WhatsApp-link] | Open
 [Whyd][Whyd-link] | Open
 [Word][Word-link] | Open
@@ -235,6 +243,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [cartfile-docs]: https://github.com/Carthage/Carthage/blob/master/Documentation/Artifacts.md#cartfile
 [cocoapods-link]: https://cocoapods.org/
 [podfile-docs]: https://guides.cocoapods.org/syntax/podfile.html
+[AliExpress-link]: http://www.aliexpress.com
 [AllCast-link]: http://www.allcast.io
 [AppSettings-link]: https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.html#//apple_ref/c/data/UIApplicationOpenSettingsURLString
 [AppStore-link]: https://developer.apple.com/library/ios/qa/qa1633/_index.html
@@ -254,6 +263,8 @@ Appz is released under the MIT license. See LICENSE for details.
 [Fitbit-link]: https://www.fitbit.com/app
 [Flickr-link]: https://www.flickr.com
 [Flipboard-link]: https://flipboard.com
+[FlippsTV-link]: http://www.flipps.com
+[FriendlySocial-link]: http://friendly.io
 [Gallery-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
 [GoogleCalendar-link]: https://www.google.com/calendar/about/
 [GoogleChrome-link]: https://www.google.com/chrome/
@@ -263,6 +274,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [GoogleMaps-link]: https://maps.google.com
 [GooglePlus-link]: https://plus.google.com
 [GroupeMe-link]: https://groupme.com
+[Heapo-link]: http://heapo.marblzz.com
 [iBooks-link]: http://handleopenurl.com/?id=694
 [IMDb-link]: http://www.imdb.com 
 [INRIXTraffic-link]: http://inrix.com/inrix-traffic-app
@@ -280,6 +292,8 @@ Appz is released under the MIT license. See LICENSE for details.
 [Messages-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/SMSLinks/SMSLinks.html#//apple_ref/doc/uid/TP40007899-CH7-SW1
 [Music-link]: http://handleopenurl.com/scheme/original-ipod-music-app
 [MyFitnessPal-link]: https://www.myfitnesspal.com
+[NameShark-link]: http://www.namesharkapp.com
+[Netflix-link]: https://www.netflix.com
 [Notes-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
 [NPORadio-link]: http://forums.macrumors.com/threads/ios-8-widget-customisations-using-launcher.1782093/
 [Nunl-link]: http://www.nu.nl
@@ -304,6 +318,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Songpop2-link]: https://www.songpop2.com
 [Sonos-link]: http://www.sonos.com/
 [Soundflake-link]: http://soundflakeapp.com
+[Spark-link]: https://readdle.com/products/spark
 [Super-Stickman-Golf-2-link]: http://www.noodlecake.com/games/super-stickman-golf-2/
 [Tango-link]: http://www.tango.me
 [Ted-link]: https://www.ted.com
@@ -319,6 +334,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Voxer-link]: http://www.voxer.com
 [Waze-link]: https://www.waze.com
 [WeChat-link]: http://forums.macrumors.com/threads/ios-8-widget-customisations-using-launcher.1782093/
+[Weibo-link]: http://weibo.com/login.php
 [WhatsApp-link]: https://www.whatsapp.com
 [Whyd-link]: https://whyd.com"
 [Word-link]: https://www.office.com/
