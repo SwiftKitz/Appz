@@ -105,6 +105,7 @@ App | Actions
 [Chromecast][Chromecast-link] | Open
 [Cnet][Cnet-link] | Open
 [DailyMotion][DailyMotion-link] | Open
+[DayCost][DayCost-link] | Open
 [DayOne][DayOne-link] | Open
 [Documents][Documents-link] | Open
 [Dropbox][Dropbox-link] | Open
@@ -177,9 +178,11 @@ App | Actions
 [Telegram][Telegram-link] | Open, SMS
 [TestFlight][TestFlight-link] | Open
 [Trello][Trello-link] | Open
+[Tumblr][Tumblr-link] | Open, Dashboard, Explore, Activity, Blog, Tag
 [Tweetbot][Tweetbot-link] | Timeline, Post, Mentions, Lists, Retweets, Favorites, Messages, Status, Search, Profile, Follow, Unfollow, Favorite, Unfavorite, Retweet, List
 [Twitter][Twitter-link] | Status, UserHandle, UserId, List, Post, Search, Timeline, Mentions, Messages
 [Twitterrific][Twitterrific-link] | Open, MentionsView, MessagesView, FavoritesView, Search, TweetID, MessageID, Post, UserProfile 
+[Uber][Uber-link] | Open
 [Viber][Viber-link] | Open Calls Tab, Open Chats Tab
 [Videos][Videos-link] | Open
 [Vine][Vine-link] | Open, Popular Timelines
@@ -253,6 +256,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Chromecast-link]: https://www.google.com/intl/en_us/chromecast/
 [Cnet-link]: http://www.cnet.com
 [DailyMotion-link]: http://www.dailymotion.com/
+[DayCost-link]: https://www.facebook.com/iDaycost/
 [DayOne-link]: http://dayoneapp.com
 [Documents-link]: https://readdle.com/products/documents
 [Dropbox-link]: https://dropbox.com
@@ -325,9 +329,11 @@ Appz is released under the MIT license. See LICENSE for details.
 [Telegram-link]: https://web.telegram.org
 [TestFlight-link]: http://stackoverflow.com/questions/26667467/opening-testflight-app-from-another-app-and-deep-link-to-specific-app
 [Trello-link]: https://trello.com/
+[Tumblr-link]: https://www.tumblr.com
 [Tweetbot-link]: http://tapbots.com/tweetbot
 [Twitter-link]: https://twitter.com
 [Twitterrific-link]: http://twitterrific.com/ios/poweruser
+[Uber-link]: https://www.uber.com
 [Viber-link]: http://www.viber.com
 [Videos-link]: http://handleopenurl.com/scheme/ipod-video-library
 [Vine-link]: https://vine.co
