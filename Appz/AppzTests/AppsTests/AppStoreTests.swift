@@ -36,8 +36,20 @@ class AppStoreTests: XCTestCase {
         let accountId = "395107918"
         let action = Applications.AppStore.Action.Account(id: accountId)
         
-        XCTAssertEqual(action.paths.app.pathComponents, ["itunes.apple.com", "developer", "id", accountId])
+        XCTAssertEqual(action.paths.app.pathComponents, ["itunes.apple.com", "developer", "id\(accountId)"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
+        XCTAssertEqual(action.paths.web, Path())
+    }
+    
+    func testRateApp() {
+        
+        let appId = "327630330"
+        let action = Applications.AppStore.Action.RateApp(id: appId)
+        
+        XCTAssertEqual(action.paths.app.pathComponents, ["itunes.apple.com", "WebObjects", "MZStore.woa", "wa", "viewContentsUserReviews"])
+        XCTAssertEqual(action.paths.app.queryParameters, [
+                                                    "type":"Purple+Software",
+                                                      "id":appId,])
         XCTAssertEqual(action.paths.web, Path())
     }
 }

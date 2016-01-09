@@ -27,6 +27,7 @@ public extension Applications.AppStore {
     
         case Account(id: String)
         case App(id: String)
+        case RateApp(id: String)
     }
 }
 
@@ -39,7 +40,7 @@ extension Applications.AppStore.Action: ExternalApplicationAction {
         case .Account(let id):
             return ActionPaths(
                 app: Path(
-                    pathComponents: ["itunes.apple.com", "developer", "id", id],
+                    pathComponents: ["itunes.apple.com", "developer", "id\(id)"],
                     queryParameters: [:]
                 ),
                 web: Path()
@@ -50,6 +51,18 @@ extension Applications.AppStore.Action: ExternalApplicationAction {
                 app: Path(
                     pathComponents: ["itunes.apple.com", "app","id\(id)"],
                     queryParameters: [:]
+                ),
+                web: Path()
+            )
+            
+        case .RateApp(let id):
+            return ActionPaths(
+                app: Path(
+                    pathComponents: ["itunes.apple.com", "WebObjects", "MZStore.woa", "wa", "viewContentsUserReviews"],
+                    queryParameters: [
+                        "type":"Purple+Software",
+                        "id":id,
+                    ]
                 ),
                 web: Path()
             )
