@@ -110,7 +110,6 @@ App | Actions
 [Documents][Documents-link] | Open
 [Dropbox][Dropbox-link] | Open
 [eBay][eBay-link] | Open
-[Excel][Excel-link] | Open
 [Facebook][Facebook-link] | Open, Profile, Notification, Feed
 [FindFriends][FindFriends-link] | Open
 [Fitbit][Fitbit-link] | Open 
@@ -152,14 +151,12 @@ App | Actions
 [Nunl][Nunl-link] | Open
 [OneMorething][OneMorething-link] | Open
 [OneDrive][OneDrive-link] | Open
-[OneNote][OneNote-link] | Open
 [OnePassword][OnePassword-link] | Open
 [Outlook][Outlook-link] | Open, Compose
 [Paypal][Paypal-link] | Open
 [Periscope][Periscope-link] | Open 
 [Phone][Phone-link] | Open
 [Pinterest][Pinterest-link] | Open, UserProfile, Search
-[PowerPoint][PowerPoint-link] | Open
 [Quora][Quora-link] | Open
 [Radium][Radium-link] | Open
 [RemindersApp][RemindersApp-link] | Open
@@ -192,7 +189,6 @@ App | Actions
 [Weibo][Weibo-link] | Open
 [WhatsApp][WhatsApp-link] | Open
 [Whyd][Whyd-link] | Open
-[Word][Word-link] | Open
 [Yelp][Yelp-link] | Open, Search, Search Location, Search Category, Search Category Location, Business
 [Youtube][Youtube-link] | Open, Open Video
 ## Getting Started
@@ -261,14 +257,13 @@ Appz is released under the MIT license. See LICENSE for details.
 [Documents-link]: https://readdle.com/products/documents
 [Dropbox-link]: https://dropbox.com
 [eBay-link]: http://www.ebay.com
-[Excel-link]: https://www.office.com/
 [Facebook-link]: https://facebook.com
 [FindFriends-link]: http://handleopenurl.com/scheme/find-my-friends
 [Fitbit-link]: https://www.fitbit.com/app
 [Flickr-link]: https://www.flickr.com
 [Flipboard-link]: https://flipboard.com
 [FlippsTV-link]: http://www.flipps.com
-[FriendlySocial-link]: http://friendly.io
+[FriendlySocial-link]: http://friendly.io/#ios
 [Gallery-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
 [GoogleCalendar-link]: https://www.google.com/calendar/about/
 [GoogleChrome-link]: https://www.google.com/chrome/
@@ -303,14 +298,12 @@ Appz is released under the MIT license. See LICENSE for details.
 [Nunl-link]: http://www.nu.nl
 [OneMorething-link]: http://www.onemorething.nl
 [OneDrive-link]: https://onedrive.live.com/
-[OneNote-link]: https://www.office.com/
 [OnePassword-link]: https://agilebits.com/onepassword
 [Outlook-link]: http://www.outlook.com/
 [Paypal-link]: https://paypal.com
 [Periscope-link]: https://www.periscope.tv
 [Phone-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/PhoneLinks/PhoneLinks.html
 [Pinterest-link]: https://www.pinterest.com
-[PowerPoint-link]: https://www.office.com/
 [Quora-link]: https://www.quora.com
 [Radium-link]: http://catpigstudios.com
 [RemindersApp-link]: http://handleopenurl.com/scheme/reminders
@@ -342,7 +335,6 @@ Appz is released under the MIT license. See LICENSE for details.
 [WeChat-link]: http://forums.macrumors.com/threads/ios-8-widget-customisations-using-launcher.1782093/
 [Weibo-link]: http://weibo.com/login.php
 [WhatsApp-link]: https://www.whatsapp.com
-[Whyd-link]: https://whyd.com"
-[Word-link]: https://www.office.com/
+[Whyd-link]: http://whyd.com
 [Yelp-link]: https://m.yelp.com
 [Youtube-link]: https://youtube.com
