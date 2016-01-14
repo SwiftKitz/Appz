@@ -195,30 +195,7 @@
 		546C1B7D1C4039640060C47C /* Spark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B661C4039370060C47C /* Spark.swift */; };
 		546C1B7E1C4039670060C47C /* Weibo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B671C4039370060C47C /* Weibo.swift */; };
 		546C1B7F1C4039680060C47C /* Weibo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C1B671C4039370060C47C /* Weibo.swift */; };
-		5474DDD11C3B141100300281 /* Excel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCC1C3B141100300281 /* Excel.swift */; };
-		5474DDD21C3B141100300281 /* MSPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCD1C3B141100300281 /* MSPayload.swift */; };
-		5474DDD31C3B141100300281 /* OneNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCE1C3B141100300281 /* OneNote.swift */; };
-		5474DDD41C3B141100300281 /* PowerPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCF1C3B141100300281 /* PowerPoint.swift */; };
-		5474DDD51C3B141100300281 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDD01C3B141100300281 /* Word.swift */; };
 		5474DDD61C3B14CD00300281 /* MailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F316121C38539F00CEFE92 /* MailTests.swift */; };
-		5474DDD81C3B14E600300281 /* ExcelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDD71C3B14E600300281 /* ExcelTests.swift */; };
-		5474DDD91C3B14ED00300281 /* Excel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCC1C3B141100300281 /* Excel.swift */; };
-		5474DDDA1C3B14ED00300281 /* Excel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCC1C3B141100300281 /* Excel.swift */; };
-		5474DDDB1C3B14F000300281 /* MSPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCD1C3B141100300281 /* MSPayload.swift */; };
-		5474DDDC1C3B14F100300281 /* MSPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCD1C3B141100300281 /* MSPayload.swift */; };
-		5474DDDD1C3B14F400300281 /* OneNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCE1C3B141100300281 /* OneNote.swift */; };
-		5474DDDE1C3B14F400300281 /* OneNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCE1C3B141100300281 /* OneNote.swift */; };
-		5474DDDF1C3B14F700300281 /* PowerPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCF1C3B141100300281 /* PowerPoint.swift */; };
-		5474DDE01C3B14F800300281 /* PowerPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDCF1C3B141100300281 /* PowerPoint.swift */; };
-		5474DDE11C3B14FC00300281 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDD01C3B141100300281 /* Word.swift */; };
-		5474DDE21C3B14FD00300281 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDD01C3B141100300281 /* Word.swift */; };
-		5474DDE41C3B15F800300281 /* OneNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDE31C3B15F800300281 /* OneNoteTests.swift */; };
-		5474DDE51C3B164600300281 /* ExcelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDD71C3B14E600300281 /* ExcelTests.swift */; };
-		5474DDE61C3B164B00300281 /* OneNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDE31C3B15F800300281 /* OneNoteTests.swift */; };
-		5474DDE81C3B165D00300281 /* PowerPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDE71C3B165D00300281 /* PowerPointTests.swift */; };
-		5474DDE91C3B16A700300281 /* PowerPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDE71C3B165D00300281 /* PowerPointTests.swift */; };
-		5474DDEB1C3B16BA00300281 /* WordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDEA1C3B16BA00300281 /* WordTests.swift */; };
-		5474DDEC1C3B170B00300281 /* WordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474DDEA1C3B16BA00300281 /* WordTests.swift */; };
 		5480421A1C3A5AE300BBE49E /* OneDrive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548042161C3A5AE300BBE49E /* OneDrive.swift */; };
 		5480421B1C3A5AE300BBE49E /* Outlook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548042171C3A5AE300BBE49E /* Outlook.swift */; };
 		5480421C1C3A5AE300BBE49E /* Sonos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548042181C3A5AE300BBE49E /* Sonos.swift */; };
@@ -635,15 +612,6 @@
 		546C1B651C4039370060C47C /* Netflix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Netflix.swift; sourceTree = "<group>"; };
 		546C1B661C4039370060C47C /* Spark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spark.swift; sourceTree = "<group>"; };
 		546C1B671C4039370060C47C /* Weibo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weibo.swift; sourceTree = "<group>"; };
-		5474DDCC1C3B141100300281 /* Excel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Excel.swift; sourceTree = "<group>"; };
-		5474DDCD1C3B141100300281 /* MSPayload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSPayload.swift; sourceTree = "<group>"; };
-		5474DDCE1C3B141100300281 /* OneNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneNote.swift; sourceTree = "<group>"; };
-		5474DDCF1C3B141100300281 /* PowerPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerPoint.swift; sourceTree = "<group>"; };
-		5474DDD01C3B141100300281 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
-		5474DDD71C3B14E600300281 /* ExcelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcelTests.swift; sourceTree = "<group>"; };
-		5474DDE31C3B15F800300281 /* OneNoteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneNoteTests.swift; sourceTree = "<group>"; };
-		5474DDE71C3B165D00300281 /* PowerPointTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerPointTests.swift; sourceTree = "<group>"; };
-		5474DDEA1C3B16BA00300281 /* WordTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordTests.swift; sourceTree = "<group>"; };
 		548042161C3A5AE300BBE49E /* OneDrive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneDrive.swift; sourceTree = "<group>"; };
 		548042171C3A5AE300BBE49E /* Outlook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Outlook.swift; sourceTree = "<group>"; };
 		548042181C3A5AE300BBE49E /* Sonos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sonos.swift; sourceTree = "<group>"; };
@@ -869,10 +837,6 @@
 				82F3161C1C38539F00CEFE92 /* WhatsAppTests.swift */,
 				82F3161D1C38539F00CEFE92 /* YelpTests.swift */,
 				82F3161E1C38539F00CEFE92 /* YoutubeTests.swift */,
-				5474DDD71C3B14E600300281 /* ExcelTests.swift */,
-				5474DDE31C3B15F800300281 /* OneNoteTests.swift */,
-				5474DDE71C3B165D00300281 /* PowerPointTests.swift */,
-				5474DDEA1C3B16BA00300281 /* WordTests.swift */,
 				54C9EB351C3BDACF005D4DCA /* WazeTests.swift */,
 				54C9EB371C3BDB45005D4DCA /* TrelloTests.swift */,
 				54C9EB3C1C3BDBBD005D4DCA /* DailyMotionTests.swift */,
@@ -1056,11 +1020,6 @@
 				54C9EB261C3BD9A0005D4DCA /* Trello.swift */,
 				54C9EB271C3BD9A0005D4DCA /* Twitterrific.swift */,
 				54C9EB281C3BD9A0005D4DCA /* Waze.swift */,
-				5474DDCC1C3B141100300281 /* Excel.swift */,
-				5474DDCD1C3B141100300281 /* MSPayload.swift */,
-				5474DDCE1C3B141100300281 /* OneNote.swift */,
-				5474DDCF1C3B141100300281 /* PowerPoint.swift */,
-				5474DDD01C3B141100300281 /* Word.swift */,
 				548042161C3A5AE300BBE49E /* OneDrive.swift */,
 				548042171C3A5AE300BBE49E /* Outlook.swift */,
 				548042181C3A5AE300BBE49E /* Sonos.swift */,
@@ -1351,7 +1310,6 @@
 				54C9EB331C3BD9B0005D4DCA /* Waze.swift in Sources */,
 				54F649B41C3EA1C100619ACF /* Rijnmond.swift in Sources */,
 				54D5D0061C3995EE0039D512 /* Music.swift in Sources */,
-				5474DDDD1C3B14F400300281 /* OneNote.swift in Sources */,
 				546695E91C417377000461D2 /* Tumblr.swift in Sources */,
 				82F315B61C38538100CEFE92 /* Facebook.swift in Sources */,
 				54D5D00F1C3995EE0039D512 /* Remote.swift in Sources */,
@@ -1359,12 +1317,10 @@
 				54F649AA1C3EA1AD00619ACF /* GroupeMe.swift in Sources */,
 				82F315CB1C38538100CEFE92 /* Ibooks.swift in Sources */,
 				82F315C81C38538100CEFE92 /* GooglePlus.swift in Sources */,
-				5474DDE11C3B14FC00300281 /* Word.swift in Sources */,
 				82F315C21C38538100CEFE92 /* GoogleMail.swift in Sources */,
 				82F315E01C38538100CEFE92 /* Paypal.swift in Sources */,
 				82F315D11C38538100CEFE92 /* INRIXTraffic.swift in Sources */,
 				82F315B91C38538100CEFE92 /* FindFriends.swift in Sources */,
-				5474DDDB1C3B14F000300281 /* MSPayload.swift in Sources */,
 				54955DFD1C3D3CF900D6AD08 /* AllCast.swift in Sources */,
 				82F315BC1C38538100CEFE92 /* Flickr.swift in Sources */,
 				54F649BC1C3EA1D000619ACF /* Voxer.swift in Sources */,
@@ -1420,13 +1376,11 @@
 				54D5D00C1C3995EE0039D512 /* RemindersApp.swift in Sources */,
 				54566F2B1C3D9C360086CAAA /* GoogleCalendar.swift in Sources */,
 				541C21921C3D29C300D89D4A /* Chromecast.swift in Sources */,
-				5474DDDF1C3B14F700300281 /* PowerPoint.swift in Sources */,
 				54F649B61C3EA1C500619ACF /* Songpop2.swift in Sources */,
 				82F315D41C38538100CEFE92 /* Instagram.swift in Sources */,
 				82F315C51C38538100CEFE92 /* GoogleMaps.swift in Sources */,
 				544113F91C3C1F28005A0A65 /* Flip­board.swift in Sources */,
 				541C21961C3D29CA00D89D4A /* Fitbit.swift in Sources */,
-				5474DDD91C3B14ED00300281 /* Excel.swift in Sources */,
 				8254C78E1C2608BA009DB3BD /* UIApplication+ApplicationCaller.swift in Sources */,
 				54F649B81C3EA1C900619ACF /* Snapchat.swift in Sources */,
 				54D5D0001C3995EE0039D512 /* GoogleDrive.swift in Sources */,
@@ -1458,7 +1412,6 @@
 				82F316561C38539F00CEFE92 /* ViberTests.swift in Sources */,
 				82F316261C38539F00CEFE92 /* DocumentsTests.swift in Sources */,
 				54F649C41C3EA26200619ACF /* GroupeMeTests.swift in Sources */,
-				5474DDEC1C3B170B00300281 /* WordTests.swift in Sources */,
 				82F316241C38539F00CEFE92 /* DayOneTests.swift in Sources */,
 				541C21BC1C3D2B9300D89D4A /* PeriscopeTests.swift in Sources */,
 				54CD96FC1C403CDF00FCE2AB /* FlippsTVTests.swift in Sources */,
@@ -1505,7 +1458,6 @@
 				82F316401C38539F00CEFE92 /* InstagramTests.swift in Sources */,
 				54CD96FE1C403CEF00FCE2AB /* HeapoTests.swift in Sources */,
 				82F3163C1C38539F00CEFE92 /* IMDbTests.swift in Sources */,
-				5474DDE51C3B164600300281 /* ExcelTests.swift in Sources */,
 				545885211C3C610300AD1B14 /* NotesTests.swift in Sources */,
 				5467388E1C3996A200AA42F1 /* GoogleDriveTests.swift in Sources */,
 				54CD96EB1C4039FB00FCE2AB /* WeiboTests.swift in Sources */,
@@ -1524,7 +1476,6 @@
 				54F649D71C3EA4BD00619ACF /* Songpop2Tests.swift in Sources */,
 				82F316541C38539F00CEFE92 /* TwitterTests.swift in Sources */,
 				54F649DA1C3EA51100619ACF /* TangoTests.swift in Sources */,
-				5474DDE61C3B164B00300281 /* OneNoteTests.swift in Sources */,
 				54CD97011C403D5D00FCE2AB /* AliExpressTests.swift in Sources */,
 				82F316421C38539F00CEFE92 /* ItranslateTests.swift in Sources */,
 				82F3165C1C38539F00CEFE92 /* YoutubeTests.swift in Sources */,
@@ -1532,7 +1483,6 @@
 				8254C7B01C260A3B009DB3BD /* SampleApp.swift in Sources */,
 				82F316501C38539F00CEFE92 /* TelegramTests.swift in Sources */,
 				546738921C3996A200AA42F1 /* MusicTests.swift in Sources */,
-				5474DDE91C3B16A700300281 /* PowerPointTests.swift in Sources */,
 				82F3165A1C38539F00CEFE92 /* YelpTests.swift in Sources */,
 				54CD96F21C403B9800FCE2AB /* NetflixTests.swift in Sources */,
 				82F316341C38539F00CEFE92 /* GoogleMailTests.swift in Sources */,
@@ -1616,7 +1566,6 @@
 				54566F2E1C3D9C3A0086CAAA /* NPORadio.swift in Sources */,
 				82F315A51C38538100CEFE92 /* AppStore.swift in Sources */,
 				54C9EB2E1C3BD9A5005D4DCA /* DailyMotion.swift in Sources */,
-				5474DDDE1C3B14F400300281 /* OneNote.swift in Sources */,
 				541C21A31C3D29DF00D89D4A /* OnePassword.swift in Sources */,
 				82F315A81C38538100CEFE92 /* Audible.swift in Sources */,
 				8254C7BD1C260DA8009DB3BD /* Applications.swift in Sources */,
@@ -1641,7 +1590,6 @@
 				54D5D0161C3995EE0039D512 /* Skype.swift in Sources */,
 				54F649AB1C3EA1AE00619ACF /* GroupeMe.swift in Sources */,
 				54D5D00D1C3995EE0039D512 /* RemindersApp.swift in Sources */,
-				5474DDDC1C3B14F100300281 /* MSPayload.swift in Sources */,
 				82F315C31C38538100CEFE92 /* GoogleMail.swift in Sources */,
 				54F649B51C3EA1C300619ACF /* Rijnmond.swift in Sources */,
 				546C1B7F1C4039680060C47C /* Weibo.swift in Sources */,
@@ -1650,14 +1598,11 @@
 				82F315B41C38538100CEFE92 /* Ebay.swift in Sources */,
 				82F315F31C38538100CEFE92 /* Twitter.swift in Sources */,
 				54C9EB301C3BD9A9005D4DCA /* Trello.swift in Sources */,
-				5474DDE21C3B14FD00300281 /* Word.swift in Sources */,
 				541C21A11C3D29DC00D89D4A /* MyFitnessPal.swift in Sources */,
 				82F315F61C38538100CEFE92 /* Viber.swift in Sources */,
 				82F315AE1C38538100CEFE92 /* Documents.swift in Sources */,
 				82F315BD1C38538100CEFE92 /* Flickr.swift in Sources */,
 				82F315AB1C38538100CEFE92 /* DayOne.swift in Sources */,
-				5474DDDA1C3B14ED00300281 /* Excel.swift in Sources */,
-				5474DDE01C3B14F800300281 /* PowerPoint.swift in Sources */,
 				546695EA1C417378000461D2 /* Tumblr.swift in Sources */,
 				82F315C61C38538100CEFE92 /* GoogleMaps.swift in Sources */,
 				541C21971C3D29CB00D89D4A /* Fitbit.swift in Sources */,
@@ -1692,14 +1637,12 @@
 				54C9EB2C1C3BD9A0005D4DCA /* Waze.swift in Sources */,
 				546695E51C41736F000461D2 /* Tumblr.swift in Sources */,
 				54D5D0051C3995EE0039D512 /* Music.swift in Sources */,
-				5474DDD31C3B141100300281 /* OneNote.swift in Sources */,
 				82F315B51C38538100CEFE92 /* Facebook.swift in Sources */,
 				54D5D00E1C3995EE0039D512 /* Remote.swift in Sources */,
 				54F6499F1C3EA1A900619ACF /* GroupeMe.swift in Sources */,
 				5480421A1C3A5AE300BBE49E /* OneDrive.swift in Sources */,
 				82F315CA1C38538100CEFE92 /* Ibooks.swift in Sources */,
 				82F315C71C38538100CEFE92 /* GooglePlus.swift in Sources */,
-				5474DDD51C3B141100300281 /* Word.swift in Sources */,
 				82F315C11C38538100CEFE92 /* GoogleMail.swift in Sources */,
 				82F315DF1C38538100CEFE92 /* Paypal.swift in Sources */,
 				82F315D01C38538100CEFE92 /* INRIXTraffic.swift in Sources */,
@@ -1708,7 +1651,6 @@
 				54F649A81C3EA1A900619ACF /* Voxer.swift in Sources */,
 				82F315B81C38538100CEFE92 /* FindFriends.swift in Sources */,
 				546C1B6F1C4039370060C47C /* Weibo.swift in Sources */,
-				5474DDD21C3B141100300281 /* MSPayload.swift in Sources */,
 				546C1B6A1C4039370060C47C /* FriendlySocial.swift in Sources */,
 				546C1B6E1C4039370060C47C /* Spark.swift in Sources */,
 				82F315BB1C38538100CEFE92 /* Flickr.swift in Sources */,
@@ -1760,11 +1702,9 @@
 				54566F251C3D9C2E0086CAAA /* GoogleCalendar.swift in Sources */,
 				541C21821C3D29BA00D89D4A /* Chromecast.swift in Sources */,
 				54D5D00B1C3995EE0039D512 /* RemindersApp.swift in Sources */,
-				5474DDD41C3B141100300281 /* PowerPoint.swift in Sources */,
 				82F315D31C38538100CEFE92 /* Instagram.swift in Sources */,
 				82F315C41C38538100CEFE92 /* GoogleMaps.swift in Sources */,
 				541C21841C3D29BA00D89D4A /* Fitbit.swift in Sources */,
-				5474DDD11C3B141100300281 /* Excel.swift in Sources */,
 				826ACF251BF1C00800B5FC5D /* UIApplication+ApplicationCaller.swift in Sources */,
 				54D5CFFF1C3995EE0039D512 /* GoogleDrive.swift in Sources */,
 				82F315F11C38538100CEFE92 /* Twitter.swift in Sources */,
@@ -1797,7 +1737,6 @@
 				54566F3F1C3D9DD60086CAAA /* GoogleCalendarTests.swift in Sources */,
 				82F316231C38539F00CEFE92 /* DayOneTests.swift in Sources */,
 				54F649C11C3EA1E800619ACF /* GroupeMeTests.swift in Sources */,
-				5474DDEB1C3B16BA00300281 /* WordTests.swift in Sources */,
 				54244A1C1C3A5B7F00AA064F /* OneDriveTests.swift in Sources */,
 				541C21BB1C3D2B3A00D89D4A /* PeriscopeTests.swift in Sources */,
 				54C9EB361C3BDACF005D4DCA /* WazeTests.swift in Sources */,
@@ -1844,7 +1783,6 @@
 				8254C77E1C25751A009DB3BD /* SampleApp.swift in Sources */,
 				54F649D01C3EA3D400619ACF /* RijnmondTests.swift in Sources */,
 				82F3163F1C38539F00CEFE92 /* InstagramTests.swift in Sources */,
-				5474DDD81C3B14E600300281 /* ExcelTests.swift in Sources */,
 				545885201C3C60C600AD1B14 /* NotesTests.swift in Sources */,
 				82F3163B1C38539F00CEFE92 /* IMDbTests.swift in Sources */,
 				5458851D1C3C604800AD1B14 /* TestFlightTests.swift in Sources */,
@@ -1866,7 +1804,6 @@
 				54F649D61C3EA48100619ACF /* Songpop2Tests.swift in Sources */,
 				82F316531C38539F00CEFE92 /* TwitterTests.swift in Sources */,
 				54F649D91C3EA4CC00619ACF /* TangoTests.swift in Sources */,
-				5474DDE41C3B15F800300281 /* OneNoteTests.swift in Sources */,
 				82F316411C38539F00CEFE92 /* ItranslateTests.swift in Sources */,
 				82F3165B1C38539F00CEFE92 /* YoutubeTests.swift in Sources */,
 				82F316571C38539F00CEFE92 /* WhatsAppTests.swift in Sources */,
@@ -1874,7 +1811,6 @@
 				54CD96F51C403BE900FCE2AB /* HeapoTests.swift in Sources */,
 				82F3164F1C38539F00CEFE92 /* TelegramTests.swift in Sources */,
 				546738911C3996A200AA42F1 /* MusicTests.swift in Sources */,
-				5474DDE81C3B165D00300281 /* PowerPointTests.swift in Sources */,
 				82F316591C38539F00CEFE92 /* YelpTests.swift in Sources */,
 				82F316331C38539F00CEFE92 /* GoogleMailTests.swift in Sources */,
 				82F316211C38539F00CEFE92 /* AudibleTests.swift in Sources */,
