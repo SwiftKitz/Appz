@@ -104,12 +104,15 @@ App | Actions
 [Buzzfeed][Buzzfeed-link] | Open
 [Chromecast][Chromecast-link] | Open
 [Cnet][Cnet-link] | Open
+[CNN][CNN-link] | Open
+[Currency][Currency-link] | Open
 [DailyMotion][DailyMotion-link] | Open
 [DayCost][DayCost-link] | Open
 [DayOne][DayOne-link] | Open
 [Documents][Documents-link] | Open
 [Dropbox][Dropbox-link] | Open
 [eBay][eBay-link] | Open
+[Echofon][Echofon-link] | Open
 [Facebook][Facebook-link] | Open, Profile, Notification, Feed
 [FindFriends][FindFriends-link] | Open
 [Fitbit][Fitbit-link] | Open 
@@ -135,6 +138,8 @@ App | Actions
 [iTranslate][iTranslate-link] | Open, Translate
 [iTunesU][iTunesU-link] | Open
 [KakaoTalk][KakaoTalk-link] | Open
+[Kayak][Kayak-link] | Open
+[Keeper][Keeper-link] | Open
 [Line][Line-link] | Open
 [Linkedin][Linkedin-link] | Open
 [Mail][Mail-link] | Compose
@@ -251,12 +256,15 @@ Appz is released under the MIT license. See LICENSE for details.
 [Buzzfeed-link]: http://www.buzzfeed.com
 [Chromecast-link]: https://www.google.com/intl/en_us/chromecast/
 [Cnet-link]: http://www.cnet.com
+[CNN-link]: http://edition.cnn.com/specials/mobile-apps
+[Currency-link]: http://www.xe.com/apps/iphone/
 [DailyMotion-link]: http://www.dailymotion.com/
 [DayCost-link]: https://www.facebook.com/iDaycost/
 [DayOne-link]: http://dayoneapp.com
 [Documents-link]: https://readdle.com/products/documents
 [Dropbox-link]: https://dropbox.com
 [eBay-link]: http://www.ebay.com
+[Echofon-link]: http://www.echofon.com
 [Facebook-link]: https://facebook.com
 [FindFriends-link]: http://handleopenurl.com/scheme/find-my-friends
 [Fitbit-link]: https://www.fitbit.com/app
@@ -282,6 +290,8 @@ Appz is released under the MIT license. See LICENSE for details.
 [iTranslate-link]: http://itranslateapp.com
 [iTunesU-link]: https://launchcenterpro.com/dzvk6r
 [KakaoTalk-link]: http://www.kakao.com/talk
+[Kayak-link]: https://www.kayak.ae/
+[Keeper-link]: https://keepersecurity.com/
 [Line-link]: http://line.me/
 [Linkedin-link]: http://www.linkedin.com/
 [Mail-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MailLinks/MailLinks.html#//apple_ref/doc/uid/TP40007899-CH4-SW1
