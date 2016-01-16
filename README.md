@@ -134,6 +134,7 @@ App | Actions
 [IMDb][IMDb-link] | Open, Search, Title, Boxoffice, Showtimes, Feature Coming Soon, Feature Best Picture, Feature Born Today, Top rated movies, Most popular movies.
 [INRIXTraffic][INRIXTraffic-link] | Open
 [Instagram][Instagram-link] | Open, Camera, Media, Username, Location, Tag
+[Instapaper][Instapaper-link] | Open
 [iShows][iShows-link] | Open
 [iTranslate][iTranslate-link] | Open, Translate
 [iTunesU][iTunesU-link] | Open
@@ -147,6 +148,7 @@ App | Actions
 [Marvis][Marvis-link] | Open
 [Meerkat][Meerkat-link] | Open
 [Messages][Messages-link] | SMS
+[MobileMouse][MobileMouse-link] | Open
 [Music][Music-link] | Open
 [MyFitnessPal][MyFitnessPal-link] | Open
 [NameShark][NameShark-link] | Open
@@ -168,12 +170,14 @@ App | Actions
 [Remote][Remote-link] | Open
 [Rijnmond][Rijnmond-link] | Open
 [ScannerPro][ScannerPro-link] | Open
+[Simplenote][Simplenote-link] | Open
 [Skype][Skype-link] | Open
 [Snapchat][Snapchat-link] | Open
 [Songpop2][Songpop2-link] | Open
 [Sonos][Sonos-link] | Open
 [Soundflake][Soundflake-link] | Open
 [Spark][Spark-link] | Compose
+[StitcherRadio][StitcherRadio-link] | Open
 [Super-Stickman-Golf-2][Super-Stickman-Golf-2-link] | Open
 [Tango][Tango-link] | Open
 [Ted][Ted-link] | Open
@@ -194,6 +198,8 @@ App | Actions
 [Weibo][Weibo-link] | Open
 [WhatsApp][WhatsApp-link] | Open
 [Whyd][Whyd-link] | Open
+[Wikipanion][Wikipanion-link] | Open
+[Yammer][Yammer-link] | Open
 [Yelp][Yelp-link] | Open, Search, Search Location, Search Category, Search Category Location, Business
 [Youtube][Youtube-link] | Open, Open Video
 ## Getting Started
@@ -286,6 +292,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [IMDb-link]: http://www.imdb.com 
 [INRIXTraffic-link]: http://inrix.com/inrix-traffic-app
 [Instagram-link]: https://instagram.com
+[Instapaper-link]: https://www.instapaper.com/iphone
 [iShows-link]: http://ishowsapp.com
 [iTranslate-link]: http://itranslateapp.com
 [iTunesU-link]: https://launchcenterpro.com/dzvk6r
@@ -299,6 +306,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Marvis-link]: https://appaddy.wix.com/marvis
 [Meerkat-link]: http://meerkatapp.co
 [Messages-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/SMSLinks/SMSLinks.html#//apple_ref/doc/uid/TP40007899-CH7-SW1
+[MobileMouse-link]: http://www.mobilemouse.com
 [Music-link]: http://handleopenurl.com/scheme/original-ipod-music-app
 [MyFitnessPal-link]: https://www.myfitnesspal.com
 [NameShark-link]: http://www.namesharkapp.com
@@ -320,12 +328,14 @@ Appz is released under the MIT license. See LICENSE for details.
 [Remote-link]: http://handleopenurl.com/scheme/remote
 [Rijnmond-link]: http://www.rijnmond.nl
 [ScannerPro-link]: https://readdle.com/products/scannerpro/
+[Simplenote-link]: http://simplenote.com
 [Skype-link]: http://www.skype.com/
 [Snapchat-link]: https://www.snapchat.com
 [Songpop2-link]: https://www.songpop2.com
 [Sonos-link]: http://www.sonos.com/
 [Soundflake-link]: http://soundflakeapp.com
 [Spark-link]: https://readdle.com/products/spark
+[StitcherRadio-link]: http://www.stitcher.com
 [Super-Stickman-Golf-2-link]: http://www.noodlecake.com/games/super-stickman-golf-2/
 [Tango-link]: http://www.tango.me
 [Ted-link]: https://www.ted.com
@@ -346,5 +356,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Weibo-link]: http://weibo.com/login.php
 [WhatsApp-link]: https://www.whatsapp.com
 [Whyd-link]: http://whyd.com
+[Wikipanion-link]: http://www.wikipanion.com/download.html?iphone
+[Yammer-link]: https://products.office.com/en-us/yammer/yammer-mobile-app
 [Yelp-link]: https://m.yelp.com
 [Youtube-link]: https://youtube.com
