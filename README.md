@@ -16,6 +16,7 @@
   <a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
     <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" />
   </a>
+  <img alt="Supported Apps" src="https://img.shields.io/badge/SupportedApps-115-9600cd.svg" />
 </p>
 
 ## Highlights
@@ -101,6 +102,7 @@ App | Actions
 [AppStore][AppStore-link] | Developer, App, Rate App
 [Audible][Audible-link] | Open
 [BNR][BNR-link] | Open
+[Box][Box-link] | Open
 [Buzzfeed][Buzzfeed-link] | Open
 [Chromecast][Chromecast-link] | Open
 [Cnet][Cnet-link] | Open
@@ -114,11 +116,13 @@ App | Actions
 [eBay][eBay-link] | Open
 [Echofon][Echofon-link] | Open
 [Facebook][Facebook-link] | Open, Profile, Notification, Feed
+[FileApp][FileApp-link] | Open
 [FindFriends][FindFriends-link] | Open
 [Fitbit][Fitbit-link] | Open 
 [Flickr][Flickr-link] | Open
 [Flipboard][Flipboard-link] | Open
 [FlippsTV][FlippsTV-link] | Open
+[Foursquare][Foursquare-link] | Open
 [FriendlySocial][FriendlySocial-link] | Open
 [Gallery][Gallery-link] | Open
 [GoogleCalendar][GoogleCalendar-link] | Open, CreateEvent
@@ -141,6 +145,7 @@ App | Actions
 [KakaoTalk][KakaoTalk-link] | Open
 [Kayak][Kayak-link] | Open
 [Keeper][Keeper-link] | Open
+[LastPass][LastPass-link] | Open
 [Line][Line-link] | Open
 [Linkedin][Linkedin-link] | Open
 [Mail][Mail-link] | Compose
@@ -164,11 +169,13 @@ App | Actions
 [Periscope][Periscope-link] | Open 
 [Phone][Phone-link] | Open
 [Pinterest][Pinterest-link] | Open, UserProfile, Search
+[Pocket][Pocket-link] | Open
 [Quora][Quora-link] | Open
 [Radium][Radium-link] | Open
 [RemindersApp][RemindersApp-link] | Open
 [Remote][Remote-link] | Open
 [Rijnmond][Rijnmond-link] | Open
+[RunKeeper][RunKeeper-link] | Open
 [ScannerPro][ScannerPro-link] | Open
 [Simplenote][Simplenote-link] | Open
 [Skype][Skype-link] | Open
@@ -189,9 +196,11 @@ App | Actions
 [Twitter][Twitter-link] | Status, UserHandle, UserId, List, Post, Search, Timeline, Mentions, Messages
 [Twitterrific][Twitterrific-link] | Open, MentionsView, MessagesView, FavoritesView, Search, TweetID, MessageID, Post, UserProfile 
 [Uber][Uber-link] | Open
+[Ustream][Ustream-link] | Open
 [Viber][Viber-link] | Open Calls Tab, Open Chats Tab
 [Videos][Videos-link] | Open
 [Vine][Vine-link] | Open, Popular Timelines
+[VIPAccess][VIPAccess-link] | Open
 [Voxer][Voxer-link] | Open
 [Waze][Waze-link] | Open
 [WeChat][WeChat-link] | Open
@@ -259,6 +268,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [AppStore-link]: https://developer.apple.com/library/ios/qa/qa1633/_index.html
 [Audible-link]: http://www.audible.com
 [BNR-link]: http://www.bnr.nl
+[Box-link]: https://www.box.com/business/secure-enterprise-mobility/
 [Buzzfeed-link]: http://www.buzzfeed.com
 [Chromecast-link]: https://www.google.com/intl/en_us/chromecast/
 [Cnet-link]: http://www.cnet.com
@@ -272,11 +282,13 @@ Appz is released under the MIT license. See LICENSE for details.
 [eBay-link]: http://www.ebay.com
 [Echofon-link]: http://www.echofon.com
 [Facebook-link]: https://facebook.com
+[FileApp-link]: http://fileapp.com
 [FindFriends-link]: http://handleopenurl.com/scheme/find-my-friends
 [Fitbit-link]: https://www.fitbit.com/app
 [Flickr-link]: https://www.flickr.com
 [Flipboard-link]: https://flipboard.com
 [FlippsTV-link]: http://www.flipps.com
+[Foursquare-link]: https://foursquare.com/download
 [FriendlySocial-link]: http://friendly.io/#ios
 [Gallery-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
 [GoogleCalendar-link]: https://www.google.com/calendar/about/
@@ -299,6 +311,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [KakaoTalk-link]: http://www.kakao.com/talk
 [Kayak-link]: https://www.kayak.ae/
 [Keeper-link]: https://keepersecurity.com/
+[LastPass-link]: https://lastpass.com
 [Line-link]: http://line.me/
 [Linkedin-link]: http://www.linkedin.com/
 [Mail-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MailLinks/MailLinks.html#//apple_ref/doc/uid/TP40007899-CH4-SW1
@@ -322,11 +335,13 @@ Appz is released under the MIT license. See LICENSE for details.
 [Periscope-link]: https://www.periscope.tv
 [Phone-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/PhoneLinks/PhoneLinks.html
 [Pinterest-link]: https://www.pinterest.com
+[Pocket-link]: https://getpocket.com/ios/?ep=1
 [Quora-link]: https://www.quora.com
 [Radium-link]: http://catpigstudios.com
 [RemindersApp-link]: http://handleopenurl.com/scheme/reminders
 [Remote-link]: http://handleopenurl.com/scheme/remote
 [Rijnmond-link]: http://www.rijnmond.nl
+[RunKeeper-link]: https://runkeeper.com/index
 [ScannerPro-link]: https://readdle.com/products/scannerpro/
 [Simplenote-link]: http://simplenote.com
 [Skype-link]: http://www.skype.com/
@@ -347,9 +362,11 @@ Appz is released under the MIT license. See LICENSE for details.
 [Twitter-link]: https://twitter.com
 [Twitterrific-link]: http://twitterrific.com/ios/poweruser
 [Uber-link]: https://www.uber.com
+[Ustream-link]: https://www.ustream.tv/platform/watch-everywhere
 [Viber-link]: http://www.viber.com
 [Videos-link]: http://handleopenurl.com/scheme/ipod-video-library
 [Vine-link]: https://vine.co
+[VIPAccess-link]: https://m.vip.symantec.com/selectediphone.v
 [Voxer-link]: http://www.voxer.com
 [Waze-link]: https://www.waze.com
 [WeChat-link]: http://forums.macrumors.com/threads/ios-8-widget-customisations-using-launcher.1782093/
