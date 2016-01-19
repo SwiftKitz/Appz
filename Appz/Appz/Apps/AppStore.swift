@@ -14,6 +14,7 @@ public extension Applications {
 
         public let scheme = "itms-apps:"
         public let fallbackURL = "http:"
+        public let appStoreId = ""
         
         public init() {}
     }

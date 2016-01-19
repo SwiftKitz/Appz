@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "vine:"
         public let fallbackURL = "https://vine.co"
+        public let appStoreId = ""
         
         public init() {}
     }

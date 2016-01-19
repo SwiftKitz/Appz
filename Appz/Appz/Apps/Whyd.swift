@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "whyd:"
         public let fallbackURL = "https://whyd.com"
+        public let appStoreId = ""
         
         public init() {}
     }

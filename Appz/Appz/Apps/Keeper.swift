@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "keeper:"
         public let fallbackURL = "https://keepersecurity.com/"
+        public let appStoreId = ""
         
         public init() {}
     }

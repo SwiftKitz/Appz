@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "pscp:"
         public let fallbackURL = "https://www.periscope.tv"
+        public let appStoreId = ""
         
         public init() {}
     }

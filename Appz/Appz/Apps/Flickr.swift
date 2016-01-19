@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "Flickr:"
         public let fallbackURL = "https://www.flickr.com/"
+        public let appStoreId = ""
         
         public init() {}
     }

@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "com.google.calendar:"
         public let fallbackURL = "https://www.google.com/calendar/about/"
+        public let appStoreId = ""
         
         public init() {}
     }

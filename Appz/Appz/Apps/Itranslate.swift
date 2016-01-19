@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "itranslate:"
         public let fallbackURL = "http://itranslateapp.com/"
+        public let appStoreId = ""
         
         public init() {}
     }

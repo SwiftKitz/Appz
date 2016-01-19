@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "Currency:"
         public let fallbackURL = "http://www.xe.com/apps/iphone/"
+        public let appStoreId = ""
         
         public init() {}
     }

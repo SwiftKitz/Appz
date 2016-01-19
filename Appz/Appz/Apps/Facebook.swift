@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "fb:"
         public let fallbackURL = "https://www.facebook.com/"
+        public let appStoreId = ""
         
         public init() {}
     }

@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "Quora:"
         public let fallbackURL = "https://www.quora.com/"
+        public let appStoreId = ""
         
         public init() {}
     }

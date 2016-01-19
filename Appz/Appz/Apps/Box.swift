@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "box:"
         public let fallbackURL = "https://www.box.com/business/secure-enterprise-mobility/"
+        public let appStoreId = ""
         
         public init() {}
     }

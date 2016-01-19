@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "ms-onedrive:"
         public let fallbackURL = "https://onedrive.live.com/"
+        public let appStoreId = ""
         
         public init() {}
     }

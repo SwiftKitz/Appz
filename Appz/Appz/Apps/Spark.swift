@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "readdle-spark:"
         public let fallbackURL = "https://readdle.com/products/spark"
+        public let appStoreId = ""
         
         public init() {}
     }

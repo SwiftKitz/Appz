@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "spprint:"
         public let fallbackURL = "https://readdle.com/products/scannerpro/"
+        public let appStoreId = ""
         
         public init() {}
     }

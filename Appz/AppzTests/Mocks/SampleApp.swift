@@ -15,4 +15,5 @@ struct SampleApp: ExternalApplication {
     
     let scheme = "test:"
     let fallbackURL = "http://google.com/"
+    let appStoreId = ""
 }

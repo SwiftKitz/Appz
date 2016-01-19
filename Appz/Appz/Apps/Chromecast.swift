@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "chromecast:"
         public let fallbackURL = "https://www.google.com/intl/en_us/chromecast/"
+        public let appStoreId = ""
         
         public init() {}
     }

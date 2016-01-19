@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "fitbit:"
         public let fallbackURL = "https://www.fitbit.com/app"
+        public let appStoreId = ""
         
         public init() {}
     }

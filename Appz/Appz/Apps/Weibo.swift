@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "weibo:"
         public let fallbackURL = "http://weibo.com/login.php"
+        public let appStoreId = ""
         
         public init() {}
     }

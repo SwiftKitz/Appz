@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "paypal:"
         public let fallbackURL = "https://paypal.com/"
+        public let appStoreId = ""
         
         public init() {}
     }

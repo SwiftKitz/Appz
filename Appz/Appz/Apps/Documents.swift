@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "rdocs:"
         public let fallbackURL = "https://readdle.com/products/documents/"
+        public let appStoreId = ""
         
         public init() {}
     }

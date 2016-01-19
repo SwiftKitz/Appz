@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "SSG2:"
         public let fallbackURL = "http://www.noodlecake.com/games/super-stickman-golf-2/"
+        public let appStoreId = ""
         
         public init() {}
     }

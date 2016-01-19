@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "DayCost:"
         public let fallbackURL = "https://www.facebook.com/iDaycost/"
+        public let appStoreId = ""
         
         public init() {}
     }

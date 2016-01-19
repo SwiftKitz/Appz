@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "dailymotion:"
         public let fallbackURL = "http://www.dailymotion.com/"
+        public let appStoreId = ""
         
         public init() {}
     }

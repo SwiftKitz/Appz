@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "songpop:"
         public let fallbackURL = "https://www.songpop2.com"
+        public let appStoreId = ""
         
         public init() {}
     }

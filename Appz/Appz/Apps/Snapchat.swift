@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "snapchat:"
         public let fallbackURL = "https://www.snapchat.com"
+        public let appStoreId = ""
         
         public init() {}
     }

@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "cnet:"
         public let fallbackURL = "http://www.cnet.com"
+        public let appStoreId = ""
         
         public init() {}
     }

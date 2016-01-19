@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "gplus:"
         public let fallbackURL = "https://plus.google.com/"
+        public let appStoreId = ""
         
         public init() {}
     }

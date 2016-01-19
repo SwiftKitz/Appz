@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "pocket:"
         public let fallbackURL = "https://getpocket.com/ios/?ep=1"
+        public let appStoreId = ""
         
         public init() {}
     }

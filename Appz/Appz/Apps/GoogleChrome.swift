@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "googlechrome:"
         public let fallbackURL = "https://www.google.com/chrome/"
+        public let appStoreId = ""
         
         public init() {}
     }

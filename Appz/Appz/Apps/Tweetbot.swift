@@ -41,6 +41,7 @@ public extension Applications {
         
         public let scheme = "tweetbot:"
         public let fallbackURL = "http://tapbots.com/tweetbot/"
+        public let appStoreId = ""
         
         public init() {}
     }

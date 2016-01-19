@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "line:"
         public let fallbackURL = "http://line.me/"
+        public let appStoreId = ""
         
         public init() {}
     }

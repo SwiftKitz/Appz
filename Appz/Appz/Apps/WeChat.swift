@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "wechat:"
         public let fallbackURL = ""
+        public let appStoreId = ""
         
         public init() {}
     }

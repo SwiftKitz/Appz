@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "nunl:"
         public let fallbackURL = "http://www.nu.nl"
+        public let appStoreId = ""
         
         public init() {}
     }

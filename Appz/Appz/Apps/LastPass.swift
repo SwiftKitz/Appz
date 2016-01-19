@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "lastpass:"
         public let fallbackURL = "https://lastpass.com"
+        public let appStoreId = ""
         
         public init() {}
     }

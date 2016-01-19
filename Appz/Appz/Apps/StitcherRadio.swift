@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "stitcher:"
         public let fallbackURL = "http://www.stitcher.com"
+        public let appStoreId = ""
         
         public init() {}
     }

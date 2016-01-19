@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "aliexpress:"
         public let fallbackURL = "http://www.aliexpress.com"
+        public let appStoreId = ""
         
         public init() {}
     }

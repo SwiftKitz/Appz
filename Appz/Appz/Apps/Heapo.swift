@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "heap:"
         public let fallbackURL = "http://heapo.marblzz.com"
+        public let appStoreId = ""
         
         public init() {}
     }

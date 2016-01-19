@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "inrixtraffic:"
         public let fallbackURL = "http://inrix.com/inrix-traffic-app/"
+        public let appStoreId = ""
         
         public init() {}
     }

@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "tango:"
         public let fallbackURL = "http://www.tango.me"
+        public let appStoreId = ""
         
         public init() {}
     }

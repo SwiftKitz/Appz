@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "nameshark:"
         public let fallbackURL = "http://www.namesharkapp.com"
+        public let appStoreId = ""
         
         public init() {}
     }

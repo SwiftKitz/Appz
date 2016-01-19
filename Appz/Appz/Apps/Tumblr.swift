@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "tumblr:"
         public let fallbackURL = "https://www.tumblr.com"
+        public let appStoreId = ""
         
         public init() {}
     }

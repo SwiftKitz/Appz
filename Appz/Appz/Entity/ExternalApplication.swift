@@ -15,6 +15,7 @@ public protocol ExternalApplication {
     
     var scheme: String { get }
     var fallbackURL: String { get }
+    var appStoreId: String { get }
 }
 
 public struct ActionPaths {

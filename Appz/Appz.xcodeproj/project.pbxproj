@@ -374,6 +374,7 @@
 		54D5D0141C3995EE0039D512 /* Skype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D5CFFB1C3995EE0039D512 /* Skype.swift */; };
 		54D5D0151C3995EE0039D512 /* Skype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D5CFFB1C3995EE0039D512 /* Skype.swift */; };
 		54D5D0161C3995EE0039D512 /* Skype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D5CFFB1C3995EE0039D512 /* Skype.swift */; };
+		54F642CD1C4E68BA002DE532 /* ApplicationCallerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8246C8D41C1F9B0800569119 /* ApplicationCallerTests.swift */; };
 		54F6499F1C3EA1A900619ACF /* GroupeMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F649941C3EA1A900619ACF /* GroupeMe.swift */; };
 		54F649A01C3EA1A900619ACF /* KakaoTalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F649951C3EA1A900619ACF /* KakaoTalk.swift */; };
 		54F649A11C3EA1A900619ACF /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F649961C3EA1A900619ACF /* Line.swift */; };
@@ -439,7 +440,6 @@
 		8254C78D1C2608BA009DB3BD /* ApplicationCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF5B1BF1E26B00B5FC5D /* ApplicationCaller.swift */; };
 		8254C78E1C2608BA009DB3BD /* UIApplication+ApplicationCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826ACF241BF1C00800B5FC5D /* UIApplication+ApplicationCaller.swift */; };
 		8254C7A01C2609FC009DB3BD /* Appz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8254C7951C2608BA009DB3BD /* Appz.framework */; };
-		8254C7AC1C260A3B009DB3BD /* ApplicationCallerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8246C8D41C1F9B0800569119 /* ApplicationCallerTests.swift */; };
 		8254C7AD1C260A3B009DB3BD /* PathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8254C7781C24B515009DB3BD /* PathTests.swift */; };
 		8254C7AE1C260A3B009DB3BD /* NSExtensionContextApplicationCallerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8254C77B1C25746E009DB3BD /* NSExtensionContextApplicationCallerTests.swift */; };
 		8254C7AF1C260A3B009DB3BD /* ApplicationCallerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827EF6161BF2756C000B1607 /* ApplicationCallerMock.swift */; };
@@ -1621,7 +1621,6 @@
 				547F332F1C4BD04D00E140D7 /* FoursquareTests.swift in Sources */,
 				82F3164A1C38539F00CEFE92 /* PinterestTests.swift in Sources */,
 				545885241C3C613E00AD1B14 /* GalleryTests.swift in Sources */,
-				8254C7AC1C260A3B009DB3BD /* ApplicationCallerTests.swift in Sources */,
 				541C21C21C3D2C3B00D89D4A /* MyFitnessPalTests.swift in Sources */,
 				54C9EB3E1C3BDC04005D4DCA /* DailyMotionTests.swift in Sources */,
 				54CD96F31C403BE000FCE2AB /* NameSharkTests.swift in Sources */,
@@ -1654,6 +1653,7 @@
 				8254C7AE1C260A3B009DB3BD /* NSExtensionContextApplicationCallerTests.swift in Sources */,
 				5467388C1C3996A200AA42F1 /* GoogleChromeTests.swift in Sources */,
 				54831D711C3C21CA00C47404 /* Flip­boardTests.swift in Sources */,
+				54F642CD1C4E68BA002DE532 /* ApplicationCallerTests.swift in Sources */,
 				54CD96FD1C403CE800FCE2AB /* FriendlySocialTests.swift in Sources */,
 				82F3164E1C38539F00CEFE92 /* SettingsTests.swift in Sources */,
 				8254C7AF1C260A3B009DB3BD /* ApplicationCallerMock.swift in Sources */,
