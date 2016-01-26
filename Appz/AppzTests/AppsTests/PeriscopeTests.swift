@@ -15,9 +15,9 @@ class PeriscopeTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Periscope()
-        XCTAssertEqual(quora.scheme, "pscp:")
-        XCTAssertEqual(quora.fallbackURL, "https://www.periscope.tv")
+        let pscp = Applications.Periscope()
+        XCTAssertEqual(pscp.scheme, "pscp:")
+        XCTAssertEqual(pscp.fallbackURL, "https://www.periscope.tv")
     }
     
     func testOpen() {

@@ -15,9 +15,9 @@ class MarvisTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Marvis()
-        XCTAssertEqual(quora.scheme, "marvis:")
-        XCTAssertEqual(quora.fallbackURL, "http://appaddy.wix.com/marvis")
+        let marvis = Applications.Marvis()
+        XCTAssertEqual(marvis.scheme, "marvis:")
+        XCTAssertEqual(marvis.fallbackURL, "http://appaddy.wix.com/marvis")
     }
     
     func testOpen() {

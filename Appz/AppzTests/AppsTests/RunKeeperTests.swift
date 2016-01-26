@@ -15,9 +15,9 @@ class RunKeeperTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.RunKeeper()
-        XCTAssertEqual(quora.scheme, "RunKeeper:")
-        XCTAssertEqual(quora.fallbackURL, "https://runkeeper.com/index")
+        let RunKeeper = Applications.RunKeeper()
+        XCTAssertEqual(RunKeeper.scheme, "RunKeeper:")
+        XCTAssertEqual(RunKeeper.fallbackURL, "https://runkeeper.com/index")
     }
     
     func testOpen() {

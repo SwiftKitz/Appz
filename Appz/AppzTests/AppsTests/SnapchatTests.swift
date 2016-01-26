@@ -15,9 +15,9 @@ class SnapchatTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Snapchat()
-        XCTAssertEqual(quora.scheme, "snapchat:")
-        XCTAssertEqual(quora.fallbackURL, "https://www.snapchat.com")
+        let snapchat = Applications.Snapchat()
+        XCTAssertEqual(snapchat.scheme, "snapchat:")
+        XCTAssertEqual(snapchat.fallbackURL, "https://www.snapchat.com")
     }
     
     func testOpen() {

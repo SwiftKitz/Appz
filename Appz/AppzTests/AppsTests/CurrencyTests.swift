@@ -15,9 +15,9 @@ class CurrencyTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Currency()
-        XCTAssertEqual(quora.scheme, "Currency:")
-        XCTAssertEqual(quora.fallbackURL, "http://www.xe.com/apps/iphone/")
+        let Currency = Applications.Currency()
+        XCTAssertEqual(Currency.scheme, "Currency:")
+        XCTAssertEqual(Currency.fallbackURL, "http://www.xe.com/apps/iphone/")
     }
     
     func testOpen() {

@@ -14,7 +14,7 @@ public extension Applications {
 
         public let scheme = "twitter:"
         public let fallbackURL = "https://twitter.com/"
-        public let appStoreId = ""
+        public let appStoreId = "333903271"
         
         public init() {}
     }

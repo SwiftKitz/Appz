@@ -15,9 +15,9 @@ class NetflixTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Netflix()
-        XCTAssertEqual(quora.scheme, "nflx:")
-        XCTAssertEqual(quora.fallbackURL, "https://www.netflix.com")
+        let nflx = Applications.Netflix()
+        XCTAssertEqual(nflx.scheme, "nflx:")
+        XCTAssertEqual(nflx.fallbackURL, "https://www.netflix.com")
     }
     
     func testOpen() {

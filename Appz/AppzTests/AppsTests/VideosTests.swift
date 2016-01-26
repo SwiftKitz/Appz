@@ -15,9 +15,9 @@ class VideosTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Videos()
-        XCTAssertEqual(quora.scheme, "videos:")
-        XCTAssertEqual(quora.fallbackURL, "")
+        let videos = Applications.Videos()
+        XCTAssertEqual(videos.scheme, "videos:")
+        XCTAssertEqual(videos.fallbackURL, "")
     }
     
     func testOpen() {

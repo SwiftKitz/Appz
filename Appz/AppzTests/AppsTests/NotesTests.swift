@@ -15,9 +15,9 @@ class NotesTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Notes()
-        XCTAssertEqual(quora.scheme, "mobilenotes:")
-        XCTAssertEqual(quora.fallbackURL, "")
+        let notes = Applications.Notes()
+        XCTAssertEqual(notes.scheme, "mobilenotes:")
+        XCTAssertEqual(notes.fallbackURL, "")
     }
     
     func testOpen() {

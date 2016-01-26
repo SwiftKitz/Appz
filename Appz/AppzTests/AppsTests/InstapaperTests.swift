@@ -15,9 +15,9 @@ class InstapaperTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Instapaper()
-        XCTAssertEqual(quora.scheme, "instapaper:")
-        XCTAssertEqual(quora.fallbackURL, "https://www.instapaper.com/iphone")
+        let instapaper = Applications.Instapaper()
+        XCTAssertEqual(instapaper.scheme, "instapaper:")
+        XCTAssertEqual(instapaper.fallbackURL, "https://www.instapaper.com/iphone")
     }
     
     func testOpen() {

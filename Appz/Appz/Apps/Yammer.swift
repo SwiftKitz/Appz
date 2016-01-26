@@ -3,7 +3,7 @@
 //  Pods
 //
 //  Created by Mariam AlJamea on 1/16/16.
-//  Copyright © 2015 kitz. All rights reserved.
+//  Copyright © 2016 kitz. All rights reserved.
 //
 
 public extension Applications {
@@ -14,7 +14,7 @@ public extension Applications {
         
         public let scheme = "yammer:"
         public let fallbackURL = "https://products.office.com/en-us/yammer/yammer-mobile-app"
-        public let appStoreId = ""
+        public let appStoreId = "289559439"
         
         public init() {}
     }

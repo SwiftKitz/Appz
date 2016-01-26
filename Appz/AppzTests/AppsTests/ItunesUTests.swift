@@ -15,9 +15,9 @@ class ItunesUTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.ItunesU()
-        XCTAssertEqual(quora.scheme, "itms-itunesu:")
-        XCTAssertEqual(quora.fallbackURL, "")
+        let itunesu = Applications.ItunesU()
+        XCTAssertEqual(itunesu.scheme, "itms-itunesu:")
+        XCTAssertEqual(itunesu.fallbackURL, "")
     }
     
     func testOpen() {

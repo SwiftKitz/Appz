@@ -15,9 +15,9 @@ class WazeTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Waze()
-        XCTAssertEqual(quora.scheme, "waze:")
-        XCTAssertEqual(quora.fallbackURL, "https://www.waze.com")
+        let waze = Applications.Waze()
+        XCTAssertEqual(waze.scheme, "waze:")
+        XCTAssertEqual(waze.fallbackURL, "https://www.waze.com")
     }
     
     func testOpen() {

@@ -15,9 +15,9 @@ class SparkTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Spark()
-        XCTAssertEqual(quora.scheme, "readdle-spark:")
-        XCTAssertEqual(quora.fallbackURL, "https://readdle.com/products/spark")
+        let spark = Applications.Spark()
+        XCTAssertEqual(spark.scheme, "readdle-spark:")
+        XCTAssertEqual(spark.fallbackURL, "https://readdle.com/products/spark")
     }
     
     func testOpen() {

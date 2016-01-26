@@ -3,7 +3,7 @@
 //  Pods
 //
 //  Created by Mariam AlJamea on 12/26/15.
-//
+//  Copyright © 2015 kitz. All rights reserved.
 //
 
 public extension Applications {
@@ -14,7 +14,7 @@ public extension Applications {
         
         public let scheme = "pinterest:"
         public let fallbackURL = "https://www.pinterest.com/"
-        public let appStoreId = ""
+        public let appStoreId = "429047995"
         
         public init() {}
     }

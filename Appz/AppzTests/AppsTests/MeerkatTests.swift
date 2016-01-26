@@ -15,9 +15,9 @@ class MeerkatTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Meerkat()
-        XCTAssertEqual(quora.scheme, "meerkat:")
-        XCTAssertEqual(quora.fallbackURL, "http://meerkatapp.co")
+        let meerkat = Applications.Meerkat()
+        XCTAssertEqual(meerkat.scheme, "meerkat:")
+        XCTAssertEqual(meerkat.fallbackURL, "http://meerkatapp.co")
     }
     
     func testOpen() {

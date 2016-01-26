@@ -15,9 +15,9 @@ class CnetTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Cnet()
-        XCTAssertEqual(quora.scheme, "cnet:")
-        XCTAssertEqual(quora.fallbackURL, "http://www.cnet.com")
+        let cnet = Applications.Cnet()
+        XCTAssertEqual(cnet.scheme, "cnet:")
+        XCTAssertEqual(cnet.fallbackURL, "http://www.cnet.com")
     }
     
     func testOpen() {

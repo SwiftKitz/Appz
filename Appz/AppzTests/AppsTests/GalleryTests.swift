@@ -15,9 +15,9 @@ class GalleryTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Gallery()
-        XCTAssertEqual(quora.scheme, "photos-redirect:")
-        XCTAssertEqual(quora.fallbackURL, "")
+        let photos = Applications.Gallery()
+        XCTAssertEqual(photos.scheme, "photos-redirect:")
+        XCTAssertEqual(photos.fallbackURL, "")
     }
     
     func testOpen() {

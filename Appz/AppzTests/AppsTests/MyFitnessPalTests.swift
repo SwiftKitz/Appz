@@ -15,9 +15,9 @@ class MyFitnessPalTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.MyFitnessPal()
-        XCTAssertEqual(quora.scheme, "mfp:")
-        XCTAssertEqual(quora.fallbackURL, "https://www.myfitnesspal.com")
+        let mfp = Applications.MyFitnessPal()
+        XCTAssertEqual(mfp.scheme, "mfp:")
+        XCTAssertEqual(mfp.fallbackURL, "https://www.myfitnesspal.com")
     }
     
     func testOpen() {

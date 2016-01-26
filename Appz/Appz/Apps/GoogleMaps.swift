@@ -3,7 +3,7 @@
 //  Pods
 //
 //  Created by Mariam AlJamea on 12/23/15.
-//
+//  Copyright © 2015 kitz. All rights reserved.
 //
 
 public extension Applications {
@@ -14,7 +14,7 @@ public extension Applications {
         
         public let scheme = "comgooglemaps:"
         public let fallbackURL = "https://maps.google.com/"
-        public let appStoreId = ""
+        public let appStoreId = "585027354"
         
         public init() {}
     }

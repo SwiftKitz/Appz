@@ -15,9 +15,9 @@ class WhydTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Whyd()
-        XCTAssertEqual(quora.scheme, "whyd:")
-        XCTAssertEqual(quora.fallbackURL, "https://whyd.com")
+        let whyd = Applications.Whyd()
+        XCTAssertEqual(whyd.scheme, "whyd:")
+        XCTAssertEqual(whyd.fallbackURL, "https://whyd.com")
     }
     
     func testOpen() {

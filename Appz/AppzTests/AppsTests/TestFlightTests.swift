@@ -15,9 +15,9 @@ class TestFlightTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.TestFlight()
-        XCTAssertEqual(quora.scheme, "itms-beta:")
-        XCTAssertEqual(quora.fallbackURL, "")
+        let TestFlight = Applications.TestFlight()
+        XCTAssertEqual(TestFlight.scheme, "itms-beta:")
+        XCTAssertEqual(TestFlight.fallbackURL, "")
     }
     
     func testOpen() {

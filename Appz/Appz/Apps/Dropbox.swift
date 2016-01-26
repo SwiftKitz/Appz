@@ -14,7 +14,7 @@ public extension Applications {
         
         public let scheme = "dbapi-2:"
         public let fallbackURL = "https://dropbox.com/"
-        public let appStoreId = ""
+        public let appStoreId = "327630330"
         
         public init() {}
     }

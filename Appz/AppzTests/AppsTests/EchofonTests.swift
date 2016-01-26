@@ -15,9 +15,9 @@ class EchofonTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Echofon()
-        XCTAssertEqual(quora.scheme, "echofon:")
-        XCTAssertEqual(quora.fallbackURL, "http://www.echofon.com")
+        let echofon = Applications.Echofon()
+        XCTAssertEqual(echofon.scheme, "echofon:")
+        XCTAssertEqual(echofon.fallbackURL, "http://www.echofon.com")
     }
     
     func testOpen() {

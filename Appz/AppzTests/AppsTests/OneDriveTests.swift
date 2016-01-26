@@ -15,9 +15,9 @@ class OneDriveTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.OneDrive()
-        XCTAssertEqual(quora.scheme, "ms-onedrive:")
-        XCTAssertEqual(quora.fallbackURL, "https://onedrive.live.com/")
+        let onedrive = Applications.OneDrive()
+        XCTAssertEqual(onedrive.scheme, "ms-onedrive:")
+        XCTAssertEqual(onedrive.fallbackURL, "https://onedrive.live.com/")
     }
     
     func testOpen() {

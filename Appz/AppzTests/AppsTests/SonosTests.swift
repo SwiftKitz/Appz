@@ -15,9 +15,9 @@ class SonosTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Sonos()
-        XCTAssertEqual(quora.scheme, "sonos:")
-        XCTAssertEqual(quora.fallbackURL, "http://www.sonos.com/")
+        let sonos = Applications.Sonos()
+        XCTAssertEqual(sonos.scheme, "sonos:")
+        XCTAssertEqual(sonos.fallbackURL, "http://www.sonos.com/")
     }
     
     func testOpen() {

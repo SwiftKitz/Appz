@@ -15,9 +15,9 @@ class TumblrTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Tumblr()
-        XCTAssertEqual(quora.scheme, "tumblr:")
-        XCTAssertEqual(quora.fallbackURL, "https://www.tumblr.com")
+        let tumblr = Applications.Tumblr()
+        XCTAssertEqual(tumblr.scheme, "tumblr:")
+        XCTAssertEqual(tumblr.fallbackURL, "https://www.tumblr.com")
     }
     
     func testOpen() {

@@ -14,7 +14,7 @@ public extension Applications {
         
         public let scheme = "linkedin:"
         public let fallbackURL = "http://www.linkedin.com/"
-        public let appStoreId = ""
+        public let appStoreId = "288429040"
         
         public init() {}
     }

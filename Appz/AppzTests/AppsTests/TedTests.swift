@@ -15,9 +15,9 @@ class TedTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Ted()
-        XCTAssertEqual(quora.scheme, "ted:")
-        XCTAssertEqual(quora.fallbackURL, "https://www.ted.com")
+        let ted = Applications.Ted()
+        XCTAssertEqual(ted.scheme, "ted:")
+        XCTAssertEqual(ted.fallbackURL, "https://www.ted.com")
     }
     
     func testOpen() {

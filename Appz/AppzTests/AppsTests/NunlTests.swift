@@ -15,9 +15,9 @@ class NunlTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Nunl()
-        XCTAssertEqual(quora.scheme, "nunl:")
-        XCTAssertEqual(quora.fallbackURL, "http://www.nu.nl")
+        let nunl = Applications.Nunl()
+        XCTAssertEqual(nunl.scheme, "nunl:")
+        XCTAssertEqual(nunl.fallbackURL, "http://www.nu.nl")
     }
     
     func testOpen() {

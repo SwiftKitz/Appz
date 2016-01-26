@@ -15,9 +15,9 @@ class KeeperTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Keeper()
-        XCTAssertEqual(quora.scheme, "keeper:")
-        XCTAssertEqual(quora.fallbackURL, "https://keepersecurity.com/")
+        let keeper = Applications.Keeper()
+        XCTAssertEqual(keeper.scheme, "keeper:")
+        XCTAssertEqual(keeper.fallbackURL, "https://keepersecurity.com/")
     }
     
     func testOpen() {

@@ -15,9 +15,9 @@ class MobileMouseTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.MobileMouse()
-        XCTAssertEqual(quora.scheme, "mobilemouse:")
-        XCTAssertEqual(quora.fallbackURL, "http://www.mobilemouse.com")
+        let mobilemouse = Applications.MobileMouse()
+        XCTAssertEqual(mobilemouse.scheme, "mobilemouse:")
+        XCTAssertEqual(mobilemouse.fallbackURL, "http://www.mobilemouse.com")
     }
     
     func testOpen() {

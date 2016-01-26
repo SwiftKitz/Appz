@@ -15,9 +15,9 @@ class CNNTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.CNN()
-        XCTAssertEqual(quora.scheme, "cnn:")
-        XCTAssertEqual(quora.fallbackURL, "http://edition.cnn.com/specials/mobile-apps")
+        let cnn = Applications.CNN()
+        XCTAssertEqual(cnn.scheme, "cnn:")
+        XCTAssertEqual(cnn.fallbackURL, "http://edition.cnn.com/specials/mobile-apps")
     }
     
     func testOpen() {

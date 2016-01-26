@@ -15,9 +15,9 @@ class OnePasswordTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.OnePassword()
-        XCTAssertEqual(quora.scheme, "onepassword:")
-        XCTAssertEqual(quora.fallbackURL, "https://agilebits.com/onepassword")
+        let onepassword = Applications.OnePassword()
+        XCTAssertEqual(onepassword.scheme, "onepassword:")
+        XCTAssertEqual(onepassword.fallbackURL, "https://agilebits.com/onepassword")
     }
     
     func testOpen() {

@@ -15,9 +15,9 @@ class PinterestTests: XCTestCase {
     
     func testConfiguration() {
         
-        let twitter = Applications.Pinterest()
-        XCTAssertEqual(twitter.scheme, "pinterest:")
-        XCTAssertEqual(twitter.fallbackURL, "https://www.pinterest.com/")
+        let pinterest = Applications.Pinterest()
+        XCTAssertEqual(pinterest.scheme, "pinterest:")
+        XCTAssertEqual(pinterest.fallbackURL, "https://www.pinterest.com/")
     }
     
     func testOpen() {

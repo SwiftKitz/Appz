@@ -15,9 +15,9 @@ class KakaoTalkTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.KakaoTalk()
-        XCTAssertEqual(quora.scheme, "kakaotalk:")
-        XCTAssertEqual(quora.fallbackURL, "http://www.kakao.com/talk")
+        let kakaotalk = Applications.KakaoTalk()
+        XCTAssertEqual(kakaotalk.scheme, "kakaotalk:")
+        XCTAssertEqual(kakaotalk.fallbackURL, "http://www.kakao.com/talk")
     }
     
     func testOpen() {

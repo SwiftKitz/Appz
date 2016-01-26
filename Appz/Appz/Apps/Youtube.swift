@@ -14,7 +14,7 @@ public extension Applications {
         
         public let scheme = "youtube:"
         public let fallbackURL = "https://youtube.com/"
-        public let appStoreId = ""
+        public let appStoreId = "544007664"
         
         public init() {}
     }

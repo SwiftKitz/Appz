@@ -15,9 +15,9 @@ class FileAppTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.FileApp()
-        XCTAssertEqual(quora.scheme, "fileapp:")
-        XCTAssertEqual(quora.fallbackURL, "http://fileapp.com")
+        let fileapp = Applications.FileApp()
+        XCTAssertEqual(fileapp.scheme, "fileapp:")
+        XCTAssertEqual(fileapp.fallbackURL, "http://fileapp.com")
     }
     
     func testOpen() {

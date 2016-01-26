@@ -15,9 +15,9 @@ class LastPassTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.LastPass()
-        XCTAssertEqual(quora.scheme, "lastpass:")
-        XCTAssertEqual(quora.fallbackURL, "https://lastpass.com")
+        let lastpass = Applications.LastPass()
+        XCTAssertEqual(lastpass.scheme, "lastpass:")
+        XCTAssertEqual(lastpass.fallbackURL, "https://lastpass.com")
     }
     
     func testOpen() {

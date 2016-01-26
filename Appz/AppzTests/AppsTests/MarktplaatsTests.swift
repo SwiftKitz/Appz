@@ -15,9 +15,9 @@ class MarktplaatsTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Marktplaats()
-        XCTAssertEqual(quora.scheme, "marktplaats:")
-        XCTAssertEqual(quora.fallbackURL, "http://www.marktplaats.nl")
+        let marktplaats = Applications.Marktplaats()
+        XCTAssertEqual(marktplaats.scheme, "marktplaats:")
+        XCTAssertEqual(marktplaats.fallbackURL, "http://www.marktplaats.nl")
     }
     
     func testOpen() {

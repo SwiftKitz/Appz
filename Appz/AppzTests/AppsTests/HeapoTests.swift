@@ -15,9 +15,9 @@ class HeapoTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Heapo()
-        XCTAssertEqual(quora.scheme, "heap:")
-        XCTAssertEqual(quora.fallbackURL, "http://heapo.marblzz.com")
+        let heap = Applications.Heapo()
+        XCTAssertEqual(heap.scheme, "heap:")
+        XCTAssertEqual(heap.fallbackURL, "http://heapo.marblzz.com")
     }
     
     func testOpen() {

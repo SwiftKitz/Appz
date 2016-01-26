@@ -15,9 +15,9 @@ class StitcherRadioTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.StitcherRadio()
-        XCTAssertEqual(quora.scheme, "stitcher:")
-        XCTAssertEqual(quora.fallbackURL, "http://www.stitcher.com")
+        let stitcher = Applications.StitcherRadio()
+        XCTAssertEqual(stitcher.scheme, "stitcher:")
+        XCTAssertEqual(stitcher.fallbackURL, "http://www.stitcher.com")
     }
     
     func testOpen() {

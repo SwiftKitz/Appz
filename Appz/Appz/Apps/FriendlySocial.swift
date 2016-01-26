@@ -3,7 +3,7 @@
 //  Pods
 //
 //  Created by Mariam AlJamea on 1/8/16.
-//  Copyright © 2015 kitz. All rights reserved.
+//  Copyright © 2016 kitz. All rights reserved.
 //
 
 public extension Applications {
@@ -14,7 +14,7 @@ public extension Applications {
         
         public let scheme = "friendly-chrome-x-success:"
         public let fallbackURL = "http://friendly.io"
-        public let appStoreId = ""
+        public let appStoreId = "400169658"
         
         public init() {}
     }

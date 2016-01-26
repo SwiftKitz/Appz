@@ -14,7 +14,7 @@ public extension Applications {
         
         public let scheme = "viber:"
         public let fallbackURL = "http://www.viber.com/"
-        public let appStoreId = ""
+        public let appStoreId = "382617920"
         
         public init() {}
     }

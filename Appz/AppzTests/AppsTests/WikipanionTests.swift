@@ -15,9 +15,9 @@ class WikipanionTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Wikipanion()
-        XCTAssertEqual(quora.scheme, "wikipanion:")
-        XCTAssertEqual(quora.fallbackURL, "http://www.wikipanion.com/download.html?iphone")
+        let wikipanion = Applications.Wikipanion()
+        XCTAssertEqual(wikipanion.scheme, "wikipanion:")
+        XCTAssertEqual(wikipanion.fallbackURL, "http://www.wikipanion.com/download.html?iphone")
     }
     
     func testOpen() {

@@ -15,9 +15,9 @@ class TangoTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Tango()
-        XCTAssertEqual(quora.scheme, "tango:")
-        XCTAssertEqual(quora.fallbackURL, "http://www.tango.me")
+        let tango = Applications.Tango()
+        XCTAssertEqual(tango.scheme, "tango:")
+        XCTAssertEqual(tango.fallbackURL, "http://www.tango.me")
     }
     
     func testOpen() {

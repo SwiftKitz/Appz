@@ -15,9 +15,9 @@ class LineTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Line()
-        XCTAssertEqual(quora.scheme, "line:")
-        XCTAssertEqual(quora.fallbackURL, "http://line.me/")
+        let line = Applications.Line()
+        XCTAssertEqual(line.scheme, "line:")
+        XCTAssertEqual(line.fallbackURL, "http://line.me/")
     }
     
     func testOpen() {

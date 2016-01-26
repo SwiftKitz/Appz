@@ -15,9 +15,9 @@ class FlippsTVTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.FlippsTV()
-        XCTAssertEqual(quora.scheme, "flippshd:")
-        XCTAssertEqual(quora.fallbackURL, "http://www.flipps.com")
+        let flippshd = Applications.FlippsTV()
+        XCTAssertEqual(flippshd.scheme, "flippshd:")
+        XCTAssertEqual(flippshd.fallbackURL, "http://www.flipps.com")
     }
     
     func testOpen() {

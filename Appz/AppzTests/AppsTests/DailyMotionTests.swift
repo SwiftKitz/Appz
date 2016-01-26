@@ -15,9 +15,9 @@ class DailyMotionTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.DailyMotion()
-        XCTAssertEqual(quora.scheme, "dailymotion:")
-        XCTAssertEqual(quora.fallbackURL, "http://www.dailymotion.com/")
+        let dailymotion = Applications.DailyMotion()
+        XCTAssertEqual(dailymotion.scheme, "dailymotion:")
+        XCTAssertEqual(dailymotion.fallbackURL, "http://www.dailymotion.com/")
     }
     
     func testOpen() {

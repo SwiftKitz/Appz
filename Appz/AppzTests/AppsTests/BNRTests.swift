@@ -15,9 +15,9 @@ class BNRTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.BNR()
-        XCTAssertEqual(quora.scheme, "bnr:")
-        XCTAssertEqual(quora.fallbackURL, "http://www.bnr.nl")
+        let bnr = Applications.BNR()
+        XCTAssertEqual(bnr.scheme, "bnr:")
+        XCTAssertEqual(bnr.fallbackURL, "http://www.bnr.nl")
     }
     
     func testOpen() {

@@ -15,9 +15,9 @@ class GoogleCalendarTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.GoogleCalendar()
-        XCTAssertEqual(quora.scheme, "com.google.calendar:")
-        XCTAssertEqual(quora.fallbackURL, "https://www.google.com/calendar/about/")
+        let calendar = Applications.GoogleCalendar()
+        XCTAssertEqual(calendar.scheme, "com.google.calendar:")
+        XCTAssertEqual(calendar.fallbackURL, "https://www.google.com/calendar/about/")
     }
     
     func testOpen() {

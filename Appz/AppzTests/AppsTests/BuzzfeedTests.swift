@@ -15,9 +15,9 @@ class BuzzfeedTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Buzzfeed()
-        XCTAssertEqual(quora.scheme, "buzzfeed:")
-        XCTAssertEqual(quora.fallbackURL, "http://www.buzzfeed.com")
+        let buzzfeed = Applications.Buzzfeed()
+        XCTAssertEqual(buzzfeed.scheme, "buzzfeed:")
+        XCTAssertEqual(buzzfeed.fallbackURL, "http://www.buzzfeed.com")
     }
     
     func testOpen() {

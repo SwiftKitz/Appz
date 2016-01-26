@@ -15,9 +15,9 @@ class SoundflakeTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Soundflake()
-        XCTAssertEqual(quora.scheme, "soundflake:")
-        XCTAssertEqual(quora.fallbackURL, "http://soundflakeapp.com")
+        let soundflake = Applications.Soundflake()
+        XCTAssertEqual(soundflake.scheme, "soundflake:")
+        XCTAssertEqual(soundflake.fallbackURL, "http://soundflakeapp.com")
     }
     
     func testOpen() {

@@ -15,9 +15,9 @@ class Flip­boardTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Flip­board()
-        XCTAssertEqual(quora.scheme, "Flipboard:")
-        XCTAssertEqual(quora.fallbackURL, "https://flipboard.com")
+        let Flipboard = Applications.Flip­board()
+        XCTAssertEqual(Flipboard.scheme, "Flipboard:")
+        XCTAssertEqual(Flipboard.fallbackURL, "https://flipboard.com")
     }
     
     func testOpen() {

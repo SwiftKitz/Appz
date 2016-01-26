@@ -15,9 +15,9 @@ class UstreamTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Ustream()
-        XCTAssertEqual(quora.scheme, "ustream:")
-        XCTAssertEqual(quora.fallbackURL, "https://www.ustream.tv/platform/watch-everywhere")
+        let ustream = Applications.Ustream()
+        XCTAssertEqual(ustream.scheme, "ustream:")
+        XCTAssertEqual(ustream.fallbackURL, "https://www.ustream.tv/platform/watch-everywhere")
     }
     
     func testOpen() {

@@ -15,9 +15,9 @@ class SSG2Tests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.SSG2()
-        XCTAssertEqual(quora.scheme, "SSG2:")
-        XCTAssertEqual(quora.fallbackURL, "http://www.noodlecake.com/games/super-stickman-golf-2/")
+        let SSG2 = Applications.SSG2()
+        XCTAssertEqual(SSG2.scheme, "SSG2:")
+        XCTAssertEqual(SSG2.fallbackURL, "http://www.noodlecake.com/games/super-stickman-golf-2/")
     }
     
     func testOpen() {
