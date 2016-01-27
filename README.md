@@ -388,6 +388,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Paypal-link]: https://paypal.com
 [Periscope-link]: https://www.periscope.tv
 [Phone-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/PhoneLinks/PhoneLinks.html
+[PicCollage-link]: http://pic-collage.com
 [Pinterest-link]: https://www.pinterest.com
 [Pocket-link]: https://getpocket.com/ios/?ep=1
 [Quora-link]: https://www.quora.com
