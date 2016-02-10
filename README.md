@@ -11,12 +11,12 @@
   <a alt="Travis CI" href="https://travis-ci.org/SwiftKitz/Appz">
     <img alt="Version" src="https://travis-ci.org/SwiftKitz/Appz.svg?branch=master" />
   </a>
-  <img alt="Swift" src="https://img.shields.io/badge/swift-2.1-fa9926.svg" />
-  <img alt="Platforms" src="https://img.shields.io/badge/platform-ios%20%7C%20watchos%20%7C%20tvos-ffec34.svg" />
+  <img alt="Swift" src="https://img.shields.io/badge/swift-2.1-ec4838.svg" />
+  <img alt="Platforms" src="https://img.shields.io/badge/platform-ios%20%7C%20watchos%20%7C%20tvos-fdc22d.svg" />
   <a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
     <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-3e53b9.svg?style=flat" />
   </a>
-  <img alt="Apps" src="https://img.shields.io/badge/Apps-150-9600cd.svg" />
+  <img alt="Apps" src="https://img.shields.io/badge/Apps-150-9631b5.svg" />
 </p>
 
 ## Highlights
