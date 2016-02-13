@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		185D579E1C6F4EBC00D3E6F5 /* SnapchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F649D21C3EA43600619ACF /* SnapchatTests.swift */; };
 		541C21811C3D29BA00D89D4A /* Buzzfeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541C21721C3D29BA00D89D4A /* Buzzfeed.swift */; };
 		541C21821C3D29BA00D89D4A /* Chromecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541C21731C3D29BA00D89D4A /* Chromecast.swift */; };
 		541C21831C3D29BA00D89D4A /* Cnet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541C21741C3D29BA00D89D4A /* Cnet.swift */; };
@@ -420,7 +421,6 @@
 		54F649D01C3EA3D400619ACF /* RijnmondTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F649CF1C3EA3D400619ACF /* RijnmondTests.swift */; };
 		54F649D11C3EA41100619ACF /* RijnmondTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F649CF1C3EA3D400619ACF /* RijnmondTests.swift */; };
 		54F649D31C3EA43600619ACF /* SnapchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F649D21C3EA43600619ACF /* SnapchatTests.swift */; };
-		54F649D41C3EA47200619ACF /* SnapchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F649D21C3EA43600619ACF /* SnapchatTests.swift */; };
 		54F649D61C3EA48100619ACF /* Songpop2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F649D51C3EA48100619ACF /* Songpop2Tests.swift */; };
 		54F649D71C3EA4BD00619ACF /* Songpop2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F649D51C3EA48100619ACF /* Songpop2Tests.swift */; };
 		54F649D91C3EA4CC00619ACF /* TangoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F649D81C3EA4CC00619ACF /* TangoTests.swift */; };
@@ -1650,7 +1650,6 @@
 				54C9EB411C3BDE77005D4DCA /* TwitterrificTests.swift in Sources */,
 				5498D7971C4A99B400E88CA9 /* InstapaperTests.swift in Sources */,
 				541C21B01C3D2A6A00D89D4A /* WhydTests.swift in Sources */,
-				54F649D41C3EA47200619ACF /* SnapchatTests.swift in Sources */,
 				8254C7AE1C260A3B009DB3BD /* NSExtensionContextApplicationCallerTests.swift in Sources */,
 				5467388C1C3996A200AA42F1 /* GoogleChromeTests.swift in Sources */,
 				54831D711C3C21CA00C47404 /* Flip­boardTests.swift in Sources */,
@@ -1688,6 +1687,7 @@
 				82F3165C1C38539F00CEFE92 /* YoutubeTests.swift in Sources */,
 				82F316581C38539F00CEFE92 /* WhatsAppTests.swift in Sources */,
 				8254C7B01C260A3B009DB3BD /* SampleApp.swift in Sources */,
+				185D579E1C6F4EBC00D3E6F5 /* SnapchatTests.swift in Sources */,
 				5460FB8F1C497CAC009E35EB /* KayakTests.swift in Sources */,
 				82F316501C38539F00CEFE92 /* TelegramTests.swift in Sources */,
 				546738921C3996A200AA42F1 /* MusicTests.swift in Sources */,

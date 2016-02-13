@@ -25,6 +25,7 @@ public extension Applications.Snapchat {
     
     public enum Action {
         case Open
+        case Add(username: String)
     }
 }
 
@@ -40,6 +41,16 @@ extension Applications.Snapchat.Action: ExternalApplicationAction {
                     queryParameters: [:]
                 ),
                 web: Path()
+            )
+        case .Add(let Username):
+            return ActionPaths(
+                app: Path(
+                    pathComponents: ["add", Username],
+                    queryParameters: [:]
+                ),
+                web: Path(pathComponents: ["add", Username],
+                    queryParameters: [:]
+                )
             )
         }
     }
