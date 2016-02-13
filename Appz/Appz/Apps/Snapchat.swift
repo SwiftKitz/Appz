@@ -3,7 +3,7 @@
 //  Pods
 //
 //  Created by Mariam AlJamea on 1/7/16.
-//  Copyright © 2015 kitz. All rights reserved.
+//  Copyright © 2016 kitz. All rights reserved.
 //
 
 public extension Applications {
@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "snapchat:"
         public let fallbackURL = "https://www.snapchat.com"
+        public let appStoreId = "447188370"
         
         public init() {}
     }
@@ -25,6 +26,7 @@ public extension Applications.Snapchat {
     
     public enum Action {
         case Open
+        case Add(username: String)
     }
 }
 
@@ -40,6 +42,16 @@ extension Applications.Snapchat.Action: ExternalApplicationAction {
                     queryParameters: [:]
                 ),
                 web: Path()
+            )
+        case .Add(let Username):
+            return ActionPaths(
+                app: Path(
+                    pathComponents: ["add", Username],
+                    queryParameters: [:]
+                ),
+                web: Path(pathComponents: ["add", Username],
+                    queryParameters: [:]
+                )
             )
         }
     }

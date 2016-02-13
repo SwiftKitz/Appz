@@ -118,7 +118,7 @@ App | Actions
 [Facebook][Facebook-link] | Open, Profile, Notification, Feed
 [FileApp][FileApp-link] | Open
 [FindFriends][FindFriends-link] | Open
-[Fitbit][Fitbit-link] | Open 
+[Fitbit][Fitbit-link] | Open
 [Flickr][Flickr-link] | Open
 [Flipboard][Flipboard-link] | Open
 [FlippsTV][FlippsTV-link] | Open
@@ -166,7 +166,7 @@ App | Actions
 [OnePassword][OnePassword-link] | Open
 [Outlook][Outlook-link] | Open, Compose
 [Paypal][Paypal-link] | Open
-[Periscope][Periscope-link] | Open 
+[Periscope][Periscope-link] | Open
 [Phone][Phone-link] | Open
 [Pinterest][Pinterest-link] | Open, UserProfile, Search
 [Pocket][Pocket-link] | Open
@@ -179,7 +179,7 @@ App | Actions
 [ScannerPro][ScannerPro-link] | Open
 [Simplenote][Simplenote-link] | Open
 [Skype][Skype-link] | Open
-[Snapchat][Snapchat-link] | Open
+[Snapchat][Snapchat-link] | Open, Add
 [Songpop2][Songpop2-link] | Open
 [Sonos][Sonos-link] | Open
 [Soundflake][Soundflake-link] | Open
@@ -194,7 +194,7 @@ App | Actions
 [Tumblr][Tumblr-link] | Open, Dashboard, Explore, Activity, Blog, Tag
 [Tweetbot][Tweetbot-link] | Timeline, Post, Mentions, Lists, Retweets, Favorites, Messages, Status, Search, Profile, Follow, Unfollow, Favorite, Unfavorite, Retweet, List
 [Twitter][Twitter-link] | Status, UserHandle, UserId, List, Post, Search, Timeline, Mentions, Messages
-[Twitterrific][Twitterrific-link] | Open, MentionsView, MessagesView, FavoritesView, Search, TweetID, MessageID, Post, UserProfile 
+[Twitterrific][Twitterrific-link] | Open, MentionsView, MessagesView, FavoritesView, Search, TweetID, MessageID, Post, UserProfile
 [Uber][Uber-link] | Open
 [Ustream][Ustream-link] | Open
 [Viber][Viber-link] | Open Calls Tab, Open Chats Tab
@@ -301,7 +301,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [GroupeMe-link]: https://groupme.com
 [Heapo-link]: http://heapo.marblzz.com
 [iBooks-link]: http://handleopenurl.com/?id=694
-[IMDb-link]: http://www.imdb.com 
+[IMDb-link]: http://www.imdb.com
 [INRIXTraffic-link]: http://inrix.com/inrix-traffic-app
 [Instagram-link]: https://instagram.com
 [Instapaper-link]: https://www.instapaper.com/iphone
