@@ -203,7 +203,6 @@
 		54263BC61C5737830059F828 /* MarktplaatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F649C81C3EA32A00619ACF /* MarktplaatsTests.swift */; };
 		54263BC71C5737870059F828 /* NunlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F649CC1C3EA37700619ACF /* NunlTests.swift */; };
 		54263BC81C57378A0059F828 /* RijnmondTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F649CF1C3EA3D400619ACF /* RijnmondTests.swift */; };
-		54263BC91C57378D0059F828 /* SnapchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F649D21C3EA43600619ACF /* SnapchatTests.swift */; };
 		54263BCA1C5737910059F828 /* Songpop2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F649D51C3EA48100619ACF /* Songpop2Tests.swift */; };
 		54263BCB1C5737930059F828 /* TangoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F649D81C3EA4CC00619ACF /* TangoTests.swift */; };
 		54263BCC1C5737980059F828 /* VoxerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F649DB1C3EA52000619ACF /* VoxerTests.swift */; };
@@ -1989,7 +1988,6 @@
 				545FD64F1C40431E0057D17C /* AppStoreTests.swift in Sources */,
 				54263BBF1C57376A0059F828 /* OMTTests.swift in Sources */,
 				54263BC61C5737830059F828 /* MarktplaatsTests.swift in Sources */,
-				54263BC91C57378D0059F828 /* SnapchatTests.swift in Sources */,
 				54263BBD1C5737630059F828 /* AllCastTests.swift in Sources */,
 				546738961C3996A200AA42F1 /* RemindersAppTests.swift in Sources */,
 				54263BCB1C5737930059F828 /* TangoTests.swift in Sources */,
