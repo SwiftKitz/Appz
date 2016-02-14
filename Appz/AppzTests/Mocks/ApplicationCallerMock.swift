@@ -13,6 +13,7 @@ import Foundation
 class ApplicationCallerMock: ApplicationCaller {
     
     var canOpenURLs = true
+    var exceptionURLs = [NSURL]()
     
     var queriedURLs = [NSURL]()
     var openedURLs = [NSURL]()
@@ -24,7 +25,7 @@ class ApplicationCallerMock: ApplicationCaller {
     
     func canOpenURL(url: NSURL) -> Bool {
         queriedURLs.append(url)
-        return canOpenURLs
+        return canOpenURLs || exceptionURLs.contains(url)
     }
     
     func clear() {

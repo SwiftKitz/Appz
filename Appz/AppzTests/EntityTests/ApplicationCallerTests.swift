@@ -65,6 +65,36 @@ class ApplicationCallerTests: XCTestCase {
         XCTAssertEqual(appCallerMock.openedURLs.first, expectedURL)
     }
     
+    func testPromptInstallForInstalledApps() {
+        
+        // It shouldn't prompt the install
+        let sampleApp = SampleApp()
+        let sampleAction = SampleAction()
+        
+        appCallerMock.canOpenURLs = true
+        appCallerMock.open(sampleApp, action: sampleAction, promptInstall: true)
+        
+        let expectedURL = sampleAction.paths.app.appendToURL(sampleApp.scheme)
+        XCTAssertEqual(appCallerMock.openedURLs.first, expectedURL)
+    }
+    
+    func testPromptInstallForUnavailableApps() {
+        
+        // It should prompt the install
+        let sampleApp = SampleApp()
+        let sampleAction = SampleAction()
+        
+        let appStore = Applications.AppStore()
+        let appStoreAction = Applications.AppStore.Action.App(id: sampleApp.appStoreId)
+        
+        appCallerMock.canOpenURLs = false
+        appCallerMock.exceptionURLs = [NSURL(string: appStore.scheme)!]
+        appCallerMock.open(sampleApp, action: sampleAction, promptInstall: true)
+        
+        let expectedURL = appStoreAction.paths.app.appendToURL(appStore.scheme)
+        XCTAssertEqual(appCallerMock.openedURLs.first, expectedURL)
+    }
+    
     func testOpenFallbackPath() {
         
         let sampleApp = SampleApp()
