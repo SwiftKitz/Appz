@@ -259,9 +259,9 @@ You must add the schemes you want to use to your app's info.plist file under `LS
 github "SwiftKitz/Appz" ~> 1.2.0
 ```
 
-### Cocoapods
+### CocoaPods
 
-[Cocoapods][cocoapods-link] is fully supported. Simply add the following line to your [Podfile][podfile-docs]:
+[CocoaPods][cocoapods-link] is fully supported. Simply add the following line to your [Podfile][podfile-docs]:
 
 ```ruby
 pod 'Appz'
