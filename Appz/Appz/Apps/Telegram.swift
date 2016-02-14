@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "tg:"
         public let fallbackURL = "https://web.telegram.org/"
+        public let appStoreId = ""
         
         public init() {}
     }

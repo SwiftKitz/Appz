@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "Audible:"
         public let fallbackURL = "http://www.audible.com/"
+        public let appStoreId = ""
         
         public init() {}
     }

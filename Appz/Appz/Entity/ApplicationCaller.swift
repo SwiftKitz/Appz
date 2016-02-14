@@ -29,7 +29,11 @@ public extension ApplicationCaller {
         return false
     }
     
-    public func open<E: ExternalApplication>(externalApp: E, action: E.ActionType) -> Bool {
+    public func open<E: ExternalApplication>(externalApp: E, action: E.ActionType, promptInstall: Bool = false) -> Bool {
+        
+        if promptInstall {
+            return open(Applications.AppStore(), action: .App(id:externalApp.appStoreId))
+        }
         
         let scheme = externalApp.scheme
         let baseURL = NSURL(string: scheme)
@@ -39,9 +43,11 @@ public extension ApplicationCaller {
             let url = paths.app.appendToURL(scheme)
         {
             return openURL(url)
+            
         }
         
         if let url = paths.web.appendToURL(externalApp.fallbackURL) {
+            
             return openURL(url)
         }
         

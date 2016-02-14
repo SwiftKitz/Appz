@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "bnr:"
         public let fallbackURL = "http://www.bnr.nl"
+        public let appStoreId = ""
         
         public init() {}
     }

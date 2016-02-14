@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "googlegmail:"
         public let fallbackURL = "https://mail.google.com/"
+        public let appStoreId = ""
         
         public init() {}
     }

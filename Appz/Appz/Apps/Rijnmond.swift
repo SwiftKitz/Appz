@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "rtvrijnmond:"
         public let fallbackURL = "http://www.rijnmond.nl"
+        public let appStoreId = ""
         
         public init() {}
     }

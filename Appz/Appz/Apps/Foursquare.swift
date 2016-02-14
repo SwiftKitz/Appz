@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "foursquare:"
         public let fallbackURL = "https://foursquare.com/download"
+        public let appStoreId = ""
         
         public init() {}
     }

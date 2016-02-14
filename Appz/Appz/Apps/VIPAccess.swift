@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "vipsymantec:"
         public let fallbackURL = "https://m.vip.symantec.com/selectediphone.v"
+        public let appStoreId = ""
         
         public init() {}
     }

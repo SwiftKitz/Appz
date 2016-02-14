@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "trello:"
         public let fallbackURL = "https://trello.com/"
+        public let appStoreId = ""
         
         public init() {}
     }

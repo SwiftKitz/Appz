@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "flippshd:"
         public let fallbackURL = "http://www.flipps.com"
+        public let appStoreId = ""
         
         public init() {}
     }

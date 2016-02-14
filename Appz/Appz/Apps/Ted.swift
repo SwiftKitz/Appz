@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "ted:"
         public let fallbackURL = "https://www.ted.com"
+        public let appStoreId = ""
         
         public init() {}
     }

@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "soundflake:"
         public let fallbackURL = "http://soundflakeapp.com"
+        public let appStoreId = ""
         
         public init() {}
     }

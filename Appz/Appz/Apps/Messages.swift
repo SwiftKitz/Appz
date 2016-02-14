@@ -14,7 +14,8 @@ public extension Applications {
 
         public let scheme = "sms:"
         public let fallbackURL = ""
-
+        public let appStoreId = ""
+        
         public init() {}
     }
 }

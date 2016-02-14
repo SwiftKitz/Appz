@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "instapaper:"
         public let fallbackURL = "https://www.instapaper.com/iphone"
+        public let appStoreId = ""
         
         public init() {}
     }

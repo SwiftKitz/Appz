@@ -16,6 +16,7 @@ private struct MalformedApp: ExternalApplication {
     
     let scheme = "m%lform"
     let fallbackURL = "m%lforma$well"
+    let appStoreId = ""
 }
 
 

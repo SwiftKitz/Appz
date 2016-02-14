@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "kakaotalk:"
         public let fallbackURL = "http://www.kakao.com/talk"
+        public let appStoreId = ""
         
         public init() {}
     }

@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "imdb:"
         public let fallbackURL = "http://www.imdb.com/"
+        public let appStoreId = ""
         
         public init() {}
     }

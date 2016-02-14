@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "marktplaats:"
         public let fallbackURL = "http://www.marktplaats.nl"
+        public let appStoreId = ""
         
         public init() {}
     }

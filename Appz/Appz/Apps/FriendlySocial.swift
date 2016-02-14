@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "friendly-chrome-x-success:"
         public let fallbackURL = "http://friendly.io"
+        public let appStoreId = ""
         
         public init() {}
     }

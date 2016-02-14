@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "radium:"
         public let fallbackURL = "http://catpigstudios.com"
+        public let appStoreId = ""
         
         public init() {}
     }

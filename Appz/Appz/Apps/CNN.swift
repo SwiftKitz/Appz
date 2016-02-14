@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "cnn:"
         public let fallbackURL = "http://edition.cnn.com/specials/mobile-apps"
+        public let appStoreId = ""
         
         public init() {}
     }

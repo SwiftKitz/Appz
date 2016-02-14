@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "tel:"
         public let fallbackURL = ""
+        public let appStoreId = ""
         
         public init() {}
     }

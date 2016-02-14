@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "echofon:"
         public let fallbackURL = "http://www.echofon.com"
+        public let appStoreId = ""
         
         public init() {}
     }

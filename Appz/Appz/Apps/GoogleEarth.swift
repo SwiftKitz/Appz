@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "kml:"
         public let fallbackURL = "https://www.google.com/earth/"
+        public let appStoreId = ""
         
         public init() {}
     }

@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "buzzfeed:"
         public let fallbackURL = "http://www.buzzfeed.com"
+        public let appStoreId = ""
         
         public init() {}
     }

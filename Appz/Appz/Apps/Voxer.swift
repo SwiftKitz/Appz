@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "voxer:"
         public let fallbackURL = "http://www.voxer.com"
+        public let appStoreId = ""
         
         public init() {}
     }

@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "comgooglemaps:"
         public let fallbackURL = "https://maps.google.com/"
+        public let appStoreId = ""
         
         public init() {}
     }

@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "wikipanion:"
         public let fallbackURL = "http://www.wikipanion.com/download.html?iphone"
+        public let appStoreId = ""
         
         public init() {}
     }

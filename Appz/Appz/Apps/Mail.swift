@@ -14,7 +14,8 @@ public extension Applications {
 
         public let scheme = "mailto:"
         public let fallbackURL = ""
-
+        public let appStoreId = ""
+        
         public init() {}
     }
 }

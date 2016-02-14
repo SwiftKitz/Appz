@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "Skype:"
         public let fallbackURL = "http://www.skype.com/"
+        public let appStoreId = ""
         
         public init() {}
     }

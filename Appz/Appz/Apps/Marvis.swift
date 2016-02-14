@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "marvis:"
         public let fallbackURL = "http://appaddy.wix.com/marvis"
+        public let appStoreId = ""
         
         public init() {}
     }

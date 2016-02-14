@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "allCast:"
         public let fallbackURL = "http://www.allcast.io"
+        public let appStoreId = ""
         
         public init() {}
     }

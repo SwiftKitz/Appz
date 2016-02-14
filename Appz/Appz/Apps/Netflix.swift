@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "nflx:"
         public let fallbackURL = "https://www.netflix.com"
+        public let appStoreId = ""
         
         public init() {}
     }

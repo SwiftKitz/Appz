@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "RunKeeper:"
         public let fallbackURL = "https://runkeeper.com/index"
+        public let appStoreId = ""
         
         public init() {}
     }

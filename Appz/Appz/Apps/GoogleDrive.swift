@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "googledrive:"
         public let fallbackURL = "https://www.google.com/drive/"
+        public let appStoreId = ""
         
         public init() {}
     }

@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "meerkat:"
         public let fallbackURL = "http://meerkatapp.co"
+        public let appStoreId = ""
         
         public init() {}
     }

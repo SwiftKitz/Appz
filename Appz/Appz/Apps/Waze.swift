@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "waze:"
         public let fallbackURL = "https://www.waze.com"
+        public let appStoreId = ""
         
         public init() {}
     }

@@ -17,6 +17,7 @@ public extension Applications {
 
         public let scheme = UIApplicationOpenSettingsURLString
         public let fallbackURL = ""
+        public let appStoreId = ""
         
         public init() {}
     }

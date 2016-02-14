@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "ishows:"
         public let fallbackURL = "http://ishowsapp.com"
+        public let appStoreId = ""
         
         public init() {}
     }

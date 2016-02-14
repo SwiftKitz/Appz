@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "ustream:"
         public let fallbackURL = "https://www.ustream.tv/platform/watch-everywhere"
+        public let appStoreId = ""
         
         public init() {}
     }

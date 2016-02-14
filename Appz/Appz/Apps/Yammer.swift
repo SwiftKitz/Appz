@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "yammer:"
         public let fallbackURL = "https://products.office.com/en-us/yammer/yammer-mobile-app"
+        public let appStoreId = ""
         
         public init() {}
     }

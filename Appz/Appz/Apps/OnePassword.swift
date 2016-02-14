@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "onepassword:"
         public let fallbackURL = "https://agilebits.com/onepassword"
+        public let appStoreId = ""
         
         public init() {}
     }

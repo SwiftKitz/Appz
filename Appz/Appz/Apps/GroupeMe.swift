@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "groupme:"
         public let fallbackURL = "https://groupme.com"
+        public let appStoreId = ""
         
         public init() {}
     }

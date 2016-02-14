@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "twitterrific:"
         public let fallbackURL = "http://twitterrific.com/ios"
+        public let appStoreId = ""
         
         public init() {}
     }

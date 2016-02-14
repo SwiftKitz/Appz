@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "ms-outlook:"
         public let fallbackURL = "http://www.outlook.com/"
+        public let appStoreId = ""
         
         public init() {}
     }

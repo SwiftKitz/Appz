@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "dayone:"
         public let fallbackURL = "http://dayoneapp.com/"
+        public let appStoreId = ""
         
         public init() {}
     }

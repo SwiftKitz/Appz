@@ -14,6 +14,7 @@ public extension Applications {
         
         public let scheme = "mfp:"
         public let fallbackURL = "https://www.myfitnesspal.com"
+        public let appStoreId = ""
         
         public init() {}
     }
