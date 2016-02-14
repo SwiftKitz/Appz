@@ -35,7 +35,6 @@ class SnapchatTests: XCTestCase {
         
         XCTAssertEqual(action.paths.app.pathComponents, ["add","username"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
-        XCTAssertEqual(action.paths.web.pathComponents, ["add","username"])
-        XCTAssertEqual(action.paths.web.queryParameters, [:])
+        XCTAssertEqual(action.paths.web, Path())
     }
 }

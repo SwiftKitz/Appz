@@ -49,9 +49,7 @@ extension Applications.Snapchat.Action: ExternalApplicationAction {
                     pathComponents: ["add", Username],
                     queryParameters: [:]
                 ),
-                web: Path(pathComponents: ["add", Username],
-                    queryParameters: [:]
-                )
+                web: Path()
             )
         }
     }
