@@ -7,16 +7,16 @@
 </h1>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.2.0-blue.svg" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.2.0-36bcd6.svg" />
   <a alt="Travis CI" href="https://travis-ci.org/SwiftKitz/Appz">
     <img alt="Version" src="https://travis-ci.org/SwiftKitz/Appz.svg?branch=master" />
   </a>
-  <img alt="Swift" src="https://img.shields.io/badge/swift-2.1-orange.svg" />
-  <img alt="Platforms" src="https://img.shields.io/badge/platform-ios%20%7C%20watchos%20%7C%20tvos-lightgrey.svg" />
+  <img alt="Swift" src="https://img.shields.io/badge/swift-2.1-ec4838.svg" />
+  <img alt="Platforms" src="https://img.shields.io/badge/platform-ios%20%7C%20watchos%20%7C%20tvos-fdc22d.svg" />
   <a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
-    <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" />
+    <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-3e53b9.svg?style=flat" />
   </a>
-  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-150-9600cd.svg" />
+  <img alt="Apps" src="https://img.shields.io/badge/Apps-150-9631b5.svg" />
 </p>
 
 ## Highlights
@@ -388,6 +388,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Paypal-link]: https://paypal.com
 [Periscope-link]: https://www.periscope.tv
 [Phone-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/PhoneLinks/PhoneLinks.html
+[PicCollage-link]: http://pic-collage.com
 [Pinterest-link]: https://www.pinterest.com
 [Pocket-link]: https://getpocket.com/ios/?ep=1
 [Quora-link]: https://www.quora.com
