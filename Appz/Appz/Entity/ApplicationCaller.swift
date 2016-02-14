@@ -31,8 +31,8 @@ public extension ApplicationCaller {
     
     public func open<E: ExternalApplication>(externalApp: E, action: E.ActionType, promptInstall: Bool = false) -> Bool {
         
-        if promptInstall {
-            return open(Applications.AppStore(), action: .App(id:externalApp.appStoreId))
+        if promptInstall && !externalApp.appStoreId.isEmpty {
+            return open(Applications.AppStore(), action: .App(id: externalApp.appStoreId))
         }
         
         let scheme = externalApp.scheme
