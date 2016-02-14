@@ -15,9 +15,9 @@ class FitbitTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Fitbit()
-        XCTAssertEqual(quora.scheme, "fitbit:")
-        XCTAssertEqual(quora.fallbackURL, "https://www.fitbit.com/app")
+        let fitbit = Applications.Fitbit()
+        XCTAssertEqual(fitbit.scheme, "fitbit:")
+        XCTAssertEqual(fitbit.fallbackURL, "https://www.fitbit.com/app")
     }
     
     func testOpen() {

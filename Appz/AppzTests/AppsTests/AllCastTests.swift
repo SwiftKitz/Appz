@@ -15,9 +15,9 @@ class AllCastTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.AllCast()
-        XCTAssertEqual(quora.scheme, "allCast:")
-        XCTAssertEqual(quora.fallbackURL, "http://www.allcast.io")
+        let allCast = Applications.AllCast()
+        XCTAssertEqual(allCast.scheme, "allCast:")
+        XCTAssertEqual(allCast.fallbackURL, "http://www.allcast.io")
     }
     
     func testOpen() {

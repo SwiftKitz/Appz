@@ -3,7 +3,7 @@
 //  Pods
 //
 //  Created by Mariam AlJamea on 1/8/16.
-//  Copyright © 2015 kitz. All rights reserved.
+//  Copyright © 2016 kitz. All rights reserved.
 //
 
 public extension Applications {
@@ -14,7 +14,7 @@ public extension Applications {
         
         public let scheme = "weibo:"
         public let fallbackURL = "http://weibo.com/login.php"
-        public let appStoreId = ""
+        public let appStoreId = "350962117"
         
         public init() {}
     }

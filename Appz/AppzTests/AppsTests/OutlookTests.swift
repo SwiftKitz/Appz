@@ -15,9 +15,9 @@ class OutlookTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Outlook()
-        XCTAssertEqual(quora.scheme, "ms-outlook:")
-        XCTAssertEqual(quora.fallbackURL, "http://www.outlook.com/")
+        let outlook = Applications.Outlook()
+        XCTAssertEqual(outlook.scheme, "ms-outlook:")
+        XCTAssertEqual(outlook.fallbackURL, "http://www.outlook.com/")
     }
     
     func testOpen() {

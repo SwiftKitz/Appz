@@ -15,9 +15,9 @@ class FriendlySocialTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.FriendlySocial()
-        XCTAssertEqual(quora.scheme, "friendly-chrome-x-success:")
-        XCTAssertEqual(quora.fallbackURL, "http://friendly.io")
+        let friendly = Applications.FriendlySocial()
+        XCTAssertEqual(friendly.scheme, "friendly-chrome-x-success:")
+        XCTAssertEqual(friendly.fallbackURL, "http://friendly.io")
     }
     
     func testOpen() {

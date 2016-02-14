@@ -15,9 +15,9 @@ class TwitterrificTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Twitterrific()
-        XCTAssertEqual(quora.scheme, "twitterrific:")
-        XCTAssertEqual(quora.fallbackURL, "http://twitterrific.com/ios")
+        let twitterrific = Applications.Twitterrific()
+        XCTAssertEqual(twitterrific.scheme, "twitterrific:")
+        XCTAssertEqual(twitterrific.fallbackURL, "http://twitterrific.com/ios")
     }
     
     func testOpen() {

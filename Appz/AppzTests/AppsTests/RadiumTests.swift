@@ -15,9 +15,9 @@ class RadiumTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Radium()
-        XCTAssertEqual(quora.scheme, "radium:")
-        XCTAssertEqual(quora.fallbackURL, "http://catpigstudios.com")
+        let radium = Applications.Radium()
+        XCTAssertEqual(radium.scheme, "radium:")
+        XCTAssertEqual(radium.fallbackURL, "http://catpigstudios.com")
     }
     
     func testOpen() {

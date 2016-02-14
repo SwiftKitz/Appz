@@ -15,9 +15,9 @@ class VIPAccessTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.VIPAccess()
-        XCTAssertEqual(quora.scheme, "vipsymantec:")
-        XCTAssertEqual(quora.fallbackURL, "https://m.vip.symantec.com/selectediphone.v")
+        let vipsymantec = Applications.VIPAccess()
+        XCTAssertEqual(vipsymantec.scheme, "vipsymantec:")
+        XCTAssertEqual(vipsymantec.fallbackURL, "https://m.vip.symantec.com/selectediphone.v")
     }
     
     func testOpen() {

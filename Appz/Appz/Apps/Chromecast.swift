@@ -3,7 +3,7 @@
 //  Pods
 //
 //  Created by Mariam AlJamea on 1/6/16.
-//  Copyright © 2015 kitz. All rights reserved.
+//  Copyright © 2016 kitz. All rights reserved.
 //
 
 public extension Applications {
@@ -14,7 +14,7 @@ public extension Applications {
         
         public let scheme = "chromecast:"
         public let fallbackURL = "https://www.google.com/intl/en_us/chromecast/"
-        public let appStoreId = ""
+        public let appStoreId = "680819774"
         
         public init() {}
     }

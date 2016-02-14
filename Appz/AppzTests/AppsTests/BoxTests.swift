@@ -15,9 +15,9 @@ class BoxTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Box()
-        XCTAssertEqual(quora.scheme, "box:")
-        XCTAssertEqual(quora.fallbackURL, "https://www.box.com/business/secure-enterprise-mobility/")
+        let box = Applications.Box()
+        XCTAssertEqual(box.scheme, "box:")
+        XCTAssertEqual(box.fallbackURL, "https://www.box.com/business/secure-enterprise-mobility/")
     }
     
     func testOpen() {

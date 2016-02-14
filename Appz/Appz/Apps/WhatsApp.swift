@@ -14,7 +14,7 @@ public extension Applications {
         
         public let scheme = "whatsapp:"
         public let fallbackURL = ""
-        public let appStoreId = ""
+        public let appStoreId = "310633997"
         
         public init() {}
     }

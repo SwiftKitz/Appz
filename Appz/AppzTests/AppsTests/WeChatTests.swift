@@ -15,9 +15,9 @@ class WeChatTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.WeChat()
-        XCTAssertEqual(quora.scheme, "wechat:")
-        XCTAssertEqual(quora.fallbackURL, "")
+        let wechat = Applications.WeChat()
+        XCTAssertEqual(wechat.scheme, "wechat:")
+        XCTAssertEqual(wechat.fallbackURL, "")
     }
     
     func testOpen() {

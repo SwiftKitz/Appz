@@ -3,7 +3,7 @@
 //  Pods
 //
 //  Created by Mariam AlJamea on 1/17/16.
-//  Copyright © 2015 kitz. All rights reserved.
+//  Copyright © 2016 kitz. All rights reserved.
 //
 
 public extension Applications {
@@ -14,7 +14,7 @@ public extension Applications {
         
         public let scheme = "fileapp:"
         public let fallbackURL = "http://fileapp.com"
-        public let appStoreId = ""
+        public let appStoreId = "297804694"
         
         public init() {}
     }

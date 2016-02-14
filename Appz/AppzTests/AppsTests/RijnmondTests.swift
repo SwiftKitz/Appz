@@ -15,9 +15,9 @@ class RijnmondTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Rijnmond()
-        XCTAssertEqual(quora.scheme, "rtvrijnmond:")
-        XCTAssertEqual(quora.fallbackURL, "http://www.rijnmond.nl")
+        let rtv = Applications.Rijnmond()
+        XCTAssertEqual(rtv.scheme, "rtvrijnmond:")
+        XCTAssertEqual(rtv.fallbackURL, "http://www.rijnmond.nl")
     }
     
     func testOpen() {

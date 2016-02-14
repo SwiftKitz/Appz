@@ -15,9 +15,9 @@ class ChromecastTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Chromecast()
-        XCTAssertEqual(quora.scheme, "chromecast:")
-        XCTAssertEqual(quora.fallbackURL, "https://www.google.com/intl/en_us/chromecast/")
+        let chromecast = Applications.Chromecast()
+        XCTAssertEqual(chromecast.scheme, "chromecast:")
+        XCTAssertEqual(chromecast.fallbackURL, "https://www.google.com/intl/en_us/chromecast/")
     }
     
     func testOpen() {

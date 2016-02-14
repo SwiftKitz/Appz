@@ -15,9 +15,9 @@ class NPORadioTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.NPORadio()
-        XCTAssertEqual(quora.scheme, "nporadio1:")
-        XCTAssertEqual(quora.fallbackURL, "")
+        let nporadio1 = Applications.NPORadio()
+        XCTAssertEqual(nporadio1.scheme, "nporadio1:")
+        XCTAssertEqual(nporadio1.fallbackURL, "")
     }
     
     func testOpen() {

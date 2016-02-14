@@ -15,9 +15,9 @@ class OMTTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.OMT()
-        XCTAssertEqual(quora.scheme, "onemorething:")
-        XCTAssertEqual(quora.fallbackURL, "http://www.onemorething.nl")
+        let omt = Applications.OMT()
+        XCTAssertEqual(omt.scheme, "onemorething:")
+        XCTAssertEqual(omt.fallbackURL, "http://www.onemorething.nl")
     }
     
     func testOpen() {

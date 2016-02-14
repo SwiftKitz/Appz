@@ -15,9 +15,9 @@ class GroupeMeTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.GroupeMe()
-        XCTAssertEqual(quora.scheme, "groupme:")
-        XCTAssertEqual(quora.fallbackURL, "https://groupme.com")
+        let groupme = Applications.GroupeMe()
+        XCTAssertEqual(groupme.scheme, "groupme:")
+        XCTAssertEqual(groupme.fallbackURL, "https://groupme.com")
     }
     
     func testOpen() {

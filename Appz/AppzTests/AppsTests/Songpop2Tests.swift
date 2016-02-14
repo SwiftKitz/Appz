@@ -15,9 +15,9 @@ class Songpop2Tests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Songpop2()
-        XCTAssertEqual(quora.scheme, "songpop:")
-        XCTAssertEqual(quora.fallbackURL, "https://www.songpop2.com")
+        let songpop = Applications.Songpop2()
+        XCTAssertEqual(songpop.scheme, "songpop:")
+        XCTAssertEqual(songpop.fallbackURL, "https://www.songpop2.com")
     }
     
     func testOpen() {

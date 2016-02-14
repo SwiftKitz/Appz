@@ -15,9 +15,9 @@ class NameSharkTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.NameShark()
-        XCTAssertEqual(quora.scheme, "nameshark:")
-        XCTAssertEqual(quora.fallbackURL, "http://www.namesharkapp.com")
+        let nameshark = Applications.NameShark()
+        XCTAssertEqual(nameshark.scheme, "nameshark:")
+        XCTAssertEqual(nameshark.fallbackURL, "http://www.namesharkapp.com")
     }
     
     func testOpen() {

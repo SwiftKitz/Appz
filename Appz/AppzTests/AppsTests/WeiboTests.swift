@@ -15,9 +15,9 @@ class WeiboTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Weibo()
-        XCTAssertEqual(quora.scheme, "weibo:")
-        XCTAssertEqual(quora.fallbackURL, "http://weibo.com/login.php")
+        let weibo = Applications.Weibo()
+        XCTAssertEqual(weibo.scheme, "weibo:")
+        XCTAssertEqual(weibo.fallbackURL, "http://weibo.com/login.php")
     }
     
     func testOpen() {

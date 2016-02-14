@@ -15,9 +15,9 @@ class IshowsTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Ishows()
-        XCTAssertEqual(quora.scheme, "ishows:")
-        XCTAssertEqual(quora.fallbackURL, "http://ishowsapp.com")
+        let ishows = Applications.Ishows()
+        XCTAssertEqual(ishows.scheme, "ishows:")
+        XCTAssertEqual(ishows.fallbackURL, "http://ishowsapp.com")
     }
     
     func testOpen() {

@@ -15,9 +15,9 @@ class SimplenoteTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Simplenote()
-        XCTAssertEqual(quora.scheme, "simplenote:")
-        XCTAssertEqual(quora.fallbackURL, "http://simplenote.com")
+        let simplenote = Applications.Simplenote()
+        XCTAssertEqual(simplenote.scheme, "simplenote:")
+        XCTAssertEqual(simplenote.fallbackURL, "http://simplenote.com")
     }
     
     func testOpen() {

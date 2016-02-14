@@ -14,7 +14,7 @@ public extension Applications {
         
         public let scheme = "yelp4:"
         public let fallbackURL = "https://m.yelp.com/"
-        public let appStoreId = ""
+        public let appStoreId = "284910350"
         
         public init() {}
     }

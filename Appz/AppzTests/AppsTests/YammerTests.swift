@@ -15,9 +15,9 @@ class YammerTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Yammer()
-        XCTAssertEqual(quora.scheme, "yammer:")
-        XCTAssertEqual(quora.fallbackURL, "https://products.office.com/en-us/yammer/yammer-mobile-app")
+        let yammer = Applications.Yammer()
+        XCTAssertEqual(yammer.scheme, "yammer:")
+        XCTAssertEqual(yammer.fallbackURL, "https://products.office.com/en-us/yammer/yammer-mobile-app")
     }
     
     func testOpen() {

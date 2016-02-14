@@ -15,9 +15,9 @@ class FoursquareTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Foursquare()
-        XCTAssertEqual(quora.scheme, "foursquare:")
-        XCTAssertEqual(quora.fallbackURL, "https://foursquare.com/download")
+        let foursquare = Applications.Foursquare()
+        XCTAssertEqual(foursquare.scheme, "foursquare:")
+        XCTAssertEqual(foursquare.fallbackURL, "https://foursquare.com/download")
     }
     
     func testOpen() {

@@ -15,9 +15,9 @@ class TrelloTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Trello()
-        XCTAssertEqual(quora.scheme, "trello:")
-        XCTAssertEqual(quora.fallbackURL, "https://trello.com/")
+        let trello = Applications.Trello()
+        XCTAssertEqual(trello.scheme, "trello:")
+        XCTAssertEqual(trello.fallbackURL, "https://trello.com/")
     }
     
     func testOpen() {

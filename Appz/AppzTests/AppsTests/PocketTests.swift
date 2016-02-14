@@ -15,9 +15,9 @@ class PocketTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Pocket()
-        XCTAssertEqual(quora.scheme, "pocket:")
-        XCTAssertEqual(quora.fallbackURL, "https://getpocket.com/ios/?ep=1")
+        let pocket = Applications.Pocket()
+        XCTAssertEqual(pocket.scheme, "pocket:")
+        XCTAssertEqual(pocket.fallbackURL, "https://getpocket.com/ios/?ep=1")
     }
     
     func testOpen() {

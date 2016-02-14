@@ -15,9 +15,9 @@ class UberTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Uber()
-        XCTAssertEqual(quora.scheme, "uber:")
-        XCTAssertEqual(quora.fallbackURL, "https://www.uber.com")
+        let uber = Applications.Uber()
+        XCTAssertEqual(uber.scheme, "uber:")
+        XCTAssertEqual(uber.fallbackURL, "https://www.uber.com")
     }
     
     func testOpen() {

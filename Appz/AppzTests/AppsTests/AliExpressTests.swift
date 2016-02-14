@@ -15,9 +15,9 @@ class AliExpressTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.AliExpress()
-        XCTAssertEqual(quora.scheme, "aliexpress:")
-        XCTAssertEqual(quora.fallbackURL, "http://www.aliexpress.com")
+        let aliexpress = Applications.AliExpress()
+        XCTAssertEqual(aliexpress.scheme, "aliexpress:")
+        XCTAssertEqual(aliexpress.fallbackURL, "http://www.aliexpress.com")
     }
     
     func testOpen() {

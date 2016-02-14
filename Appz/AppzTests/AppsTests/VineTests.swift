@@ -15,9 +15,9 @@ class VineTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Vine()
-        XCTAssertEqual(quora.scheme, "vine:")
-        XCTAssertEqual(quora.fallbackURL, "https://vine.co")
+        let vine = Applications.Vine()
+        XCTAssertEqual(vine.scheme, "vine:")
+        XCTAssertEqual(vine.fallbackURL, "https://vine.co")
     }
     
     func testOpen() {

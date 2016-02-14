@@ -15,9 +15,9 @@ class GoogleMapsTests: XCTestCase {
     
     func testConfiguration() {
         
-        let youtube = Applications.GoogleMaps()
-        XCTAssertEqual(youtube.scheme, "comgooglemaps:")
-        XCTAssertEqual(youtube.fallbackURL, "https://maps.google.com/")
+        let googlemaps = Applications.GoogleMaps()
+        XCTAssertEqual(googlemaps.scheme, "comgooglemaps:")
+        XCTAssertEqual(googlemaps.fallbackURL, "https://maps.google.com/")
     }
     
     func testOpen() {

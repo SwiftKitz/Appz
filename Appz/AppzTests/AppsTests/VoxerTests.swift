@@ -15,9 +15,9 @@ class VoxerTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Voxer()
-        XCTAssertEqual(quora.scheme, "voxer:")
-        XCTAssertEqual(quora.fallbackURL, "http://www.voxer.com")
+        let voxer = Applications.Voxer()
+        XCTAssertEqual(voxer.scheme, "voxer:")
+        XCTAssertEqual(voxer.fallbackURL, "http://www.voxer.com")
     }
     
     func testOpen() {

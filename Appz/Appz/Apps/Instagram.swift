@@ -14,7 +14,7 @@ public extension Applications {
 
         public let scheme = "instagram:"
         public let fallbackURL = "https://instagram.com/"
-        public let appStoreId = ""
+        public let appStoreId = "389801252"
         
         public init() {}
     }

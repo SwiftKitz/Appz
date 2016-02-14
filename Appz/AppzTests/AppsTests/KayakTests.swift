@@ -15,9 +15,9 @@ class KayakTests: XCTestCase {
     
     func testConfiguration() {
         
-        let quora = Applications.Kayak()
-        XCTAssertEqual(quora.scheme, "kayak:")
-        XCTAssertEqual(quora.fallbackURL, "https://www.kayak.ae/")
+        let kayak = Applications.Kayak()
+        XCTAssertEqual(kayak.scheme, "kayak:")
+        XCTAssertEqual(kayak.fallbackURL, "https://www.kayak.ae/")
     }
     
     func testOpen() {
