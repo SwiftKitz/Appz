@@ -128,7 +128,7 @@ App | Actions
 [Feedly][Feedly-link] | Open
 [FileApp][FileApp-link] | Open
 [FindFriends][FindFriends-link] | Open
-[Fitbit][Fitbit-link] | Open 
+[Fitbit][Fitbit-link] | Open
 [Flickr][Flickr-link] | Open
 [Flipboard][Flipboard-link] | Open
 [FlippsTV][FlippsTV-link] | Open
@@ -186,7 +186,7 @@ App | Actions
 [OnePassword][OnePassword-link] | Open
 [Outlook][Outlook-link] | Open, Compose
 [Paypal][Paypal-link] | Open
-[Periscope][Periscope-link] | Open 
+[Periscope][Periscope-link] | Open
 [Phone][Phone-link] | Open
 [PicCollage][PicCollage-link] | Open
 [Pinterest][Pinterest-link] | Open, UserProfile, Search
@@ -201,7 +201,7 @@ App | Actions
 [ScannerPro][ScannerPro-link] | Open
 [Simplenote][Simplenote-link] | Open
 [Skype][Skype-link] | Open
-[Snapchat][Snapchat-link] | Open
+[Snapchat][Snapchat-link] | Open, Add
 [Snapseed][Snapseed-link] | Open
 [Songpop2][Songpop2-link] | Open
 [Sonos][Sonos-link] | Open
@@ -219,11 +219,11 @@ App | Actions
 [TestFlight][TestFlight-link] | Open
 [Tinder][Tinder-link] | Open
 [Trello][Trello-link] | Open
-[Tubex][Tubex-link] | Open 
+[Tubex][Tubex-link] | Open
 [Tumblr][Tumblr-link] | Open, Dashboard, Explore, Activity, Blog, Tag
 [Tweetbot][Tweetbot-link] | Timeline, Post, Mentions, Lists, Retweets, Favorites, Messages, Status, Search, Profile, Follow, Unfollow, Favorite, Unfavorite, Retweet, List
 [Twitter][Twitter-link] | Status, UserHandle, UserId, List, Post, Search, Timeline, Mentions, Messages
-[Twitterrific][Twitterrific-link] | Open, MentionsView, MessagesView, FavoritesView, Search, TweetID, MessageID, Post, UserProfile 
+[Twitterrific][Twitterrific-link] | Open, MentionsView, MessagesView, FavoritesView, Search, TweetID, MessageID, Post, UserProfile
 [Uber][Uber-link] | Open
 [Unread][Unread-link] | Open
 [Ustream][Ustream-link] | Open
@@ -307,7 +307,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Box-link]: https://www.box.com/business/secure-enterprise-mobility/
 [Buzzfeed-link]: http://www.buzzfeed.com
 [Calendars5-link]: https://readdle.com/products/calendars5
-[Camera360-link]: https://www.camera360.com/production/?production=camera360&platform=ios 
+[Camera360-link]: https://www.camera360.com/production/?production=camera360&platform=ios
 [Chromecast-link]: https://www.google.com/intl/en_us/chromecast/
 [Clips-link]: http://www.cleanshavenapps.com/clips/#download
 [Cnet-link]: http://www.cnet.com
@@ -323,7 +323,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Echofon-link]: http://www.echofon.com
 [Epson-link]: https://www.epson.com/cgi-bin/Store/jsp/epson-connect/mobile-printing/iprint-app.do
 [Everypost-link]: http://everypost.me
-[EyeEm-link]: http://pic-collage.com 
+[EyeEm-link]: http://pic-collage.com
 [Facebook-link]: https://facebook.com
 [Feedly-link]: http://feedly.com/i/welcome
 [FileApp-link]: http://fileapp.com
@@ -352,7 +352,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Heapo-link]: http://heapo.marblzz.com
 [HootSuite-link]: https://hootsuite.com/products/mobile-apps/hootsuite-mobile-app
 [iBooks-link]: http://handleopenurl.com/?id=694
-[IMDb-link]: http://www.imdb.com 
+[IMDb-link]: http://www.imdb.com
 [INRIXTraffic-link]: http://inrix.com/inrix-traffic-app
 [Instagram-link]: https://instagram.com
 [Instapaper-link]: https://www.instapaper.com/iphone

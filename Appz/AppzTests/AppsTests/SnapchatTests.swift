@@ -28,4 +28,13 @@ class SnapchatTests: XCTestCase {
         XCTAssertEqual(action.paths.app.queryParameters, [:])
         XCTAssertEqual(action.paths.web, Path())
     }
+    
+    
+    func testAdd(){
+        let action = Applications.Snapchat.Action.Add(username: "username")
+        
+        XCTAssertEqual(action.paths.app.pathComponents, ["add","username"])
+        XCTAssertEqual(action.paths.app.queryParameters, [:])
+        XCTAssertEqual(action.paths.web, Path())
+    }
 }
