@@ -256,7 +256,7 @@ You must add the schemes you want to use to your app's info.plist file under `LS
 [Carthage][carthage-link] is fully supported. Simply add the following line to your [Cartfile][cartfile-docs]:
 
 ```ruby
-github "SwiftKitz/Appz" ~> 1.2.0
+github "SwiftKitz/Appz" ~> 1.5.0
 ```
 
 ### Cocoapods
