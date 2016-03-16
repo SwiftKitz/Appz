@@ -27,6 +27,12 @@ public struct Path {
         self.queryParameters = queryParameters
     }
     
+    /**
+     This method will take the base URL and append components to it.
+     
+     - Parameter baseURL:  The base URL.
+     
+     */
     public func appendToURL(baseURL: String) -> NSURL? {
         
         guard let url = NSURL(string: baseURL) else {
