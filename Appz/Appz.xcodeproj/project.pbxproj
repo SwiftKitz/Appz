@@ -237,12 +237,9 @@
 		54263BE91C5737F70059F828 /* RunKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547F33341C4BD0F100E140D7 /* RunKeeperTests.swift */; };
 		54263BEA1C5737FA0059F828 /* UstreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547F33371C4BD13800E140D7 /* UstreamTests.swift */; };
 		54263BEB1C5737FD0059F828 /* VIPAccessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547F333A1C4BD17500E140D7 /* VIPAccessTests.swift */; };
-		544113F51C3C1F1F005A0A65 /* Flip­board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544113F31C3C1F1F005A0A65 /* Flip­board.swift */; };
 		544113F61C3C1F1F005A0A65 /* Vine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544113F41C3C1F1F005A0A65 /* Vine.swift */; };
 		544113F71C3C1F24005A0A65 /* Vine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544113F41C3C1F1F005A0A65 /* Vine.swift */; };
 		544113F81C3C1F25005A0A65 /* Vine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544113F41C3C1F1F005A0A65 /* Vine.swift */; };
-		544113F91C3C1F28005A0A65 /* Flip­board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544113F31C3C1F1F005A0A65 /* Flip­board.swift */; };
-		544113FA1C3C1F29005A0A65 /* Flip­board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544113F31C3C1F1F005A0A65 /* Flip­board.swift */; };
 		544113FE1C3C1FA7005A0A65 /* VineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544113FD1C3C1FA7005A0A65 /* VineTests.swift */; };
 		54566F241C3D9C2E0086CAAA /* BNR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54566F1F1C3D9C2E0086CAAA /* BNR.swift */; };
 		54566F251C3D9C2E0086CAAA /* GoogleCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54566F201C3D9C2E0086CAAA /* GoogleCalendar.swift */; };
@@ -786,6 +783,9 @@
 		82F3165A1C38539F00CEFE92 /* YelpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F3161D1C38539F00CEFE92 /* YelpTests.swift */; };
 		82F3165B1C38539F00CEFE92 /* YoutubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F3161E1C38539F00CEFE92 /* YoutubeTests.swift */; };
 		82F3165C1C38539F00CEFE92 /* YoutubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F3161E1C38539F00CEFE92 /* YoutubeTests.swift */; };
+		F4D611881CA4239100C6C955 /* Flipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D611871CA4239100C6C955 /* Flipboard.swift */; };
+		F4D611891CA4239100C6C955 /* Flipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D611871CA4239100C6C955 /* Flipboard.swift */; };
+		F4D6118A1CA4239100C6C955 /* Flipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D611871CA4239100C6C955 /* Flipboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -870,7 +870,6 @@
 		54244A151C3A5B7A00AA064F /* OutlookTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlookTests.swift; sourceTree = "<group>"; };
 		54244A161C3A5B7A00AA064F /* SonosTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonosTests.swift; sourceTree = "<group>"; };
 		54244A171C3A5B7A00AA064F /* VideosTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosTests.swift; sourceTree = "<group>"; };
-		544113F31C3C1F1F005A0A65 /* Flip­board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Flip­board.swift"; sourceTree = "<group>"; };
 		544113F41C3C1F1F005A0A65 /* Vine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vine.swift; sourceTree = "<group>"; };
 		544113FD1C3C1FA7005A0A65 /* VineTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VineTests.swift; sourceTree = "<group>"; };
 		54566F1F1C3D9C2E0086CAAA /* BNR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BNR.swift; sourceTree = "<group>"; };
@@ -1125,6 +1124,7 @@
 		82F3161C1C38539F00CEFE92 /* WhatsAppTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsAppTests.swift; sourceTree = "<group>"; };
 		82F3161D1C38539F00CEFE92 /* YelpTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpTests.swift; sourceTree = "<group>"; };
 		82F3161E1C38539F00CEFE92 /* YoutubeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeTests.swift; sourceTree = "<group>"; };
+		F4D611871CA4239100C6C955 /* Flipboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flipboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1499,8 +1499,8 @@
 				541C21801C3D29BA00D89D4A /* Whyd.swift */,
 				545885101C3C601E00AD1B14 /* Gallery.swift */,
 				545885111C3C601E00AD1B14 /* Notes.swift */,
+				F4D611871CA4239100C6C955 /* Flipboard.swift */,
 				545885121C3C601E00AD1B14 /* TestFlight.swift */,
-				544113F31C3C1F1F005A0A65 /* Flip­board.swift */,
 				544113F41C3C1F1F005A0A65 /* Vine.swift */,
 				54C9EB251C3BD9A0005D4DCA /* DailyMotion.swift */,
 				54C9EB261C3BD9A0005D4DCA /* Trello.swift */,
@@ -1872,6 +1872,7 @@
 				54F649AE1C3EA1B500619ACF /* Line.swift in Sources */,
 				82F315EF1C38538100CEFE92 /* Tweetbot.swift in Sources */,
 				5415A7DC1C58A3C000598B65 /* VSCO.swift in Sources */,
+				F4D611891CA4239100C6C955 /* Flipboard.swift in Sources */,
 				54C9EB311C3BD9AC005D4DCA /* Twitterrific.swift in Sources */,
 				82F315BF1C38538100CEFE92 /* GoogleEarth.swift in Sources */,
 				5460FB7E1C497A72009E35EB /* Echofon.swift in Sources */,
@@ -1912,7 +1913,6 @@
 				82F315C51C38538100CEFE92 /* GoogleMaps.swift in Sources */,
 				5415A7CE1C58A3C000598B65 /* GoogleTranslate.swift in Sources */,
 				5415A7D51C58A3C000598B65 /* SubwayKorea.swift in Sources */,
-				544113F91C3C1F28005A0A65 /* Flip­board.swift in Sources */,
 				5415A7C41C58A3C000598B65 /* Clips.swift in Sources */,
 				541C21961C3D29CA00D89D4A /* Fitbit.swift in Sources */,
 				5415A7D11C58A3C000598B65 /* Mopico.swift in Sources */,
@@ -2111,9 +2111,9 @@
 				5415A7B61C58A3BF00598B65 /* Mopico.swift in Sources */,
 				548042211C3A5AF500BBE49E /* OneDrive.swift in Sources */,
 				541C21A91C3D29EB00D89D4A /* SSG2.swift in Sources */,
-				544113FA1C3C1F29005A0A65 /* Flip­board.swift in Sources */,
 				82F315CC1C38538100CEFE92 /* Ibooks.swift in Sources */,
 				5415A7C31C58A3BF00598B65 /* YahooWeather.swift in Sources */,
+				F4D6118A1CA4239100C6C955 /* Flipboard.swift in Sources */,
 				546C1B791C4039580060C47C /* NameShark.swift in Sources */,
 				5415A7BD1C58A3BF00598B65 /* Tinder.swift in Sources */,
 				5415A7B91C58A3BF00598B65 /* Snapseed.swift in Sources */,
@@ -2277,7 +2277,6 @@
 				541C218A1C3D29BA00D89D4A /* OnePassword.swift in Sources */,
 				54D5D0081C3995EE0039D512 /* Phone.swift in Sources */,
 				5415A7A21C58A39900598B65 /* YahooWeather.swift in Sources */,
-				544113F51C3C1F1F005A0A65 /* Flip­board.swift in Sources */,
 				82F315AC1C38538100CEFE92 /* Documents.swift in Sources */,
 				82F315AF1C38538100CEFE92 /* Dropbox.swift in Sources */,
 				54F649A31C3EA1A900619ACF /* Nunl.swift in Sources */,
@@ -2359,6 +2358,7 @@
 				54F649A11C3EA1A900619ACF /* Line.swift in Sources */,
 				5415A7A01C58A39900598B65 /* VSCO.swift in Sources */,
 				82F315DC1C38538100CEFE92 /* Messages.swift in Sources */,
+				F4D611881CA4239100C6C955 /* Flipboard.swift in Sources */,
 				82F315EE1C38538100CEFE92 /* Tweetbot.swift in Sources */,
 				5460FB771C497A5D009E35EB /* Echofon.swift in Sources */,
 				5460FB781C497A5D009E35EB /* Kayak.swift in Sources */,
