@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D37320A1CA4379200352429 /* CirclePay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3732091CA4379200352429 /* CirclePay.swift */; };
+		4D37320D1CA439A700352429 /* CirclePayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37320B1CA438D400352429 /* CirclePayTests.swift */; };
+		4D37320E1CA439A700352429 /* CirclePayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37320B1CA438D400352429 /* CirclePayTests.swift */; };
+		4D37320F1CA439AE00352429 /* CirclePay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3732091CA4379200352429 /* CirclePay.swift */; };
+		4D3732101CA439AE00352429 /* CirclePay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3732091CA4379200352429 /* CirclePay.swift */; };
 		5415A7851C58A39900598B65 /* AirLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5415A7671C58A39900598B65 /* AirLaunch.swift */; };
 		5415A7861C58A39900598B65 /* AppleMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5415A7681C58A39900598B65 /* AppleMaps.swift */; };
 		5415A7871C58A39900598B65 /* Calendars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5415A7691C58A39900598B65 /* Calendars.swift */; };
@@ -806,6 +811,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D3732091CA4379200352429 /* CirclePay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirclePay.swift; sourceTree = "<group>"; };
+		4D37320B1CA438D400352429 /* CirclePayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirclePayTests.swift; sourceTree = "<group>"; };
 		5415A7671C58A39900598B65 /* AirLaunch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirLaunch.swift; sourceTree = "<group>"; };
 		5415A7681C58A39900598B65 /* AppleMaps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleMaps.swift; sourceTree = "<group>"; };
 		5415A7691C58A39900598B65 /* Calendars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calendars.swift; sourceTree = "<group>"; };
@@ -1321,6 +1328,7 @@
 				547C832E1C58ACD400BFD6B6 /* PicCollageTests.swift */,
 				54D8A11E1C58CA59002281AA /* StravaTests.swift */,
 				54D8A1201C58CA87002281AA /* VimeoTests.swift */,
+				4D37320B1CA438D400352429 /* CirclePayTests.swift */,
 			);
 			path = AppsTests;
 			sourceTree = "<group>";
@@ -1521,6 +1529,7 @@
 				54D5CFFB1C3995EE0039D512 /* Skype.swift */,
 				82F315841C38538100CEFE92 /* AppStore.swift */,
 				82F315851C38538100CEFE92 /* Audible.swift */,
+				4D3732091CA4379200352429 /* CirclePay.swift */,
 				82F315861C38538100CEFE92 /* DayOne.swift */,
 				82F315871C38538100CEFE92 /* Documents.swift */,
 				82F315881C38538100CEFE92 /* Dropbox.swift */,
@@ -1910,6 +1919,7 @@
 				541C21921C3D29C300D89D4A /* Chromecast.swift in Sources */,
 				54F649B61C3EA1C500619ACF /* Songpop2.swift in Sources */,
 				82F315D41C38538100CEFE92 /* Instagram.swift in Sources */,
+				4D37320F1CA439AE00352429 /* CirclePay.swift in Sources */,
 				82F315C51C38538100CEFE92 /* GoogleMaps.swift in Sources */,
 				5415A7CE1C58A3C000598B65 /* GoogleTranslate.swift in Sources */,
 				5415A7D51C58A3C000598B65 /* SubwayKorea.swift in Sources */,
@@ -1944,6 +1954,7 @@
 				54263BC11C5737720059F828 /* BNRTests.swift in Sources */,
 				82F3164C1C38539F00CEFE92 /* QuoraTests.swift in Sources */,
 				54F4E12B1C58ABFD008C4794 /* ClipsTests.swift in Sources */,
+				4D37320E1CA439A700352429 /* CirclePayTests.swift in Sources */,
 				54F4E12C1C58ABFD008C4794 /* DiigoTests.swift in Sources */,
 				54ADFD721C58E7BD0064CA1A /* EyeEmTests.swift in Sources */,
 				54263BC71C5737870059F828 /* NunlTests.swift in Sources */,
@@ -2181,6 +2192,7 @@
 				5415A7B71C58A3BF00598B65 /* Moves.swift in Sources */,
 				547F331A1C4BCEF800E140D7 /* Foursquare.swift in Sources */,
 				541C219F1C3D29D800D89D4A /* Meerkat.swift in Sources */,
+				4D3732101CA439AE00352429 /* CirclePay.swift in Sources */,
 				5415A7C11C58A3BF00598B65 /* VSCO.swift in Sources */,
 				5415A7AB1C58A3BF00598B65 /* Epson.swift in Sources */,
 				546695E81C417374000461D2 /* DayCost.swift in Sources */,
@@ -2396,6 +2408,7 @@
 				541C21821C3D29BA00D89D4A /* Chromecast.swift in Sources */,
 				54D5D00B1C3995EE0039D512 /* RemindersApp.swift in Sources */,
 				82F315D31C38538100CEFE92 /* Instagram.swift in Sources */,
+				4D37320A1CA4379200352429 /* CirclePay.swift in Sources */,
 				5415A7921C58A39900598B65 /* GoogleTranslate.swift in Sources */,
 				5415A7991C58A39900598B65 /* SubwayKorea.swift in Sources */,
 				82F315C41C38538100CEFE92 /* GoogleMaps.swift in Sources */,
@@ -2534,6 +2547,7 @@
 				54F4E0E91C58A66B008C4794 /* FeedlyTests.swift in Sources */,
 				541C21D91C3D3C0000D89D4A /* BuzzfeedTests.swift in Sources */,
 				546695F11C417407000461D2 /* UberTests.swift in Sources */,
+				4D37320D1CA439A700352429 /* CirclePayTests.swift in Sources */,
 				54244A1E1C3A5B8700AA064F /* SonosTests.swift in Sources */,
 				82F3163D1C38539F00CEFE92 /* INRIXTrafficTests.swift in Sources */,
 				54F4E1141C58AA18008C4794 /* SubwayKoreaTests.swift in Sources */,
