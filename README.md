@@ -16,7 +16,7 @@
   <a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
     <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" />
   </a>
-  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-150-9600cd.svg" />
+  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-151-9600cd.svg" />
 </p>
 
 ## Highlights
@@ -109,6 +109,7 @@ App | Actions
 [Calendars5][Calendars5-link] | Open
 [Camera360][Camera360-link] | Open
 [Chromecast][Chromecast-link] | Open
+[CirclePay][CirclePay-link] | Open, Request, Send
 [Clips][Clips-link] | Open
 [Cnet][Cnet-link] | Open
 [CNN][CNN-link] | Open
@@ -309,6 +310,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Calendars5-link]: https://readdle.com/products/calendars5
 [Camera360-link]: https://www.camera360.com/production/?production=camera360&platform=ios
 [Chromecast-link]: https://www.google.com/intl/en_us/chromecast/
+[CirclePay-link]: https://itunes.apple.com/app/id920164002
 [Clips-link]: http://www.cleanshavenapps.com/clips/#download
 [Cnet-link]: http://www.cnet.com
 [CNN-link]: http://edition.cnn.com/specials/mobile-apps
