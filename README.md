@@ -246,6 +246,8 @@ App | Actions
 [Yammer][Yammer-link] | Open
 [Yelp][Yelp-link] | Open, Search, Search Location, Search Category, Search Category Location, Business
 [Youtube][Youtube-link] | Open, Open Video
+[FRIL][FRIL-link] | Open
+[RIDE][RIDE-link] | Open
 ## Getting Started
 
 ### Configure Info.plist
@@ -448,3 +450,5 @@ Appz is released under the MIT license. See LICENSE for details.
 [Yammer-link]: https://products.office.com/en-us/yammer/yammer-mobile-app
 [Yelp-link]: https://m.yelp.com
 [Youtube-link]: https://youtube.com
+[FRIL-link]: https://fril.jp
+[RIDE-link]: https://ride.jp
