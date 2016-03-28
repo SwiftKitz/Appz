@@ -33,6 +33,7 @@ extension Applications {
         
         let scheme = "myapp:"
         let fallbackURL = ""
+        let appStoreId = ""
     }
 }
 // Finally, you define the actions your app supports
