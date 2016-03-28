@@ -11,7 +11,7 @@
  */
 public protocol ExternalApplication {
     
-    typealias ActionType: ExternalApplicationAction
+    associatedtype ActionType: ExternalApplicationAction
     
     var scheme: String { get }
     var fallbackURL: String { get }
