@@ -55,4 +55,15 @@ class FacebookTests: XCTestCase {
         XCTAssertEqual(action.paths.app.queryParameters, [:])
         XCTAssertEqual(action.paths.web, Path())
     }
+
+    func testPage() {
+ 
+        let pageId = "1524770847774320"
+        let action = Applications.Facebook.Action.Page(pageId)
+ 
+        XCTAssertEqual(action.paths.app.pathComponents, ["page"])
+        XCTAssertEqual(action.paths.app.queryParameters, ["id": pageId])
+        XCTAssertEqual(action.paths.web.pathComponents, [pageId])
+        XCTAssertEqual(action.paths.web.queryParameters, [:])
+    }
 }

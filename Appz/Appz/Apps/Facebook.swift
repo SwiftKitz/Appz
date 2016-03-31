@@ -29,6 +29,7 @@ public extension Applications.Facebook {
         case Profile
         case Notifications
         case Feed
+        case Page(String)
     }
 }
 
@@ -81,7 +82,18 @@ extension Applications.Facebook.Action: ExternalApplicationAction {
                     queryParameters: [:]
                 )
             )
+        
+        case .Page(let id):
+            return ActionPaths(
+                app: Path(
+                    pathComponents: ["page"],
+                    queryParameters: ["id": id]
+                ),
+                web: Path(
+                    pathComponents: [id],
+                    queryParameters: [:]
+                )
+            )
         }
     }
 }
-
