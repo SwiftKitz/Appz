@@ -22,10 +22,15 @@ public extension Applications {
 
 // MARK: - Actions
 
+//Direction mod should be ("d" -> For driving, "w"-> for foot, "r"-> for public transit)
+
 public extension Applications.AppleMaps {
     
     public enum Action {
         case Open
+        case DisplayDirections(saddr: String,
+            daddr: String,
+            directionsmode: String)
     }
 }
 
@@ -39,6 +44,18 @@ extension Applications.AppleMaps.Action: ExternalApplicationAction {
                 app: Path(
                     pathComponents: ["app"],
                     queryParameters: [:]
+                ),
+                web: Path()
+            )
+        case .DisplayDirections(let saddr, let daddr, let directionsmode):
+            return ActionPaths(
+                app: Path(
+                    pathComponents: ["app"],
+                    queryParameters: [
+                        "saddr": saddr,
+                        "daddr": daddr,
+                        "dirflg": directionsmode,
+                    ]
                 ),
                 web: Path()
             )
