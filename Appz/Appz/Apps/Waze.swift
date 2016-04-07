@@ -45,7 +45,7 @@ extension Applications.Waze.Action: ExternalApplicationAction {
             )
         case .NavigateToDirection(let lat, let lng):
             
-            let ll = "\(lat), \(lng)"
+            let ll = "\(lat),\(lng)"
             return ActionPaths(
                 app: Path(
                     pathComponents: [""],
