@@ -26,6 +26,7 @@ public extension Applications.Waze {
     
     public enum Action {
         case Open
+        case NavigateToDirection(lat:String, lng:String)
     }
 }
 
@@ -39,6 +40,19 @@ extension Applications.Waze.Action: ExternalApplicationAction {
                 app: Path(
                     pathComponents: ["app"],
                     queryParameters: [:]
+                ),
+                web: Path()
+            )
+        case .NavigateToDirection(let lat, let lng):
+            
+            let ll = "\(lat),\(lng)"
+            return ActionPaths(
+                app: Path(
+                    pathComponents: [""],
+                    queryParameters: [
+                        "ll": ll,
+                        "navigate": "yes",
+                    ]
                 ),
                 web: Path()
             )
