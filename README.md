@@ -7,16 +7,16 @@
 </h1>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.5.0-blue.svg" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.5.0-blue.svg"/>
   <a alt="Travis CI" href="https://travis-ci.org/SwiftKitz/Appz">
-    <img alt="Version" src="https://travis-ci.org/SwiftKitz/Appz.svg?branch=master" />
+    <img alt="Version" src="https://travis-ci.org/SwiftKitz/Appz.svg?branch=master"/>
   </a>
-  <img alt="Swift" src="https://img.shields.io/badge/swift-2.2-orange.svg" />
-  <img alt="Platforms" src="https://img.shields.io/badge/platform-ios%20%7C%20watchos%20%7C%20tvos-lightgrey.svg" />
+  <img alt="Swift" src="https://img.shields.io/badge/swift-2.2-orange.svg"/>
+  <img alt="Platforms" src="https://img.shields.io/badge/platform-ios%20%7C%20watchos%20%7C%20tvos-lightgrey.svg"/>
   <a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
-    <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" />
+    <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"/>
   </a>
-  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-153-9600cd.svg" />
+  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-153-9600cd.svg"/>
 </p>
 
 <p align="center">
