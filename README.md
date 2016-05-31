@@ -19,7 +19,9 @@
   <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-153-9600cd.svg"/>
 </p>
 
-![](resources/Demo.gif)
+<p align="center">
+   ![](resources/Demo.gif)
+</p>
 
 ## Highlights
 
