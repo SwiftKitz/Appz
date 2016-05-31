@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-    <img src="https://github.com/Maryom/Appz/blob/master/Demo.gif">
+    <img src="resources/Demo.gif">
 </p>
 
 ## Highlights
