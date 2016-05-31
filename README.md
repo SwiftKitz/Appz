@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-   ![](resources/Demo.gif)
+    <img src="resources/Demo.gif">
 </p>
 
 ## Highlights
