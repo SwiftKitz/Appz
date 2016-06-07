@@ -30,6 +30,7 @@ public extension Applications.Facebook {
         case Notifications
         case Feed
         case Page(String)
+        case Event(String)
     }
 }
 
@@ -87,6 +88,17 @@ extension Applications.Facebook.Action: ExternalApplicationAction {
             return ActionPaths(
                 app: Path(
                     pathComponents: ["page"],
+                    queryParameters: ["id": id]
+                ),
+                web: Path(
+                    pathComponents: [id],
+                    queryParameters: [:]
+                )
+            )
+        case .Event(let id):
+            return ActionPaths(
+                app: Path(
+                    pathComponents: ["event"],
                     queryParameters: ["id": id]
                 ),
                 web: Path(
