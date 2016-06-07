@@ -130,7 +130,7 @@ App | Actions
 [Epson][Epson-link] | Open
 [Everypost][Everypost-link] | Open
 [EyeEm][EyeEm-link] | Open
-[Facebook][Facebook-link] | Open, Profile, Notification, Feed, Page, Action
+[Facebook][Facebook-link] | Open, Profile, Notification, Feed, Page, Action, Event
 [Feedly][Feedly-link] | Open
 [FileApp][FileApp-link] | Open
 [FindFriends][FindFriends-link] | Open
