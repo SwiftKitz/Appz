@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.5.0-blue.svg"/>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.6.0-blue.svg"/>
   <a alt="Travis CI" href="https://travis-ci.org/SwiftKitz/Appz">
     <img alt="Version" src="https://travis-ci.org/SwiftKitz/Appz.svg?branch=master"/>
   </a>
@@ -264,7 +264,7 @@ You must add the schemes you want to use to your app's info.plist file under `LS
 [Carthage][carthage-link] is fully supported. Simply add the following line to your [Cartfile][cartfile-docs]:
 
 ```ruby
-github "SwiftKitz/Appz" ~> 1.5.0
+github "SwiftKitz/Appz"
 ```
 
 ### Cocoapods
