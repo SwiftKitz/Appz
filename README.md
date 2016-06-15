@@ -241,7 +241,7 @@ App | Actions
 [Vox][Vox-link] | Open
 [Voxer][Voxer-link] | Open
 [VSCO][VSCO-link] | Open
-[Waze][Waze-link] | Open
+[Waze][Waze-link] | Open, NavigateToDirection
 [WeChat][WeChat-link] | Open
 [Weibo][Weibo-link] | Open
 [WhatsApp][WhatsApp-link] | Open
