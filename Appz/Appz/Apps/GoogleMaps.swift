@@ -29,6 +29,9 @@ public extension Applications.GoogleMaps {
         case DisplayDirections(saddr: String,
                                daddr: String,
                       directionsmode: String)
+        case DisplayLocation(center: String,
+                               zoom: String,
+                              views: String)
         case Search(q: String)
         
     }
@@ -63,6 +66,24 @@ extension Applications.GoogleMaps.Action: ExternalApplicationAction {
                     queryParameters: ["saddr": saddr,
                                       "daddr": daddr,
                              "directionsmode": directionsmode,]
+                )
+            )
+            
+        case .DisplayLocation(let center, let zoom, let views):
+            return ActionPaths(
+                app: Path(
+                    pathComponents: [""],
+                    queryParameters: [
+                        "center": center,
+                        "zoom": zoom,
+                        "views": views,
+                    ]
+                ),
+                web: Path(
+                    pathComponents: [""],
+                    queryParameters: ["center": center,
+                                        "zoom": zoom,
+                                       "views": views,]
                 )
             )
             

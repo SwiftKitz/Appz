@@ -57,6 +57,33 @@ class GoogleMapsTests: XCTestCase {
             ])
     }
     
+    func testDisplayLocation() {
+        
+        let center = "40.765819,-73.975866"
+        let zoom = "14"
+        let views = "satellite"
+        let action = Applications.GoogleMaps.Action.DisplayLocation(
+            center: center,
+              zoom: zoom,
+             views: views)
+        
+        XCTAssertEqual(action.paths.app.pathComponents, [""])
+        XCTAssertEqual(action.paths.app.queryParameters,
+                       [
+                        "center": center,
+                          "zoom": zoom,
+                         "views": views,
+            ])
+        
+        XCTAssertEqual(action.paths.web.pathComponents, [""])
+        XCTAssertEqual(action.paths.web.queryParameters,
+                       [
+                        "center": center,
+                          "zoom": zoom,
+                         "views": views,
+            ])
+    }
+    
     func testSearch() {
         
         let q = "Pizza"
