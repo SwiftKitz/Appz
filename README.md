@@ -148,7 +148,7 @@ App | Actions
 [GoogleDrive][GoogleDrive-link] | Open
 [GoogleEarth][GoogleEarth-link] | Open
 [GoogleMail][GoogleMail-link] | Open
-[GoogleMaps][GoogleMaps-link] | Open, Display Directions, Search
+[GoogleMaps][GoogleMaps-link] | Open, Display Directions, Display Location, Search
 [GooglePhotos][GooglePhotos-link] | Open
 [GooglePlus][GooglePlus-link] | Open
 [GoogleSheets][GoogleSheets-link] | Open
