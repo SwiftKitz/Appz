@@ -25,12 +25,12 @@ public extension Applications {
 public extension Applications.Instagram {
     
     public enum Action {
-        case Open
-        case Camera
-        case Media(id: String)
-        case Username(username: String)
-        case Location(id: String)
-        case Tag(name: String)
+        case open
+        case camera
+        case media(id: String)
+        case username(username: String)
+        case location(id: String)
+        case tag(name: String)
         
     }
 }
@@ -40,7 +40,7 @@ extension Applications.Instagram.Action: ExternalApplicationAction {
     public var paths: ActionPaths {
         
         switch self {
-        case .Open:
+        case .open:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["app"],
@@ -49,7 +49,7 @@ extension Applications.Instagram.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .Camera:
+        case .camera:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["camera"],
@@ -58,7 +58,7 @@ extension Applications.Instagram.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .Media(let id):
+        case .media(let id):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["media"],
@@ -70,7 +70,7 @@ extension Applications.Instagram.Action: ExternalApplicationAction {
                 )
             )
             
-        case .Username(let username):
+        case .username(let username):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["user"],
@@ -82,7 +82,7 @@ extension Applications.Instagram.Action: ExternalApplicationAction {
                 )
             )
             
-        case .Location(let id):
+        case .location(let id):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["location"],
@@ -91,7 +91,7 @@ extension Applications.Instagram.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .Tag(let tag):
+        case .tag(let tag):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["tag"],

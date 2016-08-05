@@ -22,7 +22,7 @@ class FlickrTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Flickr.Action.Open
+        let action = Applications.Flickr.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

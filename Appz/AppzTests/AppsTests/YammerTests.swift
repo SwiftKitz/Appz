@@ -22,7 +22,7 @@ class YammerTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Yammer.Action.Open
+        let action = Applications.Yammer.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

@@ -22,7 +22,7 @@ class SoundflakeTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Soundflake.Action.Open
+        let action = Applications.Soundflake.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

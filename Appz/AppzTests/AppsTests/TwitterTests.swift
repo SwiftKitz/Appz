@@ -23,7 +23,7 @@ class TwitterTests: XCTestCase {
     func testStatus() {
         
         let statusId = "663797797234323456"
-        let action = Applications.Twitter.Action.Status(id: statusId)
+        let action = Applications.Twitter.Action.status(id: statusId)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["status"])
         XCTAssertEqual(action.paths.app.queryParameters, ["id": statusId])
@@ -34,7 +34,7 @@ class TwitterTests: XCTestCase {
     func testUserHandle() {
         
         let handle = "mazyod"
-        let action = Applications.Twitter.Action.UserHandle(handle)
+        let action = Applications.Twitter.Action.userHandle(handle)
 
         XCTAssertEqual(action.paths.app.pathComponents, ["user"])
         XCTAssertEqual(action.paths.app.queryParameters, ["screen_name": handle])
@@ -45,7 +45,7 @@ class TwitterTests: XCTestCase {
     func testUserId() {
 
         let userId = "1233456"
-        let action = Applications.Twitter.Action.UserId(userId)
+        let action = Applications.Twitter.Action.userId(userId)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["user"])
         XCTAssertEqual(action.paths.app.queryParameters, ["id": userId])
@@ -57,7 +57,7 @@ class TwitterTests: XCTestCase {
         
         let handle = "mazyod"
         let slug = "test"
-        let action = Applications.Twitter.Action.List(handle: handle, slug: slug)
+        let action = Applications.Twitter.Action.list(handle: handle, slug: slug)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["list"])
         XCTAssertEqual(action.paths.app.queryParameters, [
@@ -72,7 +72,7 @@ class TwitterTests: XCTestCase {
         
         let message = "Releasing Appz v1.0.0!"
         let repliedStatusId = ""
-        let action = Applications.Twitter.Action.Post(message: message, repliedStatusId: nil)
+        let action = Applications.Twitter.Action.post(message: message, repliedStatusId: nil)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["post"])
         XCTAssertEqual(action.paths.app.queryParameters, [
@@ -89,7 +89,7 @@ class TwitterTests: XCTestCase {
     func testSearch() {
         
         let query = "#anon"
-        let action = Applications.Twitter.Action.Search(query: query)
+        let action = Applications.Twitter.Action.search(query: query)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["search"])
         XCTAssertEqual(action.paths.app.queryParameters, ["query":query])
@@ -99,7 +99,7 @@ class TwitterTests: XCTestCase {
     
     func testTimeline() {
         
-        let action = Applications.Twitter.Action.Timeline
+        let action = Applications.Twitter.Action.timeline
         
         XCTAssertEqual(action.paths.app.pathComponents, ["timeline"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -109,7 +109,7 @@ class TwitterTests: XCTestCase {
     
     func testMentions() {
         
-        let action = Applications.Twitter.Action.Mentions
+        let action = Applications.Twitter.Action.mentions
         
         XCTAssertEqual(action.paths.app.pathComponents, ["mentions"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -119,7 +119,7 @@ class TwitterTests: XCTestCase {
     
     func testMessages() {
         
-        let action = Applications.Twitter.Action.Messages
+        let action = Applications.Twitter.Action.messages
         
         XCTAssertEqual(action.paths.app.pathComponents, ["messages"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

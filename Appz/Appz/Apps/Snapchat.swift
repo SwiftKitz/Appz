@@ -25,8 +25,8 @@ public extension Applications {
 public extension Applications.Snapchat {
     
     public enum Action {
-        case Open
-        case Add(username: String)
+        case open
+        case add(username: String)
     }
 }
 
@@ -35,7 +35,7 @@ extension Applications.Snapchat.Action: ExternalApplicationAction {
     public var paths: ActionPaths {
         
         switch self {
-        case .Open:
+        case .open:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["app"],
@@ -43,7 +43,7 @@ extension Applications.Snapchat.Action: ExternalApplicationAction {
                 ),
                 web: Path()
             )
-        case .Add(let Username):
+        case .add(let Username):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["add", Username],

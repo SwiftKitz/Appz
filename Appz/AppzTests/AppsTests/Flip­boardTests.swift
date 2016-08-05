@@ -22,7 +22,7 @@ class Flip­boardTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Flip­board.Action.Open
+        let action = Applications.Flip­board.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

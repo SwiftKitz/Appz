@@ -22,7 +22,7 @@ class VineTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Vine.Action.Open
+        let action = Applications.Vine.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -31,7 +31,7 @@ class VineTests: XCTestCase {
     
     func testTimelinesPopular() {
         
-        let action = Applications.Vine.Action.TimelinesPopular
+        let action = Applications.Vine.Action.timelinesPopular
         
         XCTAssertEqual(action.paths.app.pathComponents, ["timelines", "popular"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

@@ -22,7 +22,7 @@ class GoogleMailTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.GoogleMail.Action.Open
+        let action = Applications.GoogleMail.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

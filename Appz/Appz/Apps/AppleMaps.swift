@@ -27,8 +27,8 @@ public extension Applications {
 public extension Applications.AppleMaps {
     
     public enum Action {
-        case Open
-        case DisplayDirections(saddr: String,
+        case open
+        case displayDirections(saddr: String,
             daddr: String,
             directionsmode: String)
     }
@@ -39,7 +39,7 @@ extension Applications.AppleMaps.Action: ExternalApplicationAction {
     public var paths: ActionPaths {
         
         switch self {
-        case .Open:
+        case .open:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["app"],
@@ -47,7 +47,7 @@ extension Applications.AppleMaps.Action: ExternalApplicationAction {
                 ),
                 web: Path()
             )
-        case .DisplayDirections(let saddr, let daddr, let directionsmode):
+        case .displayDirections(let saddr, let daddr, let directionsmode):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["app"],

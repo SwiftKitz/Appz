@@ -22,7 +22,7 @@ class RemindersAppTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.RemindersApp.Action.Open
+        let action = Applications.RemindersApp.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

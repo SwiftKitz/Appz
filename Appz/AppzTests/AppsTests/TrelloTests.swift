@@ -22,7 +22,7 @@ class TrelloTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Trello.Action.Open
+        let action = Applications.Trello.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

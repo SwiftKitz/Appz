@@ -22,7 +22,7 @@ class TumblrTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Tumblr.Action.Open
+        let action = Applications.Tumblr.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -31,7 +31,7 @@ class TumblrTests: XCTestCase {
     
     func testDashboard() {
         
-        let action = Applications.Tumblr.Action.Dashboard
+        let action = Applications.Tumblr.Action.dashboard
         
         XCTAssertEqual(action.paths.app.pathComponents,
                                                     ["x-callback-url", "dashboard"])
@@ -41,7 +41,7 @@ class TumblrTests: XCTestCase {
     
     func testExplore() {
         
-        let action = Applications.Tumblr.Action.Explore
+        let action = Applications.Tumblr.Action.explore
         
         XCTAssertEqual(action.paths.app.pathComponents,
                                                     ["x-callback-url", "explore"])
@@ -51,7 +51,7 @@ class TumblrTests: XCTestCase {
     
     func testActivity() {
         
-        let action = Applications.Tumblr.Action.Activity
+        let action = Applications.Tumblr.Action.activity
         
         XCTAssertEqual(action.paths.app.pathComponents,
                                                     ["x-callback-url", "activity"])
@@ -61,7 +61,7 @@ class TumblrTests: XCTestCase {
     
     func testBlog() {
         
-        let action = Applications.Tumblr.Action.Blog
+        let action = Applications.Tumblr.Action.blog
         
         XCTAssertEqual(action.paths.app.pathComponents,
                                                     ["x-callback-url", "blog"])
@@ -72,7 +72,7 @@ class TumblrTests: XCTestCase {
     func testTag() {
         
         let tag = "moon"
-        let action = Applications.Tumblr.Action.Tag(tag: tag)
+        let action = Applications.Tumblr.Action.tag(tag: tag)
         
         XCTAssertEqual(action.paths.app.pathComponents,
                                                     ["x-callback-url", "tag"])

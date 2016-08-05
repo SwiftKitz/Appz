@@ -22,7 +22,7 @@ class YahooWeatherTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.YahooWeather.Action.Open
+        let action = Applications.YahooWeather.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

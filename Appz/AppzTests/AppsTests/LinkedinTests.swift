@@ -22,7 +22,7 @@ class LinkedinTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Linkedin.Action.Open
+        let action = Applications.Linkedin.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

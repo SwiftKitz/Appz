@@ -26,15 +26,15 @@ public extension Applications.Twitter {
 
     public enum Action {
     
-        case Status(id: String)
-        case UserHandle(String)
-        case UserId(String)
-        case List(handle: String, slug: String)
-        case Post(message: String, repliedStatusId: String?)
-        case Search(query: String)
-        case Timeline
-        case Mentions
-        case Messages
+        case status(id: String)
+        case userHandle(String)
+        case userId(String)
+        case list(handle: String, slug: String)
+        case post(message: String, repliedStatusId: String?)
+        case search(query: String)
+        case timeline
+        case mentions
+        case messages
     }
 }
 
@@ -43,7 +43,7 @@ extension Applications.Twitter.Action: ExternalApplicationAction {
     public var paths: ActionPaths {
 
         switch self {
-        case .Status(let id):
+        case .status(let id):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["status"],
@@ -54,7 +54,7 @@ extension Applications.Twitter.Action: ExternalApplicationAction {
                 )
             )
             
-        case .UserHandle(let handle):
+        case .userHandle(let handle):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["user"],
@@ -66,7 +66,7 @@ extension Applications.Twitter.Action: ExternalApplicationAction {
                 )
             )
             
-        case .UserId(let id):
+        case .userId(let id):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["user"],
@@ -78,7 +78,7 @@ extension Applications.Twitter.Action: ExternalApplicationAction {
                 )
             )
             
-        case .Post(let message, let statusId):
+        case .post(let message, let statusId):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["post"],
@@ -96,7 +96,7 @@ extension Applications.Twitter.Action: ExternalApplicationAction {
                 )
             )
             
-        case .List(let handle, let slug):
+        case .list(let handle, let slug):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["list"],
@@ -111,7 +111,7 @@ extension Applications.Twitter.Action: ExternalApplicationAction {
                 )
             )
             
-        case .Search(let query):
+        case .search(let query):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["search"],
@@ -123,7 +123,7 @@ extension Applications.Twitter.Action: ExternalApplicationAction {
                 )
             )
             
-        case .Timeline:
+        case .timeline:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["timeline"],
@@ -135,7 +135,7 @@ extension Applications.Twitter.Action: ExternalApplicationAction {
                 )
             )
             
-        case .Mentions:
+        case .mentions:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["mentions"],
@@ -147,7 +147,7 @@ extension Applications.Twitter.Action: ExternalApplicationAction {
                 )
             )
             
-        case .Messages:
+        case .messages:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["messages"],

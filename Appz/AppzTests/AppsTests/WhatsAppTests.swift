@@ -22,7 +22,7 @@ class WhatsAppTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.WhatsApp.Action.Open
+        let action = Applications.WhatsApp.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -30,7 +30,7 @@ class WhatsAppTests: XCTestCase {
     }
     
     func testSend(){
-        let action = Applications.WhatsApp.Action.Send(abid: "someId", text: "some Text")
+        let action = Applications.WhatsApp.Action.send(abid: "someId", text: "some Text")
         
         XCTAssertEqual(action.paths.app.pathComponents, ["send"])
         XCTAssertEqual(action.paths.app.queryParameters, ["abid":"someId", "text":"some Text"])

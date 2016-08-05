@@ -26,8 +26,8 @@ public extension Applications.Itranslate {
     
     public enum Action {
         
-        case Open
-        case Translate(from: String, to: String, text: String)
+        case open
+        case translate(from: String, to: String, text: String)
     }
 }
 
@@ -37,7 +37,7 @@ extension Applications.Itranslate.Action: ExternalApplicationAction {
     public var paths: ActionPaths {
         
         switch self {
-        case .Open:
+        case .open:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["app"],
@@ -46,7 +46,7 @@ extension Applications.Itranslate.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .Translate(let from, let to, let text):
+        case .translate(let from, let to, let text):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["translate"],

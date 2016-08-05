@@ -22,7 +22,7 @@ class KikTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Kik.Action.Open
+        let action = Applications.Kik.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

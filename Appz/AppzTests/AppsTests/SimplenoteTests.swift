@@ -22,7 +22,7 @@ class SimplenoteTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Simplenote.Action.Open
+        let action = Applications.Simplenote.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

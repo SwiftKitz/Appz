@@ -26,9 +26,9 @@ public extension Applications.AppStore {
 
     public enum Action {
     
-        case Account(id: String)
-        case App(id: String)
-        case RateApp(id: String)
+        case account(id: String)
+        case app(id: String)
+        case rateApp(id: String)
     }
 }
 
@@ -38,7 +38,7 @@ extension Applications.AppStore.Action: ExternalApplicationAction {
     public var paths: ActionPaths {
         
         switch self {
-        case .Account(let id):
+        case .account(let id):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["itunes.apple.com", "developer", "id\(id)"],
@@ -47,7 +47,7 @@ extension Applications.AppStore.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .App(let id):
+        case .app(let id):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["itunes.apple.com", "app","id\(id)"],
@@ -56,7 +56,7 @@ extension Applications.AppStore.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .RateApp(let id):
+        case .rateApp(let id):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["itunes.apple.com", "WebObjects", "MZStore.woa", "wa", "viewContentsUserReviews"],

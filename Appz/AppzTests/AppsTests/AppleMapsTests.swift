@@ -22,7 +22,7 @@ class AppleMapsTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.AppleMaps.Action.Open
+        let action = Applications.AppleMaps.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

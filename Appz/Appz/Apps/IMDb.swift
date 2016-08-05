@@ -26,16 +26,16 @@ public extension Applications.IMDb {
     
     public enum Action {
         
-        case Open
-        case Search(query: String)
-        case Title(id: String)
-        case Boxoffice
-        case Showtimes
-        case FeatureCS
-        case FeatureBP
-        case FeatureBT
-        case ChartTop
-        case Moviemeter
+        case open
+        case search(query: String)
+        case title(id: String)
+        case boxoffice
+        case showtimes
+        case featureCS
+        case featureBP
+        case featureBT
+        case chartTop
+        case moviemeter
     }
 }
 
@@ -45,7 +45,7 @@ extension Applications.IMDb.Action: ExternalApplicationAction {
     public var paths: ActionPaths {
         
         switch self {
-        case .Open:
+        case .open:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["app"],
@@ -54,7 +54,7 @@ extension Applications.IMDb.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .Search(let query):
+        case .search(let query):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["", "find"],
@@ -66,7 +66,7 @@ extension Applications.IMDb.Action: ExternalApplicationAction {
                 )
             )
             
-        case .Title(let id):
+        case .title(let id):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["", "title", id],
@@ -78,7 +78,7 @@ extension Applications.IMDb.Action: ExternalApplicationAction {
                 )
             )
             
-        case .Boxoffice:
+        case .boxoffice:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["", "boxoffice"],
@@ -89,7 +89,7 @@ extension Applications.IMDb.Action: ExternalApplicationAction {
                     queryParameters: [:])
             )
             
-        case .Showtimes:
+        case .showtimes:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["", "showtimes"],
@@ -101,7 +101,7 @@ extension Applications.IMDb.Action: ExternalApplicationAction {
                 )
             )
             
-        case .FeatureCS:
+        case .featureCS:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["", "feature", "comingsoon"],
@@ -113,7 +113,7 @@ extension Applications.IMDb.Action: ExternalApplicationAction {
                 )
             )
             
-        case .FeatureBP:
+        case .featureBP:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["", "feature", "bestpicture"],
@@ -125,7 +125,7 @@ extension Applications.IMDb.Action: ExternalApplicationAction {
                 )
             )
             
-        case .FeatureBT:
+        case .featureBT:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["", "feature", "borntoday"],
@@ -137,7 +137,7 @@ extension Applications.IMDb.Action: ExternalApplicationAction {
                 )
             )
             
-        case .ChartTop:
+        case .chartTop:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["", "chart", "top"],
@@ -149,7 +149,7 @@ extension Applications.IMDb.Action: ExternalApplicationAction {
                 )
             )
             
-        case .Moviemeter:
+        case .moviemeter:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["", "chart", "moviemeter"],
