@@ -22,7 +22,7 @@ class OMTTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.OMT.Action.Open
+        let action = Applications.OMT.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

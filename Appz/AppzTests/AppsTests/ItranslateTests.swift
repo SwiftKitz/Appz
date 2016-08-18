@@ -22,7 +22,7 @@ class ItranslateTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Itranslate.Action.Open
+        let action = Applications.Itranslate.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -34,7 +34,7 @@ class ItranslateTests: XCTestCase {
         let from = "en"
         let to   = "ar"
         let text = "Hi"
-        let action = Applications.Itranslate.Action.Translate(from: from, to: to, text: text)
+        let action = Applications.Itranslate.Action.translate(from: from, to: to, text: text)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["translate"])
         XCTAssertEqual(action.paths.app.queryParameters, ["from": from,

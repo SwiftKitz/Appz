@@ -22,7 +22,7 @@ class SwarmTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Swarm.Action.Open
+        let action = Applications.Swarm.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

@@ -22,7 +22,7 @@ class FacebookTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Facebook.Action.Open
+        let action = Applications.Facebook.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -31,7 +31,7 @@ class FacebookTests: XCTestCase {
     
     func testProfile() {
         
-        let action = Applications.Facebook.Action.Profile
+        let action = Applications.Facebook.Action.profile
         
         XCTAssertEqual(action.paths.app.pathComponents, ["profile"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -40,7 +40,7 @@ class FacebookTests: XCTestCase {
     
     func testNotifications() {
         
-        let action = Applications.Facebook.Action.Notifications
+        let action = Applications.Facebook.Action.notifications
         
         XCTAssertEqual(action.paths.app.pathComponents, ["notifications"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -49,7 +49,7 @@ class FacebookTests: XCTestCase {
     
     func testFeed() {
         
-        let action = Applications.Facebook.Action.Feed
+        let action = Applications.Facebook.Action.feed
         
         XCTAssertEqual(action.paths.app.pathComponents, ["feed"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -59,7 +59,7 @@ class FacebookTests: XCTestCase {
     func testPage() {
  
         let pageId = "1524770847774320"
-        let action = Applications.Facebook.Action.Page(pageId)
+        let action = Applications.Facebook.Action.page(pageId)
  
         XCTAssertEqual(action.paths.app.pathComponents, ["page"])
         XCTAssertEqual(action.paths.app.queryParameters, ["id": pageId])
@@ -70,7 +70,7 @@ class FacebookTests: XCTestCase {
     func testEvent() {
         
         let eventId = "1016610545092462"
-        let action = Applications.Facebook.Action.Event(eventId)
+        let action = Applications.Facebook.Action.event(eventId)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["event"])
         XCTAssertEqual(action.paths.app.queryParameters, ["id": eventId])

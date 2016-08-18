@@ -22,7 +22,7 @@ class EverypostTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Everypost.Action.Open
+        let action = Applications.Everypost.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

@@ -13,12 +13,12 @@ extension NSExtensionContext: ApplicationCaller {
     
     /** Unconditionally fail to the failover code. See rdar://18107612
      */
-    public func canOpenURL(url: NSURL) -> Bool {
+    public func canOpenURL(_ url: URL) -> Bool {
         return false
     }
     
-    public func openURL(url: NSURL) -> Bool {
-        openURL(url, completionHandler: nil)
+    public func openURL(_ url: URL) -> Bool {
+        open(url, completionHandler: nil)
         return true // maybe use a semaphore instead
     }
 }

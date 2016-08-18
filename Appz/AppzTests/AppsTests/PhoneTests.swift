@@ -23,7 +23,7 @@ class PhoneTests: XCTestCase {
     func testOpen() {
         
         let number = "1-408-555-5555"
-        let action = Applications.Phone.Action.Open(number:number)
+        let action = Applications.Phone.Action.open(number:number)
         
         XCTAssertEqual(action.paths.app.pathComponents, [number])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

@@ -22,7 +22,7 @@ class VSCOTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.VSCO.Action.Open
+        let action = Applications.VSCO.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

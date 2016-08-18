@@ -13,17 +13,17 @@ import Foundation
 class ApplicationCallerMock: ApplicationCaller {
     
     var canOpenURLs = true
-    var exceptionURLs = [NSURL]()
+    var exceptionURLs = [URL]()
     
-    var queriedURLs = [NSURL]()
-    var openedURLs = [NSURL]()
+    var queriedURLs = [URL]()
+    var openedURLs = [URL]()
     
-    func openURL(url: NSURL) -> Bool {
+    func openURL(_ url: URL) -> Bool {
         openedURLs.append(url)
         return true
     }
     
-    func canOpenURL(url: NSURL) -> Bool {
+    func canOpenURL(_ url: URL) -> Bool {
         queriedURLs.append(url)
         return canOpenURLs || exceptionURLs.contains(url)
     }

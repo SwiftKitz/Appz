@@ -22,7 +22,7 @@ class FriendlySocialTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.FriendlySocial.Action.Open
+        let action = Applications.FriendlySocial.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

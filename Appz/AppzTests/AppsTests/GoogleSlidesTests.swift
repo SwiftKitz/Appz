@@ -22,7 +22,7 @@ class GoogleSlidesTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.GoogleSlides.Action.Open
+        let action = Applications.GoogleSlides.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

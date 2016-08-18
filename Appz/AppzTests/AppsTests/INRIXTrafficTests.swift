@@ -22,7 +22,7 @@ class INRIXTrafficTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.INRIXTraffic.Action.Open
+        let action = Applications.INRIXTraffic.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

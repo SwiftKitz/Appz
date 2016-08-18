@@ -22,7 +22,7 @@ class CNNTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.CNN.Action.Open
+        let action = Applications.CNN.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

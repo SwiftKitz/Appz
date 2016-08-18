@@ -22,7 +22,7 @@ class PinterestTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Pinterest.Action.Open
+        let action = Applications.Pinterest.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -32,7 +32,7 @@ class PinterestTests: XCTestCase {
     func testUser() {
         
         let name = "mariamaljamea"
-        let action = Applications.Pinterest.Action.User(name: name)
+        let action = Applications.Pinterest.Action.user(name: name)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["user", name])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -43,7 +43,7 @@ class PinterestTests: XCTestCase {
     func testSearch() {
         
         let query = "sky"
-        let action = Applications.Pinterest.Action.Search(query: query)
+        let action = Applications.Pinterest.Action.search(query: query)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["search", "pins"])
         XCTAssertEqual(action.paths.app.queryParameters, ["q":query])

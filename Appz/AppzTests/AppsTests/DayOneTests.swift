@@ -22,7 +22,7 @@ class DayOneTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.DayOne.Action.Open
+        let action = Applications.DayOne.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

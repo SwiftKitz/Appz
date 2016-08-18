@@ -25,9 +25,9 @@ public extension Applications {
 public extension Applications.Pinterest {
     
     public enum Action {
-        case Open
-        case User(name: String)
-        case Search(query: String)
+        case open
+        case user(name: String)
+        case search(query: String)
     }
 }
 
@@ -37,7 +37,7 @@ extension Applications.Pinterest.Action: ExternalApplicationAction {
     public var paths: ActionPaths {
         
         switch self {
-        case .Open:
+        case .open:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["app"],
@@ -46,7 +46,7 @@ extension Applications.Pinterest.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .User(let name):
+        case .user(let name):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["user", name],
@@ -58,7 +58,7 @@ extension Applications.Pinterest.Action: ExternalApplicationAction {
                 )
             )
             
-        case .Search(let query):
+        case .search(let query):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["search", "pins"],

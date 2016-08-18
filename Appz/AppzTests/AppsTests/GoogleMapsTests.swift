@@ -22,7 +22,7 @@ class GoogleMapsTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.GoogleMaps.Action.Open
+        let action = Applications.GoogleMaps.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -34,7 +34,7 @@ class GoogleMapsTests: XCTestCase {
         let saddr = "Surra"
         let daddr = "infocenter"
         let directionsmode = "driving"
-        let action = Applications.GoogleMaps.Action.DisplayDirections(
+        let action = Applications.GoogleMaps.Action.displayDirections(
                                                                     saddr: saddr,
                                                                     daddr: daddr,
                                                                     directionsmode:
@@ -62,7 +62,7 @@ class GoogleMapsTests: XCTestCase {
         let center = "40.765819,-73.975866"
         let zoom = "14"
         let views = "satellite"
-        let action = Applications.GoogleMaps.Action.DisplayLocation(
+        let action = Applications.GoogleMaps.Action.displayLocation(
             center: center,
               zoom: zoom,
              views: views)
@@ -87,7 +87,7 @@ class GoogleMapsTests: XCTestCase {
     func testSearch() {
         
         let q = "Pizza"
-        let action = Applications.GoogleMaps.Action.Search(q: q)
+        let action = Applications.GoogleMaps.Action.search(q: q)
         
         XCTAssertEqual(action.paths.app.pathComponents, [""])
         XCTAssertEqual(action.paths.app.queryParameters, ["q": q,])

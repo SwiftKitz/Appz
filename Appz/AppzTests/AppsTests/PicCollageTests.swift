@@ -22,7 +22,7 @@ class PicCollageTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.PicCollage.Action.Open
+        let action = Applications.PicCollage.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

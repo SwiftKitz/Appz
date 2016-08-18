@@ -28,7 +28,7 @@ class MailTests: XCTestCase {
             body: "body"
         )
         
-        let action = Applications.Mail.Action.Compose(email: email)
+        let action = Applications.Mail.Action.compose(email: email)
         
         XCTAssertEqual(action.paths.app.pathComponents, [email.recipient])
         XCTAssertEqual(action.paths.app.queryParameters, ["subject": email.subject, "body": email.body])

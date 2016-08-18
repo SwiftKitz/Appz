@@ -25,12 +25,12 @@ public extension Applications {
 public extension Applications.Tumblr {
     
     public enum Action {
-        case Open
-        case Dashboard
-        case Explore
-        case Activity
-        case Blog
-        case Tag(tag: String)
+        case open
+        case dashboard
+        case explore
+        case activity
+        case blog
+        case tag(tag: String)
     }
 }
 
@@ -39,7 +39,7 @@ extension Applications.Tumblr.Action: ExternalApplicationAction {
     public var paths: ActionPaths {
         
         switch self {
-        case .Open:
+        case .open:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["app"],
@@ -48,7 +48,7 @@ extension Applications.Tumblr.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .Dashboard:
+        case .dashboard:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["x-callback-url", "dashboard"],
@@ -57,7 +57,7 @@ extension Applications.Tumblr.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .Explore:
+        case .explore:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["x-callback-url", "explore"],
@@ -66,7 +66,7 @@ extension Applications.Tumblr.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .Activity:
+        case .activity:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["x-callback-url", "activity"],
@@ -75,7 +75,7 @@ extension Applications.Tumblr.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .Blog:
+        case .blog:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["x-callback-url", "blog"],
@@ -84,7 +84,7 @@ extension Applications.Tumblr.Action: ExternalApplicationAction {
                 web: Path()
             )
           
-        case .Tag(let tag):
+        case .tag(let tag):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["x-callback-url", "tag"],

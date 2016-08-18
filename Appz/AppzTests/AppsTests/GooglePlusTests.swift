@@ -22,7 +22,7 @@ class GooglePlusTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.GooglePlus.Action.Open
+        let action = Applications.GooglePlus.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

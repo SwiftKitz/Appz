@@ -22,7 +22,7 @@ class MyFitnessPalTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.MyFitnessPal.Action.Open
+        let action = Applications.MyFitnessPal.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

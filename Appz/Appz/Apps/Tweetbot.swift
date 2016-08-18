@@ -52,22 +52,22 @@ public extension Applications {
 public extension Applications.Tweetbot {
     
     public enum Action {
-        case Timeline(screenname: String?)
-        case Mentions(screenname: String?)
-        case Retweets(screenname: String?)
-        case DirectMessages(screenname: String?)
-        case Lists(screenname: String?)
-        case Favorites(screenname: String?)
-        case Search(screenname: String?, query: String?, callbackurl: String?)
-        case Status(screenname: String?, tweetId: String, callbackurl: String?)
-        case UserProfile(screenname: String?, profileScreennameOrId: String, callbackurl: String?)
-        case Post(screenname: String?,text: String?, callbackurl: String?, repliedStatusId: String?)
-        case Follow(screenname: String?, followScreennameOrId: String)
-        case Unfollow(screenname: String?, followScreennameOrId: String)
-        case Favorite(screenname: String?, tweetId: String)
-        case Unfavorite(screenname: String?, tweetId: String)
-        case Retweet(screenname: String?, tweetId: String)
-        case List(screenname: String?, listId: String, callbackurl: String?)
+        case timeline(screenname: String?)
+        case mentions(screenname: String?)
+        case retweets(screenname: String?)
+        case directMessages(screenname: String?)
+        case lists(screenname: String?)
+        case favorites(screenname: String?)
+        case search(screenname: String?, query: String?, callbackurl: String?)
+        case status(screenname: String?, tweetId: String, callbackurl: String?)
+        case userProfile(screenname: String?, profileScreennameOrId: String, callbackurl: String?)
+        case post(screenname: String?,text: String?, callbackurl: String?, repliedStatusId: String?)
+        case follow(screenname: String?, followScreennameOrId: String)
+        case unfollow(screenname: String?, followScreennameOrId: String)
+        case favorite(screenname: String?, tweetId: String)
+        case unfavorite(screenname: String?, tweetId: String)
+        case retweet(screenname: String?, tweetId: String)
+        case list(screenname: String?, listId: String, callbackurl: String?)
     }
 }
 
@@ -77,7 +77,7 @@ extension Applications.Tweetbot.Action: ExternalApplicationAction {
         
         switch self {
             //do actions
-        case .Timeline(let screenname):
+        case .timeline(let screenname):
             return ActionPaths(
                 app:
                 Path(
@@ -85,7 +85,7 @@ extension Applications.Tweetbot.Action: ExternalApplicationAction {
                     queryParameters: [:]),
                 web: Path())
             
-        case .Mentions(let screenname):
+        case .mentions(let screenname):
             return ActionPaths(
                 app:
                 Path(
@@ -93,7 +93,7 @@ extension Applications.Tweetbot.Action: ExternalApplicationAction {
                     queryParameters: [:]),
                 web: Path())
             
-        case .Retweets(let screenname):
+        case .retweets(let screenname):
             return ActionPaths(
                 app:
                 Path(
@@ -101,7 +101,7 @@ extension Applications.Tweetbot.Action: ExternalApplicationAction {
                     queryParameters: [:]),
                 web: Path())
             
-        case .DirectMessages(let screenname):
+        case .directMessages(let screenname):
             return ActionPaths(
                 app:
                 Path(
@@ -109,7 +109,7 @@ extension Applications.Tweetbot.Action: ExternalApplicationAction {
                     queryParameters: [:]),
                 web: Path())
             
-        case .Lists(let screenname):
+        case .lists(let screenname):
             return ActionPaths(
                 app:
                 Path(
@@ -117,7 +117,7 @@ extension Applications.Tweetbot.Action: ExternalApplicationAction {
                     queryParameters: [:]),
                 web: Path())
             
-        case .Favorites(let screenname):
+        case .favorites(let screenname):
             return ActionPaths(
                 app:
                 Path(
@@ -125,7 +125,7 @@ extension Applications.Tweetbot.Action: ExternalApplicationAction {
                     queryParameters: [:]),
                 web: Path())
             
-        case .Search(let screenname, let query, let callbackurl):
+        case .search(let screenname, let query, let callbackurl):
             return ActionPaths(
                 app:
                 Path(
@@ -135,7 +135,7 @@ extension Applications.Tweetbot.Action: ExternalApplicationAction {
                         "callback_url":callbackurl ?? ""]),
                 web: Path())
             
-        case .Status(let screenname, let tweetId, let callbackurl):
+        case .status(let screenname, let tweetId, let callbackurl):
             return ActionPaths(
                 app:
                 Path(
@@ -143,7 +143,7 @@ extension Applications.Tweetbot.Action: ExternalApplicationAction {
                     queryParameters: ["callback_url":callbackurl ?? ""]),
                 web: Path())
             
-        case .UserProfile(let screenname , let profileScreennameOrId , let callbackurl):
+        case .userProfile(let screenname , let profileScreennameOrId , let callbackurl):
             return ActionPaths(
                 app:
                 Path(
@@ -152,7 +152,7 @@ extension Applications.Tweetbot.Action: ExternalApplicationAction {
                     queryParameters: ["callback_url":callbackurl ?? ""]),
                 web: Path())
             
-        case .Post(let screenname, let text, let callbackurl, let repliedStatusId):
+        case .post(let screenname, let text, let callbackurl, let repliedStatusId):
             return ActionPaths(
                 app:
                 Path(
@@ -163,7 +163,7 @@ extension Applications.Tweetbot.Action: ExternalApplicationAction {
                         "callback_url":callbackurl ?? ""]),
                 web: Path())
             
-        case .Follow(let screenname, let followScreennameOrId):
+        case .follow(let screenname, let followScreennameOrId):
             return ActionPaths(
                 app:
                 Path(
@@ -171,7 +171,7 @@ extension Applications.Tweetbot.Action: ExternalApplicationAction {
                     queryParameters: [:]),
                 web: Path())
             
-        case .Unfollow(let screenname, let followScreennameOrId):
+        case .unfollow(let screenname, let followScreennameOrId):
             return ActionPaths(
                 app:
                 Path(
@@ -179,7 +179,7 @@ extension Applications.Tweetbot.Action: ExternalApplicationAction {
                     queryParameters: [:]),
                 web: Path())
             
-        case .Favorite(let screenname, let tweetId):
+        case .favorite(let screenname, let tweetId):
             return ActionPaths(
                 app:
                 Path(
@@ -187,7 +187,7 @@ extension Applications.Tweetbot.Action: ExternalApplicationAction {
                     queryParameters: [:]),
                 web: Path())
             
-        case .Unfavorite(let screenname, let tweetId):
+        case .unfavorite(let screenname, let tweetId):
             return ActionPaths(
                 app:
                 Path(
@@ -195,7 +195,7 @@ extension Applications.Tweetbot.Action: ExternalApplicationAction {
                     queryParameters: [:]),
                 web: Path())
             
-        case .Retweet(let screenname, let tweetId):
+        case .retweet(let screenname, let tweetId):
             return ActionPaths(
                 app:
                 Path(
@@ -203,7 +203,7 @@ extension Applications.Tweetbot.Action: ExternalApplicationAction {
                     queryParameters: [:]),
                 web: Path())
             
-        case .List(let screenname, let listId, let callbackurl):
+        case .list(let screenname, let listId, let callbackurl):
             return ActionPaths(
                 app:
                 Path(

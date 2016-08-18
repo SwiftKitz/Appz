@@ -36,7 +36,7 @@ class ApplicationCallerTests: XCTestCase {
         let sampleApp = SampleApp()
         appCallerMock.open(sampleApp, action: SampleAction())
         
-        let expectedURL = NSURL(string: sampleApp.scheme)
+        let expectedURL = URL(string: sampleApp.scheme)
         XCTAssertEqual(appCallerMock.queriedURLs.first, expectedURL)
     }
     
@@ -49,7 +49,7 @@ class ApplicationCallerTests: XCTestCase {
         appCallerMock.canOpenURLs = true
         appCallerMock.open(sampleApp, action: sampleAction)
         
-        let expectedURL = NSURL(string: sampleApp.scheme)
+        let expectedURL = URL(string: sampleApp.scheme)
         XCTAssertEqual(appCallerMock.openedURLs.first, expectedURL)
     }
     
@@ -85,10 +85,10 @@ class ApplicationCallerTests: XCTestCase {
         let sampleAction = SampleAction()
         
         let appStore = Applications.AppStore()
-        let appStoreAction = Applications.AppStore.Action.App(id: sampleApp.appStoreId)
+        let appStoreAction = Applications.AppStore.Action.app(id: sampleApp.appStoreId)
         
         appCallerMock.canOpenURLs = false
-        appCallerMock.exceptionURLs = [NSURL(string: appStore.scheme)!]
+        appCallerMock.exceptionURLs = [URL(string: appStore.scheme)!]
         appCallerMock.open(sampleApp, action: sampleAction, promptInstall: true)
         
         let expectedURL = appStoreAction.paths.app.appendToURL(appStore.scheme)

@@ -22,7 +22,7 @@ class RadiumTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Radium.Action.Open
+        let action = Applications.Radium.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
