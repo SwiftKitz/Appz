@@ -34,7 +34,7 @@ class ApplicationCallerTests: XCTestCase {
     func testQuery() {
         
         let sampleApp = SampleApp()
-        appCallerMock.open(sampleApp, action: SampleAction())
+        let _ = appCallerMock.open(sampleApp, action: SampleAction())
         
         let expectedURL = URL(string: sampleApp.scheme)
         XCTAssertEqual(appCallerMock.queriedURLs.first, expectedURL)
@@ -47,7 +47,7 @@ class ApplicationCallerTests: XCTestCase {
         sampleAction.paths.app = Path()
         
         appCallerMock.canOpenURLs = true
-        appCallerMock.open(sampleApp, action: sampleAction)
+        let _ = appCallerMock.open(sampleApp, action: sampleAction)
         
         let expectedURL = URL(string: sampleApp.scheme)
         XCTAssertEqual(appCallerMock.openedURLs.first, expectedURL)
@@ -59,7 +59,7 @@ class ApplicationCallerTests: XCTestCase {
         let sampleAction = SampleAction()
 
         appCallerMock.canOpenURLs = true
-        appCallerMock.open(sampleApp, action: sampleAction)
+        let _ = appCallerMock.open(sampleApp, action: sampleAction)
         
         let expectedURL = sampleAction.paths.app.appendToURL(sampleApp.scheme)
         XCTAssertEqual(appCallerMock.openedURLs.first, expectedURL)
@@ -72,7 +72,7 @@ class ApplicationCallerTests: XCTestCase {
         let sampleAction = SampleAction()
         
         appCallerMock.canOpenURLs = true
-        appCallerMock.open(sampleApp, action: sampleAction, promptInstall: true)
+        let _ = appCallerMock.open(sampleApp, action: sampleAction, promptInstall: true)
         
         let expectedURL = sampleAction.paths.app.appendToURL(sampleApp.scheme)
         XCTAssertEqual(appCallerMock.openedURLs.first, expectedURL)
@@ -89,7 +89,7 @@ class ApplicationCallerTests: XCTestCase {
         
         appCallerMock.canOpenURLs = false
         appCallerMock.exceptionURLs = [URL(string: appStore.scheme)!]
-        appCallerMock.open(sampleApp, action: sampleAction, promptInstall: true)
+        let _ = appCallerMock.open(sampleApp, action: sampleAction, promptInstall: true)
         
         let expectedURL = appStoreAction.paths.app.appendToURL(appStore.scheme)
         XCTAssertEqual(appCallerMock.openedURLs.first, expectedURL)
@@ -101,7 +101,7 @@ class ApplicationCallerTests: XCTestCase {
         let sampleAction = SampleAction()
         
         appCallerMock.canOpenURLs = false
-        appCallerMock.open(sampleApp, action: sampleAction)
+        let _ = appCallerMock.open(sampleApp, action: sampleAction)
         
         let expectedURL = sampleAction.paths.web.appendToURL(sampleApp.fallbackURL)
         XCTAssertEqual(appCallerMock.openedURLs.first, expectedURL)

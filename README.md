@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.6.0-blue.svg"/>
+  <img alt="Version" src="https://img.shields.io/badge/version-2.0.0-blue.svg"/>
   <a alt="Travis CI" href="https://travis-ci.org/SwiftKitz/Appz">
     <img alt="Version" src="https://travis-ci.org/SwiftKitz/Appz.svg?branch=master"/>
   </a>
@@ -253,7 +253,10 @@ App | Actions
 [Youtube][Youtube-link] | Open, Open Video
 [FRIL][FRIL-link] | Open
 [RIDE][RIDE-link] | Open
+
 ## Getting Started
+
+**IMPORTANT:** Kitz repos fully embrace Swift 3.0 and all the changes it brought. You should use `v1.6.0` if your still using Swift 2.x.
 
 ### Configure Info.plist
 
