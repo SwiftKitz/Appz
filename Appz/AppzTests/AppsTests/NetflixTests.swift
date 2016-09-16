@@ -22,7 +22,7 @@ class NetflixTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Netflix.Action.Open
+        let action = Applications.Netflix.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

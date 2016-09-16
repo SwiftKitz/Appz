@@ -22,7 +22,7 @@ class TwitterrificTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Twitterrific.Action.Open
+        let action = Applications.Twitterrific.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -31,7 +31,7 @@ class TwitterrificTests: XCTestCase {
     
     func testMentionsView() {
         
-        let action = Applications.Twitterrific.Action.MentionsView
+        let action = Applications.Twitterrific.Action.mentionsView
         
         XCTAssertEqual(action.paths.app.pathComponents, ["mentions"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -40,7 +40,7 @@ class TwitterrificTests: XCTestCase {
     
     func testMessagesView() {
         
-        let action = Applications.Twitterrific.Action.MessagesView
+        let action = Applications.Twitterrific.Action.messagesView
         
         XCTAssertEqual(action.paths.app.pathComponents, ["messages"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -49,7 +49,7 @@ class TwitterrificTests: XCTestCase {
     
     func testFavoritesView() {
         
-        let action = Applications.Twitterrific.Action.FavoritesView
+        let action = Applications.Twitterrific.Action.favoritesView
         
         XCTAssertEqual(action.paths.app.pathComponents, ["favorites"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -59,7 +59,7 @@ class TwitterrificTests: XCTestCase {
     func testSearch() {
         
         let query = "Hi"
-        let action = Applications.Twitterrific.Action.Search(query: query)
+        let action = Applications.Twitterrific.Action.search(query: query)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["search"])
         XCTAssertEqual(action.paths.app.queryParameters, ["q":query])
@@ -69,7 +69,7 @@ class TwitterrificTests: XCTestCase {
     func testTweetID() {
         
         let id = "12345"
-        let action = Applications.Twitterrific.Action.TweetID(id: id)
+        let action = Applications.Twitterrific.Action.tweetID(id: id)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["tweet"])
         XCTAssertEqual(action.paths.app.queryParameters, ["id":id])
@@ -79,7 +79,7 @@ class TwitterrificTests: XCTestCase {
     func testMessageID() {
         
         let id = "12345"
-        let action = Applications.Twitterrific.Action.MessageID(id: id)
+        let action = Applications.Twitterrific.Action.messageID(id: id)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["message"])
         XCTAssertEqual(action.paths.app.queryParameters, ["id":id])
@@ -89,7 +89,7 @@ class TwitterrificTests: XCTestCase {
     func testPost() {
         
         let message = "Hi"
-        let action = Applications.Twitterrific.Action.Post(message: message)
+        let action = Applications.Twitterrific.Action.post(message: message)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["post"])
         XCTAssertEqual(action.paths.app.queryParameters, ["message":message])
@@ -99,7 +99,7 @@ class TwitterrificTests: XCTestCase {
     func testUserProfile() {
         
         let screenName = "Iconfactory"
-        let action = Applications.Twitterrific.Action.UserProfile(screenName: screenName)
+        let action = Applications.Twitterrific.Action.userProfile(screenName: screenName)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["profile"])
         XCTAssertEqual(action.paths.app.queryParameters, ["screen_name":screenName])

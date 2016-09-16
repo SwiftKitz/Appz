@@ -22,7 +22,7 @@ class CalendarsTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Calendars.Action.Open
+        let action = Applications.Calendars.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

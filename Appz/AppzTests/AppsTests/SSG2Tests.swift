@@ -22,7 +22,7 @@ class SSG2Tests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.SSG2.Action.Open
+        let action = Applications.SSG2.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

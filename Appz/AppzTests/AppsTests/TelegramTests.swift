@@ -24,7 +24,7 @@ class TelegramTests: XCTestCase {
         
         let message = "Hi"
         let phone = "12345" //You must prefix the number with +
-        let action = Applications.Telegram.Action.Msg(message: message, phone: phone)
+        let action = Applications.Telegram.Action.msg(message: message, phone: phone)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["msg"])
         XCTAssertEqual(action.paths.app.queryParameters,

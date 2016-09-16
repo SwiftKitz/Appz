@@ -22,7 +22,7 @@ class ClipsTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Clips.Action.Open
+        let action = Applications.Clips.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

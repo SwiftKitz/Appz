@@ -22,7 +22,7 @@ class GoogleEarthTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.GoogleEarth.Action.Open
+        let action = Applications.GoogleEarth.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

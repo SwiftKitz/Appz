@@ -22,7 +22,7 @@ class GoogleChromeTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.GoogleChrome.Action.Open
+        let action = Applications.GoogleChrome.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

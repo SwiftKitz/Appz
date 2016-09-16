@@ -22,7 +22,7 @@ class IMDbTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.IMDb.Action.Open
+        let action = Applications.IMDb.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -32,7 +32,7 @@ class IMDbTests: XCTestCase {
     func testSearch() {
         
         let query = "baby day out"
-        let action = Applications.IMDb.Action.Search(query: query)
+        let action = Applications.IMDb.Action.search(query: query)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["", "find"])
         XCTAssertEqual(action.paths.app.queryParameters, ["q":query])
@@ -43,7 +43,7 @@ class IMDbTests: XCTestCase {
     func testTitle() {
         
         let id = "tt0068646"
-        let action = Applications.IMDb.Action.Title(id: id)
+        let action = Applications.IMDb.Action.title(id: id)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["", "title", id])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -53,7 +53,7 @@ class IMDbTests: XCTestCase {
     
     func testBoxoffice() {
         
-        let action = Applications.IMDb.Action.Boxoffice
+        let action = Applications.IMDb.Action.boxoffice
         
         XCTAssertEqual(action.paths.app.pathComponents, ["", "boxoffice"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -63,7 +63,7 @@ class IMDbTests: XCTestCase {
     
     func testShowtimes() {
         
-        let action = Applications.IMDb.Action.Showtimes
+        let action = Applications.IMDb.Action.showtimes
         
         XCTAssertEqual(action.paths.app.pathComponents, ["", "showtimes"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -73,7 +73,7 @@ class IMDbTests: XCTestCase {
     
     func testFeatureCS() {
         
-        let action = Applications.IMDb.Action.FeatureCS
+        let action = Applications.IMDb.Action.featureCS
         
         XCTAssertEqual(action.paths.app.pathComponents, ["", "feature", "comingsoon"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -83,7 +83,7 @@ class IMDbTests: XCTestCase {
     
     func testFeatureBP() {
         
-        let action = Applications.IMDb.Action.FeatureBP
+        let action = Applications.IMDb.Action.featureBP
         
         XCTAssertEqual(action.paths.app.pathComponents, ["", "feature", "bestpicture"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -93,7 +93,7 @@ class IMDbTests: XCTestCase {
     
     func testFeatureBT() {
         
-        let action = Applications.IMDb.Action.FeatureBT
+        let action = Applications.IMDb.Action.featureBT
         
         XCTAssertEqual(action.paths.app.pathComponents, ["", "feature", "borntoday"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -103,7 +103,7 @@ class IMDbTests: XCTestCase {
     
     func testChartTop() {
         
-        let action = Applications.IMDb.Action.ChartTop
+        let action = Applications.IMDb.Action.chartTop
         
         XCTAssertEqual(action.paths.app.pathComponents, ["", "chart", "top"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -113,7 +113,7 @@ class IMDbTests: XCTestCase {
     
     func testMoviemeter() {
         
-        let action = Applications.IMDb.Action.Moviemeter
+        let action = Applications.IMDb.Action.moviemeter
         
         XCTAssertEqual(action.paths.app.pathComponents, ["", "chart", "moviemeter"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

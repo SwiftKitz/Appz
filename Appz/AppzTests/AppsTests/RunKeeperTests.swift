@@ -22,7 +22,7 @@ class RunKeeperTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.RunKeeper.Action.Open
+        let action = Applications.RunKeeper.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

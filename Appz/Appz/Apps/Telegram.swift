@@ -25,8 +25,8 @@ public extension Applications {
 public extension Applications.Telegram {
     
     public enum Action {
-        case Open
-        case Msg(message: String, phone: String)
+        case open
+        case msg(message: String, phone: String)
     }
 }
 
@@ -35,7 +35,7 @@ extension Applications.Telegram.Action: ExternalApplicationAction {
     public var paths: ActionPaths {
         
         switch self {
-        case .Open:
+        case .open:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["app"],
@@ -44,7 +44,7 @@ extension Applications.Telegram.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .Msg(let message, let phone):
+        case .msg(let message, let phone):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["msg"],

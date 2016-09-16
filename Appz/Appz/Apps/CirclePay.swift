@@ -25,9 +25,9 @@ public extension Applications {
 public extension Applications.CirclePay {
 
     public enum Action {
-        case Open
-        case Request
-        case Send
+        case open
+        case request
+        case send
     }
 }
 
@@ -36,10 +36,10 @@ extension Applications.CirclePay.Action: ExternalApplicationAction {
     public var paths: ActionPaths {
 
         switch self {
-        case .Open:
+        case .open:
             return ActionPaths()
 
-        case .Request:
+        case .request:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["request"],
@@ -51,7 +51,7 @@ extension Applications.CirclePay.Action: ExternalApplicationAction {
                 )
             )
 
-        case .Send:
+        case .send:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["send"],

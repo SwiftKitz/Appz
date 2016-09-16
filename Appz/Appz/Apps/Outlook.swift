@@ -25,8 +25,8 @@ public extension Applications {
 public extension Applications.Outlook {
     
     public enum Action {
-        case Open
-        case Compose(to: String, subject: String)
+        case open
+        case compose(to: String, subject: String)
     }
 }
 
@@ -35,7 +35,7 @@ extension Applications.Outlook.Action: ExternalApplicationAction {
     public var paths: ActionPaths {
         
         switch self {
-        case .Open:
+        case .open:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["app"],
@@ -44,7 +44,7 @@ extension Applications.Outlook.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .Compose(let to, let subject):
+        case .compose(let to, let subject):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["compose"],

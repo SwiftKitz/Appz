@@ -23,7 +23,7 @@ class MessagesTests: XCTestCase {
     func testSMS() {
         
         let phone = "12345"
-        let action = Applications.Messages.Action.SMS(phone: phone)
+        let action = Applications.Messages.Action.sms(phone: phone)
         
         XCTAssertEqual(action.paths.app.pathComponents, [phone])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

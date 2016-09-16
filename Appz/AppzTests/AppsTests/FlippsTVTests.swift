@@ -22,7 +22,7 @@ class FlippsTVTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.FlippsTV.Action.Open
+        let action = Applications.FlippsTV.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

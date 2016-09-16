@@ -19,7 +19,7 @@ class PathTests: XCTestCase {
     
     func testAppendToURL() {
         
-        let expectedURL = NSURL(string: "https://google.com/a/b?1=2&11=22")
+        let expectedURL = URL(string: "https://google.com/a/b?1=2&11=22")
         XCTAssertEqual(path.appendToURL("https://google.com/"), expectedURL)
     }
     
@@ -29,7 +29,7 @@ class PathTests: XCTestCase {
     
     func testAppendToURLWithoutHost() {
         
-        let expectedURL = NSURL(string: "test://a/b?1=2&11=22")
+        let expectedURL = URL(string: "test://a/b?1=2&11=22")
         XCTAssertEqual(path.appendToURL("test:"), expectedURL)
     }
 }

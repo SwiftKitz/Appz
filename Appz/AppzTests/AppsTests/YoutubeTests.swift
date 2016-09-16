@@ -23,7 +23,7 @@ class YoutubeTests: XCTestCase {
     func testOpen() {
         
         
-        let action = Applications.Youtube.Action.Open()
+        let action = Applications.Youtube.Action.open()
         XCTAssertEqual(action.paths.app.pathComponents, [])
         XCTAssertEqual(action.paths.app.queryParameters,[:])
         
@@ -37,7 +37,7 @@ class YoutubeTests: XCTestCase {
     func testVideo() {
         
         
-        let action = Applications.Youtube.Action.Video(id: "someId")
+        let action = Applications.Youtube.Action.video(id: "someId")
         XCTAssertEqual(action.paths.app.pathComponents, ["watch"])
         XCTAssertEqual(action.paths.app.queryParameters,["v":"someId"])
         

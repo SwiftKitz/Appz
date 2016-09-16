@@ -25,12 +25,12 @@ public extension Applications {
 public extension Applications.Facebook {
     
     public enum Action {
-        case Open
-        case Profile
-        case Notifications
-        case Feed
-        case Page(String)
-        case Event(String)
+        case open
+        case profile
+        case notifications
+        case feed
+        case page(String)
+        case event(String)
     }
 }
 
@@ -39,7 +39,7 @@ extension Applications.Facebook.Action: ExternalApplicationAction {
     public var paths: ActionPaths {
         
         switch self {
-        case .Open:
+        case .open:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["app"],
@@ -48,7 +48,7 @@ extension Applications.Facebook.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .Profile:
+        case .profile:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["profile"],
@@ -60,7 +60,7 @@ extension Applications.Facebook.Action: ExternalApplicationAction {
                 )
             )
             
-        case .Notifications:
+        case .notifications:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["notifications"],
@@ -72,7 +72,7 @@ extension Applications.Facebook.Action: ExternalApplicationAction {
                 )
             )
             
-        case .Feed:
+        case .feed:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["feed"],
@@ -84,7 +84,7 @@ extension Applications.Facebook.Action: ExternalApplicationAction {
                 )
             )
         
-        case .Page(let id):
+        case .page(let id):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["page"],
@@ -95,7 +95,7 @@ extension Applications.Facebook.Action: ExternalApplicationAction {
                     queryParameters: [:]
                 )
             )
-        case .Event(let id):
+        case .event(let id):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["event"],

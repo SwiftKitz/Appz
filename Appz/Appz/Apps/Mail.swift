@@ -39,7 +39,7 @@ public struct Email {
 public extension Applications.Mail {
     
     public enum Action {
-        case Compose(email: Email)
+        case compose(email: Email)
     }
 }
 
@@ -49,7 +49,7 @@ extension Applications.Mail.Action: ExternalApplicationAction {
     public var paths: ActionPaths {
         
         switch self {
-        case .Compose(let email):
+        case .compose(let email):
             return ActionPaths(
                 app: Path(
                     pathComponents: [email.recipient],

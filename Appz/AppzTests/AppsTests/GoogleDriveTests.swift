@@ -22,7 +22,7 @@ class GoogleDriveTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.GoogleDrive.Action.Open
+        let action = Applications.GoogleDrive.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

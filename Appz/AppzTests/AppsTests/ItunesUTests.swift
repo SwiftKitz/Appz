@@ -22,7 +22,7 @@ class ItunesUTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.ItunesU.Action.Open
+        let action = Applications.ItunesU.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

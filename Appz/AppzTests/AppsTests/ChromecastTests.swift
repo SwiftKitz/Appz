@@ -22,7 +22,7 @@ class ChromecastTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Chromecast.Action.Open
+        let action = Applications.Chromecast.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

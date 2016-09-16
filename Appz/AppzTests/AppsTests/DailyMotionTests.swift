@@ -22,7 +22,7 @@ class DailyMotionTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.DailyMotion.Action.Open
+        let action = Applications.DailyMotion.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

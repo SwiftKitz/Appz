@@ -22,7 +22,7 @@ class AudibleTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Audible.Action.Open
+        let action = Applications.Audible.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

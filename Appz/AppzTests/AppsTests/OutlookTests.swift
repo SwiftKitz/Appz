@@ -22,7 +22,7 @@ class OutlookTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Outlook.Action.Open
+        let action = Applications.Outlook.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -33,7 +33,7 @@ class OutlookTests: XCTestCase {
         
         let to = "mrm259@gmail.com"
         let subject = "Hi"
-        let action = Applications.Outlook.Action.Compose(to: to, subject: subject)
+        let action = Applications.Outlook.Action.compose(to: to, subject: subject)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["compose"])
         XCTAssertEqual(action.paths.app.queryParameters, [

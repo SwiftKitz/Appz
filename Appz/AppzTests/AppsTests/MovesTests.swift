@@ -22,7 +22,7 @@ class MovesTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Moves.Action.Open
+        let action = Applications.Moves.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

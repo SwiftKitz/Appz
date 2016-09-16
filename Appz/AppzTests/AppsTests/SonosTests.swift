@@ -22,7 +22,7 @@ class SonosTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Sonos.Action.Open
+        let action = Applications.Sonos.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

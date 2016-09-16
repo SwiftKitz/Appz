@@ -25,8 +25,8 @@ public extension Applications {
 public extension Applications.Vine {
     
     public enum Action {
-        case Open
-        case TimelinesPopular
+        case open
+        case timelinesPopular
     }
 }
 
@@ -35,7 +35,7 @@ extension Applications.Vine.Action: ExternalApplicationAction {
     public var paths: ActionPaths {
         
         switch self {
-        case .Open:
+        case .open:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["app"],
@@ -44,7 +44,7 @@ extension Applications.Vine.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .TimelinesPopular:
+        case .timelinesPopular:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["timelines", "popular"],

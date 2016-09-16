@@ -26,12 +26,12 @@ public extension Applications {
 public extension Applications.Yelp {
     
     public enum Action {
-        case Open
-        case Search(query: String)
-        case SearchLocation(query: String, loc: String)
-        case SearchCategory(cat: String)
-        case SearchCatLoc(loc: String, cat: String)
-        case Business(id: String)
+        case open
+        case search(query: String)
+        case searchLocation(query: String, loc: String)
+        case searchCategory(cat: String)
+        case searchCatLoc(loc: String, cat: String)
+        case business(id: String)
     }
 }
 
@@ -40,7 +40,7 @@ extension Applications.Yelp.Action: ExternalApplicationAction {
     public var paths: ActionPaths {
         
         switch self {
-        case .Open:
+        case .open:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["app"],
@@ -49,7 +49,7 @@ extension Applications.Yelp.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .Search(let query):
+        case .search(let query):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["", "search"],
@@ -61,7 +61,7 @@ extension Applications.Yelp.Action: ExternalApplicationAction {
                 )
             )
             
-        case .SearchLocation(let query, let loc):
+        case .searchLocation(let query, let loc):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["", "search"],
@@ -79,7 +79,7 @@ extension Applications.Yelp.Action: ExternalApplicationAction {
                 )
             )
             
-        case .SearchCategory(let cat):
+        case .searchCategory(let cat):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["", "search"],
@@ -91,7 +91,7 @@ extension Applications.Yelp.Action: ExternalApplicationAction {
                 )
             )
             
-        case .SearchCatLoc(let loc, let cat):
+        case .searchCatLoc(let loc, let cat):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["", "search"],
@@ -109,7 +109,7 @@ extension Applications.Yelp.Action: ExternalApplicationAction {
                 )
             )
             
-        case .Business(let id):
+        case .business(let id):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["", "biz", id],

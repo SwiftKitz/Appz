@@ -24,7 +24,7 @@ class AppStoreTests: XCTestCase {
     func testOpenApp() {
         
         let appId = "395107915"
-        let action = Applications.AppStore.Action.App(id: appId)
+        let action = Applications.AppStore.Action.app(id: appId)
      
         XCTAssertEqual(action.paths.app.pathComponents, ["itunes.apple.com", "app", "id\(appId)"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -34,7 +34,7 @@ class AppStoreTests: XCTestCase {
     func testOpenAccount() {
         
         let accountId = "395107918"
-        let action = Applications.AppStore.Action.Account(id: accountId)
+        let action = Applications.AppStore.Action.account(id: accountId)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["itunes.apple.com", "developer", "id\(accountId)"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -44,7 +44,7 @@ class AppStoreTests: XCTestCase {
     func testRateApp() {
         
         let appId = "327630330"
-        let action = Applications.AppStore.Action.RateApp(id: appId)
+        let action = Applications.AppStore.Action.rateApp(id: appId)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["itunes.apple.com", "WebObjects", "MZStore.woa", "wa", "viewContentsUserReviews"])
         XCTAssertEqual(action.paths.app.queryParameters, [
