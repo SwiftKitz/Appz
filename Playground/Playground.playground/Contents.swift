@@ -9,16 +9,16 @@ import Appz
 //: ## Features
 //: Concise syntax to trigger deeplinking
 
-let app = UIApplication.sharedApplication()
+let app = UIApplication.shared
 app.canOpen(Applications.Instagram())
-app.open(Applications.AppStore(), action: .Account(id: "395107918"))
-app.open(Applications.AppSettings(), action: .Open)
+app.open(Applications.AppStore(), action: .account(id: "395107918"))
+app.open(Applications.AppSettings(), action: .open)
 
 //: Transparent web fallback
 
 // In case the user doesn't have twitter installed, it will fallback to
 // https://twitter.com/statuses/2
-app.open(Applications.Twitter(), action: .Status(id: "2"))
+app.open(Applications.Twitter(), action: .status(id: "2"))
 
 //: Add your own application
 
@@ -41,18 +41,18 @@ extension Applications.MyApp {
     
     enum Action: ExternalApplicationAction {
         
-        case Open
+        case open
         
         // Each action should provide an app path and web path to be
         // added to the associated URL
         var paths: ActionPaths {
             
             switch self {
-            case .Open:
+            case .open:
                 return ActionPaths()
             }
         }
     }
 }
 
-app.open(Applications.MyApp(), action: .Open)
+app.open(Applications.MyApp(), action: .open)
