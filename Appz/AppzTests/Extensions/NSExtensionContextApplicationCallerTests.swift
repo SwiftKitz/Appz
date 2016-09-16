@@ -17,6 +17,6 @@ class NSExtensionContextApplicationCallerTests: XCTestCase {
     }
     
     func testOpenURL() {
-        XCTAssertTrue(NSExtensionContext().openURL(NSURL()))
+        XCTAssertTrue(NSExtensionContext().openURL(URL(string: "https://github.com/SwiftKitz/Appz")!))
     }
 }

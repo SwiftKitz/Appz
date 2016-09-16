@@ -25,7 +25,7 @@ public extension Applications {
 public extension Applications.Phone {
     
     public enum Action {
-        case Open(number: String)
+        case open(number: String)
     }
 }
 
@@ -34,7 +34,7 @@ extension Applications.Phone.Action: ExternalApplicationAction {
     public var paths: ActionPaths {
         
         switch self {
-        case .Open(let number):
+        case .open(let number):
             return ActionPaths(
                 app: Path(
                     pathComponents: [number],

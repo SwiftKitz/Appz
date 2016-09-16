@@ -22,7 +22,7 @@ class WordPressTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.WordPress.Action.Open
+        let action = Applications.WordPress.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

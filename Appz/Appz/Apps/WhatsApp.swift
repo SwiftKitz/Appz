@@ -25,8 +25,8 @@ public extension Applications {
 public extension Applications.WhatsApp {
     
     public enum Action {
-        case Open
-        case Send(abid: String?, text: String)
+        case open
+        case send(abid: String?, text: String)
     }
 }
 
@@ -35,7 +35,7 @@ extension Applications.WhatsApp.Action: ExternalApplicationAction {
     public var paths: ActionPaths {
         
         switch self {
-        case .Open:
+        case .open:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["app"],
@@ -43,7 +43,7 @@ extension Applications.WhatsApp.Action: ExternalApplicationAction {
                 ),
                 web: Path()
             )
-        case .Send(let abid, let text):
+        case .send(let abid, let text):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["send"],

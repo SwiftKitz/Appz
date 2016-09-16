@@ -14,9 +14,9 @@ public struct Path {
     public var pathComponents = [String]()
     public var queryParameters = [String:String]()
     
-    public var queryItems: [NSURLQueryItem] {
+    public var queryItems: [URLQueryItem] {
         return queryParameters
-            .map { NSURLQueryItem(name: $0, value: $1) }
+            .map { URLQueryItem(name: $0, value: $1) }
     }
     
     public init() {}
@@ -33,27 +33,27 @@ public struct Path {
      - Parameter baseURL:  The base URL.
      
      */
-    public func appendToURL(baseURL: String) -> NSURL? {
+    public func appendToURL(_ baseURL: String) -> URL? {
         
-        guard let url = NSURL(string: baseURL) else {
+        guard let url = URL(string: baseURL) else {
             return nil
         }
         
-        let urlComponents = NSURLComponents(URL: url, resolvingAgainstBaseURL: false)
+        var urlComponents = URLComponents(url: url, resolvingAgainstBaseURL: false)
         urlComponents?.queryItems = queryItems.isEmpty ? nil : queryItems
         
         var pathComponents = self.pathComponents
         
-        if let firstPath = pathComponents.first where urlComponents?.host == nil {
+        if let firstPath = pathComponents.first , urlComponents?.host == nil {
             urlComponents?.host = firstPath
             pathComponents = Array(pathComponents.dropFirst())
         }
         
         if !pathComponents.isEmpty {
-            urlComponents?.path = "/" + pathComponents.joinWithSeparator("/")
+            urlComponents?.path = "/" + pathComponents.joined(separator: "/")
         }
         
-        return urlComponents?.URL
+        return urlComponents?.url
     }
 }
 

@@ -25,8 +25,8 @@ public extension Applications {
 public extension Applications.Youtube {
     
     public enum Action {
-        case Open()
-        case Video(id: String)
+        case open()
+        case video(id: String)
     }
 }
 
@@ -35,10 +35,10 @@ extension Applications.Youtube.Action: ExternalApplicationAction {
     public var paths: ActionPaths {
         
         switch self {
-        case .Open():
+        case .open():
             return ActionPaths()
             
-        case .Video(let id):
+        case .video(let id):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["watch"],

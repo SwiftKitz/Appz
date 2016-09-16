@@ -22,7 +22,7 @@ class PeriscopeTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Periscope.Action.Open
+        let action = Applications.Periscope.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

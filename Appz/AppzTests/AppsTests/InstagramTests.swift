@@ -22,7 +22,7 @@ class InstagramTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Instagram.Action.Open
+        let action = Applications.Instagram.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -31,7 +31,7 @@ class InstagramTests: XCTestCase {
     
     func testCamera() {
         
-        let action = Applications.Instagram.Action.Camera
+        let action = Applications.Instagram.Action.camera
         
         XCTAssertEqual(action.paths.app.pathComponents, ["camera"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -40,7 +40,7 @@ class InstagramTests: XCTestCase {
     
     func testMedia() {
         
-        let action = Applications.Instagram.Action.Media(id: "1")
+        let action = Applications.Instagram.Action.media(id: "1")
         
         XCTAssertEqual(action.paths.app.pathComponents, ["media"])
         XCTAssertEqual(action.paths.app.queryParameters, ["id":"1"])
@@ -49,7 +49,7 @@ class InstagramTests: XCTestCase {
     
     func testUsername() {
         
-        let action = Applications.Instagram.Action.Username(username: "test")
+        let action = Applications.Instagram.Action.username(username: "test")
         
         XCTAssertEqual(action.paths.app.pathComponents, ["user"])
         XCTAssertEqual(action.paths.app.queryParameters, ["id":"test"])
@@ -58,7 +58,7 @@ class InstagramTests: XCTestCase {
     
     func testLocation() {
         
-        let action = Applications.Instagram.Action.Location(id: "111")
+        let action = Applications.Instagram.Action.location(id: "111")
         
         XCTAssertEqual(action.paths.app.pathComponents, ["location"])
         XCTAssertEqual(action.paths.app.queryParameters, ["id":"111"])
@@ -67,7 +67,7 @@ class InstagramTests: XCTestCase {
     
     func testTag() {
         
-        let action = Applications.Instagram.Action.Tag(name: "tag")
+        let action = Applications.Instagram.Action.tag(name: "tag")
         
         XCTAssertEqual(action.paths.app.pathComponents, ["tag"])
         XCTAssertEqual(action.paths.app.queryParameters, ["name":"tag"])

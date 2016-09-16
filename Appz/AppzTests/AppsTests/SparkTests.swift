@@ -24,7 +24,7 @@ class SparkTests: XCTestCase {
         
         let subject = "Hi"
         let recipient = "mrm259@gmail.com"
-        let action = Applications.Spark.Action.Compose(subject: subject, recipient:recipient)
+        let action = Applications.Spark.Action.compose(subject: subject, recipient:recipient)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["compose"])
         XCTAssertEqual(action.paths.app.queryParameters, [

@@ -22,7 +22,7 @@ class OnePasswordTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.OnePassword.Action.Open
+        let action = Applications.OnePassword.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

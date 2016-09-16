@@ -22,7 +22,7 @@ class GlympseTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Glympse.Action.Open
+        let action = Applications.Glympse.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

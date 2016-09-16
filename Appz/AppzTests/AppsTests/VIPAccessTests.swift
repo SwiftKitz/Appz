@@ -22,7 +22,7 @@ class VIPAccessTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.VIPAccess.Action.Open
+        let action = Applications.VIPAccess.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

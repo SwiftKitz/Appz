@@ -22,7 +22,7 @@ class MarvisTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Marvis.Action.Open
+        let action = Applications.Marvis.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

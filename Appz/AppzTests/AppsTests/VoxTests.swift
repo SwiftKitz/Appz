@@ -22,7 +22,7 @@ class VoxTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Vox.Action.Open
+        let action = Applications.Vox.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

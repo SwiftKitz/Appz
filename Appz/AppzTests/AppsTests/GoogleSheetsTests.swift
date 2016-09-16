@@ -22,7 +22,7 @@ class GoogleSheetsTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.GoogleSheets.Action.Open
+        let action = Applications.GoogleSheets.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

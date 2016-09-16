@@ -22,7 +22,7 @@ class UnreadTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Unread.Action.Open
+        let action = Applications.Unread.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

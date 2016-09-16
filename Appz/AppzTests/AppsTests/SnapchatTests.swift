@@ -22,7 +22,7 @@ class SnapchatTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Snapchat.Action.Open
+        let action = Applications.Snapchat.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -31,7 +31,7 @@ class SnapchatTests: XCTestCase {
     
     
     func testAdd(){
-        let action = Applications.Snapchat.Action.Add(username: "username")
+        let action = Applications.Snapchat.Action.add(username: "username")
         
         XCTAssertEqual(action.paths.app.pathComponents, ["add","username"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

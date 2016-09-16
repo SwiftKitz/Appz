@@ -22,7 +22,7 @@ class ViberTests: XCTestCase {
     
     func testCallsTab() {
         
-        let action = Applications.Viber.Action.CallsTab
+        let action = Applications.Viber.Action.callsTab
         
         XCTAssertEqual(action.paths.app.pathComponents, ["calls"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -31,7 +31,7 @@ class ViberTests: XCTestCase {
     
     func testChatsTab() {
         
-        let action = Applications.Viber.Action.ChatsTab
+        let action = Applications.Viber.Action.chatsTab
         
         XCTAssertEqual(action.paths.app.pathComponents, ["chats"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

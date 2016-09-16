@@ -22,7 +22,7 @@ class PaypalTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Paypal.Action.Open
+        let action = Applications.Paypal.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

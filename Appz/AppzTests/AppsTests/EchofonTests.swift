@@ -22,7 +22,7 @@ class EchofonTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Echofon.Action.Open
+        let action = Applications.Echofon.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

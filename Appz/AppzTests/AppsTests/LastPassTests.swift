@@ -22,7 +22,7 @@ class LastPassTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.LastPass.Action.Open
+        let action = Applications.LastPass.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

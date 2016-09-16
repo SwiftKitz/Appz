@@ -22,7 +22,7 @@ class WikipanionTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Wikipanion.Action.Open
+        let action = Applications.Wikipanion.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

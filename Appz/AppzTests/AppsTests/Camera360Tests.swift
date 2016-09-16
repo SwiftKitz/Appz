@@ -22,7 +22,7 @@ class Camera360Tests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Camera360.Action.Open
+        let action = Applications.Camera360.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

@@ -23,7 +23,7 @@ class SettingsTests: XCTestCase {
     
     func testOpenHome() {
         
-        let action = Applications.AppSettings.Action.Open
+        let action = Applications.AppSettings.Action.open
         XCTAssertEqual(action.paths.app.pathComponents, [])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
         XCTAssertEqual(action.paths.web, Path())

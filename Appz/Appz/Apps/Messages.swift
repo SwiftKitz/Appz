@@ -26,7 +26,7 @@ public extension Applications.Messages {
     
     public enum Action {
         
-        case SMS(phone: String)
+        case sms(phone: String)
     }
 }
 
@@ -35,7 +35,7 @@ extension Applications.Messages.Action: ExternalApplicationAction {
     public var paths: ActionPaths {
         
         switch self {
-        case .SMS(let phone):
+        case .sms(let phone):
             return ActionPaths(
                 app: Path(
                     pathComponents: [phone],
