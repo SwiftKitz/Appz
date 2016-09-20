@@ -23,13 +23,14 @@ public extension ApplicationCaller {
     public func canOpen<E: ExternalApplication>(_ externalApp: E) -> Bool {
 
         if let baseURL = URL(string: externalApp.scheme) {
+            
             return canOpenURL(baseURL)
         }
         
         return false
     }
     
-    public func open<E: ExternalApplication>(_ externalApp: E, action: E.ActionType, promptInstall: Bool = false) -> Bool {
+    @discardableResult public func open<E: ExternalApplication>(_ externalApp: E, action: E.ActionType, promptInstall: Bool = false) -> Bool {
         
         let scheme = externalApp.scheme
         let baseURL = URL(string: scheme)
