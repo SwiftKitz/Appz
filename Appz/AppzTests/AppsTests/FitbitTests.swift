@@ -22,7 +22,7 @@ class FitbitTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Fitbit.Action.Open
+        let action = Applications.Fitbit.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

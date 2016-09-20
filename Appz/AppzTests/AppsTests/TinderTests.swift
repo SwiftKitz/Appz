@@ -22,7 +22,7 @@ class TinderTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Tinder.Action.Open
+        let action = Applications.Tinder.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

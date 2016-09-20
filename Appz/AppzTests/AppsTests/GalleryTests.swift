@@ -22,7 +22,7 @@ class GalleryTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Gallery.Action.Open
+        let action = Applications.Gallery.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

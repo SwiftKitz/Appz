@@ -22,7 +22,7 @@ class YelpTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Yelp.Action.Open
+        let action = Applications.Yelp.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -32,7 +32,7 @@ class YelpTests: XCTestCase {
     func testSearch() {
         
         let query = "Coffee"
-        let action = Applications.Yelp.Action.Search(query: query)
+        let action = Applications.Yelp.Action.search(query: query)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["", "search"])
         XCTAssertEqual(action.paths.app.queryParameters, ["terms":query])
@@ -44,7 +44,7 @@ class YelpTests: XCTestCase {
         
         let query = "restaurants"
         let loc = "sf"
-        let action = Applications.Yelp.Action.SearchLocation(query: query, loc: loc)
+        let action = Applications.Yelp.Action.searchLocation(query: query, loc: loc)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["", "search"])
         XCTAssertEqual(action.paths.app.queryParameters, ["terms":query,
@@ -57,7 +57,7 @@ class YelpTests: XCTestCase {
     func testSearchCategory() {
         
         let cat = "restaurants"
-        let action = Applications.Yelp.Action.SearchCategory(cat: cat)
+        let action = Applications.Yelp.Action.searchCategory(cat: cat)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["", "search"])
         XCTAssertEqual(action.paths.app.queryParameters, ["category":cat])
@@ -69,7 +69,7 @@ class YelpTests: XCTestCase {
         
         let cat = "restaurants"
         let loc = "Hayes"
-        let action = Applications.Yelp.Action.SearchCatLoc(loc: loc, cat: cat)
+        let action = Applications.Yelp.Action.searchCatLoc(loc: loc, cat: cat)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["", "search"])
         XCTAssertEqual(action.paths.app.queryParameters, ["category": cat,
@@ -82,7 +82,7 @@ class YelpTests: XCTestCase {
     func testBusiness() {
         
         let id = "the-sentinel-san-francisco"
-        let action = Applications.Yelp.Action.Business(id: id)
+        let action = Applications.Yelp.Action.business(id: id)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["", "biz", id])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

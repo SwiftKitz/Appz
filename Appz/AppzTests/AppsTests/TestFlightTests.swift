@@ -22,7 +22,7 @@ class TestFlightTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.TestFlight.Action.Open
+        let action = Applications.TestFlight.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

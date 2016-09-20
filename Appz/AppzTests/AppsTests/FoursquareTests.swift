@@ -22,7 +22,7 @@ class FoursquareTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Foursquare.Action.Open
+        let action = Applications.Foursquare.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

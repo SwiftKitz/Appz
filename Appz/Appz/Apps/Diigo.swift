@@ -25,7 +25,7 @@ public extension Applications {
 public extension Applications.Diigo {
     
     public enum Action {
-        case Open
+        case open
     }
 }
 
@@ -34,7 +34,7 @@ extension Applications.Diigo.Action: ExternalApplicationAction {
     public var paths: ActionPaths {
         
         switch self {
-        case .Open:
+        case .open:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["app"],

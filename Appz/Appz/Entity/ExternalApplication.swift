@@ -11,11 +11,8 @@
  */
 public protocol ExternalApplication {
     
-    #if swift(>=2.2)
     associatedtype ActionType: ExternalApplicationAction
-    #else
-    typealias ActionType: ExternalApplicationAction
-    #endif
+
     
     var scheme: String { get }
     var fallbackURL: String { get }

@@ -22,7 +22,7 @@ class KakaoTalkTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.KakaoTalk.Action.Open
+        let action = Applications.KakaoTalk.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

@@ -22,7 +22,7 @@ class MusicTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Music.Action.Open
+        let action = Applications.Music.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

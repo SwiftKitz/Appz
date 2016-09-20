@@ -22,7 +22,7 @@ class EbayTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Ebay.Action.Open
+        let action = Applications.Ebay.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

@@ -22,7 +22,7 @@ class WhydTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Whyd.Action.Open
+        let action = Applications.Whyd.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

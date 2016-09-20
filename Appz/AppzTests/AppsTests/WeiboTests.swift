@@ -22,7 +22,7 @@ class WeiboTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Weibo.Action.Open
+        let action = Applications.Weibo.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

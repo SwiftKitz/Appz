@@ -22,7 +22,7 @@ class HeapoTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Heapo.Action.Open
+        let action = Applications.Heapo.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

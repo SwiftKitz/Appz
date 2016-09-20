@@ -22,7 +22,7 @@ class FeedlyTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Feedly.Action.Open
+        let action = Applications.Feedly.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

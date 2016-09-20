@@ -25,8 +25,8 @@ public extension Applications {
 public extension Applications.GoogleCalendar {
     
     public enum Action {
-        case Open
-        case CreateEvent
+        case open
+        case createEvent
     }
 }
 
@@ -35,7 +35,7 @@ extension Applications.GoogleCalendar.Action: ExternalApplicationAction {
     public var paths: ActionPaths {
         
         switch self {
-        case .Open:
+        case .open:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["app"],
@@ -44,7 +44,7 @@ extension Applications.GoogleCalendar.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .CreateEvent:
+        case .createEvent:
             return ActionPaths(
                 app: Path(
                     pathComponents: [""],

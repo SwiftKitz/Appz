@@ -21,13 +21,13 @@ class TweetbotTests: XCTestCase {
     }
     
     func testTimeline() {
-        var action = Applications.Tweetbot.Action.Timeline(screenname: nil)
+        var action = Applications.Tweetbot.Action.timeline(screenname: nil)
         XCTAssertEqual(action.paths.app.pathComponents, ["","timeline"])
         XCTAssertEqual(action.paths.app.queryParameters,[:])
         
         XCTAssertEqual(action.paths.web.pathComponents, [])
         XCTAssertEqual(action.paths.web.queryParameters,[:])
-        action = Applications.Tweetbot.Action.Timeline(screenname: "dreamer_soul")
+        action = Applications.Tweetbot.Action.timeline(screenname: "dreamer_soul")
         
         XCTAssertEqual(action.paths.app.pathComponents, ["dreamer_soul","timeline"])
         XCTAssertEqual(action.paths.app.queryParameters,[:])
@@ -38,13 +38,13 @@ class TweetbotTests: XCTestCase {
     
     
     func testMentions() {
-        var action = Applications.Tweetbot.Action.Mentions(screenname: nil)
+        var action = Applications.Tweetbot.Action.mentions(screenname: nil)
         XCTAssertEqual(action.paths.app.pathComponents, ["","mentions"])
         XCTAssertEqual(action.paths.app.queryParameters,[:])
         
         XCTAssertEqual(action.paths.web.pathComponents, [])
         XCTAssertEqual(action.paths.web.queryParameters,[:])
-        action = Applications.Tweetbot.Action.Mentions(screenname: "dreamer_soul")
+        action = Applications.Tweetbot.Action.mentions(screenname: "dreamer_soul")
         
         XCTAssertEqual(action.paths.app.pathComponents, ["dreamer_soul","mentions"])
         XCTAssertEqual(action.paths.app.queryParameters,[:])
@@ -54,13 +54,13 @@ class TweetbotTests: XCTestCase {
     }
     
     func testDirectMessage() {
-        var action = Applications.Tweetbot.Action.DirectMessages(screenname: nil)
+        var action = Applications.Tweetbot.Action.directMessages(screenname: nil)
         XCTAssertEqual(action.paths.app.pathComponents, ["","direct_messages"])
         XCTAssertEqual(action.paths.app.queryParameters,[:])
         
         XCTAssertEqual(action.paths.web.pathComponents, [])
         XCTAssertEqual(action.paths.web.queryParameters,[:])
-        action = Applications.Tweetbot.Action.DirectMessages(screenname: "dreamer_soul")
+        action = Applications.Tweetbot.Action.directMessages(screenname: "dreamer_soul")
         
         XCTAssertEqual(action.paths.app.pathComponents, ["dreamer_soul","direct_messages"])
         XCTAssertEqual(action.paths.app.queryParameters,[:])
@@ -70,13 +70,13 @@ class TweetbotTests: XCTestCase {
     }
     
     func testFavorites() {
-        var action = Applications.Tweetbot.Action.Favorites(screenname: nil)
+        var action = Applications.Tweetbot.Action.favorites(screenname: nil)
         XCTAssertEqual(action.paths.app.pathComponents, ["","favorites"])
         XCTAssertEqual(action.paths.app.queryParameters,[:])
         
         XCTAssertEqual(action.paths.web.pathComponents, [])
         XCTAssertEqual(action.paths.web.queryParameters,[:])
-        action = Applications.Tweetbot.Action.Favorites(screenname: "dreamer_soul")
+        action = Applications.Tweetbot.Action.favorites(screenname: "dreamer_soul")
         
         XCTAssertEqual(action.paths.app.pathComponents, ["dreamer_soul","favorites"])
         XCTAssertEqual(action.paths.app.queryParameters,[:])
@@ -86,13 +86,13 @@ class TweetbotTests: XCTestCase {
     }
     
     func testRetweets() {
-        var action = Applications.Tweetbot.Action.Retweets(screenname: nil)
+        var action = Applications.Tweetbot.Action.retweets(screenname: nil)
         XCTAssertEqual(action.paths.app.pathComponents, ["","retweets"])
         XCTAssertEqual(action.paths.app.queryParameters,[:])
         
         XCTAssertEqual(action.paths.web.pathComponents, [])
         XCTAssertEqual(action.paths.web.queryParameters,[:])
-        action = Applications.Tweetbot.Action.Retweets(screenname: "dreamer_soul")
+        action = Applications.Tweetbot.Action.retweets(screenname: "dreamer_soul")
         
         XCTAssertEqual(action.paths.app.pathComponents, ["dreamer_soul","retweets"])
         XCTAssertEqual(action.paths.app.queryParameters,[:])
@@ -102,13 +102,13 @@ class TweetbotTests: XCTestCase {
     }
     
     func testLists() {
-        var action = Applications.Tweetbot.Action.Lists(screenname: nil)
+        var action = Applications.Tweetbot.Action.lists(screenname: nil)
         XCTAssertEqual(action.paths.app.pathComponents, ["","lists"])
         XCTAssertEqual(action.paths.app.queryParameters,[:])
         
         XCTAssertEqual(action.paths.web.pathComponents, [])
         XCTAssertEqual(action.paths.web.queryParameters,[:])
-        action = Applications.Tweetbot.Action.Lists(screenname: "dreamer_soul")
+        action = Applications.Tweetbot.Action.lists(screenname: "dreamer_soul")
         
         XCTAssertEqual(action.paths.app.pathComponents, ["dreamer_soul","lists"])
         XCTAssertEqual(action.paths.app.queryParameters,[:])
@@ -119,13 +119,13 @@ class TweetbotTests: XCTestCase {
     
     func testFavorite() {
         let id = "someId"
-        var action = Applications.Tweetbot.Action.Favorite(screenname: nil, tweetId: id)
+        var action = Applications.Tweetbot.Action.favorite(screenname: nil, tweetId: id)
         XCTAssertEqual(action.paths.app.pathComponents, ["", "favorite", id])
         XCTAssertEqual(action.paths.app.queryParameters,[:])
         
         XCTAssertEqual(action.paths.web.pathComponents, [])
         XCTAssertEqual(action.paths.web.queryParameters,[:])
-        action = Applications.Tweetbot.Action.Favorite(screenname: "dreamer_soul", tweetId: id)
+        action = Applications.Tweetbot.Action.favorite(screenname: "dreamer_soul", tweetId: id)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["dreamer_soul", "favorite", id])
         XCTAssertEqual(action.paths.app.queryParameters,[:])
@@ -136,13 +136,13 @@ class TweetbotTests: XCTestCase {
     
     func testUnfavorite(){
         let id = "someId"
-        var action = Applications.Tweetbot.Action.Unfavorite(screenname: nil, tweetId: id)
+        var action = Applications.Tweetbot.Action.unfavorite(screenname: nil, tweetId: id)
         XCTAssertEqual(action.paths.app.pathComponents, ["","unfavorite",id])
         XCTAssertEqual(action.paths.app.queryParameters,[:])
         
         XCTAssertEqual(action.paths.web.pathComponents, [])
         XCTAssertEqual(action.paths.web.queryParameters,[:])
-        action = Applications.Tweetbot.Action.Unfavorite(screenname: "dreamer_soul", tweetId: id)
+        action = Applications.Tweetbot.Action.unfavorite(screenname: "dreamer_soul", tweetId: id)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["dreamer_soul", "unfavorite", id])
         XCTAssertEqual(action.paths.app.queryParameters,[:])
@@ -155,14 +155,14 @@ class TweetbotTests: XCTestCase {
     func testRetweet(){
         let id = "someId"
         
-        var action = Applications.Tweetbot.Action.Retweet(screenname: nil, tweetId: id)
+        var action = Applications.Tweetbot.Action.retweet(screenname: nil, tweetId: id)
         XCTAssertEqual(action.paths.app.pathComponents, ["","retweet",id])
         XCTAssertEqual(action.paths.app.queryParameters,[:])
         
         XCTAssertEqual(action.paths.web.pathComponents, [])
         XCTAssertEqual(action.paths.web.queryParameters,[:])
         
-        action = Applications.Tweetbot.Action.Retweet(screenname: "dreamer_soul", tweetId: id)
+        action = Applications.Tweetbot.Action.retweet(screenname: "dreamer_soul", tweetId: id)
         XCTAssertEqual(action.paths.app.pathComponents, ["dreamer_soul", "retweet", id])
         XCTAssertEqual(action.paths.app.queryParameters,[:])
         
@@ -173,14 +173,14 @@ class TweetbotTests: XCTestCase {
     func testFollow(){
         let id = "someId"
         
-        var action = Applications.Tweetbot.Action.Follow(screenname: nil, followScreennameOrId: id)
+        var action = Applications.Tweetbot.Action.follow(screenname: nil, followScreennameOrId: id)
         XCTAssertEqual(action.paths.app.pathComponents, ["","follow",id])
         XCTAssertEqual(action.paths.app.queryParameters,[:])
         
         XCTAssertEqual(action.paths.web.pathComponents, [])
         XCTAssertEqual(action.paths.web.queryParameters,[:])
         
-        action = Applications.Tweetbot.Action.Follow(screenname: "dreamer_soul", followScreennameOrId: id)
+        action = Applications.Tweetbot.Action.follow(screenname: "dreamer_soul", followScreennameOrId: id)
         XCTAssertEqual(action.paths.app.pathComponents, ["dreamer_soul", "follow", id])
         XCTAssertEqual(action.paths.app.queryParameters,[:])
         
@@ -191,14 +191,14 @@ class TweetbotTests: XCTestCase {
     func testList(){
         let id = "someId"
         
-        var action = Applications.Tweetbot.Action.List(screenname: nil, listId: id, callbackurl: nil)
+        var action = Applications.Tweetbot.Action.list(screenname: nil, listId: id, callbackurl: nil)
         XCTAssertEqual(action.paths.app.pathComponents, ["","list",id])
         XCTAssertEqual(action.paths.app.queryParameters,["callback_url": ""])
         
         XCTAssertEqual(action.paths.web.pathComponents, [])
         XCTAssertEqual(action.paths.web.queryParameters,[:])
         
-        action = Applications.Tweetbot.Action.List(screenname: "dreamer_soul", listId: id, callbackurl: "someurl")
+        action = Applications.Tweetbot.Action.list(screenname: "dreamer_soul", listId: id, callbackurl: "someurl")
         XCTAssertEqual(action.paths.app.pathComponents, ["dreamer_soul", "list", id])
         XCTAssertEqual(action.paths.app.queryParameters,["callback_url" : "someurl"])
         
@@ -208,14 +208,14 @@ class TweetbotTests: XCTestCase {
     
     func testPost(){
         
-        var action = Applications.Tweetbot.Action.Post(screenname: nil, text: nil, callbackurl: nil, repliedStatusId: nil)
+        var action = Applications.Tweetbot.Action.post(screenname: nil, text: nil, callbackurl: nil, repliedStatusId: nil)
         XCTAssertEqual(action.paths.app.pathComponents, ["","post"])
         XCTAssertEqual(action.paths.app.queryParameters,["text":"", "in_reply_to_status_id":"", "callback_url": ""])
         
         XCTAssertEqual(action.paths.web.pathComponents, [])
         XCTAssertEqual(action.paths.web.queryParameters,[:])
         
-        action = Applications.Tweetbot.Action.Post(screenname: "dreamer_soul", text: "some Tweet Text", callbackurl: "www.google.com", repliedStatusId: "someId")
+        action = Applications.Tweetbot.Action.post(screenname: "dreamer_soul", text: "some Tweet Text", callbackurl: "www.google.com", repliedStatusId: "someId")
         XCTAssertEqual(action.paths.app.pathComponents, ["dreamer_soul", "post"])
         XCTAssertEqual(action.paths.app.queryParameters,["text":"some Tweet Text", "in_reply_to_status_id":"someId", "callback_url": "www.google.com"])
         
@@ -226,14 +226,14 @@ class TweetbotTests: XCTestCase {
     
     func testSearch(){
         
-        var action = Applications.Tweetbot.Action.Search(screenname: nil, query: nil, callbackurl: nil)
+        var action = Applications.Tweetbot.Action.search(screenname: nil, query: nil, callbackurl: nil)
         XCTAssertEqual(action.paths.app.pathComponents, ["","search"])
         XCTAssertEqual(action.paths.app.queryParameters,["query":"", "callback_url": ""])
         
         XCTAssertEqual(action.paths.web.pathComponents, [])
         XCTAssertEqual(action.paths.web.queryParameters,[:])
         
-        action = Applications.Tweetbot.Action.Search(screenname: "dreamer_soul", query: "some Tweet Text", callbackurl: "www.google.com")
+        action = Applications.Tweetbot.Action.search(screenname: "dreamer_soul", query: "some Tweet Text", callbackurl: "www.google.com")
         XCTAssertEqual(action.paths.app.pathComponents, ["dreamer_soul","search"])
         XCTAssertEqual(action.paths.app.queryParameters,["query":"some Tweet Text", "callback_url": "www.google.com"])
         
@@ -242,14 +242,14 @@ class TweetbotTests: XCTestCase {
     }
     
     func testUnfollow(){
-        var action = Applications.Tweetbot.Action.Unfollow(screenname: nil, followScreennameOrId: "9gag")
+        var action = Applications.Tweetbot.Action.unfollow(screenname: nil, followScreennameOrId: "9gag")
         XCTAssertEqual(action.paths.app.pathComponents, ["","unfollow","9gag"])
         XCTAssertEqual(action.paths.app.queryParameters,[:])
         
         XCTAssertEqual(action.paths.web.pathComponents, [])
         XCTAssertEqual(action.paths.web.queryParameters,[:])
         
-        action = Applications.Tweetbot.Action.Unfollow(screenname: "dreamer_soul", followScreennameOrId: "9gag")
+        action = Applications.Tweetbot.Action.unfollow(screenname: "dreamer_soul", followScreennameOrId: "9gag")
         XCTAssertEqual(action.paths.app.pathComponents, ["dreamer_soul","unfollow", "9gag"])
         XCTAssertEqual(action.paths.app.queryParameters,[:])
         
@@ -258,14 +258,14 @@ class TweetbotTests: XCTestCase {
     }
     
     func testUserProfile(){
-        var action = Applications.Tweetbot.Action.UserProfile(screenname: nil, profileScreennameOrId: "9gag", callbackurl: nil)
+        var action = Applications.Tweetbot.Action.userProfile(screenname: nil, profileScreennameOrId: "9gag", callbackurl: nil)
         XCTAssertEqual(action.paths.app.pathComponents, ["","user_profile","9gag"])
         XCTAssertEqual(action.paths.app.queryParameters,["callback_url":""])
         
         XCTAssertEqual(action.paths.web.pathComponents, [])
         XCTAssertEqual(action.paths.web.queryParameters,[:])
         
-        action = Applications.Tweetbot.Action.UserProfile(screenname: "dreamer_soul", profileScreennameOrId: "9gag", callbackurl: "www.google.com")
+        action = Applications.Tweetbot.Action.userProfile(screenname: "dreamer_soul", profileScreennameOrId: "9gag", callbackurl: "www.google.com")
         XCTAssertEqual(action.paths.app.pathComponents, ["dreamer_soul","user_profile", "9gag"])
         XCTAssertEqual(action.paths.app.queryParameters,["callback_url":"www.google.com"])
         
@@ -274,14 +274,14 @@ class TweetbotTests: XCTestCase {
     }
     
     func testStatus(){
-        var action = Applications.Tweetbot.Action.Status(screenname: nil, tweetId: "someId", callbackurl: nil)
+        var action = Applications.Tweetbot.Action.status(screenname: nil, tweetId: "someId", callbackurl: nil)
         XCTAssertEqual(action.paths.app.pathComponents, ["","status","someId"])
         XCTAssertEqual(action.paths.app.queryParameters,["callback_url":""])
         
         XCTAssertEqual(action.paths.web.pathComponents, [])
         XCTAssertEqual(action.paths.web.queryParameters,[:])
         
-        action = Applications.Tweetbot.Action.Status(screenname: "dreamer_soul", tweetId: "someId", callbackurl: "www.google.com")
+        action = Applications.Tweetbot.Action.status(screenname: "dreamer_soul", tweetId: "someId", callbackurl: "www.google.com")
         XCTAssertEqual(action.paths.app.pathComponents, ["dreamer_soul","status", "someId"])
         XCTAssertEqual(action.paths.app.queryParameters,["callback_url":"www.google.com"])
         

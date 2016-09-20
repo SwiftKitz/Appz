@@ -22,7 +22,7 @@ class TangoTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Tango.Action.Open
+        let action = Applications.Tango.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

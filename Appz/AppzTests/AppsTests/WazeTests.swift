@@ -22,7 +22,7 @@ class WazeTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Waze.Action.Open
+        let action = Applications.Waze.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

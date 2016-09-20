@@ -22,7 +22,7 @@ class CirclePayTests: XCTestCase {
 
     func testOpen() {
 
-        let action = Applications.CirclePay.Action.Open
+        let action = Applications.CirclePay.Action.open
 
         XCTAssertEqual(action.paths.app.pathComponents, [])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -31,7 +31,7 @@ class CirclePayTests: XCTestCase {
 
     func testRequest() {
 
-        let action = Applications.CirclePay.Action.Request
+        let action = Applications.CirclePay.Action.request
 
         XCTAssertEqual(action.paths.app.pathComponents, ["request"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -41,7 +41,7 @@ class CirclePayTests: XCTestCase {
 
     func testSend() {
 
-        let action = Applications.CirclePay.Action.Send
+        let action = Applications.CirclePay.Action.send
 
         XCTAssertEqual(action.paths.app.pathComponents, ["send"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

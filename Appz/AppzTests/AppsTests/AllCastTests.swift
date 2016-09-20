@@ -22,7 +22,7 @@ class AllCastTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.AllCast.Action.Open
+        let action = Applications.AllCast.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

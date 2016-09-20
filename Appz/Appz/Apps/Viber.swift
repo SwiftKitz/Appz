@@ -26,8 +26,8 @@ public extension Applications.Viber {
     
     public enum Action {
         
-        case CallsTab
-        case ChatsTab
+        case callsTab
+        case chatsTab
     }
 }
 
@@ -37,7 +37,7 @@ extension Applications.Viber.Action: ExternalApplicationAction {
         
         switch self {
             
-        case .CallsTab:
+        case .callsTab:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["calls"],
@@ -46,7 +46,7 @@ extension Applications.Viber.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .ChatsTab:
+        case .chatsTab:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["chats"],

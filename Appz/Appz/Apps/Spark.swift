@@ -25,7 +25,7 @@ public extension Applications {
 public extension Applications.Spark {
     
     public enum Action {
-        case Compose(subject: String, recipient: String)
+        case compose(subject: String, recipient: String)
     }
 }
 
@@ -34,7 +34,7 @@ extension Applications.Spark.Action: ExternalApplicationAction {
     public var paths: ActionPaths {
         
         switch self {
-        case .Compose(let subject, let recipient):
+        case .compose(let subject, let recipient):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["compose"],

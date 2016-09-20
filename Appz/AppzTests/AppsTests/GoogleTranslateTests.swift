@@ -22,7 +22,7 @@ class GoogleTranslateTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.GoogleTranslate.Action.Open
+        let action = Applications.GoogleTranslate.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

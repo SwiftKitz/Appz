@@ -22,7 +22,7 @@ class GoogleCalendarTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.GoogleCalendar.Action.Open
+        let action = Applications.GoogleCalendar.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])
@@ -31,7 +31,7 @@ class GoogleCalendarTests: XCTestCase {
     
     func testCreateEvent() {
         
-        let action = Applications.GoogleCalendar.Action.CreateEvent
+        let action = Applications.GoogleCalendar.Action.createEvent
         
         XCTAssertEqual(action.paths.app.pathComponents, [""])
         XCTAssertEqual(action.paths.app.queryParameters, ["action":"create",])

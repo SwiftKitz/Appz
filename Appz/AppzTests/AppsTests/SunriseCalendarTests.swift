@@ -22,7 +22,7 @@ class SunriseCalendarTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.SunriseCalendar.Action.Open
+        let action = Applications.SunriseCalendar.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

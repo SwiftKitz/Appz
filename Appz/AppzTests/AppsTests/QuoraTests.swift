@@ -22,7 +22,7 @@ class QuoraTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Quora.Action.Open
+        let action = Applications.Quora.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

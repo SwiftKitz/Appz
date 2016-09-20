@@ -22,7 +22,7 @@ class OneDriveTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.OneDrive.Action.Open
+        let action = Applications.OneDrive.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

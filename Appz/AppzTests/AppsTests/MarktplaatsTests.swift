@@ -22,7 +22,7 @@ class MarktplaatsTests: XCTestCase {
     
     func testOpen() {
         
-        let action = Applications.Marktplaats.Action.Open
+        let action = Applications.Marktplaats.Action.open
         
         XCTAssertEqual(action.paths.app.pathComponents, ["app"])
         XCTAssertEqual(action.paths.app.queryParameters, [:])

@@ -26,15 +26,15 @@ public extension Applications {
 public extension Applications.Twitterrific {
     
     public enum Action {
-        case Open
-        case MentionsView
-        case MessagesView
-        case FavoritesView
-        case Search(query: String)
-        case TweetID(id: String)
-        case MessageID(id: String)
-        case Post(message: String)
-        case UserProfile(screenName: String)
+        case open
+        case mentionsView
+        case messagesView
+        case favoritesView
+        case search(query: String)
+        case tweetID(id: String)
+        case messageID(id: String)
+        case post(message: String)
+        case userProfile(screenName: String)
     }
 }
 
@@ -43,7 +43,7 @@ extension Applications.Twitterrific.Action: ExternalApplicationAction {
     public var paths: ActionPaths {
         
         switch self {
-        case .Open:
+        case .open:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["app"],
@@ -52,7 +52,7 @@ extension Applications.Twitterrific.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .MentionsView:
+        case .mentionsView:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["mentions"],
@@ -61,7 +61,7 @@ extension Applications.Twitterrific.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .MessagesView:
+        case .messagesView:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["messages"],
@@ -70,7 +70,7 @@ extension Applications.Twitterrific.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .FavoritesView:
+        case .favoritesView:
             return ActionPaths(
                 app: Path(
                     pathComponents: ["favorites"],
@@ -79,7 +79,7 @@ extension Applications.Twitterrific.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .Search(let query):
+        case .search(let query):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["search"],
@@ -88,7 +88,7 @@ extension Applications.Twitterrific.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .TweetID(let id):
+        case .tweetID(let id):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["tweet"],
@@ -97,7 +97,7 @@ extension Applications.Twitterrific.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .MessageID(let id):
+        case .messageID(let id):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["message"],
@@ -106,7 +106,7 @@ extension Applications.Twitterrific.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .Post(let message):
+        case .post(let message):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["post"],
@@ -117,7 +117,7 @@ extension Applications.Twitterrific.Action: ExternalApplicationAction {
                 web: Path()
             )
             
-        case .UserProfile(let screenName):
+        case .userProfile(let screenName):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["profile"],
