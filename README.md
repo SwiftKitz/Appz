@@ -1,26 +1,26 @@
 
 <h1 align="center">
-  Appz :iphone:
+Appz :iphone:
 <h6 align="center">
-  Deeplinking to external applications made easy
+Deeplinking to external applications made easy
 </h6>
 </h1>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/version-2.0.0-blue.svg"/>
-  <a alt="Travis CI" href="https://travis-ci.org/SwiftKitz/Appz">
-    <img alt="Version" src="https://travis-ci.org/SwiftKitz/Appz.svg?branch=master"/>
-  </a>
-  <img alt="Swift" src="https://img.shields.io/badge/swift-3.0-orange.svg"/>
-  <img alt="Platforms" src="https://img.shields.io/badge/platform-ios%20%7C%20watchos%20%7C%20tvos-lightgrey.svg"/>
-  <a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
-    <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"/>
-  </a>
-  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-153-9600cd.svg"/>
+<img alt="Version" src="https://img.shields.io/badge/version-2.0.0-blue.svg"/>
+<a alt="Travis CI" href="https://travis-ci.org/SwiftKitz/Appz">
+<img alt="Version" src="https://travis-ci.org/SwiftKitz/Appz.svg?branch=master"/>
+</a>
+<img alt="Swift" src="https://img.shields.io/badge/swift-3.0-orange.svg"/>
+<img alt="Platforms" src="https://img.shields.io/badge/platform-ios%20%7C%20watchos%20%7C%20tvos-lightgrey.svg"/>
+<a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
+<img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"/>
+</a>
+<img alt="Supported Apps" src="https://img.shields.io/badge/Apps-155-9600cd.svg"/>
 </p>
 
 <p align="center">
-    <img src="resources/Demo.gif">
+<img src="resources/Demo.gif">
 </p>
 
 ## Highlights
@@ -44,10 +44,11 @@ You can try them in the playground shipped with the framework!
 __Concise syntax to trigger deep linking:__
 
 ```swift
-let app = UIApplication.sharedApplication()
+
+let app = UIApplication.shared
 app.canOpen(Applications.Instagram())
-app.open(Applications.AppStore(), action: .Account(id: "395107918"))
-app.open(Applications.AppSettings(), action: .Open)
+app.open(Applications.AppStore(), action: .account(id: "395107918"))
+app.open(Applications.AppSettings(), action: .open)
 ```
 
 __Transparent web fallback:__
@@ -64,37 +65,37 @@ __Add your applications:__
 // Applications are recommended to be part of the
 // "Applications" namespace
 extension Applications {
-    // Define your application as a type that
-    // conforms to "ExternalApplication"
-    struct MyApp: ExternalApplication {
+// Define your application as a type that
+// conforms to "ExternalApplication"
+struct MyApp: ExternalApplication {
 
-        typealias ActionType = Applications.MyApp.Action
+typealias ActionType = Applications.MyApp.Action
 
-        let scheme = "myapp:"
-        let fallbackURL = ""
-        let appStoreId = ""
-    }
+let scheme = "myapp:"
+let fallbackURL = ""
+let appStoreId = ""
+}
 }
 // Then, you define the actions your app supports
 extension Applications.MyApp {
 
-    enum Action: ExternalApplicationAction {
+enum Action: ExternalApplicationAction {
 
-        case Open
+case open
 
-        // Each action should provide an app path and web path to be
-        // added to the associated URL
-        var paths: ActionPaths {
+// Each action should provide an app path and web path to be
+// added to the associated URL
+var paths: ActionPaths {
 
-            switch self {
-            case .Open:
-                return ActionPaths()
-            }
-        }
-    }
+switch self {
+case .open:
+return ActionPaths()
+}
+}
+}
 }
 
-app.open(Applications.MyApp(), action: .Open)
+app.open(Applications.MyApp(), action: .open)
 ```
 
 __Supported Apps (for now!):__
@@ -187,6 +188,7 @@ App | Actions
 [Notes][Notes-link] | Open
 [NPORadio][NPORadio-link] | Open
 [Nunl][Nunl-link] | Open
+[NYTimes][NYTimes-link] | Open
 [OneMorething][OneMorething-link] | Open
 [OneDrive][OneDrive-link] | Open
 [OnePassword][OnePassword-link] | Open
@@ -206,6 +208,7 @@ App | Actions
 [RunKeeper][RunKeeper-link] | Open
 [ScannerPro][ScannerPro-link] | Open
 [Simplenote][Simplenote-link] | Open
+[Skitch][Skitch-link] | Open
 [Skype][Skype-link] | Open
 [Snapchat][Snapchat-link] | Open, Add
 [Snapseed][Snapseed-link] | Open
@@ -397,6 +400,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Notes-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
 [NPORadio-link]: http://forums.macrumors.com/threads/ios-8-widget-customisations-using-launcher.1782093/
 [Nunl-link]: http://www.nu.nl
+[NYTimes-link]: http://www.nytimes.com/services/mobile/index.html
 [OneMorething-link]: http://www.onemorething.nl
 [OneDrive-link]: https://onedrive.live.com/
 [OnePassword-link]: https://agilebits.com/onepassword
@@ -416,6 +420,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [RunKeeper-link]: https://runkeeper.com/index
 [ScannerPro-link]: https://readdle.com/products/scannerpro/
 [Simplenote-link]: http://simplenote.com
+[Skitch-link]: https://evernote.com/skitch/
 [Skype-link]: http://www.skype.com/
 [Snapchat-link]: https://www.snapchat.com
 [Snapseed-link]: https://support.google.com/snapseed/#topic=6155507
