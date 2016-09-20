@@ -74,25 +74,25 @@ typealias ActionType = Applications.MyApp.Action
 let scheme = "myapp:"
 let fallbackURL = ""
 let appStoreId = ""
-}
+    }
 }
 // Then, you define the actions your app supports
 extension Applications.MyApp {
 
-enum Action: ExternalApplicationAction {
+    enum Action: ExternalApplicationAction {
 
-case open
+        case open
 
-// Each action should provide an app path and web path to be
-// added to the associated URL
-var paths: ActionPaths {
+        // Each action should provide an app path and web path to be
+        // added to the associated URL
+        var paths: ActionPaths {
 
-switch self {
-case .open:
-return ActionPaths()
-}
-}
-}
+            switch self {
+            case .open:
+                return ActionPaths()
+            }
+        }
+    }
 }
 
 app.open(Applications.MyApp(), action: .open)
