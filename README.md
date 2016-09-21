@@ -1,26 +1,26 @@
 
 <h1 align="center">
-Appz :iphone:
-<h6 align="center">
-Deeplinking to external applications made easy
-</h6>
+  Appz :iphone:
+  <h6 align="center">
+    Deeplinking to external applications made easy
+  </h6>
 </h1>
 
 <p align="center">
-<img alt="Version" src="https://img.shields.io/badge/version-2.0.0-blue.svg"/>
-<a alt="Travis CI" href="https://travis-ci.org/SwiftKitz/Appz">
-<img alt="Version" src="https://travis-ci.org/SwiftKitz/Appz.svg?branch=master"/>
-</a>
-<img alt="Swift" src="https://img.shields.io/badge/swift-3.0-orange.svg"/>
-<img alt="Platforms" src="https://img.shields.io/badge/platform-ios%20%7C%20watchos%20%7C%20tvos-lightgrey.svg"/>
-<a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
-<img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"/>
-</a>
-<img alt="Supported Apps" src="https://img.shields.io/badge/Apps-155-9600cd.svg"/>
+  <img alt="Version" src="https://img.shields.io/badge/version-2.0.0-blue.svg"/>
+  <a alt="Travis CI" href="https://travis-ci.org/SwiftKitz/Appz">
+    <img alt="Version" src="https://travis-ci.org/SwiftKitz/Appz.svg?branch=master"/>
+  </a>
+  <img alt="Swift" src="https://img.shields.io/badge/swift-3.0-orange.svg"/>
+  <img alt="Platforms" src="https://img.shields.io/badge/platform-ios%20%7C%20watchos%20%7C%20tvos-lightgrey.svg"/>
+  <a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
+    <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"/>
+  </a>
+  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-155-9600cd.svg"/>
 </p>
 
 <p align="center">
-<img src="resources/Demo.gif">
+  <img src="resources/Demo.gif">
 </p>
 
 ## Highlights
@@ -65,15 +65,15 @@ __Add your applications:__
 // Applications are recommended to be part of the
 // "Applications" namespace
 extension Applications {
-// Define your application as a type that
-// conforms to "ExternalApplication"
-struct MyApp: ExternalApplication {
+    // Define your application as a type that
+    // conforms to "ExternalApplication"
+    struct MyApp: ExternalApplication {
 
-typealias ActionType = Applications.MyApp.Action
+        typealias ActionType = Applications.MyApp.Action
 
-let scheme = "myapp:"
-let fallbackURL = ""
-let appStoreId = ""
+        let scheme = "myapp:"
+        let fallbackURL = ""
+        let appStoreId = ""
     }
 }
 // Then, you define the actions your app supports
