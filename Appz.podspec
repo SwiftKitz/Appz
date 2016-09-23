@@ -18,12 +18,4 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/SwiftKitz/Appz.git", :tag => "v2.0.1" }
   s.source_files = "Appz/Appz/**/*.swift"
-
-  subspec 'Twitter' do |twitter|
-    twitter.source_files = 'Appz/Appz/Apps/Twitter.swift'
-  end
-
-  subspec 'TwitterTest' do |twitter|
-    twitter.source_files = 'Appz/AppzTests/AppsTests/TwitterTests.swift'
-  end
 end
