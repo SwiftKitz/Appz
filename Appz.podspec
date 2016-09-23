@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
   s.source_files = "Appz/Appz/**/*.swift"
 
   s.subspec 'Twitter' do |twitter|
-    twitter.source_files = "Appz/Appz/Apps/Twitter.swift"
+    twitter.source_files = "Appz/Appz/Apps/Twitter.swift", "Appz/Appz/Appz/Extensions", "Appz/Appz/Entity"
   end
 end
