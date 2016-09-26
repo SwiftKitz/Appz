@@ -25,15 +25,7 @@ public extension Applications.{{ app.name }} {
 
     public enum Action {
         {% for action in app.actions %}
-          case status(id: String)
-          case userHandle(String)
-          case userId(String)
-          case list(handle: String, slug: String)
-          case post(message: String, repliedStatusId: String?)
-          case search(query: String)
-          case timeline
-          case mentions
-          case messages
+            {{ action.create_function_definition() }}
         {% endfor %}
     }
 }
