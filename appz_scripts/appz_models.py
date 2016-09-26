@@ -12,20 +12,20 @@ class Param:
 
     def __unicode__(self):
         return "type: {}\nname: {}\nOptional: {}".format(
-                                                        self.type,
-                                                        self.name,
-                                                        self.isOptional
-                                                        )
+                self.type,
+                self.name,
+                self.isOptional
+                )
 
 
 class Action:
     # TODO: finish actions
     def __init__(self, actionDict):
         self.name = actionDict["name"]
-        self.params = self.createParams(actionDict["params"])
+        self.params = self.create_params(actionDict["params"])
         self.paths = actionDict["paths"]
 
-    def createParams(self, params):
+    def create_params(self, params):
         return [Param(param) for param in params]
 
 
@@ -36,9 +36,9 @@ class App:
         self.fallbackURL = jsonFile["fallbackURL"]
         self.scheme = jsonFile["scheme"]
         self.appStoreId = jsonFile["appStoreId"]
-        self.actions = self.createActions(jsonFile["actions"])
+        self.actions = self.create_actions(jsonFile["actions"])
 
-    def createActions(self, actions):
+    def create_actions(self, actions):
         return [Action(action) for action in actions]
 
     # serlizaiton function
@@ -48,7 +48,7 @@ class App:
     def __unicode__(self):
         # TODO: serialize actions
         return "name: {}\nurl: {}\nshceme: {}\nappstore Id: {}".format(
-                                   self.name,
-                                   self.fallbackURL,
-                                   self.scheme,
-                                   self.appStoreId)
+               self.name,
+               self.fallbackURL,
+               self.scheme,
+               self.appStoreId)
