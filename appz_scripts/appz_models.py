@@ -1,35 +1,61 @@
 #!/usr/bin/env python
 
 
-class Param:
-    def __init__(self, paramsDict):
-        self.type = paramsDict["type"]
-        self.name = paramsDict["name"]
-        self.isOptional = paramsDict["isOptional"]
+class Parameter:
+    def __init__(self, paramters_dict):
+        self.type = paramters_dict["type"]
+        self.name = paramters_dict["name"]
+        self.isOptional = paramters_dict["isOptional"]
+
+    def create_paramter_for_function(self):
+        optinal = "?" if self.isOptional else ""
+        return "{}: {}{}".format(self.name, self.type, optinal)
 
     def __str__(self):
         return unicode(self)
 
     def __unicode__(self):
-        return "type: {}\nname: {}\nOptional: {}".format(
-                self.type,
-                self.name,
-                self.isOptional
-                )
+        return "name: {}\ntype: {}\nOptional: {}".format(
+            self.name,
+            self.type,
+            self.isOptional
+            )
 
 
 class Action:
     # TODO: finish actions
-    def __init__(self, actionDict):
-        self.name = actionDict["name"]
-        self.params = self.create_params(actionDict["params"])
-        self.paths = actionDict["paths"]
+    def __init__(self, action_dict):
+        self.name = action_dict["name"]
+        self.parameters = self.create_params(action_dict["params"])
+        self.paths = action_dict["paths"]
 
     def create_params(self, params):
-        return [Param(param) for param in params]
+        return [Parameter(param) for param in params]
+
+    def create_function_definition(self):
+        definition = "case {}(".format(self.name)
+        for parameter in self.parameters:
+            definition += parameter.create_paramter_for_function()
+            definition += ","
+        definition = definition[:-1]  # remove tailing ',' character
+        definition += ")"
+        return definition
+
+    # serlizaiton functions
+    def __str__(self):
+        return unicode(self)
+
+    def __unicode__(self):
+        parameters = "\n".join(self.parameters)
+        paths = "\n".join(self.paths)
+        return "name: {}\nparameters: {}\npaths: {}".format(
+            self.name,
+            parameters,
+            paths
+            )
 
 
-class App:
+class Application:
     # jsonFile: is a dictionary created from json file
     def __init__(self, jsonFile):
         self.name = jsonFile["name"]
@@ -41,7 +67,7 @@ class App:
     def create_actions(self, actions):
         return [Action(action) for action in actions]
 
-    # serlizaiton function
+    # serlizaiton functions
     def __str__(self):
         return unicode(self)
 
