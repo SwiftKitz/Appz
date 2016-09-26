@@ -1,9 +1,21 @@
 #!/usr/bin/env python
+
+
 class Param:
     def __init__(self, paramsDict):
         self.type = paramsDict["type"]
         self.name = paramsDict["name"]
         self.isOptional = paramsDict["isOptional"]
+
+    def __str__(self):
+        return unicode(self)
+
+    def __unicode__(self):
+        return "type: {}\nname: {}\nOptional: {}".format(
+                                                        self.type,
+                                                        self.name,
+                                                        self.isOptional
+                                                        )
 
 
 class Action:
@@ -35,7 +47,7 @@ class App:
 
     def __unicode__(self):
         # TODO: serialize actions
-        return "[INFO] name: {}\nurl: {}\nshceme: {}\nappstore Id: {}".format(
+        return "name: {}\nurl: {}\nshceme: {}\nappstore Id: {}".format(
                                    self.name,
                                    self.fallbackURL,
                                    self.scheme,
