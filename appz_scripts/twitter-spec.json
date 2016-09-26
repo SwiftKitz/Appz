@@ -1,0 +1,29 @@
+
+{
+  "name": "Twitter",
+  "scheme" : "twitter:",
+  "fallbackURL" : "https://twitter.com/",
+  "appStoreId" : "333903271",
+  "actions": [
+    {
+      "name": "status",
+      "paths": {
+        "app":{
+          "path": ["status"],
+          "query": [{"id":"{id}"}]
+        },
+        "web":{
+            "path": ["status", "{id}"],
+            "query": []
+        }
+      },
+      "params": [
+        {
+          "name": "id",
+          "type": "String",
+          "isOptional": false
+        }
+      ]
+    }
+  ]
+}

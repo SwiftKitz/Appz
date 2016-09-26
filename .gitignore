@@ -48,7 +48,7 @@
 
 #
 # *.lock - this is used and abused by many editors for many different things.
-#    For the main ones I use (e.g. Eclipse), it should be excluded 
+#    For the main ones I use (e.g. Eclipse), it should be excluded
 #    from source-control, but YMMV.
 #   (lock files are usually local-only file-synchronization on the local FS that should NOT go in git)
 # c.f. the "OPTIONAL" section at bottom though, for tool-specific variations!
@@ -64,7 +64,7 @@
 
 ####
 # Xcode temporary files that should never be committed
-# 
+#
 # NB: NIB/XIB files still exist even on Storyboard projects, so we want this...
 
 *~.nib
@@ -206,7 +206,7 @@ xcuserdata/
 # IDEA:
 #
 # c.f. https://www.jetbrains.com/objc/help/managing-projects-under-version-control.html?search=workspace.xml
-# 
+#
 #.idea/workspace.xml
 #
 # TEXTMATE:
@@ -221,3 +221,6 @@ xcuserdata/
 
 # PYSCRIPT-XCODE-IGNORE-END
 
+
+# python
+*.pyc
