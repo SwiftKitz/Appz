@@ -1,4 +1,22 @@
 #!/usr/bin/env python
+class Path:
+    def __init__(self, paths_dict):
+        app_path = paths_dict["app"]["path"]
+        app_query = paths_dict["app"]["query"]
+        web_path = paths_dict["web"]["path"]
+        web_query = paths_dict["web"]["query"]
+
+    def __str__(self):
+        return unicode(self)
+
+    def __unicode__(self):
+        return "app_path: {}\napp_query: {}\nweb_path: {}\nweb_query: {}"\
+            .format(
+                self.app_path,
+                self.app_query,
+                self.web_path,
+                self.web_query
+                )
 
 
 class Parameter:
@@ -23,11 +41,10 @@ class Parameter:
 
 
 class Action:
-    # TODO: finish actions
     def __init__(self, action_dict):
         self.name = action_dict["name"]
         self.parameters = self.create_params(action_dict["params"])
-        self.paths = action_dict["paths"]
+        self.paths = Path(action_dict["paths"])
 
     def create_params(self, params):
         return [Parameter(param) for param in params]
@@ -41,6 +58,18 @@ class Action:
         definition += ")"
         return definition
 
+    def create_action(self):
+        action = "case .{}(".format(self.name)
+        for parameter in self.parameters:
+            action += "let {},".format(parameter.name)
+        if len(parameters) > 0:
+            action = action[:-1]  # remove tailing ,
+        action += "):\n"  # finished enum definition
+        # enum implementaion starts here
+        action += "return ActionPaths("
+        action += "app: Path("
+        action += "pathComponents:"
+        
     # serlizaiton functions
     def __str__(self):
         return unicode(self)
@@ -56,13 +85,13 @@ class Action:
 
 
 class Application:
-    # jsonFile: is a dictionary created from json file
-    def __init__(self, jsonFile):
-        self.name = jsonFile["name"]
-        self.fallbackURL = jsonFile["fallbackURL"]
-        self.scheme = jsonFile["scheme"]
-        self.appStoreId = jsonFile["appStoreId"]
-        self.actions = self.create_actions(jsonFile["actions"])
+    # json_file: is a dictionary created from json file
+    def __init__(self, json_file):
+        self.name = json_file["name"]
+        self.fallbackURL = json_file["fallbackURL"]
+        self.scheme = json_file["scheme"]
+        self.appStoreId = json_file["appStoreId"]
+        self.actions = self.create_actions(json_file["actions"])
 
     def create_actions(self, actions):
         return [Action(action) for action in actions]
