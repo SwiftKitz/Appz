@@ -76,9 +76,9 @@ class Action:
             action = action[:-1]  # remove tailing ,
         action += "):\n"  # finished enum definition
         # enum implementaion starts here
-        action += "\t\treturn ActionPaths(\n"
-        action += "\t\t\tapp: Path(\n"
-        action += "\t\t\t\tpathComponents:["
+        action += "\t\t\t\t\t\t\treturn ActionPaths(\n"
+        action += "\t\t\t\t\t\t\t\tapp: Path(\n"
+        action += "\t\t\t\t\t\t\t\t\tpathComponents:["
         for app_path in self.path.app_path:
             parameter = self.get_parameter(app_path)
             if parameter is not None:
@@ -94,7 +94,7 @@ class Action:
         else:
             action += "],\n"
         # pathComponents for app done here
-        action += "\t\t\t\tqueryParameters: ["
+        action += "\t\t\t\t\t\t\t\t\tqueryParameters: ["
         for key, value in self.path.app_query.iteritems():
             action += '"{}" : '.format(key)
             parameter = self.get_parameter(value)
@@ -112,8 +112,8 @@ class Action:
             action += ":]),\n"
         # queryParameters for app done here
 
-        action += "\t\t\tweb: Path(\n"
-        action += "\t\t\t\tpathComponents:["
+        action += "\t\t\t\t\t\t\t\tweb: Path(\n"
+        action += "\t\t\t\t\t\t\t\t\tpathComponents:["
         for web_path in self.path.web_path:
             parameter = self.get_parameter(web_path)
             if parameter is not None:
@@ -129,7 +129,7 @@ class Action:
         else:
             action += "],\n"
         # pathComponents for web done here
-        action += "\t\t\t\tqueryParameters: ["
+        action += "\t\t\t\t\t\t\t\t\tqueryParameters: ["
         for key, value in self.path.web_query.iteritems():
             action += '"{}":'.format(key)
             parameter = self.get_parameter(value)
@@ -144,7 +144,7 @@ class Action:
         if len(self.path.web_query) > 0:
             action = action[:-1] + "]),"  # remove tailing ,
         else:
-            action += ":]\n\t\t\t)\n\t\t)\n"
+            action += ":]\n\t\t\t\t\t\t\t\t)\n\t\t\t\t\t\t\t)"
         return action
 
     # serlizaiton functions

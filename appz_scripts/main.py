@@ -16,4 +16,7 @@ if __name__ == "__main__":
     app = Application(data)
     template = env.get_template("app_template.swift")
     outputFile = template.render(app=app)
-    print outputFile.encode('utf-8')
+    file_ = open("{}.swift".format(app.name), 'w')
+    file_.write(outputFile.encode('utf-8'))
+    file_.close()
+    print "Done"
