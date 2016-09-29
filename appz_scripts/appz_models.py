@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import re
+from jinja2 import Template, Environment, FileSystemLoader
 
 
 class Path:
@@ -68,84 +69,63 @@ class Action:
         definition += ")"
         return definition
 
-    def create_action(self):
-        action = "case .{}(".format(self.name)
+    def parameter_generation(self):
+        parameter_string = ""
         for parameter in self.parameters:
-            action += "let {},".format(parameter.name)
+            parameter_string += "let {},".format(parameter.name)
         if len(self.parameters) > 0:
-            action = action[:-1]  # remove tailing ,
-        action += "):\n"  # finished enum definition
-        # enum implementaion starts here
-        action += "\t\t\t\t\t\t\treturn ActionPaths(\n"
-        action += "\t\t\t\t\t\t\t\tapp: Path(\n"
-        action += "\t\t\t\t\t\t\t\t\tpathComponents:["
-        for app_path in self.path.app_path:
-            parameter = self.get_parameter(app_path)
-            if parameter is not None:
-                parameter_names = [param.name for param in self.parameters]
-                if parameter in parameter_names:
-                    action += "{},".format(parameter)
-                else:
-                    action += '"{}",'.format(app_path)
-            else:
-                action += '"{}",'.format(app_path)
-        if len(self.path.app_path) > 0:
-            action = action[:-1] + "],\n"  # remove tailing ,
-        else:
-            action += "],\n"
-        # pathComponents for app done here
-        action += "\t\t\t\t\t\t\t\t\tqueryParameters: ["
-        for key, value in self.path.app_query.iteritems():
-            action += '"{}" : '.format(key)
-            parameter = self.get_parameter(value)
-            if parameter is not None:
-                parameter_names = [param.name for param in self.parameters]
-                if parameter in parameter_names:
-                    action += "{},".format(parameter)
-                else:
-                    action += '"{}",'.format(value)
-            else:
-                action += '"{}",'.format(value)
-        if len(self.path.app_query) > 0:
-            action = action[:-1] + "]),\n"  # remove tailing ,
-        else:
-            action += ":]),\n"
-        # queryParameters for app done here
+            parameter_string = parameter_string[:-1]  # remove tailing ,
+        return parameter_string
 
-        action += "\t\t\t\t\t\t\t\tweb: Path(\n"
-        action += "\t\t\t\t\t\t\t\t\tpathComponents:["
-        for web_path in self.path.web_path:
-            parameter = self.get_parameter(web_path)
+    def path_components_generation(self, path_type):
+        if path_type == "app":
+            paths = self.path.app_path
+        else:
+            paths = self.path.web_path
+        components = ""
+        for path in paths:
+            parameter = self.get_parameter(path)
             if parameter is not None:
                 parameter_names = [param.name for param in self.parameters]
                 if parameter in parameter_names:
-                    action += "{},".format(parameter)
+                    components += "{},".format(parameter)
                 else:
-                    action += '"{}",'.format(web_path)
+                    components += '"{}",'.format(path)
             else:
-                action += '"{}",'.format(web_path)
-        if len(self.path.web_path) > 0:
-            action = action[:-1] + "],\n"  # remove tailing ,
+                components += '"{}",'.format(path)
+        if len(paths) > 0:
+            components = components[:-1]  # remove tailing ,
+
+        return components
+
+    def query_parameters_generation(self, query_type):
+        if query_type == "app":
+            query_items = self.path.app_query
         else:
-            action += "],\n"
-        # pathComponents for web done here
-        action += "\t\t\t\t\t\t\t\t\tqueryParameters: ["
-        for key, value in self.path.web_query.iteritems():
-            action += '"{}":'.format(key)
+            query_items = self.path.web_query
+        query = ""
+        for key, value in query_items.iteritems():
+            query += '"{}" : '.format(key)
             parameter = self.get_parameter(value)
             if parameter is not None:
                 parameter_names = [param.name for param in self.parameters]
                 if parameter in parameter_names:
-                    action += "{},".format(parameter)
+                    query += "{},".format(parameter)
                 else:
-                    action += '"{}",'.format(value)
+                    query += '"{}",'.format(value)
             else:
-                action += '"{}",'.format(value)
-        if len(self.path.web_query) > 0:
-            action = action[:-1] + "]),"  # remove tailing ,
+                query += '"{}",'.format(value)
+        if len(query_items) > 0:
+            query = query[:-1]  # remove tailing ,
         else:
-            action += ":]\n\t\t\t\t\t\t\t\t)\n\t\t\t\t\t\t\t)"
-        return action
+            query += ":"
+        return query
+
+    def create_action(self):
+        env = Environment(loader=FileSystemLoader('templates'))
+        template = env.get_template("action_template.txt")
+        outputFile = template.render(action=self)
+        return outputFile.encode('utf-8')
 
     # serlizaiton functions
     def __str__(self):

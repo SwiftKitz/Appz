@@ -36,16 +36,16 @@ extension Applications.Twitter.Action: ExternalApplicationAction {
 
         switch self {
           
-            case .status(let id):
-							return ActionPaths(
-								app: Path(
-									pathComponents:["status"],
-									queryParameters: ["id" : id]),
-								web: Path(
-									pathComponents:["statuses",id],
-									queryParameters: [:]
-								)
-							)
+              case .status(let id):
+                    return ActionPaths(
+                        app: Path(
+                          pathComponents:["status"],
+                          queryParameters: ["id" : id]),
+                        web: Path(
+                          pathComponents:["statuses",id],
+                          queryParameters: [:]
+                        )
+                    )
           
         }
     }
