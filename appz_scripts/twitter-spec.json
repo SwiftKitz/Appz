@@ -10,11 +10,11 @@
       "paths": {
         "app":{
           "path": ["status"],
-          "query": [{"id":"{id}"}]
+          "query": {"id":"{id}"}
         },
         "web":{
-            "path": ["status", "{id}"],
-            "query": []
+            "path": ["statuses", "{id}"],
+            "query": {}
         }
       },
       "params": [

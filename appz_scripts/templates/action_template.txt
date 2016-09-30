@@ -1,0 +1,10 @@
+  case .{{ action.name }}({{ action.parameter_generation() }}):
+                    return ActionPaths(
+                        app: Path(
+                          pathComponents:[{{ action.path_components_generation("app") }}],
+                          queryParameters: [{{ action.query_parameters_generation("app") }}]),
+                        web: Path(
+                          pathComponents:[{{ action.path_components_generation("web") }}],
+                          queryParameters: [{{ action.query_parameters_generation("web") }}]
+                        )
+                    )
