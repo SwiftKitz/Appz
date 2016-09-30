@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import re
-from jinja2 import Template, Environment, FileSystemLoader
+from __init__ import env  # i don't like this will change it in the future
 
 
 class Path:
@@ -65,7 +65,7 @@ class Action:
         for parameter in self.parameters:
             definition += parameter.create_paramter_for_function()
             definition += ","
-        definition = definition[:-1]  # remove tailing ',' character
+        definition = definition[:-1]  # remove trailing ',' character
         definition += ")"
         return definition
 
@@ -74,7 +74,7 @@ class Action:
         for parameter in self.parameters:
             parameter_string += "let {},".format(parameter.name)
         if len(self.parameters) > 0:
-            parameter_string = parameter_string[:-1]  # remove tailing ,
+            parameter_string = parameter_string[:-1]  # remove trailing ,
         return parameter_string
 
     def path_components_generation(self, path_type):
@@ -94,7 +94,7 @@ class Action:
             else:
                 components += '"{}",'.format(path)
         if len(paths) > 0:
-            components = components[:-1]  # remove tailing ,
+            components = components[:-1]  # remove trailing ,
 
         return components
 
@@ -116,13 +116,12 @@ class Action:
             else:
                 query += '"{}",'.format(value)
         if len(query_items) > 0:
-            query = query[:-1]  # remove tailing ,
+            query = query[:-1]  # remove trailing ,
         else:
             query += ":"
         return query
 
     def create_action(self):
-        env = Environment(loader=FileSystemLoader('templates'))
         template = env.get_template("action_template.txt")
         outputFile = template.render(action=self)
         return outputFile.encode('utf-8')
