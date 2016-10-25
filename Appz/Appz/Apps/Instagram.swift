@@ -74,7 +74,7 @@ extension Applications.Instagram.Action: ExternalApplicationAction {
             return ActionPaths(
                 app: Path(
                     pathComponents: ["user"],
-                    queryParameters: ["id": username]
+                    queryParameters: ["username": username]
                 ),
                 web: Path(
                     pathComponents: [username],
