@@ -259,7 +259,7 @@ App | Actions
 
 ## Getting Started
 
-**IMPORTANT:** Kitz repos fully embrace Swift 3.0 and all the changes it brought. You should use `v1.6.0` if your still using Swift 2.x.
+**IMPORTANT:** Kitz repos fully embrace Swift 3.0 and all the changes it brought. You should use `v1.6.0` if you are still using Swift 2.x.
 
 ### Configure Info.plist
 
