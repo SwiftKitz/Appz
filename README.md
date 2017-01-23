@@ -16,7 +16,7 @@
   <a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
     <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"/>
   </a>
-  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-155-9600cd.svg"/>
+  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-156-9600cd.svg"/>
 </p>
 
 <p align="center">
@@ -210,6 +210,7 @@ App | Actions
 [Simplenote][Simplenote-link] | Open
 [Skitch][Skitch-link] | Open
 [Skype][Skype-link] | Open
+[Slack][Slack-link] | Open, Channel, Direct Message, Open File, Search
 [Snapchat][Snapchat-link] | Open, Add
 [Snapseed][Snapseed-link] | Open
 [Songpop2][Songpop2-link] | Open
@@ -422,6 +423,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Simplenote-link]: http://simplenote.com
 [Skitch-link]: https://evernote.com/skitch/
 [Skype-link]: http://www.skype.com/
+[Slack-link]: https://api.slack.com/docs/deep-linking#open_slack
 [Snapchat-link]: https://www.snapchat.com
 [Snapseed-link]: https://support.google.com/snapseed/#topic=6155507
 [Songpop2-link]: https://www.songpop2.com
