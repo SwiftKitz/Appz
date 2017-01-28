@@ -1,26 +1,26 @@
 
 <h1 align="center">
-  Appz :iphone:
-  <h6 align="center">
-    Deeplinking to external applications made easy
-  </h6>
+Appz :iphone:
+<h6 align="center">
+Deeplinking to external applications made easy
+</h6>
 </h1>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/version-2.0.1-blue.svg"/>
-  <a alt="Travis CI" href="https://travis-ci.org/SwiftKitz/Appz">
-    <img alt="Version" src="https://travis-ci.org/SwiftKitz/Appz.svg?branch=master"/>
-  </a>
-  <img alt="Swift" src="https://img.shields.io/badge/swift-3.0-orange.svg"/>
-  <img alt="Platforms" src="https://img.shields.io/badge/platform-ios%20%7C%20watchos%20%7C%20tvos-lightgrey.svg"/>
-  <a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
-    <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"/>
-  </a>
-  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-156-9600cd.svg"/>
+<img alt="Version" src="https://img.shields.io/badge/version-2.0.1-blue.svg"/>
+<a alt="Travis CI" href="https://travis-ci.org/SwiftKitz/Appz">
+<img alt="Version" src="https://travis-ci.org/SwiftKitz/Appz.svg?branch=master"/>
+</a>
+<img alt="Swift" src="https://img.shields.io/badge/swift-3.0-orange.svg"/>
+<img alt="Platforms" src="https://img.shields.io/badge/platform-ios%20%7C%20watchos%20%7C%20tvos-lightgrey.svg"/>
+<a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
+<img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"/>
+</a>
+<img alt="Supported Apps" src="https://img.shields.io/badge/Apps-160-9600cd.svg"/>
 </p>
 
 <p align="center">
-  <img src="resources/Demo.gif">
+<img src="resources/Demo.gif">
 </p>
 
 ## Highlights
@@ -65,34 +65,34 @@ __Add your applications:__
 // Applications are recommended to be part of the
 // "Applications" namespace
 extension Applications {
-    // Define your application as a type that
-    // conforms to "ExternalApplication"
-    struct MyApp: ExternalApplication {
+// Define your application as a type that
+// conforms to "ExternalApplication"
+struct MyApp: ExternalApplication {
 
-        typealias ActionType = Applications.MyApp.Action
+typealias ActionType = Applications.MyApp.Action
 
-        let scheme = "myapp:"
-        let fallbackURL = ""
-        let appStoreId = ""
-    }
+let scheme = "myapp:"
+let fallbackURL = ""
+let appStoreId = ""
+}
 }
 // Then, you define the actions your app supports
 extension Applications.MyApp {
 
-    enum Action: ExternalApplicationAction {
+enum Action: ExternalApplicationAction {
 
-        case open
+case open
 
-        // Each action should provide an app path and web path to be
-        // added to the associated URL
-        var paths: ActionPaths {
+// Each action should provide an app path and web path to be
+// added to the associated URL
+var paths: ActionPaths {
 
-            switch self {
-            case .open:
-                return ActionPaths()
-            }
-        }
-    }
+switch self {
+case .open:
+return ActionPaths()
+}
+}
+}
 }
 
 app.open(Applications.MyApp(), action: .open)
@@ -139,6 +139,7 @@ App | Actions
 [Flickr][Flickr-link] | Open
 [Flipboard][Flipboard-link] | Open
 [FlippsTV][FlippsTV-link] | Open
+[Forest][Forest-link] | Open
 [Foursquare][Foursquare-link] | Open
 [FriendlySocial][FriendlySocial-link] | Open
 [Gallery][Gallery-link] | Open
@@ -160,6 +161,7 @@ App | Actions
 [HootSuite][HootSuite-link] | Open
 [iBooks][iBooks-link] | Open
 [IMDb][IMDb-link] | Open, Search, Title, Boxoffice, Showtimes, Feature Coming Soon, Feature Best Picture, Feature Born Today, Top rated movies, Most popular movies.
+[iMovie][iMovie-link] | Open 
 [INRIXTraffic][INRIXTraffic-link] | Open
 [Instagram][Instagram-link] | Open, Camera, Media, Username, Location, Tag
 [Instapaper][Instapaper-link] | Open
@@ -196,6 +198,7 @@ App | Actions
 [Paypal][Paypal-link] | Open
 [Periscope][Periscope-link] | Open
 [Phone][Phone-link] | Open
+[Photos][Photos-link] | Open
 [PicCollage][PicCollage-link] | Open
 [Pinterest][Pinterest-link] | Open, UserProfile, Search
 [Pocket][Pocket-link] | Open
@@ -245,6 +248,7 @@ App | Actions
 [Vox][Vox-link] | Open
 [Voxer][Voxer-link] | Open
 [VSCO][VSCO-link] | Open
+[Watch][Watch-link] | Open
 [Waze][Waze-link] | Open, NavigateToDirection
 [WeChat][WeChat-link] | Open
 [Weibo][Weibo-link] | Open
@@ -352,6 +356,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Flickr-link]: https://www.flickr.com
 [Flipboard-link]: https://flipboard.com
 [FlippsTV-link]: http://www.flipps.com
+[Forest-link]: https://www.forestapp.cc/en/
 [Foursquare-link]: https://foursquare.com/download
 [FriendlySocial-link]: http://friendly.io/#ios
 [Gallery-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
@@ -373,6 +378,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [HootSuite-link]: https://hootsuite.com/products/mobile-apps/hootsuite-mobile-app
 [iBooks-link]: http://handleopenurl.com/?id=694
 [IMDb-link]: http://www.imdb.com
+[iMovie-link]: https://itunes.apple.com/us/app/imovie/id377298193?mt=8
 [INRIXTraffic-link]: http://inrix.com/inrix-traffic-app
 [Instagram-link]: https://instagram.com
 [Instapaper-link]: https://www.instapaper.com/iphone
@@ -409,6 +415,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Paypal-link]: https://paypal.com
 [Periscope-link]: https://www.periscope.tv
 [Phone-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/PhoneLinks/PhoneLinks.html
+[Photos-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
 [PicCollage-link]: http://pic-collage.com
 [Pinterest-link]: https://www.pinterest.com
 [Pocket-link]: https://getpocket.com/ios/?ep=1
@@ -458,6 +465,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Vox-link]: http://coppertino.com/vox/iphone
 [Voxer-link]: http://www.voxer.com
 [VSCO-link]: http://vsco.co/store/app
+[Watch-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
 [Waze-link]: https://www.waze.com
 [WeChat-link]: http://forums.macrumors.com/threads/ios-8-widget-customisations-using-launcher.1782093/
 [Weibo-link]: http://weibo.com/login.php
