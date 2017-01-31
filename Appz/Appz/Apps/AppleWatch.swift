@@ -1,5 +1,5 @@
 //
-//  Watch.swift
+//  AppleWatch.swift
 //  Pods
 //
 //  Created by Mariam AlJamea on 1/28/17.
@@ -8,9 +8,9 @@
 
 public extension Applications {
     
-    public struct Watch: ExternalApplication {
+    public struct AppleWatch: ExternalApplication {
         
-        public typealias ActionType = Applications.Watch.Action
+        public typealias ActionType = Applications.AppleWatch.Action
         
         public let scheme = "itms-watch:"
         public let fallbackURL = ""
@@ -22,14 +22,14 @@ public extension Applications {
 
 // MARK: - Actions
 
-public extension Applications.Watch {
+public extension Applications.AppleWatch {
     
     public enum Action {
         case open
     }
 }
 
-extension Applications.Watch.Action: ExternalApplicationAction {
+extension Applications.AppleWatch.Action: ExternalApplicationAction {
     
     public var paths: ActionPaths {
         
