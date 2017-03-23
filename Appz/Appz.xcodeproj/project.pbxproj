@@ -479,6 +479,11 @@
 		54ADFD731C58E7BF0064CA1A /* PicCollageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C832E1C58ACD400BFD6B6 /* PicCollageTests.swift */; };
 		54ADFD741C58E7C20064CA1A /* StravaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8A11E1C58CA59002281AA /* StravaTests.swift */; };
 		54ADFD751C58E7C50064CA1A /* VimeoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8A1201C58CA87002281AA /* VimeoTests.swift */; };
+		54C023EF1E84341A00BE902B /* Workflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C023EE1E84341A00BE902B /* Workflow.swift */; };
+		54C023F01E84342600BE902B /* Workflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C023EE1E84341A00BE902B /* Workflow.swift */; };
+		54C023F11E84342700BE902B /* Workflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C023EE1E84341A00BE902B /* Workflow.swift */; };
+		54C023F31E8434A200BE902B /* WorkflowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C023F21E8434A200BE902B /* WorkflowTests.swift */; };
+		54C023F41E8434A200BE902B /* WorkflowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C023F21E8434A200BE902B /* WorkflowTests.swift */; };
 		54C9EB291C3BD9A0005D4DCA /* DailyMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C9EB251C3BD9A0005D4DCA /* DailyMotion.swift */; };
 		54C9EB2A1C3BD9A0005D4DCA /* Trello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C9EB261C3BD9A0005D4DCA /* Trello.swift */; };
 		54C9EB2B1C3BD9A0005D4DCA /* Twitterrific.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C9EB271C3BD9A0005D4DCA /* Twitterrific.swift */; };
@@ -1028,6 +1033,8 @@
 		5498D7A41C4A9D7900E88CA9 /* YammerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YammerTests.swift; sourceTree = "<group>"; };
 		54A2803B1E36885D00A0A46C /* Slack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slack.swift; sourceTree = "<group>"; };
 		54A311801E3507200083C6D9 /* SlackTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlackTests.swift; sourceTree = "<group>"; };
+		54C023EE1E84341A00BE902B /* Workflow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workflow.swift; sourceTree = "<group>"; };
+		54C023F21E8434A200BE902B /* WorkflowTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkflowTests.swift; sourceTree = "<group>"; };
 		54C9EB251C3BD9A0005D4DCA /* DailyMotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyMotion.swift; sourceTree = "<group>"; };
 		54C9EB261C3BD9A0005D4DCA /* Trello.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trello.swift; sourceTree = "<group>"; };
 		54C9EB271C3BD9A0005D4DCA /* Twitterrific.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Twitterrific.swift; sourceTree = "<group>"; };
@@ -1401,6 +1408,7 @@
 				951714011CA4E0A500C4EBB1 /* FRILTests.swift */,
 				95C2BBA31CA4E32D000F1B35 /* RIDETests.swift */,
 				54A311801E3507200083C6D9 /* SlackTests.swift */,
+				54C023F21E8434A200BE902B /* WorkflowTests.swift */,
 			);
 			path = AppsTests;
 			sourceTree = "<group>";
@@ -1640,6 +1648,7 @@
 				951713FD1CA4DFA900C4EBB1 /* FRIL.swift */,
 				951714041CA4E21100C4EBB1 /* RIDE.swift */,
 				54A2803B1E36885D00A0A46C /* Slack.swift */,
+				54C023EE1E84341A00BE902B /* Workflow.swift */,
 			);
 			path = Apps;
 			sourceTree = "<group>";
@@ -1939,6 +1948,7 @@
 				8254C7C91C26124D009DB3BD /* NSExtensionContext+ApplicationCaller.swift in Sources */,
 				5415A7A51C58A3B400598B65 /* AppleMaps.swift in Sources */,
 				8254C78C1C2608BA009DB3BD /* Applications.swift in Sources */,
+				54C023F01E84342600BE902B /* Workflow.swift in Sources */,
 				5415A7CB1C58A3C000598B65 /* GooglePhotos.swift in Sources */,
 				546C1B781C4039570060C47C /* NameShark.swift in Sources */,
 				951713FF1CA4DFA900C4EBB1 /* FRIL.swift in Sources */,
@@ -2166,6 +2176,7 @@
 				54263BE11C5737DE0059F828 /* StitcherRadioTests.swift in Sources */,
 				541DA2801E3D2CD800010324 /* ForestTests.swift in Sources */,
 				54F4E1221C58ABCE008C4794 /* RoboFormTests.swift in Sources */,
+				54C023F41E8434A200BE902B /* WorkflowTests.swift in Sources */,
 				54263BB41C5737400059F828 /* PeriscopeTests.swift in Sources */,
 				54F4E1341C58ABFD008C4794 /* HootSuiteTests.swift in Sources */,
 				54F4E1291C58ABE6008C4794 /* AppleMapsTests.swift in Sources */,
@@ -2236,6 +2247,7 @@
 				82F315E71C38538100CEFE92 /* Quora.swift in Sources */,
 				54566F321C3D9C450086CAAA /* Soundflake.swift in Sources */,
 				546C1B751C40394F0060C47C /* FriendlySocial.swift in Sources */,
+				54C023F11E84342700BE902B /* Workflow.swift in Sources */,
 				5415A7C21C58A3BF00598B65 /* WordPress.swift in Sources */,
 				5415A7AA1C58A3BF00598B65 /* Diigo.swift in Sources */,
 				5458851B1C3C603300AD1B14 /* TestFlight.swift in Sources */,
@@ -2455,6 +2467,7 @@
 				5415A7861C58A39900598B65 /* AppleMaps.swift in Sources */,
 				5480421B1C3A5AE300BBE49E /* Outlook.swift in Sources */,
 				5415A78F1C58A39900598B65 /* GooglePhotos.swift in Sources */,
+				54C023EF1E84341A00BE902B /* Workflow.swift in Sources */,
 				546C1B6C1C4039370060C47C /* NameShark.swift in Sources */,
 				82F315FA1C38538100CEFE92 /* Yelp.swift in Sources */,
 				951713FE1CA4DFA900C4EBB1 /* FRIL.swift in Sources */,
@@ -2614,6 +2627,7 @@
 				54D8A11F1C58CA59002281AA /* StravaTests.swift in Sources */,
 				82F316451C38539F00CEFE92 /* MessagesTest.swift in Sources */,
 				951714021CA4E0A500C4EBB1 /* FRILTests.swift in Sources */,
+				54C023F31E8434A200BE902B /* WorkflowTests.swift in Sources */,
 				5498D79B1C4A9C7A00E88CA9 /* SimplenoteTests.swift in Sources */,
 				54955E001C3D3D0A00D6AD08 /* AllCastTests.swift in Sources */,
 				541C21CA1C3D2CC300D89D4A /* ItunesUTests.swift in Sources */,
