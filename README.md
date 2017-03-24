@@ -16,7 +16,7 @@
   <a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
     <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"/>
   </a>
-  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-160-9600cd.svg"/>
+  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-161-9600cd.svg"/>
 </p>
 
 <p align="center">
@@ -256,6 +256,7 @@ App | Actions
 [Whyd][Whyd-link] | Open
 [Wikipanion][Wikipanion-link] | Open
 [WordPress][WordPress-link] | Open
+[Workflow][Workflow-link] | Open
 [Yammer][Yammer-link] | Open
 [Yelp][Yelp-link] | Open, Search, Search Location, Search Category, Search Category Location, Business
 [Youtube][Youtube-link] | Open, Open Video
@@ -473,6 +474,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Whyd-link]: http://whyd.com
 [Wikipanion-link]: http://www.wikipanion.com/download.html?iphone
 [WordPress-link]: https://apps.wordpress.org
+[Workflow-link]: https://workflow.is
 [YahooWeather-link]: https://mobile.yahoo.com/weather/
 [Yammer-link]: https://products.office.com/en-us/yammer/yammer-mobile-app
 [Yelp-link]: https://m.yelp.com
