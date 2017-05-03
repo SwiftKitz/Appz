@@ -12,6 +12,9 @@
 		4D37320E1CA439A700352429 /* CirclePayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37320B1CA438D400352429 /* CirclePayTests.swift */; };
 		4D37320F1CA439AE00352429 /* CirclePay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3732091CA4379200352429 /* CirclePay.swift */; };
 		4D3732101CA439AE00352429 /* CirclePay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3732091CA4379200352429 /* CirclePay.swift */; };
+		5415664D1D942174009F07A8 /* OpenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5415664C1D942174009F07A8 /* OpenApp.swift */; };
+		5415664E1D942174009F07A8 /* OpenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5415664C1D942174009F07A8 /* OpenApp.swift */; };
+		5415664F1D942174009F07A8 /* OpenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5415664C1D942174009F07A8 /* OpenApp.swift */; };
 		5415A7851C58A39900598B65 /* AirLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5415A7671C58A39900598B65 /* AirLaunch.swift */; };
 		5415A7861C58A39900598B65 /* AppleMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5415A7681C58A39900598B65 /* AppleMaps.swift */; };
 		5415A7871C58A39900598B65 /* Calendars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5415A7691C58A39900598B65 /* Calendars.swift */; };
@@ -863,6 +866,7 @@
 /* Begin PBXFileReference section */
 		4D3732091CA4379200352429 /* CirclePay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirclePay.swift; sourceTree = "<group>"; };
 		4D37320B1CA438D400352429 /* CirclePayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirclePayTests.swift; sourceTree = "<group>"; };
+		5415664C1D942174009F07A8 /* OpenApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenApp.swift; sourceTree = "<group>"; };
 		5415A7671C58A39900598B65 /* AirLaunch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirLaunch.swift; sourceTree = "<group>"; };
 		5415A7681C58A39900598B65 /* AppleMaps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleMaps.swift; sourceTree = "<group>"; };
 		5415A7691C58A39900598B65 /* Calendars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calendars.swift; sourceTree = "<group>"; };
@@ -1481,6 +1485,7 @@
 				826ACF181BF1BD1F00B5FC5D /* Applications.swift */,
 				826ACF1A1BF1BD7F00B5FC5D /* ExternalApplication.swift */,
 				82D9A0FA1C1E495D00EAC0ED /* Path.swift */,
+				5415664C1D942174009F07A8 /* OpenApp.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -1957,6 +1962,7 @@
 				54566F2F1C3D9C400086CAAA /* OMT.swift in Sources */,
 				544113F71C3C1F24005A0A65 /* Vine.swift in Sources */,
 				541C219E1C3D29D700D89D4A /* Meerkat.swift in Sources */,
+				5415664E1D942174009F07A8 /* OpenApp.swift in Sources */,
 				54C9EB2D1C3BD9A4005D4DCA /* DailyMotion.swift in Sources */,
 				8254C78D1C2608BA009DB3BD /* ApplicationCaller.swift in Sources */,
 				546C1B761C4039530060C47C /* Heapo.swift in Sources */,
@@ -2251,6 +2257,7 @@
 				5415A7C21C58A3BF00598B65 /* WordPress.swift in Sources */,
 				5415A7AA1C58A3BF00598B65 /* Diigo.swift in Sources */,
 				5458851B1C3C603300AD1B14 /* TestFlight.swift in Sources */,
+				5415664F1D942174009F07A8 /* OpenApp.swift in Sources */,
 				546C1B7B1C4039600060C47C /* Netflix.swift in Sources */,
 				8254C7B51C260DA8009DB3BD /* Path.swift in Sources */,
 				547F331E1C4BCF1000E140D7 /* Pocket.swift in Sources */,
@@ -2476,6 +2483,7 @@
 				54566F271C3D9C2E0086CAAA /* OMT.swift in Sources */,
 				826ACF191BF1BD1F00B5FC5D /* Applications.swift in Sources */,
 				541C21881C3D29BA00D89D4A /* Meerkat.swift in Sources */,
+				5415664D1D942174009F07A8 /* OpenApp.swift in Sources */,
 				82F315FD1C38538100CEFE92 /* Youtube.swift in Sources */,
 				546C1B6B1C4039370060C47C /* Heapo.swift in Sources */,
 				54C9EB291C3BD9A0005D4DCA /* DailyMotion.swift in Sources */,
