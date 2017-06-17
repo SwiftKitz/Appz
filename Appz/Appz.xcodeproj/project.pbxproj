@@ -12,6 +12,11 @@
 		4D37320E1CA439A700352429 /* CirclePayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37320B1CA438D400352429 /* CirclePayTests.swift */; };
 		4D37320F1CA439AE00352429 /* CirclePay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3732091CA4379200352429 /* CirclePay.swift */; };
 		4D3732101CA439AE00352429 /* CirclePay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3732091CA4379200352429 /* CirclePay.swift */; };
+		5411F3AC1EF5717700435D37 /* Behance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5411F3AB1EF5717700435D37 /* Behance.swift */; };
+		5411F3AD1EF5718300435D37 /* Behance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5411F3AB1EF5717700435D37 /* Behance.swift */; };
+		5411F3AE1EF5718400435D37 /* Behance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5411F3AB1EF5717700435D37 /* Behance.swift */; };
+		5411F3B01EF571EF00435D37 /* BehanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5411F3AF1EF571EF00435D37 /* BehanceTests.swift */; };
+		5411F3B11EF571F600435D37 /* BehanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5411F3AF1EF571EF00435D37 /* BehanceTests.swift */; };
 		5415A7851C58A39900598B65 /* AirLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5415A7671C58A39900598B65 /* AirLaunch.swift */; };
 		5415A7861C58A39900598B65 /* AppleMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5415A7681C58A39900598B65 /* AppleMaps.swift */; };
 		5415A7871C58A39900598B65 /* Calendars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5415A7691C58A39900598B65 /* Calendars.swift */; };
@@ -863,6 +868,8 @@
 /* Begin PBXFileReference section */
 		4D3732091CA4379200352429 /* CirclePay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirclePay.swift; sourceTree = "<group>"; };
 		4D37320B1CA438D400352429 /* CirclePayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirclePayTests.swift; sourceTree = "<group>"; };
+		5411F3AB1EF5717700435D37 /* Behance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Behance.swift; sourceTree = "<group>"; };
+		5411F3AF1EF571EF00435D37 /* BehanceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BehanceTests.swift; sourceTree = "<group>"; };
 		5415A7671C58A39900598B65 /* AirLaunch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirLaunch.swift; sourceTree = "<group>"; };
 		5415A7681C58A39900598B65 /* AppleMaps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleMaps.swift; sourceTree = "<group>"; };
 		5415A7691C58A39900598B65 /* Calendars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calendars.swift; sourceTree = "<group>"; };
@@ -1409,6 +1416,7 @@
 				95C2BBA31CA4E32D000F1B35 /* RIDETests.swift */,
 				54A311801E3507200083C6D9 /* SlackTests.swift */,
 				54C023F21E8434A200BE902B /* WorkflowTests.swift */,
+				5411F3AF1EF571EF00435D37 /* BehanceTests.swift */,
 			);
 			path = AppsTests;
 			sourceTree = "<group>";
@@ -1649,6 +1657,7 @@
 				951714041CA4E21100C4EBB1 /* RIDE.swift */,
 				54A2803B1E36885D00A0A46C /* Slack.swift */,
 				54C023EE1E84341A00BE902B /* Workflow.swift */,
+				5411F3AB1EF5717700435D37 /* Behance.swift */,
 			);
 			path = Apps;
 			sourceTree = "<group>";
@@ -2026,6 +2035,7 @@
 				5415A7D51C58A3C000598B65 /* SubwayKorea.swift in Sources */,
 				541DA26F1E3D2C7A00010324 /* AppleWatch.swift in Sources */,
 				5415A7C41C58A3C000598B65 /* Clips.swift in Sources */,
+				5411F3AD1EF5718300435D37 /* Behance.swift in Sources */,
 				541C21961C3D29CA00D89D4A /* Fitbit.swift in Sources */,
 				5415A7D11C58A3C000598B65 /* Mopico.swift in Sources */,
 				8254C78E1C2608BA009DB3BD /* UIApplication+ApplicationCaller.swift in Sources */,
@@ -2057,6 +2067,7 @@
 				82F3164C1C38539F00CEFE92 /* QuoraTests.swift in Sources */,
 				54344B811D91B43E00348D50 /* SkitchTests.swift in Sources */,
 				54F4E12B1C58ABFD008C4794 /* ClipsTests.swift in Sources */,
+				5411F3B11EF571F600435D37 /* BehanceTests.swift in Sources */,
 				4D37320E1CA439A700352429 /* CirclePayTests.swift in Sources */,
 				54F4E12C1C58ABFD008C4794 /* DiigoTests.swift in Sources */,
 				54ADFD721C58E7BD0064CA1A /* EyeEmTests.swift in Sources */,
@@ -2371,6 +2382,7 @@
 				82F315B41C38538100CEFE92 /* Ebay.swift in Sources */,
 				5415A7BE1C58A3BF00598B65 /* Tubex.swift in Sources */,
 				82F315F31C38538100CEFE92 /* Twitter.swift in Sources */,
+				5411F3AE1EF5718400435D37 /* Behance.swift in Sources */,
 				5498D7941C4A994000E88CA9 /* Yammer.swift in Sources */,
 				54C9EB301C3BD9A9005D4DCA /* Trello.swift in Sources */,
 				541C21A11C3D29DC00D89D4A /* MyFitnessPal.swift in Sources */,
@@ -2545,6 +2557,7 @@
 				82F315C41C38538100CEFE92 /* GoogleMaps.swift in Sources */,
 				541DA26B1E3D2C7400010324 /* AppleWatch.swift in Sources */,
 				5415A7881C58A39900598B65 /* Clips.swift in Sources */,
+				5411F3AC1EF5717700435D37 /* Behance.swift in Sources */,
 				541C21841C3D29BA00D89D4A /* Fitbit.swift in Sources */,
 				5415A7951C58A39900598B65 /* Mopico.swift in Sources */,
 				826ACF251BF1C00800B5FC5D /* UIApplication+ApplicationCaller.swift in Sources */,
@@ -2591,6 +2604,7 @@
 				54F649C11C3EA1E800619ACF /* GroupeMeTests.swift in Sources */,
 				54244A1C1C3A5B7F00AA064F /* OneDriveTests.swift in Sources */,
 				547C832B1C58AC7A00BFD6B6 /* Camera360Tests.swift in Sources */,
+				5411F3B01EF571EF00435D37 /* BehanceTests.swift in Sources */,
 				541C21BB1C3D2B3A00D89D4A /* PeriscopeTests.swift in Sources */,
 				54C9EB361C3BDACF005D4DCA /* WazeTests.swift in Sources */,
 				54F649C31C3EA25E00619ACF /* KakaoTalkTests.swift in Sources */,
