@@ -7,29 +7,25 @@
 //
 
 import XCTest
+@testable import Appz
 
 class CareemTests: XCTestCase {
     
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    let appCaller = ApplicationCallerMock()
+    
+    func testConfiguration() {
+        
+        let careem = Applications.Careem()
+        XCTAssertEqual(careem.scheme, "careem:")
+        XCTAssertEqual(careem.fallbackURL, "https://www.careem.com/dubai/node")
     }
     
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
+    func testOpen() {
+        
+        let action = Applications.Careem.Action.open
+        
+        XCTAssertEqual(action.paths.app.pathComponents, ["app"])
+        XCTAssertEqual(action.paths.app.queryParameters, [:])
+        XCTAssertEqual(action.paths.web, Path())
     }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
 }

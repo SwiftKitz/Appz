@@ -10,7 +10,7 @@ public extension Applications {
     
     public struct Careem: ExternalApplication {
         
-        public typealias ActionType = Applications.Behance.Action
+        public typealias ActionType = Applications.Careem.Action
         
         public let scheme = "careem:"
         public let fallbackURL = "https://www.careem.com/dubai/node"
