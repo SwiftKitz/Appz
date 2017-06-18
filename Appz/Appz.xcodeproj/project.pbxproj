@@ -548,6 +548,11 @@
 		54D8A11D1C58CA0F002281AA /* Vimeo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8A1171C58CA0B002281AA /* Vimeo.swift */; };
 		54D8A11F1C58CA59002281AA /* StravaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8A11E1C58CA59002281AA /* StravaTests.swift */; };
 		54D8A1211C58CA87002281AA /* VimeoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8A1201C58CA87002281AA /* VimeoTests.swift */; };
+		54DE5FA31EF6C8B2003A0402 /* Careem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DE5FA21EF6C8B2003A0402 /* Careem.swift */; };
+		54DE5FA41EF6C8B2003A0402 /* Careem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DE5FA21EF6C8B2003A0402 /* Careem.swift */; };
+		54DE5FA51EF6C8B2003A0402 /* Careem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DE5FA21EF6C8B2003A0402 /* Careem.swift */; };
+		54DE5FA71EF6C973003A0402 /* CareemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DE5FA61EF6C973003A0402 /* CareemTests.swift */; };
+		54DE5FA81EF6C973003A0402 /* CareemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DE5FA61EF6C973003A0402 /* CareemTests.swift */; };
 		54F4E0E31C58A66B008C4794 /* AirLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F4E0A41C58A660008C4794 /* AirLaunchTests.swift */; };
 		54F4E0E41C58A66B008C4794 /* AppleMapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F4E0A51C58A660008C4794 /* AppleMapsTests.swift */; };
 		54F4E0E51C58A66B008C4794 /* CalendarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F4E0A61C58A660008C4794 /* CalendarsTests.swift */; };
@@ -1071,6 +1076,8 @@
 		54D8A1171C58CA0B002281AA /* Vimeo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vimeo.swift; sourceTree = "<group>"; };
 		54D8A11E1C58CA59002281AA /* StravaTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StravaTests.swift; sourceTree = "<group>"; };
 		54D8A1201C58CA87002281AA /* VimeoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VimeoTests.swift; sourceTree = "<group>"; };
+		54DE5FA21EF6C8B2003A0402 /* Careem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Careem.swift; sourceTree = "<group>"; };
+		54DE5FA61EF6C973003A0402 /* CareemTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CareemTests.swift; sourceTree = "<group>"; };
 		54F4E0A41C58A660008C4794 /* AirLaunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirLaunchTests.swift; sourceTree = "<group>"; };
 		54F4E0A51C58A660008C4794 /* AppleMapsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleMapsTests.swift; sourceTree = "<group>"; };
 		54F4E0A61C58A660008C4794 /* CalendarsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarsTests.swift; sourceTree = "<group>"; };
@@ -1417,6 +1424,7 @@
 				54A311801E3507200083C6D9 /* SlackTests.swift */,
 				54C023F21E8434A200BE902B /* WorkflowTests.swift */,
 				5411F3AF1EF571EF00435D37 /* BehanceTests.swift */,
+				54DE5FA61EF6C973003A0402 /* CareemTests.swift */,
 			);
 			path = AppsTests;
 			sourceTree = "<group>";
@@ -1658,6 +1666,7 @@
 				54A2803B1E36885D00A0A46C /* Slack.swift */,
 				54C023EE1E84341A00BE902B /* Workflow.swift */,
 				5411F3AB1EF5717700435D37 /* Behance.swift */,
+				54DE5FA21EF6C8B2003A0402 /* Careem.swift */,
 			);
 			path = Apps;
 			sourceTree = "<group>";
@@ -1933,6 +1942,7 @@
 				54955DFD1C3D3CF900D6AD08 /* AllCast.swift in Sources */,
 				547C83221C58AC5E00BFD6B6 /* Camera360.swift in Sources */,
 				5498D7891C4A992A00E88CA9 /* Instapaper.swift in Sources */,
+				54DE5FA41EF6C8B2003A0402 /* Careem.swift in Sources */,
 				5415A7C51C58A3C000598B65 /* Diigo.swift in Sources */,
 				5498D7911C4A993B00E88CA9 /* Wikipanion.swift in Sources */,
 				547C83231C58AC5E00BFD6B6 /* EyeEm.swift in Sources */,
@@ -2168,6 +2178,7 @@
 				54263BD71C5737BA0059F828 /* UberTests.swift in Sources */,
 				54263BB01C5737330059F828 /* WhydTests.swift in Sources */,
 				54F4E1331C58ABFD008C4794 /* GoogleTranslateTests.swift in Sources */,
+				54DE5FA81EF6C973003A0402 /* CareemTests.swift in Sources */,
 				82F3163E1C38539F00CEFE92 /* INRIXTrafficTests.swift in Sources */,
 				54F4E1241C58ABD5008C4794 /* SubwayKoreaTests.swift in Sources */,
 				541C21DA1C3D3C3300D89D4A /* BuzzfeedTests.swift in Sources */,
@@ -2365,6 +2376,7 @@
 				54F649AD1C3EA1B200619ACF /* KakaoTalk.swift in Sources */,
 				8254C7BE1C260DA8009DB3BD /* ApplicationCaller.swift in Sources */,
 				5415A7A91C58A3BF00598B65 /* Clips.swift in Sources */,
+				54DE5FA51EF6C8B2003A0402 /* Careem.swift in Sources */,
 				82F315D81C38538100CEFE92 /* Itranslate.swift in Sources */,
 				547F33221C4BCF1800E140D7 /* Ustream.swift in Sources */,
 				541C21991C3D29CE00D89D4A /* Ishows.swift in Sources */,
@@ -2455,6 +2467,7 @@
 				547C831E1C58AC5400BFD6B6 /* Camera360.swift in Sources */,
 				5498D7831C4A992400E88CA9 /* Instapaper.swift in Sources */,
 				5415A7891C58A39900598B65 /* Diigo.swift in Sources */,
+				54DE5FA31EF6C8B2003A0402 /* Careem.swift in Sources */,
 				5498D7871C4A992400E88CA9 /* Wikipanion.swift in Sources */,
 				547C831F1C58AC5400BFD6B6 /* EyeEm.swift in Sources */,
 				544113F61C3C1F1F005A0A65 /* Vine.swift in Sources */,
@@ -2699,6 +2712,7 @@
 				54A311841E3507AD0083C6D9 /* SlackTests.swift in Sources */,
 				541DA27C1E3D2CD700010324 /* ForestTests.swift in Sources */,
 				54F4E0E91C58A66B008C4794 /* FeedlyTests.swift in Sources */,
+				54DE5FA71EF6C973003A0402 /* CareemTests.swift in Sources */,
 				541C21D91C3D3C0000D89D4A /* BuzzfeedTests.swift in Sources */,
 				546695F11C417407000461D2 /* UberTests.swift in Sources */,
 				4D37320D1CA439A700352429 /* CirclePayTests.swift in Sources */,
