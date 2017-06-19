@@ -6,19 +6,16 @@ env:
   - LANG=en_US.UTF-8
   - WORKSPACE=Appz.xcworkspace
   - IOS_FRAMEWORK_SCHEME="Appz-ios"
-  - IOS_SDK=iphonesimulator10.3
   matrix:
-  - DESTINATION="OS=10.3,name=iPhone 5S"        SCHEME="$IOS_FRAMEWORK_SCHEME"     SDK="$IOS_SDK"     RUN_TESTS="YES"
+  - DESTINATION="OS=10.3,name=iPhone SE"        SCHEME="$IOS_FRAMEWORK_SCHEME"
 before_install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
 - set -o pipefail
 - xcodebuild -version
 - xcodebuild -showsdks
-- if [ $RUN_TESTS == "YES" ]; then xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME"
-  -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO
-  test | xcpretty -c; else xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk
-  "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO build | xcpretty -c; fi
+- xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -destination "$DESTINATION" 
+  -configuration Debug ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=YES test | xcpretty -c;
 notifications:
   email: false
   slack:
