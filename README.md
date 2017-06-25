@@ -16,7 +16,7 @@
   <a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
     <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"/>
   </a>
-  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-163-9600cd.svg"/>
+  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-164-9600cd.svg"/>
 </p>
 
 <p align="center">
@@ -110,6 +110,7 @@ App | Actions
 [AppStore][AppStore-link] | Developer, App, Rate App
 [AppleWatch][AppleWatch-link] | Open
 [Audible][Audible-link] | Open
+[Ayah][Ayah-link] | Open
 [Behance][Behance-link] | Open
 [BNR][BNR-link] | Open
 [Box][Box-link] | Open
@@ -330,6 +331,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [AppStore-link]: https://developer.apple.com/library/ios/qa/qa1633/_index.html
 [AppleWatch-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
 [Audible-link]: http://www.audible.com
+[Ayah-link]: http://ayahapp.com
 [Behance-link]: https://www.behance.net/
 [BNR-link]: http://www.bnr.nl
 [Box-link]: https://www.box.com/business/secure-enterprise-mobility/
