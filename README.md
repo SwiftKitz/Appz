@@ -111,7 +111,7 @@ App | Actions
 [AppleWatch][AppleWatch-link] | Open
 [Audible][Audible-link] | Open
 [Ayah][Ayah-link] | Open
-[Behance][Behance-link] | Open
+[Behance][Behance-link] | Open, UserProfile
 [BNR][BNR-link] | Open
 [Box][Box-link] | Open
 [Buzzfeed][Buzzfeed-link] | Open
