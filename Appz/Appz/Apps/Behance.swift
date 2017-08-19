@@ -26,6 +26,7 @@ public extension Applications.Behance {
     
     public enum Action {
         case open
+        case userProfile(String)
     }
 }
 
@@ -41,6 +42,18 @@ extension Applications.Behance.Action: ExternalApplicationAction {
                     queryParameters: [:]
                 ),
                 web: Path()
+            )
+            
+        case .userProfile(let profile):
+            return ActionPaths(
+                app: Path(
+                    pathComponents: ["profile", profile],
+                    queryParameters: [:]
+                ),
+                web: Path(
+                    pathComponents: [profile],
+                    queryParameters: [:]
+                )
             )
         }
     }

@@ -16,7 +16,7 @@
   <a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
     <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"/>
   </a>
-  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-164-9600cd.svg"/>
+  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-165-9600cd.svg"/>
 </p>
 
 <p align="center">
@@ -111,7 +111,7 @@ App | Actions
 [AppleWatch][AppleWatch-link] | Open
 [Audible][Audible-link] | Open
 [Ayah][Ayah-link] | Open
-[Behance][Behance-link] | Open
+[Behance][Behance-link] | Open, UserProfile
 [BNR][BNR-link] | Open
 [Box][Box-link] | Open
 [Buzzfeed][Buzzfeed-link] | Open
@@ -125,6 +125,7 @@ App | Actions
 [CNN][CNN-link] | Open
 [Currency][Currency-link] | Open
 [DailyMotion][DailyMotion-link] | Open
+[DamaKing][DamaKing-link] | Open
 [DayCost][DayCost-link] | Open
 [DayOne][DayOne-link] | Open
 [Diigo][Diigo-link] | Open
@@ -346,6 +347,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [CNN-link]: http://edition.cnn.com/specials/mobile-apps
 [Currency-link]: http://www.xe.com/apps/iphone/
 [DailyMotion-link]: http://www.dailymotion.com/
+[DamaKing-link]: http://level3.io
 [DayCost-link]: https://www.facebook.com/iDaycost/
 [DayOne-link]: http://dayoneapp.com
 [Diigo-link]: https://www.diigo.com

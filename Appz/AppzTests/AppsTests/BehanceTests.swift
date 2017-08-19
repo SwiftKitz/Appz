@@ -28,4 +28,15 @@ class BehanceTests: XCTestCase {
         XCTAssertEqual(action.paths.app.queryParameters, [:])
         XCTAssertEqual(action.paths.web, Path())
     }
+    
+    func testUserProfile() {
+        
+        let profile = "StudioAIO"
+        let action = Applications.Behance.Action.userProfile(profile)
+        
+        XCTAssertEqual(action.paths.app.pathComponents, ["profile", profile])
+        XCTAssertEqual(action.paths.app.queryParameters, [:])
+        XCTAssertEqual(action.paths.web.pathComponents, [profile])
+        XCTAssertEqual(action.paths.web.queryParameters, [:])
+    }
 }
