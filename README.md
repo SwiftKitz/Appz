@@ -7,16 +7,16 @@
 </h1>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/version-2.1.1-blue.svg"/>
+  <img alt="Version" src="https://img.shields.io/badge/version-2.0.1-blue.svg"/>
   <a alt="Travis CI" href="https://travis-ci.org/SwiftKitz/Appz">
     <img alt="Version" src="https://travis-ci.org/SwiftKitz/Appz.svg?branch=master"/>
   </a>
-  <img alt="Swift" src="https://img.shields.io/badge/swift-3.x-orange.svg"/>
+  <img alt="Swift" src="https://img.shields.io/badge/swift-4.0-orange.svg"/>
   <img alt="Platforms" src="https://img.shields.io/badge/platform-ios%20%7C%20watchos%20%7C%20tvos-lightgrey.svg"/>
   <a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
     <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"/>
   </a>
-  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-165-9600cd.svg"/>
+  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-160-9600cd.svg"/>
 </p>
 
 <p align="center">
@@ -56,7 +56,7 @@ __Transparent web fallback:__
 ```swift
 // In case the user doesn't have twitter installed, it will fallback to
 // https://twitter.com/statuses/2
-app.open(Applications.Twitter(), action: .status(id: "2"))
+app.open(Applications.Twitter(), action: .Status(id: "2"))
 ```
 
 __Add your applications:__
@@ -108,16 +108,12 @@ App | Actions
 [AppleMaps][AppleMaps-link] | Open
 [AppSettings][AppSettings-link] | Open
 [AppStore][AppStore-link] | Developer, App, Rate App
-[AppleWatch][AppleWatch-link] | Open
 [Audible][Audible-link] | Open
-[Ayah][Ayah-link] | Open
-[Behance][Behance-link] | Open, UserProfile
 [BNR][BNR-link] | Open
 [Box][Box-link] | Open
 [Buzzfeed][Buzzfeed-link] | Open
 [Calendars5][Calendars5-link] | Open
 [Camera360][Camera360-link] | Open
-[Careem][Careem-link] | Open
 [Chromecast][Chromecast-link] | Open
 [CirclePay][CirclePay-link] | Open, Request, Send
 [Clips][Clips-link] | Open
@@ -125,7 +121,6 @@ App | Actions
 [CNN][CNN-link] | Open
 [Currency][Currency-link] | Open
 [DailyMotion][DailyMotion-link] | Open
-[DamaKing][DamaKing-link] | Open
 [DayCost][DayCost-link] | Open
 [DayOne][DayOne-link] | Open
 [Diigo][Diigo-link] | Open
@@ -253,6 +248,7 @@ App | Actions
 [Vox][Vox-link] | Open
 [Voxer][Voxer-link] | Open
 [VSCO][VSCO-link] | Open
+[AppleWatch][AppleWatch-link] | Open
 [Waze][Waze-link] | Open, NavigateToDirection
 [WeChat][WeChat-link] | Open
 [Weibo][Weibo-link] | Open
@@ -260,7 +256,6 @@ App | Actions
 [Whyd][Whyd-link] | Open
 [Wikipanion][Wikipanion-link] | Open
 [WordPress][WordPress-link] | Open
-[Workflow][Workflow-link] | Open
 [Yammer][Yammer-link] | Open
 [Yelp][Yelp-link] | Open, Search, Search Location, Search Category, Search Category Location, Business
 [Youtube][Youtube-link] | Open, Open Video
@@ -269,7 +264,7 @@ App | Actions
 
 ## Getting Started
 
-**IMPORTANT:** Kitz repos fully embrace Swift 3.0 and all the changes it brought. You should use `v1.6.0` if you are still using Swift 2.x.
+**IMPORTANT:** Kitz repos fully embrace Swift 4.0 and all the changes it brought. You should use `v1.6.0` if you are still using Swift 2.x.
 
 ### Configure Info.plist
 
@@ -330,16 +325,12 @@ Appz is released under the MIT license. See LICENSE for details.
 [AppleMaps-link]: https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MapLinks/MapLinks.html#//apple_ref/doc/uid/TP40007899-CH5-SW1
 [AppSettings-link]: https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.html#//apple_ref/c/data/UIApplicationOpenSettingsURLString
 [AppStore-link]: https://developer.apple.com/library/ios/qa/qa1633/_index.html
-[AppleWatch-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
 [Audible-link]: http://www.audible.com
-[Ayah-link]: http://ayahapp.com
-[Behance-link]: https://www.behance.net/
 [BNR-link]: http://www.bnr.nl
 [Box-link]: https://www.box.com/business/secure-enterprise-mobility/
 [Buzzfeed-link]: http://www.buzzfeed.com
 [Calendars5-link]: https://readdle.com/products/calendars5
 [Camera360-link]: https://www.camera360.com/production/?production=camera360&platform=ios
-[Careem-link]: https://www.careem.com/dubai/node
 [Chromecast-link]: https://www.google.com/intl/en_us/chromecast/
 [CirclePay-link]: https://itunes.apple.com/app/id920164002
 [Clips-link]: http://www.cleanshavenapps.com/clips/#download
@@ -347,7 +338,6 @@ Appz is released under the MIT license. See LICENSE for details.
 [CNN-link]: http://edition.cnn.com/specials/mobile-apps
 [Currency-link]: http://www.xe.com/apps/iphone/
 [DailyMotion-link]: http://www.dailymotion.com/
-[DamaKing-link]: http://level3.io
 [DayCost-link]: https://www.facebook.com/iDaycost/
 [DayOne-link]: http://dayoneapp.com
 [Diigo-link]: https://www.diigo.com
@@ -475,6 +465,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Vox-link]: http://coppertino.com/vox/iphone
 [Voxer-link]: http://www.voxer.com
 [VSCO-link]: http://vsco.co/store/app
+[AppleWatch-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
 [Waze-link]: https://www.waze.com
 [WeChat-link]: http://forums.macrumors.com/threads/ios-8-widget-customisations-using-launcher.1782093/
 [Weibo-link]: http://weibo.com/login.php
@@ -482,7 +473,6 @@ Appz is released under the MIT license. See LICENSE for details.
 [Whyd-link]: http://whyd.com
 [Wikipanion-link]: http://www.wikipanion.com/download.html?iphone
 [WordPress-link]: https://apps.wordpress.org
-[Workflow-link]: https://workflow.is
 [YahooWeather-link]: https://mobile.yahoo.com/weather/
 [Yammer-link]: https://products.office.com/en-us/yammer/yammer-mobile-app
 [Yelp-link]: https://m.yelp.com
