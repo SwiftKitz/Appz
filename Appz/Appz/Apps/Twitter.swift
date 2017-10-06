@@ -25,8 +25,8 @@ public extension Applications {
 public extension Applications.Twitter {
 
     public enum Action {
-    
-        case status(id: String)
+        // screen name required to properly deeplink using web fallback on mobile devices
+        case status(id: String, screenName: String?)
         case userHandle(String)
         case userId(String)
         case list(handle: String, slug: String)
@@ -43,13 +43,13 @@ extension Applications.Twitter.Action: ExternalApplicationAction {
     public var paths: ActionPaths {
 
         switch self {
-        case .status(let id):
+        case let .status(id, screenName):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["status"],
                     queryParameters: ["id": id]),
                 web: Path(
-                    pathComponents: ["statuses", id],
+                    pathComponents: [screenName ?? "err", "statuses", id],
                     queryParameters: [:]
                 )
             )
