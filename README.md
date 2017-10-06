@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/version-2.1.1-blue.svg"/>
+  <img alt="Version" src="https://img.shields.io/badge/version-3.0.0-blue.svg"/>
   <a alt="Travis CI" href="https://travis-ci.org/SwiftKitz/Appz">
     <img alt="Version" src="https://travis-ci.org/SwiftKitz/Appz.svg?branch=master"/>
   </a>
@@ -269,7 +269,7 @@ App | Actions
 
 ## Getting Started
 
-**IMPORTANT:** Kitz repos fully embrace Swift 4.0 and all the changes it brought. You should use `v1.6.0` if you are still using Swift 2.x.
+**IMPORTANT:** Kitz repos fully embrace Swift 4.0 and all the changes it brought. You should use `v2.1.1` if you are still using Swift 3.x.
 
 ### Configure Info.plist
 
