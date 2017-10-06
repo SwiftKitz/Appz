@@ -23,11 +23,12 @@ class TwitterTests: XCTestCase {
     func testStatus() {
         
         let statusId = "663797797234323456"
-        let action = Applications.Twitter.Action.status(id: statusId)
+        let screenName = "CommitStrip"
+        let action = Applications.Twitter.Action.status(id: statusId, screenName: screenName)
         
         XCTAssertEqual(action.paths.app.pathComponents, ["status"])
         XCTAssertEqual(action.paths.app.queryParameters, ["id": statusId])
-        XCTAssertEqual(action.paths.web.pathComponents, ["statuses", statusId])
+        XCTAssertEqual(action.paths.web.pathComponents, [screenName, "statuses", statusId])
         XCTAssertEqual(action.paths.web.queryParameters, [:])
     }
     
