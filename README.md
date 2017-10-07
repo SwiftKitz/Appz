@@ -269,7 +269,7 @@ App | Actions
 
 ## Getting Started
 
-**IMPORTANT:** Kitz repos fully embrace Swift 4.0 and all the changes it brought. You should use `v2.1.1` if you are still using Swift 3.x.
+**IMPORTANT:** Kitz repos fully embrace Swift 4.0 and all the changes it brought. You should use [v2.1.1][v2.1.1-link] if you are still using Swift 3.x.
 
 ### Configure Info.plist
 
@@ -490,3 +490,4 @@ Appz is released under the MIT license. See LICENSE for details.
 [FRIL-link]: https://fril.jp
 [RIDE-link]: https://ride.jp
 [video-link]: https://youtu.be/HYQ4vqkOunE
+[v2.1.1-link]: https://github.com/SwiftKitz/Appz/releases/tag/v2.1.1
