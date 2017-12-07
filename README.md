@@ -168,7 +168,7 @@ App | Actions
 [IMDb][IMDb-link] | Open, Search, Title, Boxoffice, Showtimes, Feature Coming Soon, Feature Best Picture, Feature Born Today, Top rated movies, Most popular movies.
 [iMovie][iMovie-link] | Open
 [INRIXTraffic][INRIXTraffic-link] | Open
-[Instagram][Instagram-link] | Open, Camera, Media, Username, Location, Tag
+[Instagram][Instagram-link] | Open, Camera, Library, Media, Username, Location, Tag
 [Instapaper][Instapaper-link] | Open
 [iShows][iShows-link] | Open
 [iTranslate][iTranslate-link] | Open, Translate
