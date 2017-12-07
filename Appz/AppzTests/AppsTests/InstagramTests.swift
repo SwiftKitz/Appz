@@ -38,6 +38,16 @@ class InstagramTests: XCTestCase {
         XCTAssertEqual(action.paths.web, Path())
     }
     
+    func testLibrary() {
+        
+        let action = Applications.Instagram.Action.library(id: "1")
+        
+        XCTAssertEqual(action.paths.app.pathComponents, ["library"])
+        XCTAssertEqual(action.paths.app.queryParameters, ["LocalIdentifier":"1"])
+       
+        XCTAssertEqual(action.paths.web, Path())
+    }
+    
     func testMedia() {
         
         let action = Applications.Instagram.Action.media(id: "1")
