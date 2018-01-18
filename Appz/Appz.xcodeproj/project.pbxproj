@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F72167B20110E9D0056F8FF /* FaceTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F72167A20110E9D0056F8FF /* FaceTime.swift */; };
+		3F72167C20110E9D0056F8FF /* FaceTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F72167A20110E9D0056F8FF /* FaceTime.swift */; };
+		3F72167D20110E9D0056F8FF /* FaceTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F72167A20110E9D0056F8FF /* FaceTime.swift */; };
+		3F72167F201110510056F8FF /* FaceTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F72167E201110510056F8FF /* FaceTimeTests.swift */; };
+		3F721680201110510056F8FF /* FaceTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F72167E201110510056F8FF /* FaceTimeTests.swift */; };
 		4D37320A1CA4379200352429 /* CirclePay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3732091CA4379200352429 /* CirclePay.swift */; };
 		4D37320D1CA439A700352429 /* CirclePayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37320B1CA438D400352429 /* CirclePayTests.swift */; };
 		4D37320E1CA439A700352429 /* CirclePayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37320B1CA438D400352429 /* CirclePayTests.swift */; };
@@ -881,6 +886,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F72167A20110E9D0056F8FF /* FaceTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTime.swift; sourceTree = "<group>"; };
+		3F72167E201110510056F8FF /* FaceTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTimeTests.swift; sourceTree = "<group>"; };
 		4D3732091CA4379200352429 /* CirclePay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirclePay.swift; sourceTree = "<group>"; };
 		4D37320B1CA438D400352429 /* CirclePayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirclePayTests.swift; sourceTree = "<group>"; };
 		5411F3AB1EF5717700435D37 /* Behance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Behance.swift; sourceTree = "<group>"; };
@@ -1441,6 +1448,7 @@
 				54DE5FA61EF6C973003A0402 /* CareemTests.swift */,
 				54A6294E1EFEEF9E00F9C533 /* AyahTests.swift */,
 				54D590771F00A85B00F0508D /* DamaKingTests.swift */,
+				3F72167E201110510056F8FF /* FaceTimeTests.swift */,
 			);
 			path = AppsTests;
 			sourceTree = "<group>";
@@ -1685,6 +1693,7 @@
 				54DE5FA21EF6C8B2003A0402 /* Careem.swift */,
 				54A6294A1EFEEF6E00F9C533 /* Ayah.swift */,
 				54D590731F00A81300F0508D /* DamaKing.swift */,
+				3F72167A20110E9D0056F8FF /* FaceTime.swift */,
 			);
 			path = Apps;
 			sourceTree = "<group>";
@@ -2055,6 +2064,7 @@
 				5415A7A61C58A3B400598B65 /* Calendars.swift in Sources */,
 				54F649B01C3EA1BB00619ACF /* Marktplaats.swift in Sources */,
 				54D5D00C1C3995EE0039D512 /* RemindersApp.swift in Sources */,
+				3F72167C20110E9D0056F8FF /* FaceTime.swift in Sources */,
 				54566F2B1C3D9C360086CAAA /* GoogleCalendar.swift in Sources */,
 				541C21921C3D29C300D89D4A /* Chromecast.swift in Sources */,
 				54F649B61C3EA1C500619ACF /* Songpop2.swift in Sources */,
@@ -2214,6 +2224,7 @@
 				54263BD11C5737A80059F828 /* NameSharkTests.swift in Sources */,
 				82F316421C38539F00CEFE92 /* ItranslateTests.swift in Sources */,
 				82F3165C1C38539F00CEFE92 /* YoutubeTests.swift in Sources */,
+				3F721680201110510056F8FF /* FaceTimeTests.swift in Sources */,
 				82F316581C38539F00CEFE92 /* WhatsAppTests.swift in Sources */,
 				541DA2831E3D2CD800010324 /* AppleWatchTests.swift in Sources */,
 				8254C7B01C260A3B009DB3BD /* SampleApp.swift in Sources */,
@@ -2434,6 +2445,7 @@
 				5498D7921C4A993C00E88CA9 /* Wikipanion.swift in Sources */,
 				546695EA1C417378000461D2 /* Tumblr.swift in Sources */,
 				547F33201C4BCF1400E140D7 /* RunKeeper.swift in Sources */,
+				3F72167D20110E9D0056F8FF /* FaceTime.swift in Sources */,
 				82F315C61C38538100CEFE92 /* GoogleMaps.swift in Sources */,
 				541C21971C3D29CB00D89D4A /* Fitbit.swift in Sources */,
 			);
@@ -2586,6 +2598,7 @@
 				541C21861C3D29BA00D89D4A /* ItunesU.swift in Sources */,
 				54F649A21C3EA1A900619ACF /* Marktplaats.swift in Sources */,
 				82F315EB1C38538100CEFE92 /* Telegram.swift in Sources */,
+				3F72167B20110E9D0056F8FF /* FaceTime.swift in Sources */,
 				54566F251C3D9C2E0086CAAA /* GoogleCalendar.swift in Sources */,
 				541C21821C3D29BA00D89D4A /* Chromecast.swift in Sources */,
 				54D5D00B1C3995EE0039D512 /* RemindersApp.swift in Sources */,
@@ -2676,6 +2689,7 @@
 				541C21C41C3D2C4300D89D4A /* MeerkatTests.swift in Sources */,
 				541DA27D1E3D2CD700010324 /* IMovieTests.swift in Sources */,
 				82F316371C38539F00CEFE92 /* GooglePlusTests.swift in Sources */,
+				3F72167F201110510056F8FF /* FaceTimeTests.swift in Sources */,
 				54CD96EE1C403AED00FCE2AB /* NetflixTests.swift in Sources */,
 				54A6294F1EFEEF9E00F9C533 /* AyahTests.swift in Sources */,
 				54D8A11F1C58CA59002281AA /* StravaTests.swift in Sources */,
