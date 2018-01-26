@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F254EC4201B898D00C45056 /* FaceTimeAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F254EC3201B898D00C45056 /* FaceTimeAudio.swift */; };
+		3F254EC5201B898D00C45056 /* FaceTimeAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F254EC3201B898D00C45056 /* FaceTimeAudio.swift */; };
+		3F254EC6201B898D00C45056 /* FaceTimeAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F254EC3201B898D00C45056 /* FaceTimeAudio.swift */; };
+		3F254EC8201B8A0200C45056 /* FaceTimeAudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F254EC7201B8A0200C45056 /* FaceTimeAudioTests.swift */; };
+		3F254EC9201B8A0200C45056 /* FaceTimeAudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F254EC7201B8A0200C45056 /* FaceTimeAudioTests.swift */; };
 		3F72167B20110E9D0056F8FF /* FaceTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F72167A20110E9D0056F8FF /* FaceTime.swift */; };
 		3F72167C20110E9D0056F8FF /* FaceTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F72167A20110E9D0056F8FF /* FaceTime.swift */; };
 		3F72167D20110E9D0056F8FF /* FaceTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F72167A20110E9D0056F8FF /* FaceTime.swift */; };
@@ -886,6 +891,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F254EC3201B898D00C45056 /* FaceTimeAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTimeAudio.swift; sourceTree = "<group>"; };
+		3F254EC7201B8A0200C45056 /* FaceTimeAudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTimeAudioTests.swift; sourceTree = "<group>"; };
 		3F72167A20110E9D0056F8FF /* FaceTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTime.swift; sourceTree = "<group>"; };
 		3F72167E201110510056F8FF /* FaceTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTimeTests.swift; sourceTree = "<group>"; };
 		4D3732091CA4379200352429 /* CirclePay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirclePay.swift; sourceTree = "<group>"; };
@@ -1449,6 +1456,7 @@
 				54A6294E1EFEEF9E00F9C533 /* AyahTests.swift */,
 				54D590771F00A85B00F0508D /* DamaKingTests.swift */,
 				3F72167E201110510056F8FF /* FaceTimeTests.swift */,
+				3F254EC7201B8A0200C45056 /* FaceTimeAudioTests.swift */,
 			);
 			path = AppsTests;
 			sourceTree = "<group>";
@@ -1694,6 +1702,7 @@
 				54A6294A1EFEEF6E00F9C533 /* Ayah.swift */,
 				54D590731F00A81300F0508D /* DamaKing.swift */,
 				3F72167A20110E9D0056F8FF /* FaceTime.swift */,
+				3F254EC3201B898D00C45056 /* FaceTimeAudio.swift */,
 			);
 			path = Apps;
 			sourceTree = "<group>";
@@ -1959,6 +1968,7 @@
 				5415A7D31C58A3C000598B65 /* RoboForm.swift in Sources */,
 				54F649AA1C3EA1AD00619ACF /* GroupeMe.swift in Sources */,
 				5460FB7A1C497A6A009E35EB /* CNN.swift in Sources */,
+				3F254EC5201B898D00C45056 /* FaceTimeAudio.swift in Sources */,
 				82F315CB1C38538100CEFE92 /* Ibooks.swift in Sources */,
 				82F315C81C38538100CEFE92 /* GooglePlus.swift in Sources */,
 				82F315C21C38538100CEFE92 /* GoogleMail.swift in Sources */,
@@ -2238,6 +2248,7 @@
 				54263BD81C5737BD0059F828 /* TumblrTests.swift in Sources */,
 				82F316501C38539F00CEFE92 /* TelegramTests.swift in Sources */,
 				54263BC21C5737760059F828 /* GoogleCalendarTests.swift in Sources */,
+				3F254EC9201B8A0200C45056 /* FaceTimeAudioTests.swift in Sources */,
 				546738921C3996A200AA42F1 /* MusicTests.swift in Sources */,
 				54F4E1261C58ABDA008C4794 /* WordPressTests.swift in Sources */,
 				54F4E1201C58ABC8008C4794 /* GlympseTests.swift in Sources */,
@@ -2348,6 +2359,7 @@
 				82F315DE1C38538100CEFE92 /* Messages.swift in Sources */,
 				54C9EB321C3BD9AD005D4DCA /* Twitterrific.swift in Sources */,
 				54D5D0101C3995EE0039D512 /* Remote.swift in Sources */,
+				3F254EC6201B898D00C45056 /* FaceTimeAudio.swift in Sources */,
 				5415A7A41C58A3AE00598B65 /* AirLaunch.swift in Sources */,
 				82F315C91C38538100CEFE92 /* GooglePlus.swift in Sources */,
 				5460FB7F1C497A72009E35EB /* Echofon.swift in Sources */,
@@ -2493,6 +2505,7 @@
 				54D5D00E1C3995EE0039D512 /* Remote.swift in Sources */,
 				5460FB751C497A5D009E35EB /* CNN.swift in Sources */,
 				54F6499F1C3EA1A900619ACF /* GroupeMe.swift in Sources */,
+				3F254EC4201B898D00C45056 /* FaceTimeAudio.swift in Sources */,
 				5480421A1C3A5AE300BBE49E /* OneDrive.swift in Sources */,
 				82F315CA1C38538100CEFE92 /* Ibooks.swift in Sources */,
 				82F315C71C38538100CEFE92 /* GooglePlus.swift in Sources */,
@@ -2779,6 +2792,7 @@
 				82F316571C38539F00CEFE92 /* WhatsAppTests.swift in Sources */,
 				827EF6171BF2756C000B1607 /* ApplicationCallerMock.swift in Sources */,
 				54F4E0F71C58A66B008C4794 /* VoxTests.swift in Sources */,
+				3F254EC8201B8A0200C45056 /* FaceTimeAudioTests.swift in Sources */,
 				54CD96F51C403BE900FCE2AB /* HeapoTests.swift in Sources */,
 				95C2BBA41CA4E32D000F1B35 /* RIDETests.swift in Sources */,
 				54F4E0F51C58A66B008C4794 /* TubexTests.swift in Sources */,
