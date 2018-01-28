@@ -16,7 +16,7 @@
   <a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
     <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"/>
   </a>
-  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-166-9600cd.svg"/>
+  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-167-9600cd.svg"/>
 </p>
 
 <p align="center">
@@ -138,6 +138,7 @@ App | Actions
 [EyeEm][EyeEm-link] | Open
 [Facebook][Facebook-link] | Open, Profile, Notification, Feed, Page, Action
 [FaceTime][FaceTime-link] | Video Call
+[FaceTime audio][FaceTime audio-link] | Audio Call
 [Feedly][Feedly-link] | Open
 [FileApp][FileApp-link] | Open
 [FindFriends][FindFriends-link] | Open
@@ -361,6 +362,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [EyeEm-link]: http://pic-collage.com
 [Facebook-link]: https://facebook.com
 [FaceTime-link]:https://developer.apple.com/library/content/featuredarticles/iPhoneURLScheme_Reference/FacetimeLinks/FacetimeLinks.html#//apple_ref/doc/uid/TP40007899-CH2-SW1
+[FaceTime audio-link]: https://developer.apple.com/library/content/featuredarticles/iPhoneURLScheme_Reference/FacetimeLinks/FacetimeLinks.html#//apple_ref/doc/uid/TP40007899-CH2-SW1
 [Feedly-link]: http://feedly.com/i/welcome
 [FileApp-link]: http://fileapp.com
 [FindFriends-link]: http://handleopenurl.com/scheme/find-my-friends
