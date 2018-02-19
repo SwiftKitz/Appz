@@ -12,6 +12,11 @@
 		3F254EC6201B898D00C45056 /* FaceTimeAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F254EC3201B898D00C45056 /* FaceTimeAudio.swift */; };
 		3F254EC8201B8A0200C45056 /* FaceTimeAudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F254EC7201B8A0200C45056 /* FaceTimeAudioTests.swift */; };
 		3F254EC9201B8A0200C45056 /* FaceTimeAudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F254EC7201B8A0200C45056 /* FaceTimeAudioTests.swift */; };
+		3F2EE95F203ABCDD005E2AAF /* Duolingo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2EE95E203ABCDD005E2AAF /* Duolingo.swift */; };
+		3F2EE960203ABCDD005E2AAF /* Duolingo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2EE95E203ABCDD005E2AAF /* Duolingo.swift */; };
+		3F2EE961203ABCDD005E2AAF /* Duolingo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2EE95E203ABCDD005E2AAF /* Duolingo.swift */; };
+		3F2EE963203ABDA0005E2AAF /* DuolingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2EE962203ABDA0005E2AAF /* DuolingoTests.swift */; };
+		3F2EE964203ABDA0005E2AAF /* DuolingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2EE962203ABDA0005E2AAF /* DuolingoTests.swift */; };
 		3F72167B20110E9D0056F8FF /* FaceTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F72167A20110E9D0056F8FF /* FaceTime.swift */; };
 		3F72167C20110E9D0056F8FF /* FaceTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F72167A20110E9D0056F8FF /* FaceTime.swift */; };
 		3F72167D20110E9D0056F8FF /* FaceTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F72167A20110E9D0056F8FF /* FaceTime.swift */; };
@@ -893,6 +898,8 @@
 /* Begin PBXFileReference section */
 		3F254EC3201B898D00C45056 /* FaceTimeAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTimeAudio.swift; sourceTree = "<group>"; };
 		3F254EC7201B8A0200C45056 /* FaceTimeAudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTimeAudioTests.swift; sourceTree = "<group>"; };
+		3F2EE95E203ABCDD005E2AAF /* Duolingo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duolingo.swift; sourceTree = "<group>"; };
+		3F2EE962203ABDA0005E2AAF /* DuolingoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuolingoTests.swift; sourceTree = "<group>"; };
 		3F72167A20110E9D0056F8FF /* FaceTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTime.swift; sourceTree = "<group>"; };
 		3F72167E201110510056F8FF /* FaceTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTimeTests.swift; sourceTree = "<group>"; };
 		4D3732091CA4379200352429 /* CirclePay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirclePay.swift; sourceTree = "<group>"; };
@@ -1457,6 +1464,7 @@
 				54D590771F00A85B00F0508D /* DamaKingTests.swift */,
 				3F72167E201110510056F8FF /* FaceTimeTests.swift */,
 				3F254EC7201B8A0200C45056 /* FaceTimeAudioTests.swift */,
+				3F2EE962203ABDA0005E2AAF /* DuolingoTests.swift */,
 			);
 			path = AppsTests;
 			sourceTree = "<group>";
@@ -1703,6 +1711,7 @@
 				54D590731F00A81300F0508D /* DamaKing.swift */,
 				3F72167A20110E9D0056F8FF /* FaceTime.swift */,
 				3F254EC3201B898D00C45056 /* FaceTimeAudio.swift */,
+				3F2EE95E203ABCDD005E2AAF /* Duolingo.swift */,
 			);
 			path = Apps;
 			sourceTree = "<group>";
@@ -1968,6 +1977,7 @@
 				5415A7D31C58A3C000598B65 /* RoboForm.swift in Sources */,
 				54F649AA1C3EA1AD00619ACF /* GroupeMe.swift in Sources */,
 				5460FB7A1C497A6A009E35EB /* CNN.swift in Sources */,
+				3F2EE960203ABCDD005E2AAF /* Duolingo.swift in Sources */,
 				3F254EC5201B898D00C45056 /* FaceTimeAudio.swift in Sources */,
 				82F315CB1C38538100CEFE92 /* Ibooks.swift in Sources */,
 				82F315C81C38538100CEFE92 /* GooglePlus.swift in Sources */,
@@ -2270,6 +2280,7 @@
 				546738941C3996A200AA42F1 /* PhoneTests.swift in Sources */,
 				54263BA21C5736A60059F828 /* OutlookTests.swift in Sources */,
 				54263BEB1C5737FD0059F828 /* VIPAccessTests.swift in Sources */,
+				3F2EE964203ABDA0005E2AAF /* DuolingoTests.swift in Sources */,
 				541DA2811E3D2CD800010324 /* IMovieTests.swift in Sources */,
 				54263BCC1C5737980059F828 /* VoxerTests.swift in Sources */,
 				54263BE41C5737E80059F828 /* BoxTests.swift in Sources */,
@@ -2427,6 +2438,7 @@
 				82F315D81C38538100CEFE92 /* Itranslate.swift in Sources */,
 				547F33221C4BCF1800E140D7 /* Ustream.swift in Sources */,
 				541C21991C3D29CE00D89D4A /* Ishows.swift in Sources */,
+				3F2EE961203ABCDD005E2AAF /* Duolingo.swift in Sources */,
 				541DA2731E3D2C7B00010324 /* AppleWatch.swift in Sources */,
 				82F315C01C38538100CEFE92 /* GoogleEarth.swift in Sources */,
 				54D5D0161C3995EE0039D512 /* Skype.swift in Sources */,
@@ -2505,6 +2517,7 @@
 				54D5D00E1C3995EE0039D512 /* Remote.swift in Sources */,
 				5460FB751C497A5D009E35EB /* CNN.swift in Sources */,
 				54F6499F1C3EA1A900619ACF /* GroupeMe.swift in Sources */,
+				3F2EE95F203ABCDD005E2AAF /* Duolingo.swift in Sources */,
 				3F254EC4201B898D00C45056 /* FaceTimeAudio.swift in Sources */,
 				5480421A1C3A5AE300BBE49E /* OneDrive.swift in Sources */,
 				82F315CA1C38538100CEFE92 /* Ibooks.swift in Sources */,
@@ -2671,6 +2684,7 @@
 				547C832B1C58AC7A00BFD6B6 /* Camera360Tests.swift in Sources */,
 				5411F3B01EF571EF00435D37 /* BehanceTests.swift in Sources */,
 				541C21BB1C3D2B3A00D89D4A /* PeriscopeTests.swift in Sources */,
+				3F2EE963203ABDA0005E2AAF /* DuolingoTests.swift in Sources */,
 				54C9EB361C3BDACF005D4DCA /* WazeTests.swift in Sources */,
 				54F649C31C3EA25E00619ACF /* KakaoTalkTests.swift in Sources */,
 				82F316291C38539F00CEFE92 /* EbayTests.swift in Sources */,
