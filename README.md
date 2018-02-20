@@ -16,7 +16,7 @@
   <a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
     <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"/>
   </a>
-  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-167-9600cd.svg"/>
+  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-169-9600cd.svg"/>
 </p>
 
 <p align="center">
@@ -131,6 +131,7 @@ App | Actions
 [Diigo][Diigo-link] | Open
 [Documents][Documents-link] | Open
 [Dropbox][Dropbox-link] | Open
+[Duolingo][Duolingo-link] | Open
 [eBay][eBay-link] | Open
 [Echofon][Echofon-link] | Open
 [Epson][Epson-link] | Open
@@ -209,6 +210,7 @@ App | Actions
 [PicCollage][PicCollage-link] | Open
 [Pinterest][Pinterest-link] | Open, UserProfile, Search
 [Pocket][Pocket-link] | Open
+[Podcasts][Podcasts-link] | Open
 [Quora][Quora-link] | Open
 [Radium][Radium-link] | Open
 [RemindersApp][RemindersApp-link] | Open
@@ -355,6 +357,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Diigo-link]: https://www.diigo.com
 [Documents-link]: https://readdle.com/products/documents
 [Dropbox-link]: https://dropbox.com
+[Duolingo-link]: https://www.duolingo.com
 [eBay-link]: http://www.ebay.com
 [Echofon-link]: http://www.echofon.com
 [Epson-link]: https://www.epson.com/cgi-bin/Store/jsp/epson-connect/mobile-printing/iprint-app.do
@@ -433,6 +436,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [PicCollage-link]: http://pic-collage.com
 [Pinterest-link]: https://www.pinterest.com
 [Pocket-link]: https://getpocket.com/ios/?ep=1
+[Podcasts-link]: https://itunes.apple.com/us/app/podcasts/id525463029?mt=8
 [Quora-link]: https://www.quora.com
 [Radium-link]: http://catpigstudios.com
 [RemindersApp-link]: http://handleopenurl.com/scheme/reminders
