@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0FEE32203C12E800BBB03E /* Podcasts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FEE31203C12E800BBB03E /* Podcasts.swift */; };
+		3F0FEE33203C12E800BBB03E /* Podcasts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FEE31203C12E800BBB03E /* Podcasts.swift */; };
+		3F0FEE34203C12E800BBB03E /* Podcasts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FEE31203C12E800BBB03E /* Podcasts.swift */; };
+		3F0FEE36203C135000BBB03E /* PodcastsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FEE35203C135000BBB03E /* PodcastsTests.swift */; };
+		3F0FEE37203C135000BBB03E /* PodcastsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FEE35203C135000BBB03E /* PodcastsTests.swift */; };
 		3F254EC4201B898D00C45056 /* FaceTimeAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F254EC3201B898D00C45056 /* FaceTimeAudio.swift */; };
 		3F254EC5201B898D00C45056 /* FaceTimeAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F254EC3201B898D00C45056 /* FaceTimeAudio.swift */; };
 		3F254EC6201B898D00C45056 /* FaceTimeAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F254EC3201B898D00C45056 /* FaceTimeAudio.swift */; };
@@ -896,6 +901,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F0FEE31203C12E800BBB03E /* Podcasts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podcasts.swift; sourceTree = "<group>"; };
+		3F0FEE35203C135000BBB03E /* PodcastsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastsTests.swift; sourceTree = "<group>"; };
 		3F254EC3201B898D00C45056 /* FaceTimeAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTimeAudio.swift; sourceTree = "<group>"; };
 		3F254EC7201B8A0200C45056 /* FaceTimeAudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTimeAudioTests.swift; sourceTree = "<group>"; };
 		3F2EE95E203ABCDD005E2AAF /* Duolingo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duolingo.swift; sourceTree = "<group>"; };
@@ -1465,6 +1472,7 @@
 				3F72167E201110510056F8FF /* FaceTimeTests.swift */,
 				3F254EC7201B8A0200C45056 /* FaceTimeAudioTests.swift */,
 				3F2EE962203ABDA0005E2AAF /* DuolingoTests.swift */,
+				3F0FEE35203C135000BBB03E /* PodcastsTests.swift */,
 			);
 			path = AppsTests;
 			sourceTree = "<group>";
@@ -1712,6 +1720,7 @@
 				3F72167A20110E9D0056F8FF /* FaceTime.swift */,
 				3F254EC3201B898D00C45056 /* FaceTimeAudio.swift */,
 				3F2EE95E203ABCDD005E2AAF /* Duolingo.swift */,
+				3F0FEE31203C12E800BBB03E /* Podcasts.swift */,
 			);
 			path = Apps;
 			sourceTree = "<group>";
@@ -1965,6 +1974,7 @@
 				541C21A61C3D29E600D89D4A /* Radium.swift in Sources */,
 				546695E71C417373000461D2 /* DayCost.swift in Sources */,
 				54C9EB331C3BD9B0005D4DCA /* Waze.swift in Sources */,
+				3F0FEE33203C12E800BBB03E /* Podcasts.swift in Sources */,
 				54F649B41C3EA1C100619ACF /* Rijnmond.swift in Sources */,
 				547F331F1C4BCF1300E140D7 /* RunKeeper.swift in Sources */,
 				54D5D0061C3995EE0039D512 /* Music.swift in Sources */,
@@ -2166,6 +2176,7 @@
 				54F4E1271C58ABDD008C4794 /* YahooWeatherTests.swift in Sources */,
 				54263BA81C5736E90059F828 /* TrelloTests.swift in Sources */,
 				54263BBA1C5737520059F828 /* IshowsTests.swift in Sources */,
+				3F0FEE37203C135000BBB03E /* PodcastsTests.swift in Sources */,
 				54263BA41C5736AC0059F828 /* VideosTests.swift in Sources */,
 				54263BC01C57376F0059F828 /* NPORadioTests.swift in Sources */,
 				54263BE81C5737F50059F828 /* PocketTests.swift in Sources */,
@@ -2424,6 +2435,7 @@
 				5415A7A71C58A3B500598B65 /* AppleMaps.swift in Sources */,
 				54955DFE1C3D3CFA00D6AD08 /* AllCast.swift in Sources */,
 				54F649B31C3EA1BF00619ACF /* Nunl.swift in Sources */,
+				3F0FEE34203C12E800BBB03E /* Podcasts.swift in Sources */,
 				54566F2C1C3D9C370086CAAA /* GoogleCalendar.swift in Sources */,
 				541C21A51C3D29E300D89D4A /* Periscope.swift in Sources */,
 				5415A7AC1C58A3BF00598B65 /* Everypost.swift in Sources */,
@@ -2505,6 +2517,7 @@
 				546695E41C41736F000461D2 /* DayCost.swift in Sources */,
 				541C218C1C3D29BA00D89D4A /* Radium.swift in Sources */,
 				54D5D0021C3995EE0039D512 /* Linkedin.swift in Sources */,
+				3F0FEE32203C12E800BBB03E /* Podcasts.swift in Sources */,
 				547F33121C4BCEE900E140D7 /* RunKeeper.swift in Sources */,
 				54F649A41C3EA1A900619ACF /* Rijnmond.swift in Sources */,
 				547F330D1C4BCEE900E140D7 /* Box.swift in Sources */,
@@ -2699,6 +2712,7 @@
 				54F4E0E61C58A66B008C4794 /* ClipsTests.swift in Sources */,
 				545885231C3C610C00AD1B14 /* GalleryTests.swift in Sources */,
 				541C21C71C3D2C8100D89D4A /* MarvisTests.swift in Sources */,
+				3F0FEE36203C135000BBB03E /* PodcastsTests.swift in Sources */,
 				8254C7791C24B515009DB3BD /* PathTests.swift in Sources */,
 				54CD96FB1C403C8B00FCE2AB /* FlippsTVTests.swift in Sources */,
 				54F4E1121C58A9D0008C4794 /* VSCOTests.swift in Sources */,
