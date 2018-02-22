@@ -17,8 +17,8 @@ app.open(Applications.AppSettings(), action: .open)
 //: Transparent web fallback
 
 // In case the user doesn't have twitter installed, it will fallback to
-// https://twitter.com/statuses/2
-app.open(Applications.Twitter(), action: .status(id: "2"))
+// https://twitter.com/testUser/statuses/2
+app.open(Applications.Twitter(), action: .status(id: "2",  screenName: "testUser"))
 
 //: Add your own application
 
