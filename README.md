@@ -55,7 +55,7 @@ __Transparent web fallback:__
 
 ```swift
 // In case the user doesn't have twitter installed, it will fallback to
-// https://twitter.com/statuses/2
+// https://twitter.com/testUser/statuses/2
 app.open(Applications.Twitter(), action: .status(id: "2",  screenName: "testUser"))
 ```
 
