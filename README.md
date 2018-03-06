@@ -16,7 +16,7 @@
   <a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
     <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"/>
   </a>
-  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-169-9600cd.svg"/>
+  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-170-9600cd.svg"/>
 </p>
 
 <p align="center">
@@ -235,6 +235,7 @@ App | Actions
 [SunriseCalendar][SunriseCalendar-link] | Open
 [Swarm][Swarm-link] | Open
 [Super-Stickman-Golf-2][Super-Stickman-Golf-2-link] | Open
+[Talabat][Talabat-link] | Open
 [Tango][Tango-link] | Open
 [Ted][Ted-link] | Open
 [Telegram][Telegram-link] | Open, SMS
@@ -461,6 +462,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [SunriseCalendar-link]: https://calendar.sunrise.am
 [Swarm-link]: https://www.swarmapp.com
 [Super-Stickman-Golf-2-link]: http://www.noodlecake.com/games/super-stickman-golf-2/
+[Talabat-link]: https://www.talabat.com
 [Tango-link]: http://www.tango.me
 [Ted-link]: https://www.ted.com
 [Telegram-link]: https://web.telegram.org
