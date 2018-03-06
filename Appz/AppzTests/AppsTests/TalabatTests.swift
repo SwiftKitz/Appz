@@ -15,9 +15,9 @@ class TalabatTests: XCTestCase {
     
     func testConfiguration() {
         
-        let podcasts = Applications.Talabat()
-        XCTAssertEqual(podcasts.scheme, "talabat:")
-        XCTAssertEqual(podcasts.fallbackURL, "https://www.talabat.com")
+        let talabat = Applications.Talabat()
+        XCTAssertEqual(talabat.scheme, "talabat:")
+        XCTAssertEqual(talabat.fallbackURL, "https://www.talabat.com")
     }
     
     func testOpen() {
