@@ -27,6 +27,11 @@
 		3F72167D20110E9D0056F8FF /* FaceTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F72167A20110E9D0056F8FF /* FaceTime.swift */; };
 		3F72167F201110510056F8FF /* FaceTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F72167E201110510056F8FF /* FaceTimeTests.swift */; };
 		3F721680201110510056F8FF /* FaceTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F72167E201110510056F8FF /* FaceTimeTests.swift */; };
+		3FEA249E204E9B4E00A145A2 /* Talabat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA249D204E9B4E00A145A2 /* Talabat.swift */; };
+		3FEA249F204E9B4E00A145A2 /* Talabat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA249D204E9B4E00A145A2 /* Talabat.swift */; };
+		3FEA24A0204E9B4E00A145A2 /* Talabat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA249D204E9B4E00A145A2 /* Talabat.swift */; };
+		3FEA24A2204E9C1800A145A2 /* TalabatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA24A1204E9C1800A145A2 /* TalabatTests.swift */; };
+		3FEA24A3204E9C1800A145A2 /* TalabatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA24A1204E9C1800A145A2 /* TalabatTests.swift */; };
 		4D37320A1CA4379200352429 /* CirclePay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3732091CA4379200352429 /* CirclePay.swift */; };
 		4D37320D1CA439A700352429 /* CirclePayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37320B1CA438D400352429 /* CirclePayTests.swift */; };
 		4D37320E1CA439A700352429 /* CirclePayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37320B1CA438D400352429 /* CirclePayTests.swift */; };
@@ -909,6 +914,8 @@
 		3F2EE962203ABDA0005E2AAF /* DuolingoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuolingoTests.swift; sourceTree = "<group>"; };
 		3F72167A20110E9D0056F8FF /* FaceTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTime.swift; sourceTree = "<group>"; };
 		3F72167E201110510056F8FF /* FaceTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTimeTests.swift; sourceTree = "<group>"; };
+		3FEA249D204E9B4E00A145A2 /* Talabat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Talabat.swift; sourceTree = "<group>"; };
+		3FEA24A1204E9C1800A145A2 /* TalabatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalabatTests.swift; sourceTree = "<group>"; };
 		4D3732091CA4379200352429 /* CirclePay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirclePay.swift; sourceTree = "<group>"; };
 		4D37320B1CA438D400352429 /* CirclePayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirclePayTests.swift; sourceTree = "<group>"; };
 		5411F3AB1EF5717700435D37 /* Behance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Behance.swift; sourceTree = "<group>"; };
@@ -1473,6 +1480,7 @@
 				3F254EC7201B8A0200C45056 /* FaceTimeAudioTests.swift */,
 				3F2EE962203ABDA0005E2AAF /* DuolingoTests.swift */,
 				3F0FEE35203C135000BBB03E /* PodcastsTests.swift */,
+				3FEA24A1204E9C1800A145A2 /* TalabatTests.swift */,
 			);
 			path = AppsTests;
 			sourceTree = "<group>";
@@ -1721,6 +1729,7 @@
 				3F254EC3201B898D00C45056 /* FaceTimeAudio.swift */,
 				3F2EE95E203ABCDD005E2AAF /* Duolingo.swift */,
 				3F0FEE31203C12E800BBB03E /* Podcasts.swift */,
+				3FEA249D204E9B4E00A145A2 /* Talabat.swift */,
 			);
 			path = Apps;
 			sourceTree = "<group>";
@@ -2093,6 +2102,7 @@
 				541C219A1C3D29D100D89D4A /* ItunesU.swift in Sources */,
 				5415A7A61C58A3B400598B65 /* Calendars.swift in Sources */,
 				54F649B01C3EA1BB00619ACF /* Marktplaats.swift in Sources */,
+				3FEA249F204E9B4E00A145A2 /* Talabat.swift in Sources */,
 				54D5D00C1C3995EE0039D512 /* RemindersApp.swift in Sources */,
 				3F72167C20110E9D0056F8FF /* FaceTime.swift in Sources */,
 				54566F2B1C3D9C360086CAAA /* GoogleCalendar.swift in Sources */,
@@ -2243,6 +2253,7 @@
 				54F4E1331C58ABFD008C4794 /* GoogleTranslateTests.swift in Sources */,
 				54DE5FA81EF6C973003A0402 /* CareemTests.swift in Sources */,
 				82F3163E1C38539F00CEFE92 /* INRIXTrafficTests.swift in Sources */,
+				3FEA24A3204E9C1800A145A2 /* TalabatTests.swift in Sources */,
 				54F4E1241C58ABD5008C4794 /* SubwayKoreaTests.swift in Sources */,
 				541C21DA1C3D3C3300D89D4A /* BuzzfeedTests.swift in Sources */,
 				54263BDC1C5737CC0059F828 /* KayakTests.swift in Sources */,
@@ -2444,6 +2455,7 @@
 				54566F301C3D9C410086CAAA /* OMT.swift in Sources */,
 				5415A7BC1C58A3BF00598B65 /* Swarm.swift in Sources */,
 				54F649AD1C3EA1B200619ACF /* KakaoTalk.swift in Sources */,
+				3FEA24A0204E9B4E00A145A2 /* Talabat.swift in Sources */,
 				8254C7BE1C260DA8009DB3BD /* ApplicationCaller.swift in Sources */,
 				5415A7A91C58A3BF00598B65 /* Clips.swift in Sources */,
 				54DE5FA51EF6C8B2003A0402 /* Careem.swift in Sources */,
@@ -2636,6 +2648,7 @@
 				5415A7871C58A39900598B65 /* Calendars.swift in Sources */,
 				541C21861C3D29BA00D89D4A /* ItunesU.swift in Sources */,
 				54F649A21C3EA1A900619ACF /* Marktplaats.swift in Sources */,
+				3FEA249E204E9B4E00A145A2 /* Talabat.swift in Sources */,
 				82F315EB1C38538100CEFE92 /* Telegram.swift in Sources */,
 				3F72167B20110E9D0056F8FF /* FaceTime.swift in Sources */,
 				54566F251C3D9C2E0086CAAA /* GoogleCalendar.swift in Sources */,
@@ -2730,6 +2743,7 @@
 				541C21C41C3D2C4300D89D4A /* MeerkatTests.swift in Sources */,
 				541DA27D1E3D2CD700010324 /* IMovieTests.swift in Sources */,
 				82F316371C38539F00CEFE92 /* GooglePlusTests.swift in Sources */,
+				3FEA24A2204E9C1800A145A2 /* TalabatTests.swift in Sources */,
 				3F72167F201110510056F8FF /* FaceTimeTests.swift in Sources */,
 				54CD96EE1C403AED00FCE2AB /* NetflixTests.swift in Sources */,
 				54A6294F1EFEEF9E00F9C533 /* AyahTests.swift in Sources */,
