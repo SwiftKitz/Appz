@@ -13,7 +13,7 @@ public extension Applications {
         public typealias ActionType = Applications.Telegram.Action
         
         public let scheme = "tg:"
-        public let fallbackURL = "https://web.telegram.org/"
+        public let fallbackURL = "https://t.me/"
         public let appStoreId = "686449807"
         
         public init() {}
@@ -27,6 +27,7 @@ public extension Applications.Telegram {
     public enum Action {
         case open
         case msg(message: String, phone: String)
+        case openFromID(username: String)
     }
 }
 
@@ -54,6 +55,17 @@ extension Applications.Telegram.Action: ExternalApplicationAction {
                     ]
                 ),
                 web: Path()
+            )
+        case .openFromID(let username):
+            return ActionPaths(
+                app: Path(
+                    pathComponents: ["resolve"],
+                    queryParameters: ["domain":username]
+                ),
+                web: Path(
+                    pathComponents: [username],
+                    queryParameters: [:]
+                )
             )
         }
     }
