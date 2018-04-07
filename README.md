@@ -7,11 +7,11 @@
 </h1>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/version-3.0.0-blue.svg"/>
+  <img alt="Version" src="https://img.shields.io/badge/version-3.1.0-blue.svg"/>
   <a alt="Travis CI" href="https://travis-ci.org/SwiftKitz/Appz">
     <img alt="Version" src="https://travis-ci.org/SwiftKitz/Appz.svg?branch=master"/>
   </a>
-  <img alt="Swift" src="https://img.shields.io/badge/swift-4.0-orange.svg"/>
+  <img alt="Swift" src="https://img.shields.io/badge/swift-4.1-orange.svg"/>
   <img alt="Platforms" src="https://img.shields.io/badge/platform-ios%20%7C%20watchos%20%7C%20tvos-lightgrey.svg"/>
   <a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
     <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"/>
@@ -238,7 +238,7 @@ App | Actions
 [Talabat][Talabat-link] | Open
 [Tango][Tango-link] | Open
 [Ted][Ted-link] | Open
-[Telegram][Telegram-link] | Open, SMS
+[Telegram][Telegram-link] | Open, SMS, openFromID
 [TestFlight][TestFlight-link] | Open
 [Tinder][Tinder-link] | Open
 [Trello][Trello-link] | Open
@@ -273,8 +273,6 @@ App | Actions
 [RIDE][RIDE-link] | Open
 
 ## Getting Started
-
-**IMPORTANT:** Kitz repos fully embrace Swift 4.0 and all the changes it brought. You should use [v2.1.1][v2.1.1-link] if you are still using Swift 3.x.
 
 ### Configure Info.plist
 
