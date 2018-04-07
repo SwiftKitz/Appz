@@ -17,7 +17,7 @@ class TelegramTests: XCTestCase {
         
         let telegram = Applications.Telegram()
         XCTAssertEqual(telegram.scheme, "tg:")
-        XCTAssertEqual(telegram.fallbackURL, "https://web.telegram.org/")
+        XCTAssertEqual(telegram.fallbackURL, "https://t.me/")
     }
     
     func testMsg() {
@@ -31,5 +31,16 @@ class TelegramTests: XCTestCase {
                                                         ["text": message,
                                                            "to": phone,])
         XCTAssertEqual(action.paths.web, Path())
+    }
+    
+    func testOpenFromID() {
+        
+        let id = "kafiha" // Example channel
+        let action = Applications.Telegram.Action.openFromID(username: id)
+        
+        XCTAssertEqual(action.paths.app.pathComponents, ["resolve"])
+        XCTAssertEqual(action.paths.app.queryParameters, ["domain": id])
+        XCTAssertEqual(action.paths.web.pathComponents, [id])
+        XCTAssertEqual(action.paths.web.queryParameters, [:])
     }
 }
