@@ -391,7 +391,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [GroupeMe-link]: https://groupme.com
 [Heapo-link]: http://heapo.marblzz.com
 [HootSuite-link]: https://hootsuite.com/products/mobile-apps/hootsuite-mobile-app
-[iBooks-link]: http://handleopenurl.com/?id=694
+[iBooks-link]: https://itunes.apple.com/us/app/ibooks/id364709193?mt=8
 [IMDb-link]: http://www.imdb.com
 [iMovie-link]: https://itunes.apple.com/us/app/imovie/id377298193?mt=8
 [INRIXTraffic-link]: http://inrix.com/inrix-traffic-app
@@ -415,7 +415,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [MobileMouse-link]: http://www.mobilemouse.com
 [Mopico-link]: http://mo-pi-co.com
 [Moves-link]: https://www.moves-app.com
-[Music-link]: http://handleopenurl.com/scheme/original-ipod-music-app
+[Music-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
 [MyFitnessPal-link]: https://www.myfitnesspal.com
 [NameShark-link]: http://www.namesharkapp.com
 [Netflix-link]: https://www.netflix.com
@@ -437,8 +437,8 @@ Appz is released under the MIT license. See LICENSE for details.
 [Podcasts-link]: https://itunes.apple.com/us/app/podcasts/id525463029?mt=8
 [Quora-link]: https://www.quora.com
 [Radium-link]: http://catpigstudios.com
-[RemindersApp-link]: http://handleopenurl.com/scheme/reminders
-[Remote-link]: http://handleopenurl.com/scheme/remote
+[RemindersApp-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
+[Remote-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
 [Rijnmond-link]: http://www.rijnmond.nl
 [RoboForm-link]: http://www.roboform.com/for-iphone-ipad-ios
 [RunKeeper-link]: https://runkeeper.com/index
@@ -475,7 +475,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Unread-link]: http://supertop.co/unread/
 [Ustream-link]: https://www.ustream.tv/platform/watch-everywhere
 [Viber-link]: http://www.viber.com
-[Videos-link]: http://handleopenurl.com/scheme/ipod-video-library
+[Videos-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
 [Vimeo-link]: https://vimeo.com/everywhere
 [Vine-link]: https://vine.co
 [VIPAccess-link]: https://m.vip.symantec.com
