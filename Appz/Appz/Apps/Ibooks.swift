@@ -13,7 +13,7 @@ public extension Applications {
         public typealias ActionType = Applications.Ibooks.Action
         
         public let scheme = "itms-Books:"
-        public let fallbackURL = ""
+        public let fallbackURL = "https://itunes.apple.com/us/app/ibooks/id364709193?mt=8"
         public let appStoreId = "364709193"
         
         public init() {}
