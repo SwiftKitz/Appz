@@ -16,7 +16,7 @@
   <a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
     <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"/>
   </a>
-  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-170-9600cd.svg"/>
+  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-169-9600cd.svg"/>
 </p>
 
 <p align="center">
@@ -270,7 +270,6 @@ App | Actions
 [Yelp][Yelp-link] | Open, Search, Search Location, Search Category, Search Category Location, Business
 [Youtube][Youtube-link] | Open, Open Video
 [FRIL][FRIL-link] | Open
-[RIDE][RIDE-link] | Open
 
 ## Getting Started
 
@@ -479,7 +478,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Videos-link]: http://handleopenurl.com/scheme/ipod-video-library
 [Vimeo-link]: https://vimeo.com/everywhere
 [Vine-link]: https://vine.co
-[VIPAccess-link]: https://m.vip.symantec.com/selectediphone.v
+[VIPAccess-link]: https://m.vip.symantec.com
 [Vox-link]: http://coppertino.com/vox/iphone
 [Voxer-link]: http://www.voxer.com
 [VSCO-link]: http://vsco.co/store/app
@@ -496,6 +495,5 @@ Appz is released under the MIT license. See LICENSE for details.
 [Yelp-link]: https://m.yelp.com
 [Youtube-link]: https://youtube.com
 [FRIL-link]: https://fril.jp
-[RIDE-link]: https://ride.jp
 [video-link]: https://youtu.be/HYQ4vqkOunE
 [v2.1.1-link]: https://github.com/SwiftKitz/Appz/releases/tag/v2.1.1

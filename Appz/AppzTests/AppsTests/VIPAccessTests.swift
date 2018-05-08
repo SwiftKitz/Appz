@@ -17,7 +17,7 @@ class VIPAccessTests: XCTestCase {
         
         let vipsymantec = Applications.VIPAccess()
         XCTAssertEqual(vipsymantec.scheme, "vipsymantec:")
-        XCTAssertEqual(vipsymantec.fallbackURL, "https://m.vip.symantec.com/selectediphone.v")
+        XCTAssertEqual(vipsymantec.fallbackURL, "https://m.vip.symantec.com")
     }
     
     func testOpen() {

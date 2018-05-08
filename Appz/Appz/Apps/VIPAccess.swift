@@ -13,7 +13,7 @@ public extension Applications {
         public typealias ActionType = Applications.VIPAccess.Action
         
         public let scheme = "vipsymantec:"
-        public let fallbackURL = "https://m.vip.symantec.com/selectediphone.v"
+        public let fallbackURL = "https://m.vip.symantec.com"
         public let appStoreId = "307658513"
         
         public init() {}
