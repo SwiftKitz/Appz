@@ -16,7 +16,7 @@
   <a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
     <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"/>
   </a>
-  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-169-9600cd.svg"/>
+  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-170-9600cd.svg"/>
 </p>
 
 <p align="center">
@@ -258,6 +258,7 @@ App | Actions
 [Vox][Vox-link] | Open
 [Voxer][Voxer-link] | Open
 [VSCO][VSCO-link] | Open
+[Wallet][Wallet-link] | Open
 [Waze][Waze-link] | Open, NavigateToDirection
 [WeChat][WeChat-link] | Open
 [Weibo][Weibo-link] | Open
@@ -482,6 +483,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Vox-link]: http://coppertino.com/vox/iphone
 [Voxer-link]: http://www.voxer.com
 [VSCO-link]: http://vsco.co/store/app
+[Wallet-link]: https://support.apple.com/en-us/HT204003
 [Waze-link]: https://www.waze.com
 [WeChat-link]: http://forums.macrumors.com/threads/ios-8-widget-customisations-using-launcher.1782093/
 [Weibo-link]: http://weibo.com/login.php

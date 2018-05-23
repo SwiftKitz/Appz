@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1859DBA020B56D3A005360FA /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1859DB9F20B56D3A005360FA /* Wallet.swift */; };
+		1859DBA120B56D3A005360FA /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1859DB9F20B56D3A005360FA /* Wallet.swift */; };
+		1859DBA220B56D3A005360FA /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1859DB9F20B56D3A005360FA /* Wallet.swift */; };
+		1859DBA420B56DD3005360FA /* WalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1859DBA320B56DD3005360FA /* WalletTests.swift */; };
+		1859DBA520B56DD3005360FA /* WalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1859DBA320B56DD3005360FA /* WalletTests.swift */; };
 		3F0FEE32203C12E800BBB03E /* Podcasts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FEE31203C12E800BBB03E /* Podcasts.swift */; };
 		3F0FEE33203C12E800BBB03E /* Podcasts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FEE31203C12E800BBB03E /* Podcasts.swift */; };
 		3F0FEE34203C12E800BBB03E /* Podcasts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FEE31203C12E800BBB03E /* Podcasts.swift */; };
@@ -901,6 +906,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1859DB9F20B56D3A005360FA /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		1859DBA320B56DD3005360FA /* WalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTests.swift; sourceTree = "<group>"; };
 		3F0FEE31203C12E800BBB03E /* Podcasts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podcasts.swift; sourceTree = "<group>"; };
 		3F0FEE35203C135000BBB03E /* PodcastsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastsTests.swift; sourceTree = "<group>"; };
 		3F254EC3201B898D00C45056 /* FaceTimeAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTimeAudio.swift; sourceTree = "<group>"; };
@@ -1473,6 +1480,7 @@
 				3F2EE962203ABDA0005E2AAF /* DuolingoTests.swift */,
 				3F0FEE35203C135000BBB03E /* PodcastsTests.swift */,
 				3FEA24A1204E9C1800A145A2 /* TalabatTests.swift */,
+				1859DBA320B56DD3005360FA /* WalletTests.swift */,
 			);
 			path = AppsTests;
 			sourceTree = "<group>";
@@ -1721,6 +1729,7 @@
 				3F2EE95E203ABCDD005E2AAF /* Duolingo.swift */,
 				3F0FEE31203C12E800BBB03E /* Podcasts.swift */,
 				3FEA249D204E9B4E00A145A2 /* Talabat.swift */,
+				1859DB9F20B56D3A005360FA /* Wallet.swift */,
 			);
 			path = Apps;
 			sourceTree = "<group>";
@@ -2028,6 +2037,7 @@
 				54C023F01E84342600BE902B /* Workflow.swift in Sources */,
 				5415A7CB1C58A3C000598B65 /* GooglePhotos.swift in Sources */,
 				546C1B781C4039570060C47C /* NameShark.swift in Sources */,
+				1859DBA120B56D3A005360FA /* Wallet.swift in Sources */,
 				951713FF1CA4DFA900C4EBB1 /* FRIL.swift in Sources */,
 				82F315FE1C38538100CEFE92 /* Youtube.swift in Sources */,
 				5415A7C71C58A3C000598B65 /* Everypost.swift in Sources */,
@@ -2144,6 +2154,7 @@
 				54263BC71C5737870059F828 /* NunlTests.swift in Sources */,
 				82F316481C38539F00CEFE92 /* PaypalTests.swift in Sources */,
 				54263BE31C5737E50059F828 /* YammerTests.swift in Sources */,
+				1859DBA520B56DD3005360FA /* WalletTests.swift in Sources */,
 				82F3163A1C38539F00CEFE92 /* IbooksTests.swift in Sources */,
 				54263BCF1C5737A20059F828 /* SparkTests.swift in Sources */,
 				54263BD41C5737B10059F828 /* FlippsTVTests.swift in Sources */,
@@ -2419,6 +2430,7 @@
 				82F315A81C38538100CEFE92 /* Audible.swift in Sources */,
 				8254C7BD1C260DA8009DB3BD /* Applications.swift in Sources */,
 				54D5D0011C3995EE0039D512 /* GoogleDrive.swift in Sources */,
+				1859DBA220B56D3A005360FA /* Wallet.swift in Sources */,
 				82F315B71C38538100CEFE92 /* Facebook.swift in Sources */,
 				5415A7B41C58A3BF00598B65 /* HootSuite.swift in Sources */,
 				545885191C3C602D00AD1B14 /* Notes.swift in Sources */,
@@ -2571,6 +2583,7 @@
 				54C023EF1E84341A00BE902B /* Workflow.swift in Sources */,
 				546C1B6C1C4039370060C47C /* NameShark.swift in Sources */,
 				82F315FA1C38538100CEFE92 /* Yelp.swift in Sources */,
+				1859DBA020B56D3A005360FA /* Wallet.swift in Sources */,
 				951713FE1CA4DFA900C4EBB1 /* FRIL.swift in Sources */,
 				5415A78B1C58A39900598B65 /* Everypost.swift in Sources */,
 				8254C7C81C26124D009DB3BD /* NSExtensionContext+ApplicationCaller.swift in Sources */,
@@ -2729,6 +2742,7 @@
 				54244A1F1C3A5B8B00AA064F /* VideosTests.swift in Sources */,
 				541C21C41C3D2C4300D89D4A /* MeerkatTests.swift in Sources */,
 				541DA27D1E3D2CD700010324 /* IMovieTests.swift in Sources */,
+				1859DBA420B56DD3005360FA /* WalletTests.swift in Sources */,
 				82F316371C38539F00CEFE92 /* GooglePlusTests.swift in Sources */,
 				3FEA24A2204E9C1800A145A2 /* TalabatTests.swift in Sources */,
 				3F72167F201110510056F8FF /* FaceTimeTests.swift in Sources */,
