@@ -16,7 +16,7 @@
   <a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
     <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"/>
   </a>
-  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-170-9600cd.svg"/>
+  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-171-9600cd.svg"/>
 </p>
 
 <p align="center">
@@ -143,6 +143,7 @@ App | Actions
 [Feedly][Feedly-link] | Open
 [FileApp][FileApp-link] | Open
 [FindFriends][FindFriends-link] | Open
+[FindiPhone][FindiPhone-link] | Open
 [Fitbit][Fitbit-link] | Open
 [Flickr][Flickr-link] | Open
 [Flipboard][Flipboard-link] | Open
@@ -368,6 +369,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Feedly-link]: http://feedly.com/i/welcome
 [FileApp-link]: http://fileapp.com
 [FindFriends-link]: http://handleopenurl.com/scheme/find-my-friends
+[FindiPhone-link]: https://itunes.apple.com/us/app/find-my-iphone/id376101648?mt=8
 [Fitbit-link]: https://www.fitbit.com/app
 [Flickr-link]: https://www.flickr.com
 [Flipboard-link]: https://flipboard.com
