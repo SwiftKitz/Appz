@@ -15,9 +15,9 @@ class VimeoTests: XCTestCase {
     
     func testConfiguration() {
         
-        let Vimeo = Applications.Vimeo()
-        XCTAssertEqual(Vimeo.scheme, "vimeo:")
-        XCTAssertEqual(Vimeo.fallbackURL, "https://vimeo.com/everywhere")
+        let vimeo = Applications.Vimeo()
+        XCTAssertEqual(vimeo.scheme, "vimeo:")
+        XCTAssertEqual(vimeo.fallbackURL, "https://vimeo.com/everywhere")
     }
     
     func testOpen() {

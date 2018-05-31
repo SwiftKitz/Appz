@@ -15,9 +15,9 @@ class DayCostTests: XCTestCase {
     
     func testConfiguration() {
         
-        let DayCost = Applications.DayCost()
-        XCTAssertEqual(DayCost.scheme, "DayCost:")
-        XCTAssertEqual(DayCost.fallbackURL, "https://www.facebook.com/iDaycost/")
+        let dayCost = Applications.DayCost()
+        XCTAssertEqual(dayCost.scheme, "DayCost:")
+        XCTAssertEqual(dayCost.fallbackURL, "https://www.facebook.com/iDaycost/")
     }
     
     func testOpen() {

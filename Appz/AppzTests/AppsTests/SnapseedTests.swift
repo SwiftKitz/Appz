@@ -15,9 +15,9 @@ class SnapseedTests: XCTestCase {
     
     func testConfiguration() {
         
-        let Snapseed = Applications.Snapseed()
-        XCTAssertEqual(Snapseed.scheme, "googlesnapseed:")
-        XCTAssertEqual(Snapseed.fallbackURL, "https://support.google.com/snapseed/#topic=6155507")
+        let snapseed = Applications.Snapseed()
+        XCTAssertEqual(snapseed.scheme, "googlesnapseed:")
+        XCTAssertEqual(snapseed.fallbackURL, "https://support.google.com/snapseed/#topic=6155507")
     }
     
     func testOpen() {

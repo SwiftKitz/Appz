@@ -15,9 +15,9 @@ class SubwayKoreaTests: XCTestCase {
     
     func testConfiguration() {
         
-        let SubwayKorea = Applications.SubwayKorea()
-        XCTAssertEqual(SubwayKorea.scheme, "subwaykorea:")
-        XCTAssertEqual(SubwayKorea.fallbackURL, "http://blog.malangstudio.com")
+        let subwayKorea = Applications.SubwayKorea()
+        XCTAssertEqual(subwayKorea.scheme, "subwaykorea:")
+        XCTAssertEqual(subwayKorea.fallbackURL, "http://blog.malangstudio.com")
     }
     
     func testOpen() {

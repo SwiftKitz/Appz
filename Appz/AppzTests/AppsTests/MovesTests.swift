@@ -15,9 +15,9 @@ class MovesTests: XCTestCase {
     
     func testConfiguration() {
         
-        let Moves = Applications.Moves()
-        XCTAssertEqual(Moves.scheme, "moves:")
-        XCTAssertEqual(Moves.fallbackURL, "https://www.moves-app.com")
+        let moves = Applications.Moves()
+        XCTAssertEqual(moves.scheme, "moves:")
+        XCTAssertEqual(moves.fallbackURL, "https://www.moves-app.com")
     }
     
     func testOpen() {
