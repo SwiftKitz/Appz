@@ -15,9 +15,9 @@ class EyeEmTests: XCTestCase {
     
     func testConfiguration() {
         
-        let EyeEm = Applications.EyeEm()
-        XCTAssertEqual(EyeEm.scheme, "eyeem:")
-        XCTAssertEqual(EyeEm.fallbackURL, "https://www.eyeem.com/community")
+        let eyeEm = Applications.EyeEm()
+        XCTAssertEqual(eyeEm.scheme, "eyeem:")
+        XCTAssertEqual(eyeEm.fallbackURL, "https://www.eyeem.com/community")
     }
     
     func testOpen() {

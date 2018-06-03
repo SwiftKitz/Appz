@@ -15,9 +15,9 @@ class RunKeeperTests: XCTestCase {
     
     func testConfiguration() {
         
-        let RunKeeper = Applications.RunKeeper()
-        XCTAssertEqual(RunKeeper.scheme, "RunKeeper:")
-        XCTAssertEqual(RunKeeper.fallbackURL, "https://runkeeper.com/index")
+        let runKeeper = Applications.RunKeeper()
+        XCTAssertEqual(runKeeper.scheme, "RunKeeper:")
+        XCTAssertEqual(runKeeper.fallbackURL, "https://runkeeper.com/index")
     }
     
     func testOpen() {

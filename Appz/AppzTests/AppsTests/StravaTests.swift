@@ -15,9 +15,9 @@ class StravaTests: XCTestCase {
     
     func testConfiguration() {
         
-        let Strava = Applications.Strava()
-        XCTAssertEqual(Strava.scheme, "strava:")
-        XCTAssertEqual(Strava.fallbackURL, "http://www.strava.com/mobile")
+        let strava = Applications.Strava()
+        XCTAssertEqual(strava.scheme, "strava:")
+        XCTAssertEqual(strava.fallbackURL, "http://www.strava.com/mobile")
     }
     
     func testOpen() {

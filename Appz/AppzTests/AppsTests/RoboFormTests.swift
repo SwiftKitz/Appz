@@ -15,9 +15,9 @@ class RoboFormTests: XCTestCase {
     
     func testConfiguration() {
         
-        let RoboForm = Applications.RoboForm()
-        XCTAssertEqual(RoboForm.scheme, "roboform:")
-        XCTAssertEqual(RoboForm.fallbackURL, "http://www.roboform.com/for-iphone-ipad-ios")
+        let roboForm = Applications.RoboForm()
+        XCTAssertEqual(roboForm.scheme, "roboform:")
+        XCTAssertEqual(roboForm.fallbackURL, "http://www.roboform.com/for-iphone-ipad-ios")
     }
     
     func testOpen() {

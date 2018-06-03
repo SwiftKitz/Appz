@@ -15,9 +15,9 @@ class GlympseTests: XCTestCase {
     
     func testConfiguration() {
         
-        let Glympse = Applications.Glympse()
-        XCTAssertEqual(Glympse.scheme, "glympse:")
-        XCTAssertEqual(Glympse.fallbackURL, "https://glympse.com/get-glympse")
+        let glympse = Applications.Glympse()
+        XCTAssertEqual(glympse.scheme, "glympse:")
+        XCTAssertEqual(glympse.fallbackURL, "https://glympse.com/get-glympse")
     }
     
     func testOpen() {

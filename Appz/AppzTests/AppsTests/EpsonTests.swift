@@ -15,9 +15,9 @@ class EpsonTests: XCTestCase {
     
     func testConfiguration() {
         
-        let Epson = Applications.Epson()
-        XCTAssertEqual(Epson.scheme, "com.epson.iPrint:")
-        XCTAssertEqual(Epson.fallbackURL, "https://www.epson.com/cgi-bin/Store/jsp/epson-connect/mobile-printing/iprint-app.do")
+        let epson = Applications.Epson()
+        XCTAssertEqual(epson.scheme, "com.epson.iPrint:")
+        XCTAssertEqual(epson.fallbackURL, "https://www.epson.com/cgi-bin/Store/jsp/epson-connect/mobile-printing/iprint-app.do")
     }
     
     func testOpen() {

@@ -15,9 +15,9 @@ class PicCollageTests: XCTestCase {
     
     func testConfiguration() {
         
-        let PicCollage = Applications.PicCollage()
-        XCTAssertEqual(PicCollage.scheme, "mixiapp-piccollage:")
-        XCTAssertEqual(PicCollage.fallbackURL, "http://pic-collage.com")
+        let picCollage = Applications.PicCollage()
+        XCTAssertEqual(picCollage.scheme, "mixiapp-piccollage:")
+        XCTAssertEqual(picCollage.fallbackURL, "http://pic-collage.com")
     }
     
     func testOpen() {

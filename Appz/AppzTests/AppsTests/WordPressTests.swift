@@ -15,9 +15,9 @@ class WordPressTests: XCTestCase {
     
     func testConfiguration() {
         
-        let WordPress = Applications.WordPress()
-        XCTAssertEqual(WordPress.scheme, "wordpress:")
-        XCTAssertEqual(WordPress.fallbackURL, "https://apps.wordpress.org")
+        let wordPress = Applications.WordPress()
+        XCTAssertEqual(wordPress.scheme, "wordpress:")
+        XCTAssertEqual(wordPress.fallbackURL, "https://apps.wordpress.org")
     }
     
     func testOpen() {

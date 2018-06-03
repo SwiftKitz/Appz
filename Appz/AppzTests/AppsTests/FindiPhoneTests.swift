@@ -15,9 +15,9 @@ class FindiPhoneTests: XCTestCase {
     
     func testConfiguration() {
         
-        let forest = Applications.FindiPhone()
-        XCTAssertEqual(forest.scheme, "fmip1:")
-        XCTAssertEqual(forest.fallbackURL, "https://itunes.apple.com/us/app/find-my-iphone/id376101648?mt=8")
+        let findiPhone = Applications.FindiPhone()
+        XCTAssertEqual(findiPhone.scheme, "fmip1:")
+        XCTAssertEqual(findiPhone.fallbackURL, "https://itunes.apple.com/us/app/find-my-iphone/id376101648?mt=8")
     }
     
     func testOpen() {

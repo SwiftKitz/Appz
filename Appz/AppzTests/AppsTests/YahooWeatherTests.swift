@@ -15,9 +15,9 @@ class YahooWeatherTests: XCTestCase {
     
     func testConfiguration() {
         
-        let YahooWeather = Applications.YahooWeather()
-        XCTAssertEqual(YahooWeather.scheme, "yweather:")
-        XCTAssertEqual(YahooWeather.fallbackURL, "https://mobile.yahoo.com/weather/")
+        let yahooWeather = Applications.YahooWeather()
+        XCTAssertEqual(yahooWeather.scheme, "yweather:")
+        XCTAssertEqual(yahooWeather.fallbackURL, "https://mobile.yahoo.com/weather/")
     }
     
     func testOpen() {
