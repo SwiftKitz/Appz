@@ -302,10 +302,6 @@ For manual installation, you can grab the source directly or through git submodu
 + Drop the `Appz.xcodeproj` file as a subproject (make sure `Copy resources` is __not__ enabled)
 + Navigate to your root project settings. Under "Embedded Binaries", click the "+" button and select the `Appz.framework`
 
-### Video Tutorial
-
-This is a [video][video-link] tutorial on how to use Appz📱.
-
 ## Motivation
 
 I've gone through way too much pain than I am willing to admit integrating deeplinking in my app. It is very easy to forget calling `canOpenURL` or missing a colon somewhere. Another pain point was savaging the web for all the different specs for different applications.
@@ -499,5 +495,4 @@ Appz is released under the MIT license. See LICENSE for details.
 [Yelp-link]: https://m.yelp.com
 [Youtube-link]: https://youtube.com
 [FRIL-link]: https://fril.jp
-[video-link]: https://youtu.be/HYQ4vqkOunE
 [v2.1.1-link]: https://github.com/SwiftKitz/Appz/releases/tag/v2.1.1
