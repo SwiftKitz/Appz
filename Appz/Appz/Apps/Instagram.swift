@@ -27,11 +27,11 @@ public extension Applications.Instagram {
     public enum Action {
         case open
         case camera
-        case library(String)
-        case media(String)
-        case user(String)
-        case location(String)
-        case tag(String)
+        case library(id: String)
+        case media(id: String)
+        case username(String)
+        case location(id: String)
+        case tag(name: String)
     }
 }
 
@@ -79,7 +79,7 @@ extension Applications.Instagram.Action: ExternalApplicationAction {
                 )
             )
             
-        case .user(let username):
+        case .username(let username):
             return ActionPaths(
                 app: Path(
                     pathComponents: ["user"],

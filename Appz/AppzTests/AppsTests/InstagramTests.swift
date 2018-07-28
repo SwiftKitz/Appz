@@ -40,7 +40,7 @@ class InstagramTests: XCTestCase {
     
     func testLibrary() {
         
-        let action = Applications.Instagram.Action.library("1")
+        let action = Applications.Instagram.Action.library(id: "1")
         
         XCTAssertEqual(action.paths.app.pathComponents, ["library"])
         XCTAssertEqual(action.paths.app.queryParameters, ["LocalIdentifier":"1"])
@@ -50,7 +50,7 @@ class InstagramTests: XCTestCase {
     
     func testMedia() {
         
-        let action = Applications.Instagram.Action.media("1")
+        let action = Applications.Instagram.Action.media(id: "1")
         
         XCTAssertEqual(action.paths.app.pathComponents, ["media"])
         XCTAssertEqual(action.paths.app.queryParameters, ["id":"1"])
@@ -59,7 +59,7 @@ class InstagramTests: XCTestCase {
     
     func testUsername() {
         
-        let action = Applications.Instagram.Action.user("test")
+        let action = Applications.Instagram.Action.username("test")
         
         XCTAssertEqual(action.paths.app.pathComponents, ["user"])
         XCTAssertEqual(action.paths.app.queryParameters, ["username":"test"])
@@ -68,7 +68,7 @@ class InstagramTests: XCTestCase {
     
     func testLocation() {
         
-        let action = Applications.Instagram.Action.location("111")
+        let action = Applications.Instagram.Action.location(id: "111")
         
         XCTAssertEqual(action.paths.app.pathComponents, ["location"])
         XCTAssertEqual(action.paths.app.queryParameters, ["id":"111"])
@@ -77,7 +77,7 @@ class InstagramTests: XCTestCase {
     
     func testTag() {
         
-        let action = Applications.Instagram.Action.tag("tag")
+        let action = Applications.Instagram.Action.tag(name: "tag")
         
         XCTAssertEqual(action.paths.app.pathComponents, ["tag"])
         XCTAssertEqual(action.paths.app.queryParameters, ["name":"tag"])
