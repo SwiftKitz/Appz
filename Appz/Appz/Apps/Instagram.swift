@@ -29,10 +29,9 @@ public extension Applications.Instagram {
         case camera
         case library(id: String)
         case media(id: String)
-        case username(username: String)
+        case username(String)
         case location(id: String)
         case tag(name: String)
-        
     }
 }
 

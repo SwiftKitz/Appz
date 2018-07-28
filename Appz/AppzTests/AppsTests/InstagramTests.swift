@@ -59,7 +59,7 @@ class InstagramTests: XCTestCase {
     
     func testUsername() {
         
-        let action = Applications.Instagram.Action.username(username: "test")
+        let action = Applications.Instagram.Action.username("test")
         
         XCTAssertEqual(action.paths.app.pathComponents, ["user"])
         XCTAssertEqual(action.paths.app.queryParameters, ["username":"test"])
