@@ -15,7 +15,7 @@ public extension Applications {
         
         public typealias ActionType = Applications.AppSettings.Action
 
-        public let scheme = UIApplicationOpenSettingsURLString
+        public let scheme = UIApplication.openSettingsURLString
         public let fallbackURL = ""
         public let appStoreId = ""
         
