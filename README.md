@@ -310,7 +310,7 @@ With this library, you can keep the external application deep linking spec separ
 
 ## Author
 
-Mazyod ([@Mazyod](http://twitter.com/mazyod))
+Maz ([@Mazyod](http://twitter.com/mazyod))
 
 ## Contributors
 
