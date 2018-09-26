@@ -32,6 +32,7 @@
 		3F2EE961203ABCDD005E2AAF /* Duolingo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2EE95E203ABCDD005E2AAF /* Duolingo.swift */; };
 		3F2EE963203ABDA0005E2AAF /* DuolingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2EE962203ABDA0005E2AAF /* DuolingoTests.swift */; };
 		3F2EE964203ABDA0005E2AAF /* DuolingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2EE962203ABDA0005E2AAF /* DuolingoTests.swift */; };
+		3F32C611215B9C4100ECCA5B /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F3159B1C38538100CEFE92 /* Settings.swift */; };
 		3F72167B20110E9D0056F8FF /* FaceTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F72167A20110E9D0056F8FF /* FaceTime.swift */; };
 		3F72167C20110E9D0056F8FF /* FaceTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F72167A20110E9D0056F8FF /* FaceTime.swift */; };
 		3F72167D20110E9D0056F8FF /* FaceTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F72167A20110E9D0056F8FF /* FaceTime.swift */; };
@@ -2382,6 +2383,7 @@
 				5498D78E1C4A993200E88CA9 /* Simplenote.swift in Sources */,
 				541C21911C3D29C000D89D4A /* Buzzfeed.swift in Sources */,
 				548042221C3A5AF700BBE49E /* Outlook.swift in Sources */,
+				3F32C611215B9C4100ECCA5B /* Settings.swift in Sources */,
 				5415A7BB1C58A3BF00598B65 /* SunriseCalendar.swift in Sources */,
 				54D5CFFE1C3995EE0039D512 /* GoogleChrome.swift in Sources */,
 				5415A7B21C58A3BF00598B65 /* GoogleSlides.swift in Sources */,
