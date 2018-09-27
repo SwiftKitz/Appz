@@ -19,8 +19,11 @@ class PathTests: XCTestCase {
     
     func testAppendToURL() {
         
-        let expectedURL = URL(string: "https://google.com/a/b?1=2&11=22")
-        XCTAssertEqual(path.appendToURL("https://google.com/"), expectedURL)
+        let resultURL = path.appendToURL("https://google.com/")!
+        // can't assert the final URL, due to query string ordering issues
+        XCTAssert(resultURL.absoluteString.starts(with: "https://google.com/a/b?"))
+        XCTAssert(resultURL.absoluteString.contains("1=2"))
+        XCTAssert(resultURL.absoluteString.contains("11=22"))
     }
     
     func testAppendToMalformedURL() {
@@ -29,7 +32,10 @@ class PathTests: XCTestCase {
     
     func testAppendToURLWithoutHost() {
         
-        let expectedURL = URL(string: "test://a/b?1=2&11=22")
-        XCTAssertEqual(path.appendToURL("test:"), expectedURL)
+        let resultURL = path.appendToURL("test:")!
+        // can't assert the final URL, due to query string ordering issues
+        XCTAssert(resultURL.absoluteString.starts(with: "test://a/b?"))
+        XCTAssert(resultURL.absoluteString.contains("1=2"))
+        XCTAssert(resultURL.absoluteString.contains("11=22"))
     }
 }
