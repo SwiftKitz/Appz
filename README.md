@@ -16,7 +16,7 @@
   <a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Appz#carthage">
     <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"/>
   </a>
-  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-171-9600cd.svg"/>
+  <img alt="Supported Apps" src="https://img.shields.io/badge/Apps-172-9600cd.svg"/>
 </p>
 
 <p align="center">
@@ -253,6 +253,7 @@ App | Actions
 [Ustream][Ustream-link] | Open
 [Viber][Viber-link] | Open Calls Tab, Open Chats Tab
 [Videos][Videos-link] | Open
+[Views][Views-link] | Open
 [Vimeo][Vimeo-link] | Open
 [Vine][Vine-link] | Open, Popular Timelines
 [VIPAccess][VIPAccess-link] | Open
@@ -475,6 +476,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Ustream-link]: https://www.ustream.tv/platform/watch-everywhere
 [Viber-link]: http://www.viber.com
 [Videos-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
+[Views-link]: http://www.saikambampati.com/views
 [Vimeo-link]: https://vimeo.com/everywhere
 [Vine-link]: https://vine.co
 [VIPAccess-link]: https://m.vip.symantec.com
