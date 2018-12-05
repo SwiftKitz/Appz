@@ -8,6 +8,7 @@
 
 import UIKit
 
+#if !os(watchOS)
 
 public extension Applications {
     
@@ -42,3 +43,5 @@ extension Applications.AppSettings.Action: ExternalApplicationAction {
         }
     }
 }
+
+#endif
