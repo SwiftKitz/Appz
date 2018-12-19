@@ -438,7 +438,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Quora-link]: https://www.quora.com
 [Radium-link]: http://catpigstudios.com
 [RemindersApp-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
-[Remote-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
+[Remote-link]: https://itunes.apple.com/us/app/itunes-remote/id284417350?mt=8
 [Rijnmond-link]: http://www.rijnmond.nl
 [RoboForm-link]: http://www.roboform.com/for-iphone-ipad-ios
 [RunKeeper-link]: https://runkeeper.com/index
