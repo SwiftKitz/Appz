@@ -376,7 +376,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [FriendlySocial-link]: http://friendly.io/#ios
 [Gallery-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
 [Glympse-link]: https://glympse.com/get-glympse
-[GoogleCalendar-link]: https://www.google.com/calendar/about/
+[GoogleCalendar-link]: https://forums.macrumors.com/threads/ios-8-widget-customisations-using-launcher.1782093/
 [GoogleChrome-link]: https://www.google.com/chrome/
 [GoogleDocs-link]: http://www.google.com/docs/about/
 [GoogleDrive-link]: https://www.google.com/drive/
