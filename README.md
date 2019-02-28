@@ -198,7 +198,7 @@ App | Actions
 [Netflix][Netflix-link] | Open
 [Notes][Notes-link] | Open
 [NPORadio][NPORadio-link] | Open
-[Nunl][Nunl-link] | Open
+[NU.nl][NU.nl-link] | Open
 [NYTimes][NYTimes-link] | Open
 [OneMorething][OneMorething-link] | Open
 [OneDrive][OneDrive-link] | Open
@@ -421,7 +421,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [Netflix-link]: https://www.netflix.com
 [Notes-link]: https://www.reddit.com/r/workflow/comments/3mux7h/ios_url_schemes/
 [NPORadio-link]: http://forums.macrumors.com/threads/ios-8-widget-customisations-using-launcher.1782093/
-[Nunl-link]: http://www.nu.nl
+[NU.nl-link]: http://www.nu.nl
 [NYTimes-link]: http://www.nytimes.com/services/mobile/index.html
 [OneMorething-link]: http://www.onemorething.nl
 [OneDrive-link]: https://onedrive.live.com/
