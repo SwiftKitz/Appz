@@ -17,7 +17,7 @@ class HeapoTests: XCTestCase {
         
         let heap = Applications.Heapo()
         XCTAssertEqual(heap.scheme, "heap:")
-        XCTAssertEqual(heap.fallbackURL, "http://heapo.marblzz.com")
+        XCTAssertEqual(heap.fallbackURL, "https://itunes.apple.com/us/app/heapo-clipboard-management-widget-copy-paste-clips/id921961118?mt=8")
     }
     
     func testOpen() {
