@@ -389,7 +389,7 @@ Appz is released under the MIT license. See LICENSE for details.
 [GoogleSlides-link]: http://www.google.com/slides/about/
 [GoogleTranslate-link]: https://translate.google.com/about/intl/en_ALL/index.html
 [GroupeMe-link]: https://groupme.com
-[Heapo-link]: http://heapo.marblzz.com
+[Heapo-link]: https://itunes.apple.com/us/app/heapo-clipboard-management-widget-copy-paste-clips/id921961118?mt=8
 [HootSuite-link]: https://hootsuite.com/products/mobile-apps/hootsuite-mobile-app
 [iBooks-link]: https://itunes.apple.com/us/app/ibooks/id364709193?mt=8
 [IMDb-link]: http://www.imdb.com

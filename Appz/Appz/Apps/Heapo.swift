@@ -13,7 +13,7 @@ public extension Applications {
         public typealias ActionType = Applications.Heapo.Action
         
         public let scheme = "heap:"
-        public let fallbackURL = "http://heapo.marblzz.com"
+        public let fallbackURL = "https://itunes.apple.com/us/app/heapo-clipboard-management-widget-copy-paste-clips/id921961118?mt=8"
         public let appStoreId = "921961118"
         
         public init() {}
