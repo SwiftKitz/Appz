@@ -17,7 +17,7 @@ class ItunesUTests: XCTestCase {
         
         let itunesu = Applications.ItunesU()
         XCTAssertEqual(itunesu.scheme, "itms-itunesu:")
-        XCTAssertEqual(itunesu.fallbackURL, "")
+        XCTAssertEqual(itunesu.fallbackURL, "https://itunes.apple.com/kw/app/itunes-u/id490217893?mt=8")
     }
     
     func testOpen() {
