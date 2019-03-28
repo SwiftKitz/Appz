@@ -13,7 +13,7 @@ public extension Applications {
         public typealias ActionType = Applications.ItunesU.Action
         
         public let scheme = "itms-itunesu:"
-        public let fallbackURL = ""
+        public let fallbackURL = "https://itunes.apple.com/kw/app/itunes-u/id490217893?mt=8"
         public let appStoreId = "490217893"
         
         public init() {}
