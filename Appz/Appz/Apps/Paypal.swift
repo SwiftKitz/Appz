@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Paypal: ExternalApplication {
+    struct Paypal: ExternalApplication {
         
         public typealias ActionType = Applications.Paypal.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Paypal {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct IMovie: ExternalApplication {
+    struct IMovie: ExternalApplication {
         
         public typealias ActionType = Applications.IMovie.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.IMovie {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

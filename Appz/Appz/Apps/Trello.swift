@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Trello: ExternalApplication {
+    struct Trello: ExternalApplication {
         
         public typealias ActionType = Applications.Trello.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Trello {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

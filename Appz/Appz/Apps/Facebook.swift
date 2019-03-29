@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Facebook: ExternalApplication {
+    struct Facebook: ExternalApplication {
         
         public typealias ActionType = Applications.Facebook.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Facebook {
     
-    public enum Action {
+    enum Action {
         case open
         case profile
         case notifications

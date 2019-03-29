@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct AppStore: ExternalApplication {
+    struct AppStore: ExternalApplication {
         
         public typealias ActionType = Applications.AppStore.Action
 
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.AppStore {
 
-    public enum Action {
+    enum Action {
     
         case account(id: String)
         case app(id: String)

@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct LastPass: ExternalApplication {
+    struct LastPass: ExternalApplication {
         
         public typealias ActionType = Applications.LastPass.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.LastPass {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

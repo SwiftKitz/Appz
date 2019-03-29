@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Itranslate: ExternalApplication {
+    struct Itranslate: ExternalApplication {
         
         public typealias ActionType = Applications.Itranslate.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Itranslate {
     
-    public enum Action {
+    enum Action {
         
         case open
         case translate(from: String, to: String, text: String)

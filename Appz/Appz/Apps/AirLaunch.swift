@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct AirLaunch: ExternalApplication {
+    struct AirLaunch: ExternalApplication {
         
         public typealias ActionType = Applications.AirLaunch.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.AirLaunch {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

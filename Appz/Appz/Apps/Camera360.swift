@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Camera360: ExternalApplication {
+    struct Camera360: ExternalApplication {
         
         public typealias ActionType = Applications.Camera360.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Camera360 {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

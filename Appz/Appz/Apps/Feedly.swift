@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Feedly: ExternalApplication {
+    struct Feedly: ExternalApplication {
         
         public typealias ActionType = Applications.Feedly.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Feedly {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct WhatsApp: ExternalApplication {
+    struct WhatsApp: ExternalApplication {
         
         public typealias ActionType = Applications.WhatsApp.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.WhatsApp {
     
-    public enum Action {
+    enum Action {
         case open
         case send(abid: String?, text: String)
     }

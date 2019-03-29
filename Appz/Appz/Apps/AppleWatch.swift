@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct AppleWatch: ExternalApplication {
+    struct AppleWatch: ExternalApplication {
         
         public typealias ActionType = Applications.AppleWatch.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.AppleWatch {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct OneDrive: ExternalApplication {
+    struct OneDrive: ExternalApplication {
         
         public typealias ActionType = Applications.OneDrive.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.OneDrive {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct GoogleMaps: ExternalApplication {
+    struct GoogleMaps: ExternalApplication {
         
         public typealias ActionType = Applications.GoogleMaps.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.GoogleMaps {
     
-    public enum Action {
+    enum Action {
         case open
         case displayDirections(saddr: String,
                                daddr: String,

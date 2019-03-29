@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Periscope: ExternalApplication {
+    struct Periscope: ExternalApplication {
         
         public typealias ActionType = Applications.Periscope.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Periscope {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

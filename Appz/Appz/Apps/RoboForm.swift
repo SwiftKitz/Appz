@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct RoboForm: ExternalApplication {
+    struct RoboForm: ExternalApplication {
         
         public typealias ActionType = Applications.RoboForm.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.RoboForm {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

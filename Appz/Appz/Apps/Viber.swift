@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Viber: ExternalApplication {
+    struct Viber: ExternalApplication {
         
         public typealias ActionType = Applications.Viber.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Viber {
     
-    public enum Action {
+    enum Action {
         
         case callsTab
         case chatsTab

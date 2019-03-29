@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct GoogleTranslate: ExternalApplication {
+    struct GoogleTranslate: ExternalApplication {
         
         public typealias ActionType = Applications.GoogleTranslate.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.GoogleTranslate {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

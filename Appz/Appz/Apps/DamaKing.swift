@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct DamaKing: ExternalApplication {
+    struct DamaKing: ExternalApplication {
         
         public typealias ActionType = Applications.DamaKing.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.DamaKing {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

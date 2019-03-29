@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Chromecast: ExternalApplication {
+    struct Chromecast: ExternalApplication {
         
         public typealias ActionType = Applications.Chromecast.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Chromecast {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

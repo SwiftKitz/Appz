@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Ustream: ExternalApplication {
+    struct Ustream: ExternalApplication {
         
         public typealias ActionType = Applications.Ustream.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Ustream {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

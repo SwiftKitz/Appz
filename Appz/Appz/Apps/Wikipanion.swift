@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Wikipanion: ExternalApplication {
+    struct Wikipanion: ExternalApplication {
         
         public typealias ActionType = Applications.Wikipanion.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Wikipanion {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

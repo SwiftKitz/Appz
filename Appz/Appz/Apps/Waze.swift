@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Waze: ExternalApplication {
+    struct Waze: ExternalApplication {
         
         public typealias ActionType = Applications.Waze.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Waze {
     
-    public enum Action {
+    enum Action {
         case open
         case navigateToDirection(lat:String, lng:String)
     }

@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct PicCollage: ExternalApplication {
+    struct PicCollage: ExternalApplication {
         
         public typealias ActionType = Applications.PicCollage.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.PicCollage {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

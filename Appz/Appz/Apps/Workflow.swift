@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Workflow: ExternalApplication {
+    struct Workflow: ExternalApplication {
         
         public typealias ActionType = Applications.Workflow.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Workflow {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

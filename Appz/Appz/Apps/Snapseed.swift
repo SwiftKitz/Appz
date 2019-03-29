@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Snapseed: ExternalApplication {
+    struct Snapseed: ExternalApplication {
         
         public typealias ActionType = Applications.Snapseed.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Snapseed {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

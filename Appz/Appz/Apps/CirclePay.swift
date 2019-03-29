@@ -8,7 +8,7 @@
 
 public extension Applications {
 
-    public struct CirclePay: ExternalApplication {
+    struct CirclePay: ExternalApplication {
 
         public typealias ActionType = Applications.CirclePay.Action
 
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.CirclePay {
 
-    public enum Action {
+    enum Action {
         case open
         case request
         case send

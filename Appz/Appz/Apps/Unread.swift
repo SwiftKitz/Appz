@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Unread: ExternalApplication {
+    struct Unread: ExternalApplication {
         
         public typealias ActionType = Applications.Unread.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Unread {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

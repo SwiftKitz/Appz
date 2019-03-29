@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Quora: ExternalApplication {
+    struct Quora: ExternalApplication {
         
         public typealias ActionType = Applications.Quora.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Quora {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

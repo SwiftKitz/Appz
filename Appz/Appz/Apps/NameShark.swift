@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct NameShark: ExternalApplication {
+    struct NameShark: ExternalApplication {
         
         public typealias ActionType = Applications.NameShark.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.NameShark {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

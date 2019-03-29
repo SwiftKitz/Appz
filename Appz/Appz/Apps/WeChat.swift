@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct WeChat: ExternalApplication {
+    struct WeChat: ExternalApplication {
         
         public typealias ActionType = Applications.WeChat.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.WeChat {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

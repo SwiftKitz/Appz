@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Telegram: ExternalApplication {
+    struct Telegram: ExternalApplication {
         
         public typealias ActionType = Applications.Telegram.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Telegram {
     
-    public enum Action {
+    enum Action {
         case open
         case msg(message: String, phone: String)
         case openFromID(username: String)

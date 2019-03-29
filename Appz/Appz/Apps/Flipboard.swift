@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Flip­board: ExternalApplication {
+    struct Flip­board: ExternalApplication {
         
         public typealias ActionType = Applications.Flip­board.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Flip­board {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

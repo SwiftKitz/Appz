@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Calendars: ExternalApplication {
+    struct Calendars: ExternalApplication {
         
         public typealias ActionType = Applications.Calendars.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Calendars {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

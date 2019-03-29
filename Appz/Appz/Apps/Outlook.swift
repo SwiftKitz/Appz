@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Outlook: ExternalApplication {
+    struct Outlook: ExternalApplication {
         
         public typealias ActionType = Applications.Outlook.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Outlook {
     
-    public enum Action {
+    enum Action {
         case open
         case compose(to: String, subject: String)
     }

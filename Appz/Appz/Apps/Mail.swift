@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Mail: ExternalApplication {
+    struct Mail: ExternalApplication {
         
         public typealias ActionType = Applications.Mail.Action
 
@@ -38,7 +38,7 @@ public struct Email {
 
 public extension Applications.Mail {
     
-    public enum Action {
+    enum Action {
         case compose(email: Email)
     }
 }

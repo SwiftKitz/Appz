@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct IMDb: ExternalApplication {
+    struct IMDb: ExternalApplication {
         
         public typealias ActionType = Applications.IMDb.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.IMDb {
     
-    public enum Action {
+    enum Action {
         
         case open
         case search(query: String)

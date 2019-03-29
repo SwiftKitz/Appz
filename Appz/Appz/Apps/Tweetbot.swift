@@ -35,7 +35,7 @@ tweetbot://<screenname>/list/<list_id>?callback_url=<url>
 
 public extension Applications {
     
-    public struct Tweetbot: ExternalApplication {
+    struct Tweetbot: ExternalApplication {
         
         public typealias ActionType = Applications.Tweetbot.Action
         
@@ -51,7 +51,7 @@ public extension Applications {
 
 public extension Applications.Tweetbot {
     
-    public enum Action {
+    enum Action {
         case timeline(screenname: String?)
         case mentions(screenname: String?)
         case retweets(screenname: String?)

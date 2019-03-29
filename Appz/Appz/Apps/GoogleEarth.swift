@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct GoogleEarth: ExternalApplication {
+    struct GoogleEarth: ExternalApplication {
         
         public typealias ActionType = Applications.GoogleEarth.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.GoogleEarth {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

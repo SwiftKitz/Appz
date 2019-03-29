@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Uber: ExternalApplication {
+    struct Uber: ExternalApplication {
         
         public typealias ActionType = Applications.Uber.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Uber {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct AppleMaps: ExternalApplication {
+    struct AppleMaps: ExternalApplication {
         
         public typealias ActionType = Applications.AppleMaps.Action
         
@@ -26,7 +26,7 @@ public extension Applications {
 
 public extension Applications.AppleMaps {
     
-    public enum Action {
+    enum Action {
         case open
         case displayDirections(saddr: String,
             daddr: String,

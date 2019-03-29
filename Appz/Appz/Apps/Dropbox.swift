@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Dropbox: ExternalApplication {
+    struct Dropbox: ExternalApplication {
         
         public typealias ActionType = Applications.Dropbox.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Dropbox {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

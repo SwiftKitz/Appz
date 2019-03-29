@@ -8,7 +8,7 @@
 
 public extension Applications {
 
-    public struct FRIL: ExternalApplication {
+    struct FRIL: ExternalApplication {
 
         public typealias ActionType = Applications.FRIL.Action
 
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.FRIL {
 
-    public enum Action {
+    enum Action {
         case open
     }
 }

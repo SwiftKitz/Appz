@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Marvis: ExternalApplication {
+    struct Marvis: ExternalApplication {
         
         public typealias ActionType = Applications.Marvis.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Marvis {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

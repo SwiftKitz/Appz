@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct VSCO: ExternalApplication {
+    struct VSCO: ExternalApplication {
         
         public typealias ActionType = Applications.VSCO.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.VSCO {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

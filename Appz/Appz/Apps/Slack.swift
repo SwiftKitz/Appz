@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Slack: ExternalApplication {
+    struct Slack: ExternalApplication {
         
         public typealias ActionType = Applications.Slack.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Slack {
     
-    public enum Action {
+    enum Action {
         case open
         case channel(team: String, id: String)
         case directMessage(team: String, id: String)

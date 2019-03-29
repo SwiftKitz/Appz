@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct OnePassword: ExternalApplication {
+    struct OnePassword: ExternalApplication {
         
         public typealias ActionType = Applications.OnePassword.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.OnePassword {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }
