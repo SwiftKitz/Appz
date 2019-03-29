@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Behance: ExternalApplication {
+    struct Behance: ExternalApplication {
         
         public typealias ActionType = Applications.Behance.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Behance {
     
-    public enum Action {
+    enum Action {
         case open
         case userProfile(String)
     }

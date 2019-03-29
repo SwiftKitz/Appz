@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct MobileMouse: ExternalApplication {
+    struct MobileMouse: ExternalApplication {
         
         public typealias ActionType = Applications.MobileMouse.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.MobileMouse {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Cnet: ExternalApplication {
+    struct Cnet: ExternalApplication {
         
         public typealias ActionType = Applications.Cnet.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Cnet {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

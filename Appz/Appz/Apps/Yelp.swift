@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Yelp: ExternalApplication {
+    struct Yelp: ExternalApplication {
         
         public typealias ActionType = Applications.Yelp.Action
         
@@ -25,7 +25,7 @@ public extension Applications {
 
 public extension Applications.Yelp {
     
-    public enum Action {
+    enum Action {
         case open
         case search(query: String)
         case searchLocation(query: String, loc: String)

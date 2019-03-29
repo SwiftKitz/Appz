@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Twitter: ExternalApplication {
+    struct Twitter: ExternalApplication {
         
         public typealias ActionType = Applications.Twitter.Action
 
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Twitter {
 
-    public enum Action {
+    enum Action {
         // screen name required to properly deeplink using web fallback on mobile devices
         case status(id: String, screenName: String?)
         case userHandle(String)

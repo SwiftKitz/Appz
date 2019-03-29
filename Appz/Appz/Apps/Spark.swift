@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Spark: ExternalApplication {
+    struct Spark: ExternalApplication {
         
         public typealias ActionType = Applications.Spark.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Spark {
     
-    public enum Action {
+    enum Action {
         case compose(subject: String, recipient: String)
     }
 }

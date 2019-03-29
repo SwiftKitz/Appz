@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Meerkat: ExternalApplication {
+    struct Meerkat: ExternalApplication {
         
         public typealias ActionType = Applications.Meerkat.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Meerkat {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

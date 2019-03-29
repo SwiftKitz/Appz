@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Radium: ExternalApplication {
+    struct Radium: ExternalApplication {
         
         public typealias ActionType = Applications.Radium.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Radium {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct GoogleSheets: ExternalApplication {
+    struct GoogleSheets: ExternalApplication {
         
         public typealias ActionType = Applications.GoogleSheets.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.GoogleSheets {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

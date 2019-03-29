@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct FriendlySocial: ExternalApplication {
+    struct FriendlySocial: ExternalApplication {
         
         public typealias ActionType = Applications.FriendlySocial.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.FriendlySocial {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

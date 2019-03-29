@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Instapaper: ExternalApplication {
+    struct Instapaper: ExternalApplication {
         
         public typealias ActionType = Applications.Instapaper.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Instapaper {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Rijnmond: ExternalApplication {
+    struct Rijnmond: ExternalApplication {
         
         public typealias ActionType = Applications.Rijnmond.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Rijnmond {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

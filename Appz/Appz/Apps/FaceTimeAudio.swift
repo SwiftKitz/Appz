@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct FaceTimeAudio: ExternalApplication {
+    struct FaceTimeAudio: ExternalApplication {
         
         public typealias ActionType = Applications.FaceTimeAudio.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.FaceTimeAudio {
     
-    public enum Action {
+    enum Action {
         case call(email: String)
     }
 }

@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Skype: ExternalApplication {
+    struct Skype: ExternalApplication {
         
         public typealias ActionType = Applications.Skype.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Skype {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Mopico: ExternalApplication {
+    struct Mopico: ExternalApplication {
         
         public typealias ActionType = Applications.Mopico.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Mopico {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct OMT: ExternalApplication {
+    struct OMT: ExternalApplication {
         
         public typealias ActionType = Applications.OMT.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.OMT {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

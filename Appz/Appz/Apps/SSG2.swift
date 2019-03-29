@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct SSG2: ExternalApplication {
+    struct SSG2: ExternalApplication {
         
         public typealias ActionType = Applications.SSG2.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.SSG2 {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

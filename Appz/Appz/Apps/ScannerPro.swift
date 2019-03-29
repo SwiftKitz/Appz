@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct ScannerPro: ExternalApplication {
+    struct ScannerPro: ExternalApplication {
         
         public typealias ActionType = Applications.ScannerPro.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.ScannerPro {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Twitterrific: ExternalApplication {
+    struct Twitterrific: ExternalApplication {
         
         public typealias ActionType = Applications.Twitterrific.Action
         
@@ -25,7 +25,7 @@ public extension Applications {
 
 public extension Applications.Twitterrific {
     
-    public enum Action {
+    enum Action {
         case open
         case mentionsView
         case messagesView

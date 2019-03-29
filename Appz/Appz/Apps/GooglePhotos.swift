@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct GooglePhotos: ExternalApplication {
+    struct GooglePhotos: ExternalApplication {
         
         public typealias ActionType = Applications.GooglePhotos.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.GooglePhotos {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

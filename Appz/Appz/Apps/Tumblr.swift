@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Tumblr: ExternalApplication {
+    struct Tumblr: ExternalApplication {
         
         public typealias ActionType = Applications.Tumblr.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Tumblr {
     
-    public enum Action {
+    enum Action {
         case open
         case dashboard
         case explore

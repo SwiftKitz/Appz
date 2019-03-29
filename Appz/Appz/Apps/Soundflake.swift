@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Soundflake: ExternalApplication {
+    struct Soundflake: ExternalApplication {
         
         public typealias ActionType = Applications.Soundflake.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Soundflake {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

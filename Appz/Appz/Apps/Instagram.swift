@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Instagram: ExternalApplication {
+    struct Instagram: ExternalApplication {
         
         public typealias ActionType = Applications.Instagram.Action
 
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Instagram {
     
-    public enum Action {
+    enum Action {
         case open
         case camera
         case library(id: String)

@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct GoogleMail: ExternalApplication {
+    struct GoogleMail: ExternalApplication {
         
         public typealias ActionType = Applications.GoogleMail.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.GoogleMail {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

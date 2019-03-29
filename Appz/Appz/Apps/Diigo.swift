@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Diigo: ExternalApplication {
+    struct Diigo: ExternalApplication {
         
         public typealias ActionType = Applications.Diigo.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Diigo {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

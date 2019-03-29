@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Tango: ExternalApplication {
+    struct Tango: ExternalApplication {
         
         public typealias ActionType = Applications.Tango.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Tango {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

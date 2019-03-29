@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct WordPress: ExternalApplication {
+    struct WordPress: ExternalApplication {
         
         public typealias ActionType = Applications.WordPress.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.WordPress {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

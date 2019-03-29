@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct INRIXTraffic: ExternalApplication {
+    struct INRIXTraffic: ExternalApplication {
         
         public typealias ActionType = Applications.INRIXTraffic.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.INRIXTraffic {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

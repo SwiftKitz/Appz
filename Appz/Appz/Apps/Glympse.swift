@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Glympse: ExternalApplication {
+    struct Glympse: ExternalApplication {
         
         public typealias ActionType = Applications.Glympse.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Glympse {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

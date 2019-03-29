@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct GoogleSlides: ExternalApplication {
+    struct GoogleSlides: ExternalApplication {
         
         public typealias ActionType = Applications.GoogleSlides.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.GoogleSlides {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

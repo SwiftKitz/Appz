@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Heapo: ExternalApplication {
+    struct Heapo: ExternalApplication {
         
         public typealias ActionType = Applications.Heapo.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Heapo {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

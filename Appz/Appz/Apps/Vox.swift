@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Vox: ExternalApplication {
+    struct Vox: ExternalApplication {
         
         public typealias ActionType = Applications.Vox.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Vox {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct StitcherRadio: ExternalApplication {
+    struct StitcherRadio: ExternalApplication {
         
         public typealias ActionType = Applications.StitcherRadio.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.StitcherRadio {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

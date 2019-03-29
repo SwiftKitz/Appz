@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Swarm: ExternalApplication {
+    struct Swarm: ExternalApplication {
         
         public typealias ActionType = Applications.Swarm.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Swarm {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

@@ -12,7 +12,7 @@ import UIKit
 
 public extension Applications {
     
-    public struct AppSettings: ExternalApplication {
+    struct AppSettings: ExternalApplication {
         
         public typealias ActionType = Applications.AppSettings.Action
 
@@ -28,7 +28,7 @@ public extension Applications {
 
 public extension Applications.AppSettings {
 
-    public enum Action {
+    enum Action {
         case open
     }
 }

@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Vine: ExternalApplication {
+    struct Vine: ExternalApplication {
         
         public typealias ActionType = Applications.Vine.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Vine {
     
-    public enum Action {
+    enum Action {
         case open
         case timelinesPopular
     }

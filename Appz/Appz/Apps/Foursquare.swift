@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Foursquare: ExternalApplication {
+    struct Foursquare: ExternalApplication {
         
         public typealias ActionType = Applications.Foursquare.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Foursquare {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

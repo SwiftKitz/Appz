@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct TestFlight: ExternalApplication {
+    struct TestFlight: ExternalApplication {
         
         public typealias ActionType = Applications.TestFlight.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.TestFlight {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

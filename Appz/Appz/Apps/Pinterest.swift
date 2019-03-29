@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Pinterest: ExternalApplication {
+    struct Pinterest: ExternalApplication {
         
         public typealias ActionType = Applications.Pinterest.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Pinterest {
     
-    public enum Action {
+    enum Action {
         case open
         case user(name: String)
         case search(query: String)

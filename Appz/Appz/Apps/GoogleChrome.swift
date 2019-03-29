@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct GoogleChrome: ExternalApplication {
+    struct GoogleChrome: ExternalApplication {
         
         public typealias ActionType = Applications.GoogleChrome.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.GoogleChrome {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

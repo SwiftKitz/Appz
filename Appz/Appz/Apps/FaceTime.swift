@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct FaceTime: ExternalApplication {
+    struct FaceTime: ExternalApplication {
         
         public typealias ActionType = Applications.FaceTime.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.FaceTime {
     
-    public enum Action {
+    enum Action {
         case call(email: String)
     }
 }

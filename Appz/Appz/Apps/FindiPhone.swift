@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct FindiPhone: ExternalApplication {
+    struct FindiPhone: ExternalApplication {
         
         public typealias ActionType = Applications.FindiPhone.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.FindiPhone {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

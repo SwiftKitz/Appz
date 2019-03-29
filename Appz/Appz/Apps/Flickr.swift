@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Flickr: ExternalApplication {
+    struct Flickr: ExternalApplication {
         
         public typealias ActionType = Applications.Flickr.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Flickr {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

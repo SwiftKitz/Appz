@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Snapchat: ExternalApplication {
+    struct Snapchat: ExternalApplication {
         
         public typealias ActionType = Applications.Snapchat.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Snapchat {
     
-    public enum Action {
+    enum Action {
         case open
         case add(username: String)
     }

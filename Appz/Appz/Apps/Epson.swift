@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Epson: ExternalApplication {
+    struct Epson: ExternalApplication {
         
         public typealias ActionType = Applications.Epson.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Epson {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

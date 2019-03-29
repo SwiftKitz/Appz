@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Duolingo: ExternalApplication {
+    struct Duolingo: ExternalApplication {
         
         public typealias ActionType = Applications.Duolingo.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Duolingo {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

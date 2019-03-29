@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Youtube: ExternalApplication {
+    struct Youtube: ExternalApplication {
         
         public typealias ActionType = Applications.Youtube.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Youtube {
     
-    public enum Action {
+    enum Action {
         case open
         case video(id: String)
     }

@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Messages: ExternalApplication {
+    struct Messages: ExternalApplication {
         
         public typealias ActionType = Applications.Messages.Action
 
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Messages {
     
-    public enum Action {
+    enum Action {
         
         case sms(phone: String)
     }

@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct Strava: ExternalApplication {
+    struct Strava: ExternalApplication {
         
         public typealias ActionType = Applications.Strava.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.Strava {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

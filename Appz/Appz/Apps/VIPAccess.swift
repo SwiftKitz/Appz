@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct VIPAccess: ExternalApplication {
+    struct VIPAccess: ExternalApplication {
         
         public typealias ActionType = Applications.VIPAccess.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.VIPAccess {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }

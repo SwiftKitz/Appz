@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct GoogleCalendar: ExternalApplication {
+    struct GoogleCalendar: ExternalApplication {
         
         public typealias ActionType = Applications.GoogleCalendar.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.GoogleCalendar {
     
-    public enum Action {
+    enum Action {
         case open
         case createEvent
     }

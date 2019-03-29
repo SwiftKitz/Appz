@@ -8,7 +8,7 @@
 
 public extension Applications {
     
-    public struct RunKeeper: ExternalApplication {
+    struct RunKeeper: ExternalApplication {
         
         public typealias ActionType = Applications.RunKeeper.Action
         
@@ -24,7 +24,7 @@ public extension Applications {
 
 public extension Applications.RunKeeper {
     
-    public enum Action {
+    enum Action {
         case open
     }
 }
