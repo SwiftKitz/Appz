@@ -7,7 +7,8 @@ env:
   - WORKSPACE=Appz.xcworkspace
   - IOS_FRAMEWORK_SCHEME="Appz-ios"
   matrix:
-  - DESTINATION="OS=12.1,name=iPhone 6S"        SCHEME="$IOS_FRAMEWORK_SCHEME"
+  - DESTINATION="OS=12.1,name=iPhone 6S"         SCHEME="$IOS_FRAMEWORK_SCHEME"     SDK="$IOS_SDK"     RUN_TESTS="YES"
+  - DESTINATION="arch=x86_64"                    SCHEME="$OSX_FRAMEWORK_SCHEME"     SDK="$OSX_SDK"     RUN_TESTS="YES"
 before_install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
